@@ -1,0 +1,6 @@
+[submodule "compute/kicad-lib"]
+	path = compute/kicad-lib
+	url = git@github.com:perch-sensing/kicad-lib.git
+[submodule "power/kicad-lib"]
+	path = power/kicad-lib
+	url = git@github.com:perch-sensing/kicad-lib.git

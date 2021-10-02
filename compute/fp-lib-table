@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name digikey-footprints)(type KiCad)(uri ${KIPRJMOD}/kicad-lib/digikey-kicad-library/digikey-footprints.pretty)(options "")(descr ""))
+  (lib (name Perch)(type KiCad)(uri ${KIPRJMOD}/kicad-lib/Perch.pretty)(options "")(descr ""))
+  (lib (name Pycom)(type KiCad)(uri ${KIPRJMOD}/kicad-lib/pycom-footprints/Pycom.pretty)(options "")(descr ""))
+)
