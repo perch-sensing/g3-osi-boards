@@ -54,4 +54,15 @@ F 3 "" H 2100 3150 50  0001 C CNN
 	1    2100 3150
 	1    0    0    -1  
 $EndComp
+$Comp
+L LoRa-E5:LoRa-E5 U?
+U 1 1 6195631D
+P 3200 1950
+F 0 "U?" H 3944 1996 50  0000 L CNN
+F 1 "LoRa-E5" H 3944 1905 50  0000 L CNN
+F 2 "Perch:LoRa-E5" H 3850 1300 50  0001 C CNN
+F 3 "https://files.seeedstudio.com/products/317990687/res/LoRa-E5%20module%20datasheet_V1.0.pdf" H 3200 1950 50  0001 C CNN
+	1    3200 1950
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
