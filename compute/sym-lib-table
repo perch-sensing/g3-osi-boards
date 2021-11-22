@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name g3_compute-rescue)(type Legacy)(uri ${KIPRJMOD}/g3_compute-rescue.lib)(options "")(descr ""))
+)

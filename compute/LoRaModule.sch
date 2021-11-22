@@ -14,9 +14,11 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Transceivers:SX1262 U2
+L g3_compute-rescue:SX1262-Transceivers U2
 U 1 1 6189FC0E
 P 4250 3450
+AR Path="/6189FC0E" Ref="U2"  Part="1" 
+AR Path="/618967E8/6189FC0E" Ref="U2"  Part="1" 
 F 0 "U2" H 4225 3925 50  0000 C CNN
 F 1 "SX1262" H 4225 3834 50  0000 C CNN
 F 2 "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.7x2.7mm" H 4250 3450 50  0001 C CNN
@@ -606,7 +608,7 @@ F 3 "~" H 9350 3950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L g3_compute-rescue:PE4259-RF_SW U3
+L g3_compute-rescue:PE4259-RF_SW-g3_compute-rescue U3
 U 1 1 618EAA8C
 P 8750 3650
 AR Path="/618EAA8C" Ref="U3"  Part="1" 
