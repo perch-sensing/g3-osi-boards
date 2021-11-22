@@ -46,12 +46,12 @@ $EndComp
 $Comp
 L g3ComputeSymbols:Temp_Connector_1x4 J1
 U 1 1 619341A7
-P 3300 2650
-F 0 "J1" H 3608 2937 60  0000 C CNN
-F 1 "Temp_Connector_1x4" H 3608 2831 60  0000 C CNN
-F 2 "" H 3450 2390 60  0001 C CNN
-F 3 "" H 3850 2650 60  0000 C CNN
-	1    3300 2650
+P 3500 2800
+F 0 "J1" H 3500 3050 60  0000 C CNN
+F 1 "Temp_Connector_1x4" H 3550 2950 60  0000 C CNN
+F 2 "" H 3650 2540 60  0001 C CNN
+F 3 "" H 4050 2800 60  0000 C CNN
+	1    3500 2800
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -61,7 +61,7 @@ P 7850 2400
 F 0 "U1" H 8200 2525 50  0000 C CNN
 F 1 "PA1616D" H 8200 2434 50  0000 C CNN
 F 2 "" H 7850 2400 50  0001 C CNN
-F 3 "" H 7850 2400 50  0001 C CNN
+F 3 "https://cdn-shop.adafruit.com/product-files/5186/5186_PA1616D_Datasheet.pdf" H 7850 2400 50  0001 C CNN
 	1    7850 2400
 	1    0    0    -1  
 $EndComp
@@ -116,7 +116,7 @@ Wire Wire Line
 Wire Wire Line
 	7300 2900 7300 3000
 Wire Wire Line
-	4650 2850 4650 2500
+	4650 2850 4650 2800
 Wire Wire Line
 	7000 3150 7000 2950
 Wire Wire Line
@@ -169,4 +169,53 @@ Wire Wire Line
 Connection ~ 7500 2900
 Wire Wire Line
 	7500 2900 7500 3200
+Connection ~ 4650 2800
+Wire Wire Line
+	4650 2800 4650 2500
+$Comp
+L power:GND #PWR?
+U 1 1 619E081D
+P 4150 3250
+F 0 "#PWR?" H 4150 3000 50  0001 C CNN
+F 1 "GND" H 4155 3077 50  0000 C CNN
+F 2 "" H 4150 3250 50  0001 C CNN
+F 3 "" H 4150 3250 50  0001 C CNN
+	1    4150 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4050 2900 4150 2900
+Wire Wire Line
+	4050 2800 4450 2800
+Wire Wire Line
+	4150 2900 4150 3250
+$Comp
+L Device:C C2
+U 1 1 619E3897
+P 4300 2900
+F 0 "C2" V 4048 2900 50  0000 C CNN
+F 1 "1uF" V 4139 2900 50  0000 C CNN
+F 2 "" H 4338 2750 50  0001 C CNN
+F 3 "~" H 4300 2900 50  0001 C CNN
+	1    4300 2900
+	0    1    1    0   
+$EndComp
+Connection ~ 4150 2900
+Wire Wire Line
+	4450 2900 4450 2800
+Connection ~ 4450 2800
+Wire Wire Line
+	4450 2800 4650 2800
+Wire Wire Line
+	4800 2950 4550 2950
+Wire Wire Line
+	4550 2950 4550 3000
+Wire Wire Line
+	4550 3000 4050 3000
+Wire Wire Line
+	4050 3100 4550 3100
+Wire Wire Line
+	4550 3100 4550 3050
+Wire Wire Line
+	4550 3050 4800 3050
 $EndSCHEMATC
