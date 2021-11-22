@@ -187,4 +187,5 @@
   (lib (name dk_TVS-Mixed-Technology)(type Legacy)(uri ${KIPRJMOD}/kicad-lib/digikey-kicad-library/digikey-symbols/dk_TVS-Mixed-Technology.lib)(options "")(descr ""))
   (lib (name dk_USB-DVI-HDMI-Connectors)(type Legacy)(uri ${KIPRJMOD}/kicad-lib/digikey-kicad-library/digikey-symbols/dk_USB-DVI-HDMI-Connectors.lib)(options "")(descr ""))
   (lib (name pycom)(type Legacy)(uri ${KIPRJMOD}/kicad-lib/pycom-footprints/pycom.lib)(options "")(descr ""))
+  (lib (name Transceivers)(type Legacy)(uri ${KIPRJMOD}/kicad-lib/Perch.sch/Transceivers.lib)(options "")(descr ""))
 )
