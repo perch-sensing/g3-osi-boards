@@ -189,4 +189,5 @@
   (lib (name pycom)(type Legacy)(uri ${KIPRJMOD}/kicad-lib/pycom-footprints/pycom.lib)(options "")(descr ""))
   (lib (name Transceivers)(type Legacy)(uri ${KIPRJMOD}/kicad-lib/Perch.sch/Transceivers.lib)(options "")(descr ""))
   (lib (name RF_SW)(type Legacy)(uri ${KIPRJMOD}/kicad-lib/Perch.sch/RF_SW.lib)(options "")(descr ""))
+  (lib (name g3_compute-rescue)(type Legacy)(uri ${KIPRJMOD}/g3_compute-rescue.lib)(options "")(descr ""))
 )
