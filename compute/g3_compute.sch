@@ -66,7 +66,7 @@ U 1 1 619DAF8F
 P 2050 800
 F 0 "C101" H 2200 750 50  0000 L CNN
 F 1 "1uF" H 2200 850 50  0000 L CNN
-F 2 "" H 2088 650 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 2088 650 50  0001 C CNN
 F 3 "~" H 2050 800 50  0001 C CNN
 	1    2050 800 
 	-1   0    0    1   
@@ -88,7 +88,7 @@ U 1 1 61A4BC29
 P 2000 2100
 F 0 "R102" V 2100 2100 50  0000 C CNN
 F 1 "470" V 2200 2100 50  0000 C CNN
-F 2 "" V 1930 2100 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 1930 2100 50  0001 C CNN
 F 3 "~" H 2000 2100 50  0001 C CNN
 	1    2000 2100
 	0    1    1    0   
@@ -422,4 +422,126 @@ Wire Notes Line
 	500  500  3950 500 
 Text Notes 550  2550 0    50   ~ 0
 GPS Module\n
+$Comp
+L power:GND #PWR0109
+U 1 1 61A44DBA
+P 2250 2300
+F 0 "#PWR0109" H 2250 2050 50  0001 C CNN
+F 1 "GND" H 2255 2127 50  0000 C CNN
+F 2 "" H 2250 2300 50  0001 C CNN
+F 3 "" H 2250 2300 50  0001 C CNN
+	1    2250 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L ADA3708:Temp_Connector_1x4 J102
+U 1 1 61A456F0
+P 1150 3550
+F 0 "J102" H 1000 3800 60  0000 C CNN
+F 1 "Temp_Connector_1x4" H 1050 3700 60  0000 C CNN
+F 2 "Perch:1702474_Temp_Sensor_Connector" H 1300 3290 60  0001 C CNN
+F 3 "" H 1700 3550 60  0000 C CNN
+	1    1150 3550
+	1    0    0    -1  
+$EndComp
+Text GLabel 3400 3050 2    50   Input ~ 0
+3V3
+Wire Wire Line
+	1700 3550 1700 3050
+Wire Wire Line
+	1700 3050 2100 3050
+$Comp
+L Device:R R103
+U 1 1 61A4865A
+P 2550 3350
+F 0 "R103" H 2400 3400 50  0000 C CNN
+F 1 "TBD" H 2400 3300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 2480 3350 50  0001 C CNN
+F 3 "~" H 2550 3350 50  0001 C CNN
+	1    2550 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R104
+U 1 1 61A499B4
+P 2900 3350
+F 0 "R104" H 2750 3400 50  0000 C CNN
+F 1 "TBD" H 2750 3300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 2830 3350 50  0001 C CNN
+F 3 "~" H 2900 3350 50  0001 C CNN
+	1    2900 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C105
+U 1 1 61A49D1D
+P 2100 3350
+F 0 "C105" H 2250 3300 50  0000 L CNN
+F 1 "1uF" H 2250 3400 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 2138 3200 50  0001 C CNN
+F 3 "~" H 2100 3350 50  0001 C CNN
+	1    2100 3350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2100 3200 2100 3050
+Connection ~ 2100 3050
+Wire Wire Line
+	2100 3500 2100 3650
+Wire Wire Line
+	2100 3650 1700 3650
+Wire Wire Line
+	2100 3050 2550 3050
+Wire Wire Line
+	2550 3200 2550 3050
+Connection ~ 2550 3050
+Wire Wire Line
+	2550 3050 2900 3050
+Wire Wire Line
+	2550 3500 2550 3750
+Wire Wire Line
+	2550 3750 1700 3750
+Wire Wire Line
+	2900 3500 2900 3850
+Wire Wire Line
+	2900 3850 1700 3850
+Wire Wire Line
+	2900 3200 2900 3050
+Connection ~ 2900 3050
+Wire Wire Line
+	2900 3050 3400 3050
+Wire Wire Line
+	2100 3650 2100 4050
+Connection ~ 2100 3650
+$Comp
+L power:GND #PWR0110
+U 1 1 61A54EF1
+P 2100 4050
+F 0 "#PWR0110" H 2100 3800 50  0001 C CNN
+F 1 "GND" H 2105 3877 50  0000 C CNN
+F 2 "" H 2100 4050 50  0001 C CNN
+F 3 "" H 2100 4050 50  0001 C CNN
+	1    2100 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2550 3750 3600 3750
+Connection ~ 2550 3750
+Wire Wire Line
+	2900 3850 3600 3850
+Connection ~ 2900 3850
+Text Label 3600 3750 2    50   ~ 0
+Temp_SDA
+Text Label 3600 3850 2    50   ~ 0
+Temp_SCL
+Wire Notes Line
+	500  2750 3950 2750
+Wire Notes Line
+	3950 2750 3950 4450
+Wire Notes Line
+	3950 4450 500  4450
+Wire Notes Line
+	500  4450 500  2750
+Text Notes 1300 4400 2    50   ~ 0
+Temperature Module
 $EndSCHEMATC

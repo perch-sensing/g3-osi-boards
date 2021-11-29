@@ -14,7 +14,7 @@ LibDir=
 [eeschema/libraries]
 [schematic_editor]
 version=1
-PageLayoutDescrFile=C:/hardware/g3-osi-hw/perch_page_layout.kicad_wks
+PageLayoutDescrFile=../perch_page_layout.kicad_wks
 PlotDirectoryName=
 SubpartIdSeparator=0
 SubpartFirstId=65
@@ -24,7 +24,7 @@ LabSize=50
 ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
-PageLayoutDescrFile=C:/hardware/g3-osi-hw/perch_page_layout.kicad_wks
+PageLayoutDescrFile=../perch_page_layout.kicad_wks
 LastNetListRead=
 CopperLayerCount=4
 BoardThickness=1.6
