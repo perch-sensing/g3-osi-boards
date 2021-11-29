@@ -190,6 +190,6 @@
   (lib (name Transceivers)(type Legacy)(uri ${KIPRJMOD}/kicad-lib/Perch.sch/Transceivers.lib)(options "")(descr ""))
   (lib (name RF_SW)(type Legacy)(uri ${KIPRJMOD}/kicad-lib/Perch.sch/RF_SW.lib)(options "")(descr ""))
   (lib (name ADA3708)(type Legacy)(uri ${KIPRJMOD}/kicad-lib/Perch.sch/ADA3708.lib)(options "")(descr ""))
-  (lib (name GPS_PA1616D)(type Legacy)(uri ${KIPRJMOD}/kicad-lib/Perch.sch/GPS_PA1616D.lib)(options "")(descr ""))
   (lib (name RaspberryPiZero)(type Legacy)(uri ${KIPRJMOD}/kicad-lib/Perch.sch/RaspberryPiZero.lib)(options "")(descr ""))
+  (lib (name GPS_PA1616D)(type Legacy)(uri ${KIPRJMOD}/kicad-lib/Perch.sch/GPS_PA1616D.lib)(options "")(descr ""))
 )
