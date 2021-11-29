@@ -14,34 +14,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L g3ComputeSymbols:ADA3708 A1
-U 1 1 6192E4C9
-P 5700 3750
-F 0 "A1" H 5700 4917 50  0000 C CNN
-F 1 "ADA3708" H 5700 4826 50  0000 C CNN
-F 2 "ADA3708_RPI-ZERO" H 5700 3750 50  0001 L BNN
-F 3 "https://adafruit.com/images/product-files/2885/E1775E40.pdf" H 5700 3750 50  0001 L BNN
-F 4 "" H 5700 3750 50  0001 C CNN "MFN"
-F 5 "" H 5700 3750 50  0001 C CNN "MFP"
-F 6 "" H 5700 3750 50  0001 C CNN "S1PN"
-F 7 "" H 5700 3750 50  0001 C CNN "S1PL"
-F 8 "" H 5700 3750 50  0001 C CNN "S2PN"
-F 9 "" H 5700 3750 50  0001 C CNN "S2PL"
-	1    5700 3750
-	1    0    0    -1  
-$EndComp
-$Comp
-L g3ComputeSymbols:Temp_Connector_1x4 J1
-U 1 1 619341A7
-P 1400 4550
-F 0 "J1" H 1400 4800 60  0000 C CNN
-F 1 "Temp_Connector_1x4" H 1450 4700 60  0000 C CNN
-F 2 "" H 1550 4290 60  0001 C CNN
-F 3 "" H 1950 4550 60  0000 C CNN
-	1    1400 4550
-	1    0    0    -1  
-$EndComp
-$Comp
 L g3ComputeSymbols:PA1616D U1
 U 1 1 6192F8A7
 P 2650 1100
@@ -69,8 +41,6 @@ F 3 "~" H 2050 800 50  0001 C CNN
 	1    2050 800 
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	1950 4650 2050 4650
 $Comp
 L Device:R R1
 U 1 1 61A4B379
@@ -91,17 +61,6 @@ F 1 "470" V 2200 2100 50  0000 C CNN
 F 2 "" V 1930 2100 50  0001 C CNN
 F 3 "~" H 2000 2100 50  0001 C CNN
 	1    2000 2100
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:C C2
-U 1 1 619E3897
-P 2200 4650
-F 0 "C2" V 1948 4650 50  0000 C CNN
-F 1 "1uF" V 2039 4650 50  0000 C CNN
-F 2 "" H 2238 4500 50  0001 C CNN
-F 3 "~" H 2200 4650 50  0001 C CNN
-	1    2200 4650
 	0    1    1    0   
 $EndComp
 Wire Wire Line
