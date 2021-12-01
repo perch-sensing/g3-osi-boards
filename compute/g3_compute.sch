@@ -37,7 +37,11 @@ P 5700 3750
 F 0 "A101" H 5700 4917 50  0000 C CNN
 F 1 "ADA3708" H 5700 4826 50  0000 C CNN
 F 2 "ADA3708_RPI-ZERO" H 5700 3750 50  0001 L BNN
-F 3 "" H 5700 3750 50  0001 L BNN
+F 3 "https://adafruit.com/images/product-files/2885/E1775E40.pdf" H 5700 3750 50  0001 L BNN
+F 4 "Raspberry Pi Foundation" H 5700 3750 50  0001 C CNN "MFN"
+F 5 "https://www.adafruit.com/product/2885?gclid=Cj0KCQjwqp-LBhDQARIsAO0a6aIR3sqfGFEBlXdj8U2bi7F3STeS_1LtpSjam7JfdBiGVESx38VjjzsaAgUqEALw_wcB" H 5700 3750 50  0001 C CNN "S1PL"
+F 6 "2885" H 5700 3750 50  0001 C CNN "S1PN"
+F 7 "Raspberry Pi Zero v1.3" H 5700 3750 50  0001 C CNN "Description"
 	1    5700 3750
 	1    0    0    -1  
 $EndComp
@@ -55,6 +59,7 @@ F 6 "5186" H 2700 1150 50  0001 C CNN "S1PN"
 F 7 "https://www.adafruit.com/product/5186?gclid=CjwKCAiA4veMBhAMEiwAU4XRr13z4KkCNHtz3MT4KeV35H49xufRgIWoCVrUIx5yNvutRYxQsRRe0hoCBwAQAvD_BwE" H 2700 1150 50  0001 C CNN "S1PL"
 F 8 "1528-5186-ND" H 2700 1150 50  0001 C CNN "S2PN"
 F 9 "https://www.digikey.at/en/products/detail/adafruit-industries-llc/5186/15204092" H 2700 1150 50  0001 C CNN "S2PL"
+F 10 "GPS Module" H 2700 1150 50  0001 C CNN "Description"
 	1    2700 1150
 	1    0    0    -1  
 $EndComp
@@ -415,7 +420,12 @@ P 1200 3600
 F 0 "J102" H 1050 3850 60  0000 C CNN
 F 1 "Temp_Connector_1x4" H 1100 3750 60  0000 C CNN
 F 2 "Perch:1702474_Temp_Sensor_Connector" H 1350 3340 60  0001 C CNN
-F 3 "" H 1750 3600 60  0000 C CNN
+F 3 "https://media.digikey.com/PDF/Data%20Sheets/Phoenix%20Contact%20PDFs/1702474.pdf" H 1750 3600 60  0001 C CNN
+F 4 "Temperature Sensor Connector" H 1200 3600 50  0001 C CNN "Description"
+F 5 "Phoenix Contact" H 1200 3600 50  0001 C CNN "MFN"
+F 6 "1702474" H 1200 3600 50  0001 C CNN "MFP"
+F 7 "https://www.digikey.com/en/products/detail/phoenix-contact/1702474/2643221" H 1200 3600 50  0001 C CNN "S1PL"
+F 8 "277-2338" H 1200 3600 50  0001 C CNN "S1PN"
 	1    1200 3600
 	1    0    0    -1  
 $EndComp
@@ -520,10 +530,10 @@ Wire Wire Line
 Wire Wire Line
 	4800 3250 4700 3250
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0111
 U 1 1 61A6BE62
 P 4700 4950
-F 0 "#PWR?" H 4700 4700 50  0001 C CNN
+F 0 "#PWR0111" H 4700 4700 50  0001 C CNN
 F 1 "GND" H 4705 4777 50  0000 C CNN
 F 2 "" H 4700 4950 50  0001 C CNN
 F 3 "" H 4700 4950 50  0001 C CNN
@@ -542,10 +552,10 @@ Text GLabel 4350 3650 0    50   Input ~ 0
 Wire Wire Line
 	4350 3650 4800 3650
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0112
 U 1 1 61A737F8
 P 6700 4950
-F 0 "#PWR?" H 6700 4700 50  0001 C CNN
+F 0 "#PWR0112" H 6700 4700 50  0001 C CNN
 F 1 "GND" H 6705 4777 50  0000 C CNN
 F 2 "" H 6700 4950 50  0001 C CNN
 F 3 "" H 6700 4950 50  0001 C CNN
@@ -615,10 +625,10 @@ PI_SDO
 Text Label 4400 3950 0    50   ~ 0
 PI_SCLK
 $Comp
-L power:PWR_FLAG #FLG?
+L power:PWR_FLAG #FLG0102
 U 1 1 61AB0203
 P 1250 7150
-F 0 "#FLG?" H 1250 7225 50  0001 C CNN
+F 0 "#FLG0102" H 1250 7225 50  0001 C CNN
 F 1 "PWR_FLAG" H 1250 7323 50  0000 C CNN
 F 2 "" H 1250 7150 50  0001 C CNN
 F 3 "~" H 1250 7150 50  0001 C CNN
