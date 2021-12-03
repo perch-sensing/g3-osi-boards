@@ -54,7 +54,12 @@ P 2900 4350
 F 0 "C202" H 3015 4396 50  0000 L CNN
 F 1 "100nF" H 3015 4305 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 2938 4200 50  0001 C CNN
-F 3 "~" H 2900 4350 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_20.pdf" H 2900 4350 50  0001 C CNN
+F 4 "100nF Capacitor" H 2900 4350 50  0001 C CNN "Description"
+F 5 "Yageo" H 2900 4350 50  0001 C CNN "MFN"
+F 6 "CC0402JRX7R6BB104" H 2900 4350 50  0001 C CNN "MFP"
+F 7 "https://www.digikey.com/en/products/detail/CC0402JRX7R6BB104/311-3757-1-ND/8024846?WT.z_cid=ref_netcomponents_dkc_buynow&utm_source=netcomponents&utm_medium=aggregator&utm_campaign=buynow" H 2900 4350 50  0001 C CNN "S1PL"
+F 8 "311-3757" H 2900 4350 50  0001 C CNN "S1PN"
 	1    2900 4350
 	1    0    0    -1  
 $EndComp
@@ -210,7 +215,14 @@ P 5200 2750
 F 0 "C204" H 5315 2796 50  0000 L CNN
 F 1 "47nF" H 5315 2705 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 5238 2600 50  0001 C CNN
-F 3 "~" H 5200 2750 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X5R_4V-to-50V_27.pdf" H 5200 2750 50  0001 C CNN
+F 4 "47nF Capacitor" H 5200 2750 50  0001 C CNN "Description"
+F 5 "Yageo" H 5200 2750 50  0001 C CNN "MFN"
+F 6 "CC0402KRX5R6BB473" H 5200 2750 50  0001 C CNN "MFP"
+F 7 "https://www.digikey.com/en/products/detail/CC0402KRX5R6BB473/311-1688-1-ND/5195590?WT.z_cid=ref_netcomponents_dkc_buynow&utm_source=netcomponents&utm_medium=aggregator&utm_campaign=buynow" H 5200 2750 50  0001 C CNN "S1PL"
+F 8 "311-1688" H 5200 2750 50  0001 C CNN "S1PN"
+F 9 "https://www.mouser.com/ProductDetail/YAGEO/CC0402KRX5R6BB473?qs=57qp5BBCQ9lqw3I8fCH4Jw==&utm_source=netcomponents&utm_medium=aggregator&utm_campaign=CC0402KRX5R6BB473&utm_content=YAGEO" H 5200 2750 50  0001 C CNN "S2PL"
+F 10 "603-CC402KRX5R6BB473" H 5200 2750 50  0001 C CNN "S2PN"
 	1    5200 2750
 	1    0    0    -1  
 $EndComp
