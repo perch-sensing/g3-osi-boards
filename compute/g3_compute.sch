@@ -165,7 +165,14 @@ P 7950 2450
 F 0 "C102" H 8065 2496 50  0000 L CNN
 F 1 "4.7uF" H 8065 2405 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 7988 2300 50  0001 C CNN
-F 3 "~" H 7950 2450 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X5R_4V-to-50V_27.pdf" H 7950 2450 50  0001 C CNN
+F 4 "4.7 uF Capacitor" H 7950 2450 50  0001 C CNN "Description"
+F 5 "Yageo" H 7950 2450 50  0001 C CNN "MFN"
+F 6 "CC0402KRX5R5BB475" H 7950 2450 50  0001 C CNN "MFP"
+F 7 "https://www.digikey.com/en/products/detail/CC0402KRX5R5BB475/311-3476-1-ND/7164497?WT.z_cid=ref_netcomponents_dkc_buynow&utm_source=netcomponents&utm_medium=aggregator&utm_campaign=buynow" H 7950 2450 50  0001 C CNN "S1PL"
+F 8 "311-3476" H 7950 2450 50  0001 C CNN "S1PN"
+F 9 "https://www.mouser.com/ProductDetail/YAGEO/CC0402KRX5R5BB475?qs=UgE/0m3bTsY3XUxTV5ZyKA==&utm_source=netcomponents&utm_medium=aggregator&utm_campaign=CC0402KRX5R5BB475&utm_content=YAGEO" H 7950 2450 50  0001 C CNN "S2PL"
+F 10 "603-CC0402KRX55BB475" H 7950 2450 50  0001 C CNN "S2PN"
 	1    7950 2450
 	1    0    0    -1  
 $EndComp

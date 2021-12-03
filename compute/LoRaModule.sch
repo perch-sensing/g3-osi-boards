@@ -65,7 +65,14 @@ P 2500 4200
 F 0 "C201" H 2615 4246 50  0000 L CNN
 F 1 "470nF" H 2615 4155 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 2538 4050 50  0001 C CNN
-F 3 "~" H 2500 4200 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X5R_4V-to-50V_27.pdf" H 2500 4200 50  0001 C CNN
+F 4 "470nF Capacitor" H 2500 4200 50  0001 C CNN "Description"
+F 5 "Yageo" H 2500 4200 50  0001 C CNN "MFN"
+F 6 "CC0402KRX5R5BB474" H 2500 4200 50  0001 C CNN "MFP"
+F 7 "http://www.digikey.com/product-detail/en/CC0402KRX5R5BB474/311-1684-1-ND/5195586?WT.z_cid=ref_netcomponents_dkc_buynow&utm_source=netcomponents&utm_medium=aggregator&utm_campaign=buynow" H 2500 4200 50  0001 C CNN "S1PL"
+F 8 "311-1684" H 2500 4200 50  0001 C CNN "S1PN"
+F 9 "https://www.mouser.com/ProductDetail/YAGEO/CC0402KRX5R5BB474?qs=5q%2BqlK8CmJSyt2qjWQmZ1A==&utm_source=netcomponents&utm_medium=aggregator&utm_campaign=CC0402KRX5R5BB474&utm_content=YAGEO" H 2500 4200 50  0001 C CNN "S2PL"
+F 10 "603-CC402KRX5R5BB474" H 2500 4200 50  0001 C CNN "S2PN"
 	1    2500 4200
 	1    0    0    -1  
 $EndComp
