@@ -81,7 +81,14 @@ P 1400 4800
 F 0 "R101" V 1300 4800 50  0000 C CNN
 F 1 "470" V 1400 4800 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 1330 4800 50  0001 C CNN
-F 3 "~" H 1400 4800 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 1400 4800 50  0001 C CNN
+F 4 "470 Resistor" H 1400 4800 50  0001 C CNN "Description"
+F 5 "Yageo" H 1400 4800 50  0001 C CNN "MFN"
+F 6 "RC0402FR-07470RL" H 1400 4800 50  0001 C CNN "MFP"
+F 7 "https://www.digikey.com/en/products/detail/RC0402FR-07470RL/311-470LRTR-ND/726619?WT.z_cid=ref_netcomponents_dkc_buynow&utm_source=netcomponents&utm_medium=aggregator&utm_campaign=buynow" H 1400 4800 50  0001 C CNN "S1PL"
+F 8 "311-470LR" H 1400 4800 50  0001 C CNN "S1PN"
+F 9 "https://www.mouser.com/ProductDetail/YAGEO/RC0402FR-07470RL?qs=dn7UOKrNBAlPAr3vO7H4cA==&utm_source=netcomponents&utm_medium=aggregator&utm_campaign=RC0402FR-07470RL&utm_content=YAGEO" H 1400 4800 50  0001 C CNN "S2PL"
+F 10 "603-RC0402FR-07470RL" H 1400 4800 50  0001 C CNN "S2PN"
 	1    1400 4800
 	0    1    1    0   
 $EndComp
@@ -92,7 +99,14 @@ P 1400 4900
 F 0 "R102" V 1500 4900 50  0000 C CNN
 F 1 "470" V 1400 4900 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 1330 4900 50  0001 C CNN
-F 3 "~" H 1400 4900 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 1400 4900 50  0001 C CNN
+F 4 "470 Resistor" H 1400 4900 50  0001 C CNN "Description"
+F 5 "Yageo" H 1400 4900 50  0001 C CNN "MFN"
+F 6 "RC0402FR-07470RL" H 1400 4900 50  0001 C CNN "MFP"
+F 7 "https://www.digikey.com/en/products/detail/RC0402FR-07470RL/311-470LRTR-ND/726619?WT.z_cid=ref_netcomponents_dkc_buynow&utm_source=netcomponents&utm_medium=aggregator&utm_campaign=buynow" H 1400 4900 50  0001 C CNN "S1PL"
+F 8 "311-470LR" H 1400 4900 50  0001 C CNN "S1PN"
+F 9 "https://www.mouser.com/ProductDetail/YAGEO/RC0402FR-07470RL?qs=dn7UOKrNBAlPAr3vO7H4cA==&utm_source=netcomponents&utm_medium=aggregator&utm_campaign=RC0402FR-07470RL&utm_content=YAGEO" H 1400 4900 50  0001 C CNN "S2PL"
+F 10 "603-RC0402FR-07470RL" H 1400 4900 50  0001 C CNN "S2PN"
 	1    1400 4900
 	0    1    1    0   
 $EndComp
@@ -119,6 +133,7 @@ F 0 "U102" H 8997 3173 50  0000 L CNN
 F 1 "LoRa-E5" H 8880 2950 50  0000 L CNN
 F 2 "Perch:LoRa-E5" H 9700 2400 50  0001 C CNN
 F 3 "https://files.seeedstudio.com/products/317990687/res/LoRa-E5%20module%20datasheet_V1.0.pdf" H 9050 3050 50  0001 C CNN
+F 4 "LoRa Module" H 9050 3050 50  0001 C CNN "Description"
 	1    9050 3050
 	1    0    0    -1  
 $EndComp
