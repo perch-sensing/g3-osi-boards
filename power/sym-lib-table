@@ -187,4 +187,5 @@
   (lib (name TPS61023DRLR)(type Legacy)(uri ${KIPRJMOD}/kicad-lib/Perch.sch/TPS61023DRLR.lib)(options "")(descr ""))
   (lib (name XAL1010-102MEB)(type Legacy)(uri ${KIPRJMOD}/kicad-lib/Perch.sch/XAL1010-102MEB.lib)(options "")(descr ""))
   (lib (name pycom)(type Legacy)(uri ${KIPRJMOD}/kicad-lib/pycom-footprints/pycom.lib)(options "")(descr ""))
+  (lib (name RT9471GQW)(type Legacy)(uri ${KIPRJMOD}/kicad-lib/Perch.sch/RT9471GQW.lib)(options "")(descr ""))
 )
