@@ -511,4 +511,8 @@ Wire Notes Line
 	550  500  550  3800
 Wire Notes Line
 	550  3800 4100 3800
+Wire Wire Line
+	5200 1800 5000 1800
+Text Label 5000 1800 2    50   ~ 0
+VR_PS
 $EndSCHEMATC
