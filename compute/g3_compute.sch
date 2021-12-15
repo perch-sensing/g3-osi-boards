@@ -71,6 +71,7 @@ F 0 "C101" H 2250 800 50  0000 L CNN
 F 1 "1uF" H 2250 900 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 2138 700 50  0001 C CNN
 F 3 "~" H 2100 850 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05B103KO5NNNC/3886709" H 2100 850 50  0001 C CNN "S1PL"
 	1    2100 850 
 	-1   0    0    1   
 $EndComp
@@ -487,6 +488,7 @@ F 0 "C105" H 2300 3350 50  0000 L CNN
 F 1 "1uF" H 2300 3450 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 2188 3250 50  0001 C CNN
 F 3 "~" H 2150 3400 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05B103KO5NNNC/3886709" H 2150 3400 50  0001 C CNN "S1PL"
 	1    2150 3400
 	-1   0    0    1   
 $EndComp

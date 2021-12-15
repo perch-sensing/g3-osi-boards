@@ -111,6 +111,7 @@ F 0 "C203" H 3465 2946 50  0000 L CNN
 F 1 "1uF" H 3465 2855 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 3388 2750 50  0001 C CNN
 F 3 "~" H 3350 2900 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05B103KO5NNNC/3886709" H 3350 2900 50  0001 C CNN "S1PL"
 	1    3350 2900
 	1    0    0    -1  
 $EndComp
@@ -234,6 +235,7 @@ F 0 "C205" H 5765 2796 50  0000 L CNN
 F 1 "47pF" H 5765 2705 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 5688 2600 50  0001 C CNN
 F 3 "~" H 5650 2750 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/kyocera-avx/0402YC470KAT2A/1597857" H 5650 2750 50  0001 C CNN "S1PL"
 	1    5650 2750
 	1    0    0    -1  
 $EndComp
@@ -503,6 +505,7 @@ F 0 "C208" H 6415 4446 50  0000 L CNN
 F 1 "2.4pF" H 6415 4355 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 6338 4250 50  0001 C CNN
 F 3 "~" H 6300 4400 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/taiyo-yuden/EVK105CH0R3BW-F/1169601" H 6300 4400 50  0001 C CNN "S1PL"
 	1    6300 4400
 	0    -1   -1   0   
 $EndComp
@@ -588,6 +591,7 @@ F 0 "C214" H 9215 4846 50  0000 L CNN
 F 1 "1nF" H 9215 4755 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 9138 4650 50  0001 C CNN
 F 3 "~" H 9100 4800 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/yageo/CC0402KRX7R8BB101/5883360" H 9100 4800 50  0001 C CNN "S1PL"
 	1    9100 4800
 	1    0    0    -1  
 $EndComp
