@@ -16,68 +16,66 @@ $EndDescr
 $Comp
 L Connector:Conn_01x02_Female J102
 U 1 1 61BA49C7
-P 3650 4350
-F 0 "J102" H 3542 4025 50  0000 C CNN
-F 1 "Conn_01x02_Female" H 3542 4116 50  0000 C CNN
-F 2 "" H 3650 4350 50  0001 C CNN
-F 3 "~" H 3650 4350 50  0001 C CNN
-	1    3650 4350
+P 2950 4350
+F 0 "J102" H 2842 4025 50  0000 C CNN
+F 1 "Conn_01x02_Female" H 2842 4116 50  0000 C CNN
+F 2 "" H 2950 4350 50  0001 C CNN
+F 3 "~" H 2950 4350 50  0001 C CNN
+	1    2950 4350
 	-1   0    0    1   
 $EndComp
 $Comp
 L Connector:Conn_01x02_Female J101
 U 1 1 61BA5A31
-P 2300 4400
-F 0 "J101" H 2328 4376 50  0000 L CNN
-F 1 "Conn_01x02_Female" H 2328 4285 50  0000 L CNN
-F 2 "" H 2300 4400 50  0001 C CNN
-F 3 "~" H 2300 4400 50  0001 C CNN
-	1    2300 4400
+P 1400 4200
+F 0 "J101" H 1428 4176 50  0000 L CNN
+F 1 "Conn_01x02_Female" H 1428 4085 50  0000 L CNN
+F 2 "" H 1400 4200 50  0001 C CNN
+F 3 "~" H 1400 4200 50  0001 C CNN
+	1    1400 4200
 	1    0    0    -1  
 $EndComp
-Text Notes 3950 5350 0    50   ~ 0
+Text Notes 3250 5350 0    50   ~ 0
 Battery
-Wire Notes Line
-	3250 5400 550  5400
-Text Notes 1800 5350 0    50   ~ 0
+Text Notes 900  5150 0    50   ~ 0
 Solar Panel
 $Comp
 L power:GND #PWR0104
 U 1 1 61BA8023
-P 1900 4700
-F 0 "#PWR0104" H 1900 4450 50  0001 C CNN
-F 1 "GND" H 1905 4527 50  0000 C CNN
-F 2 "" H 1900 4700 50  0001 C CNN
-F 3 "" H 1900 4700 50  0001 C CNN
-	1    1900 4700
+P 1000 4500
+F 0 "#PWR0104" H 1000 4250 50  0001 C CNN
+F 1 "GND" H 1005 4327 50  0000 C CNN
+F 2 "" H 1000 4500 50  0001 C CNN
+F 3 "" H 1000 4500 50  0001 C CNN
+	1    1000 4500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2100 4500 1900 4500
+	1200 4300 1000 4300
 Wire Wire Line
-	1900 4500 1900 4700
+	1000 4300 1000 4500
 Wire Wire Line
-	2100 4400 1600 4400
-Text Label 1600 4400 0    50   ~ 0
+	1200 4200 700  4200
+Text Label 700  4200 0    50   ~ 0
 V_LIPO
 $Comp
 L power:GND #PWR0107
 U 1 1 61BAA18A
-P 4300 4600
-F 0 "#PWR0107" H 4300 4350 50  0001 C CNN
-F 1 "GND" H 4305 4427 50  0000 C CNN
-F 2 "" H 4300 4600 50  0001 C CNN
-F 3 "" H 4300 4600 50  0001 C CNN
-	1    4300 4600
+P 3600 4600
+F 0 "#PWR0107" H 3600 4350 50  0001 C CNN
+F 1 "GND" H 3605 4427 50  0000 C CNN
+F 2 "" H 3600 4600 50  0001 C CNN
+F 3 "" H 3600 4600 50  0001 C CNN
+	1    3600 4600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3850 4350 4300 4350
+	3150 4350 3600 4350
 Wire Wire Line
-	4300 4350 4300 4600
+	3600 4350 3600 4600
 Wire Wire Line
-	3850 4250 4650 4250
-Text Label 4650 4250 2    50   ~ 0
+	3150 4250 3950 4250
+Text Label 3950 4250 2    50   ~ 0
 V_SOLAR
 Wire Wire Line
 	2000 1400 1650 1400
@@ -250,7 +248,14 @@ P 1650 1150
 F 0 "C103" H 1765 1196 50  0000 L CNN
 F 1 "4.7uF" H 1765 1105 50  0000 L CNN
 F 2 "" H 1688 1000 50  0001 C CNN
-F 3 "~" H 1650 1150 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X5R_4V-to-50V_27.pdf" H 1650 1150 50  0001 C CNN
+F 4 "4.7 uF Capacitor" H 1650 1150 50  0001 C CNN "Description"
+F 5 "Yageo" H 1650 1150 50  0001 C CNN "MFN"
+F 6 "CC0402KRX5R5BB475" H 1650 1150 50  0001 C CNN "MFP"
+F 7 "https://www.digikey.com/en/products/detail/CC0402KRX5R5BB475/311-3476-1-ND/7164497?WT.z_cid=ref_netcomponents_dkc_buynow&utm_source=netcomponents&utm_medium=aggregator&utm_campaign=buynow" H 1650 1150 50  0001 C CNN "S1PL"
+F 8 "311-3476" H 1650 1150 50  0001 C CNN "S1PN"
+F 9 "https://www.mouser.com/ProductDetail/YAGEO/CC0402KRX5R5BB475?qs=UgE/0m3bTsY3XUxTV5ZyKA==&utm_source=netcomponents&utm_medium=aggregator&utm_campaign=CC0402KRX5R5BB475&utm_content=YAGEO" H 1650 1150 50  0001 C CNN "S2PL"
+F 10 "603-CC0402KRX55BB475" H 1650 1150 50  0001 C CNN "S2PN"
 	1    1650 1150
 	1    0    0    -1  
 $EndComp
@@ -261,7 +266,14 @@ P 2400 1450
 F 0 "C104" H 2400 1550 50  0000 L CNN
 F 1 "47nF" H 2400 1350 50  0000 L CNN
 F 2 "" H 2438 1300 50  0001 C CNN
-F 3 "~" H 2400 1450 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X5R_4V-to-50V_27.pdf" H 2400 1450 50  0001 C CNN
+F 4 "47nF Capacitor" H 2400 1450 50  0001 C CNN "Description"
+F 5 "Yageo" H 2400 1450 50  0001 C CNN "MFN"
+F 6 "CC0402KRX5R6BB473" H 2400 1450 50  0001 C CNN "MFP"
+F 7 "https://www.digikey.com/en/products/detail/CC0402KRX5R6BB473/311-1688-1-ND/5195590?WT.z_cid=ref_netcomponents_dkc_buynow&utm_source=netcomponents&utm_medium=aggregator&utm_campaign=buynow" H 2400 1450 50  0001 C CNN "S1PL"
+F 8 "311-1688" H 2400 1450 50  0001 C CNN "S1PN"
+F 9 "https://www.mouser.com/ProductDetail/YAGEO/CC0402KRX5R6BB473?qs=57qp5BBCQ9lqw3I8fCH4Jw==&utm_source=netcomponents&utm_medium=aggregator&utm_campaign=CC0402KRX5R6BB473&utm_content=YAGEO" H 2400 1450 50  0001 C CNN "S2PL"
+F 10 "603-CC402KRX5R6BB473" H 2400 1450 50  0001 C CNN "S2PN"
 	1    2400 1450
 	1    0    0    -1  
 $EndComp
@@ -304,7 +316,7 @@ Wire Wire Line
 Wire Wire Line
 	2950 2600 3050 2600
 Wire Notes Line
-	3300 3850 3300 5400
+	2600 3850 2600 5400
 Text Notes 2050 3650 0    50   ~ 0
 Charge Controller\n
 $Comp
@@ -501,20 +513,14 @@ Wire Notes Line
 	6850 500  4150 500 
 Text Notes 5300 3150 0    50   ~ 0
 Volatge Regulator\n
-Wire Notes Line
-	550  3850 3250 3850
-Wire Notes Line
-	3250 3850 3250 5400
-Wire Notes Line
-	550  5400 550  3850
 Text Label 3750 2500 0    50   ~ 0
 CC_BAT
 Wire Notes Line
-	4800 3850 4800 5400
+	4100 3850 4100 5400
 Wire Notes Line
-	3300 3850 4800 3850
+	2600 3850 4100 3850
 Wire Notes Line
-	4800 5400 3300 5400
+	4100 5400 2600 5400
 Wire Notes Line
 	4100 3800 4100 500 
 Wire Notes Line
@@ -527,4 +533,12 @@ Wire Wire Line
 	5200 1800 5000 1800
 Text Label 5000 1800 2    50   ~ 0
 VR_PS
+Wire Notes Line
+	2250 5400 550  5400
+Wire Notes Line
+	550  3850 550  5400
+Wire Notes Line
+	550  3850 2250 3850
+Wire Notes Line
+	2250 5400 2250 3850
 $EndSCHEMATC
