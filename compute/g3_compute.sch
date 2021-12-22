@@ -1185,4 +1185,95 @@ Text Label 4300 7400 3    50   ~ 0
 PI_TX2
 Text Label 4800 7400 3    50   ~ 0
 PI_RX2
+Wire Wire Line
+	4800 3550 4400 3550
+Wire Wire Line
+	4800 3450 4400 3450
+Wire Wire Line
+	4800 3350 4400 3350
+Wire Wire Line
+	4800 3150 4400 3150
+Wire Wire Line
+	6600 3350 7050 3350
+Wire Wire Line
+	6600 3550 7050 3550
+Wire Wire Line
+	6600 3650 7050 3650
+Wire Wire Line
+	6600 3850 7050 3850
+Wire Wire Line
+	6600 4050 7050 4050
+Wire Wire Line
+	6600 4350 7050 4350
+Text Label 4400 3150 0    50   ~ 0
+PI_GPIO4
+Text Label 4400 3350 0    50   ~ 0
+PI_GPIO17
+Text Label 4400 3450 0    50   ~ 0
+PI_GPIO27
+Text Label 4400 3550 0    50   ~ 0
+PI_GPIO22
+Text Label 7050 3350 2    50   ~ 0
+PI_GPIO18
+Text Label 7050 3550 2    50   ~ 0
+PI_GPIO23
+Text Label 7050 3650 2    50   ~ 0
+PI_GPIO24
+Text Label 7050 3850 2    50   ~ 0
+PI_GPIO25
+Text Label 7050 4050 2    50   ~ 0
+PI_GPIO7
+Text Label 7050 4350 2    50   ~ 0
+PI_GPIO12
+$Comp
+L Connector:Conn_01x10_Female J?
+U 1 1 61DEF596
+P 10800 5050
+F 0 "J?" V 10965 4980 50  0000 C CNN
+F 1 "Conn_01x10_Female" V 10874 4980 50  0000 C CNN
+F 2 "" H 10800 5050 50  0001 C CNN
+F 3 "~" H 10800 5050 50  0001 C CNN
+	1    10800 5050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10600 4650 10200 4650
+Wire Wire Line
+	10600 4750 10200 4750
+Wire Wire Line
+	10200 4850 10600 4850
+Wire Wire Line
+	10600 4950 10200 4950
+Wire Wire Line
+	10600 5050 10200 5050
+Wire Wire Line
+	10600 5150 10200 5150
+Wire Wire Line
+	10600 5250 10200 5250
+Wire Wire Line
+	10600 5350 10200 5350
+Wire Wire Line
+	10600 5450 10200 5450
+Wire Wire Line
+	10600 5550 10200 5550
+Text Label 10200 4650 0    50   ~ 0
+PI_GPIO4
+Text Label 10200 4750 0    50   ~ 0
+PI_GPIO17
+Text Label 10200 4850 0    50   ~ 0
+PI_GPIO27
+Text Label 10200 4950 0    50   ~ 0
+PI_GPIO22
+Text Label 10200 5050 0    50   ~ 0
+PI_GPIO18
+Text Label 10200 5150 0    50   ~ 0
+PI_GPIO23
+Text Label 10200 5250 0    50   ~ 0
+PI_GPIO24
+Text Label 10200 5350 0    50   ~ 0
+PI_GPIO25
+Text Label 10200 5450 0    50   ~ 0
+PI_GPIO7
+Text Label 10200 5550 0    50   ~ 0
+PI_GPIO12
 $EndSCHEMATC
