@@ -127,18 +127,6 @@ Wire Wire Line
 Wire Wire Line
 	2100 600  2100 700 
 $Comp
-L Transceivers:LoRa-E5 U102
-U 1 1 6195631D
-P 9050 3050
-F 0 "U102" H 8997 3173 50  0000 L CNN
-F 1 "LoRa-E5" H 8880 2950 50  0000 L CNN
-F 2 "Perch:LoRa-E5" H 9700 2400 50  0001 C CNN
-F 3 "https://files.seeedstudio.com/products/317990687/res/LoRa-E5%20module%20datasheet_V1.0.pdf" H 9050 3050 50  0001 C CNN
-F 4 "LoRa Module" H 9050 3050 50  0001 C CNN "Description"
-	1    9050 3050
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:PWR_FLAG #FLG0101
 U 1 1 61980453
 P 9950 4700
@@ -174,6 +162,7 @@ F 7 "https://www.digikey.com/en/products/detail/CC0402KRX5R5BB475/311-3476-1-ND/
 F 8 "311-3476" H 7950 2450 50  0001 C CNN "S1PN"
 F 9 "https://www.mouser.com/ProductDetail/YAGEO/CC0402KRX5R5BB475?qs=UgE/0m3bTsY3XUxTV5ZyKA==&utm_source=netcomponents&utm_medium=aggregator&utm_campaign=CC0402KRX5R5BB475&utm_content=YAGEO" H 7950 2450 50  0001 C CNN "S2PL"
 F 10 "603-CC0402KRX55BB475" H 7950 2450 50  0001 C CNN "S2PN"
+F 11 "" H 7950 2450 50  0001 C CNN "Notes"
 	1    7950 2450
 	1    0    0    -1  
 $EndComp
@@ -248,15 +237,11 @@ F 0 "J101" H 10900 1800 60  0000 R CNN
 F 1 "CONSMA001-SMD-G" H 10712 1625 60  0001 R CNN
 F 2 "digikey-footprints:RF_SMA_Receptical_Vertical_CONSMA001-SMD-G" H 11000 1850 60  0001 L CNN
 F 3 "https://linxtechnologies.com/wp/wp-content/uploads/consma001-smd-g.pdf" H 11000 1950 60  0001 L CNN
-F 4 "CONSMA001-SMD-G-ND" H 11000 2050 60  0001 L CNN "Digi-Key_PN"
-F 5 "CONSMA001-SMD-G" H 11000 2150 60  0001 L CNN "MPN"
-F 6 "Connectors, Interconnects" H 11000 2250 60  0001 L CNN "Category"
-F 7 "Coaxial Connectors (RF)" H 11000 2350 60  0001 L CNN "Family"
-F 8 "https://linxtechnologies.com/wp/wp-content/uploads/consma001-smd-g.pdf" H 11000 2450 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/linx-technologies-inc/CONSMA001-SMD-G/CONSMA001-SMD-G-ND/4496569" H 11000 2550 60  0001 L CNN "DK_Detail_Page"
-F 10 "CONN SMA RCPT STR 50 OHM SMD" H 11000 2650 60  0001 L CNN "Description"
-F 11 "Linx Technologies Inc." H 11000 2750 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 11000 2850 60  0001 L CNN "Status"
+F 4 "Linx Technologies Inc." H 11000 2750 60  0001 L CNN "MFN"
+F 5 "CONSMA001-SMD-G" H 11000 2150 60  0001 L CNN "MFP"
+F 6 "CONSMA001-SMD-G-ND" H 11000 2050 60  0001 L CNN "S1PN"
+F 7 "/product-detail/en/linx-technologies-inc/CONSMA001-SMD-G/CONSMA001-SMD-G-ND/4496569" H 11000 2550 60  0001 L CNN "S1PL"
+F 8 "" H 10800 1650 50  0001 C CNN "Notes"
 	1    10800 1650
 	-1   0    0    1   
 $EndComp
@@ -268,6 +253,11 @@ F 0 "L101" V 10200 3350 50  0000 C CNN
 F 1 "0" V 10100 3350 50  0000 C CNN
 F 2 "Inductor_SMD:L_0402_1005Metric_Pad0.77x0.64mm_HandSolder" H 10250 3350 50  0001 C CNN
 F 3 "~" H 10250 3350 50  0001 C CNN
+F 4 "" V 10250 3350 50  0001 C CNN "MFN"
+F 5 "" V 10250 3350 50  0001 C CNN "MFP"
+F 6 "" V 10250 3350 50  0001 C CNN "S1PN"
+F 7 "" V 10250 3350 50  0001 C CNN "S1PL"
+F 8 "" V 10250 3350 50  0001 C CNN "Notes"
 	1    10250 3350
 	0    -1   -1   0   
 $EndComp
@@ -296,6 +286,11 @@ F 0 "C103" H 9800 3400 50  0000 L CNN
 F 1 "DNL" H 9800 3300 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 10038 3350 50  0001 C CNN
 F 3 "~" H 10000 3500 50  0001 C CNN
+F 4 "" H 10000 3500 50  0001 C CNN "MFN"
+F 5 "" H 10000 3500 50  0001 C CNN "MFP"
+F 6 "" H 10000 3500 50  0001 C CNN "S1PN"
+F 7 "" H 10000 3500 50  0001 C CNN "S1PL"
+F 8 "" H 10000 3500 50  0001 C CNN "Notes"
 	1    10000 3500
 	1    0    0    -1  
 $EndComp
@@ -307,6 +302,11 @@ F 0 "C104" H 10610 3410 50  0000 L CNN
 F 1 "DNL" H 10560 3330 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 10538 3350 50  0001 C CNN
 F 3 "~" H 10500 3500 50  0001 C CNN
+F 4 "" H 10500 3500 50  0001 C CNN "MFN"
+F 5 "" H 10500 3500 50  0001 C CNN "MFP"
+F 6 "" H 10500 3500 50  0001 C CNN "S1PN"
+F 7 "" H 10500 3500 50  0001 C CNN "S1PL"
+F 8 "" H 10500 3500 50  0001 C CNN "Notes"
 	1    10500 3500
 	1    0    0    -1  
 $EndComp
@@ -1286,4 +1286,19 @@ Wire Notes Line
 	6400 4900 6400 7700
 Text Notes 5950 7650 0    50   ~ 0
 Test Points
+$Comp
+L Transceivers:LoRa-E5 U102
+U 1 1 61C457FB
+P 9050 3050
+F 0 "U102" H 8950 3200 50  0000 L CNN
+F 1 "LoRa-E5" H 8900 2950 50  0000 L CNN
+F 2 "Perch:LoRa-E5" H 8750 2000 50  0001 C CNN
+F 3 "https://files.seeedstudio.com/products/317990687/res/LoRa-E5%20module%20datasheet_V1.0.pdf" H 9050 3050 50  0001 C CNN
+F 4 "SeeedStudio" H 8700 1900 50  0001 C CNN "MFN"
+F 5 "LoRa-E5" H 8650 1700 50  0001 C CNN "MFP"
+F 6 "LoRa-E5" H 8700 1800 50  0001 C CNN "S1PN"
+F 7 "https://www.seeedstudio.com/LoRa-E5-Wireless-Module-p-4745.html" H 9850 1600 50  0001 C CNN "S1PL"
+	1    9050 3050
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
