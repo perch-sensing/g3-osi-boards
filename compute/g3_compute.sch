@@ -34,14 +34,14 @@ $Comp
 L ADA3708:ADA3708 A101
 U 1 1 6192E4C9
 P 5650 2000
-F 0 "A101" H 5650 3167 50  0000 C CNN
-F 1 "ADA3708" H 5650 3076 50  0000 C CNN
+F 0 "A101" H 5650 2150 50  0000 C CNN
+F 1 "ADA3708" H 5650 1850 50  0000 C CNN
 F 2 "ADA3708_RPI-ZERO" H 5650 2000 50  0001 L BNN
 F 3 "https://adafruit.com/images/product-files/2885/E1775E40.pdf" H 5650 2000 50  0001 L BNN
 F 4 "Raspberry Pi Foundation" H 5650 2000 50  0001 C CNN "MFN"
 F 5 "https://www.adafruit.com/product/2885?gclid=Cj0KCQjwqp-LBhDQARIsAO0a6aIR3sqfGFEBlXdj8U2bi7F3STeS_1LtpSjam7JfdBiGVESx38VjjzsaAgUqEALw_wcB" H 5650 2000 50  0001 C CNN "S1PL"
 F 6 "2885" H 5650 2000 50  0001 C CNN "S1PN"
-F 7 "Raspberry Pi Zero v1.3" H 5650 2000 50  0001 C CNN "Description"
+F 7 "Raspberry Pi Zero v1.3" H 5650 2000 50  0001 C CNN "Notes"
 	1    5650 2000
 	1    0    0    -1  
 $EndComp
@@ -129,18 +129,18 @@ Wire Wire Line
 $Comp
 L power:PWR_FLAG #FLG0101
 U 1 1 61980453
-P 9950 4700
-F 0 "#FLG0101" H 9950 4775 50  0001 C CNN
-F 1 "PWR_FLAG" H 9950 4873 50  0000 C CNN
-F 2 "" H 9950 4700 50  0001 C CNN
-F 3 "~" H 9950 4700 50  0001 C CNN
-	1    9950 4700
+P 9900 5900
+F 0 "#FLG0101" H 9900 5975 50  0001 C CNN
+F 1 "PWR_FLAG" H 9900 6073 50  0000 C CNN
+F 2 "" H 9900 5900 50  0001 C CNN
+F 3 "~" H 9900 5900 50  0001 C CNN
+	1    9900 5900
 	1    0    0    -1  
 $EndComp
-Text GLabel 9950 4850 3    50   Input ~ 0
+Text GLabel 9900 6050 3    50   Input ~ 0
 3V3
 Wire Wire Line
-	9950 4700 9950 4850
+	9900 5900 9900 6050
 Text GLabel 8200 950  0    50   Input ~ 0
 3V3
 Text GLabel 7750 2300 0    50   Input ~ 0
@@ -341,8 +341,8 @@ Wire Wire Line
 	10550 3350 10500 3350
 Connection ~ 10500 3350
 Wire Notes Line
-	9700 5250 11150 5250
-Text Notes 10400 5200 0    79   ~ 0
+	9650 6450 11100 6450
+Text Notes 10350 6400 0    79   ~ 0
 Power Flags
 Text Label 9800 3350 0    50   ~ 0
 E5_RFIO
@@ -457,23 +457,23 @@ Wire Wire Line
 $Comp
 L Device:R R103
 U 1 1 61A4865A
-P 2000 6650
-F 0 "R103" V 2100 6650 50  0000 C CNN
-F 1 "TBD" V 2000 6650 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 1930 6650 50  0001 C CNN
-F 3 "~" H 2000 6650 50  0001 C CNN
-	1    2000 6650
+P 2000 6700
+F 0 "R103" V 2100 6700 50  0000 C CNN
+F 1 "TBD" V 2000 6700 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 1930 6700 50  0001 C CNN
+F 3 "~" H 2000 6700 50  0001 C CNN
+	1    2000 6700
 	-1   0    0    1   
 $EndComp
 $Comp
 L Device:R R104
 U 1 1 61A499B4
-P 2200 6750
-F 0 "R104" V 2100 6750 50  0000 C CNN
-F 1 "TBD" V 2200 6750 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 2130 6750 50  0001 C CNN
-F 3 "~" H 2200 6750 50  0001 C CNN
-	1    2200 6750
+P 2200 6800
+F 0 "R104" V 2100 6800 50  0000 C CNN
+F 1 "TBD" V 2200 6800 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 2130 6800 50  0001 C CNN
+F 3 "~" H 2200 6800 50  0001 C CNN
+	1    2200 6800
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -647,23 +647,23 @@ PI_SCLK
 $Comp
 L power:PWR_FLAG #FLG0102
 U 1 1 61AB0203
-P 10400 4700
-F 0 "#FLG0102" H 10400 4775 50  0001 C CNN
-F 1 "PWR_FLAG" H 10400 4873 50  0000 C CNN
-F 2 "" H 10400 4700 50  0001 C CNN
-F 3 "~" H 10400 4700 50  0001 C CNN
-	1    10400 4700
+P 10350 5900
+F 0 "#FLG0102" H 10350 5975 50  0001 C CNN
+F 1 "PWR_FLAG" H 10350 6073 50  0000 C CNN
+F 2 "" H 10350 5900 50  0001 C CNN
+F 3 "~" H 10350 5900 50  0001 C CNN
+	1    10350 5900
 	1    0    0    -1  
 $EndComp
-Text GLabel 10400 4850 3    50   Input ~ 0
+Text GLabel 10350 6050 3    50   Input ~ 0
 5V
 Wire Wire Line
-	10400 4700 10400 4850
+	10350 5900 10350 6050
 Text Notes 2300 7000 0    50   ~ 0
 I2C
-Text Label 600  6800 0    50   ~ 0
+Text Label 600  6850 0    50   ~ 0
 PI_SDA
-Text Label 600  6900 0    50   ~ 0
+Text Label 600  6950 0    50   ~ 0
 PI_SDI
 Text Label 7000 1400 2    50   ~ 0
 PI_TX0
@@ -673,10 +673,10 @@ Wire Wire Line
 	6550 1400 7000 1400
 Wire Wire Line
 	6550 1500 7000 1500
-Text Label 1050 6700 1    50   ~ 0
+Text Label 1050 6750 1    50   ~ 0
 Temp_SDA
-Text Label 1200 6700 1    50   ~ 0
-Temp_SDI
+Text Label 1200 6750 1    50   ~ 0
+Temp_SCL
 Wire Notes Line
 	2500 7050 550  7050
 Wire Notes Line
@@ -694,7 +694,7 @@ PI_TX0
 Text Label 650  4950 0    50   ~ 0
 PI_RX0
 Wire Notes Line
-	550  4650 2500 4650
+	550  4600 2500 4600
 Wire Wire Line
 	650  4950 1250 4950
 Wire Wire Line
@@ -712,45 +712,45 @@ Wire Wire Line
 Wire Wire Line
 	1700 2150 2450 2150
 Wire Notes Line
-	550  7200 550  7750
+	550  7150 550  7700
 Wire Notes Line
-	2500 7200 2500 7750
+	2500 7150 2500 7700
 Wire Notes Line
-	2500 7750 550  7750
+	2500 7700 550  7700
 Wire Notes Line
-	550  7200 2500 7200
-Text Label 2250 7650 2    50   ~ 0
+	550  7150 2500 7150
+Text Label 2250 7600 2    50   ~ 0
 ~SX_CS
-Text Label 2250 7550 2    50   ~ 0
+Text Label 2250 7500 2    50   ~ 0
 SX_SCK
-Text Label 2250 7450 2    50   ~ 0
+Text Label 2250 7400 2    50   ~ 0
 SX_SDI
-Text Label 2250 7350 2    50   ~ 0
+Text Label 2250 7300 2    50   ~ 0
 SX_SDO
 Wire Wire Line
-	650  7550 2250 7550
+	650  7500 2250 7500
 Wire Wire Line
-	650  7650 2250 7650
-Text Label 650  7650 0    50   ~ 0
+	650  7600 2250 7600
+Text Label 650  7600 0    50   ~ 0
 ~PI_CE0
-Text Label 650  7550 0    50   ~ 0
+Text Label 650  7500 0    50   ~ 0
 PI_SCLK
 Wire Wire Line
-	650  7350 2250 7350
+	650  7300 2250 7300
 Wire Wire Line
-	650  7450 2250 7450
-Text Label 650  7450 0    50   ~ 0
+	650  7400 2250 7400
+Text Label 650  7400 0    50   ~ 0
 PI_SDO
-Text Label 650  7350 0    50   ~ 0
+Text Label 650  7300 0    50   ~ 0
 PI_SDI
-Text Notes 2300 7700 0    50   ~ 0
+Text Notes 2300 7650 0    50   ~ 0
 SPI
 Wire Notes Line
-	11150 4400 11150 5250
+	11100 5600 11100 6450
 Wire Notes Line
-	9700 4400 9700 5250
+	9650 5600 9650 6450
 Wire Notes Line
-	11150 4400 9700 4400
+	11100 5600 9650 5600
 Wire Wire Line
 	4200 2500 4750 2500
 Wire Wire Line
@@ -792,42 +792,42 @@ Wire Wire Line
 	1750 3900 3650 3900
 Wire Wire Line
 	1750 3800 3650 3800
-Text GLabel 2000 6500 1    50   Input ~ 0
+Text GLabel 2000 6550 1    50   Input ~ 0
 3V3
 Wire Wire Line
-	600  6900 1200 6900
+	600  6950 1200 6950
 Wire Wire Line
-	600  6800 1050 6800
+	600  6850 1050 6850
 Wire Wire Line
-	1050 6700 1050 6800
-Connection ~ 1050 6800
+	1050 6750 1050 6850
+Connection ~ 1050 6850
 Wire Wire Line
-	1200 6700 1200 6900
-Connection ~ 1200 6900
+	1200 6750 1200 6950
+Connection ~ 1200 6950
 Wire Wire Line
-	1050 6800 2000 6800
-Text GLabel 2200 6500 1    50   Input ~ 0
+	1050 6850 1550 6850
+Text GLabel 2200 6550 1    50   Input ~ 0
 3V3
 Wire Wire Line
-	2200 6500 2200 6600
+	2200 6550 2200 6650
 Wire Wire Line
-	1200 6900 2200 6900
+	1200 6950 1700 6950
 Wire Wire Line
 	700  5300 1250 5300
 Wire Wire Line
 	700  5800 1250 5800
 Text Label 2250 5300 2    50   ~ 0
-PPT_RX0
+CPPC_RX0
 Text Label 2250 5450 2    50   ~ 0
-PPT_TX0
+CPPC_TX0
 Text Label 2250 5800 2    50   ~ 0
 E5_RX
 Text Label 2250 5950 2    50   ~ 0
 E5_TX
 Wire Notes Line
-	2500 4650 2500 6200
+	2500 4600 2500 6150
 Wire Notes Line
-	550  4650 550  6200
+	550  4600 550  6150
 Wire Wire Line
 	4750 2800 4200 2800
 Wire Wire Line
@@ -1075,10 +1075,10 @@ Text GLabel 2800 5500 3    50   Input ~ 0
 Wire Wire Line
 	3300 5250 3300 5500
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0113
 U 1 1 61D37571
 P 3300 5500
-F 0 "#PWR?" H 3300 5250 50  0001 C CNN
+F 0 "#PWR0113" H 3300 5250 50  0001 C CNN
 F 1 "GND" H 3305 5327 50  0000 C CNN
 F 2 "" H 3300 5500 50  0001 C CNN
 F 3 "" H 3300 5500 50  0001 C CNN
@@ -1100,10 +1100,10 @@ PI_SCLK
 Text Label 4300 6200 3    50   ~ 0
 ~PI_CE0
 $Comp
-L Connector:TestPoint TP?
+L Connector:TestPoint TP111
 U 1 1 61D52A9D
 P 2800 6900
-F 0 "TP?" H 2858 7018 50  0000 L CNN
+F 0 "TP111" H 2858 7018 50  0000 L CNN
 F 1 "TestPoint" H 2858 6927 50  0000 L CNN
 F 2 "" H 3000 6900 50  0001 C CNN
 F 3 "~" H 3000 6900 50  0001 C CNN
@@ -1111,10 +1111,10 @@ F 3 "~" H 3000 6900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP?
+L Connector:TestPoint TP112
 U 1 1 61D5325D
 P 3300 6900
-F 0 "TP?" H 3358 7018 50  0000 L CNN
+F 0 "TP112" H 3358 7018 50  0000 L CNN
 F 1 "TestPoint" H 3358 6927 50  0000 L CNN
 F 2 "" H 3500 6900 50  0001 C CNN
 F 3 "~" H 3500 6900 50  0001 C CNN
@@ -1122,10 +1122,10 @@ F 3 "~" H 3500 6900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP?
+L Connector:TestPoint TP113
 U 1 1 61D53599
 P 3800 6900
-F 0 "TP?" H 3858 7018 50  0000 L CNN
+F 0 "TP113" H 3858 7018 50  0000 L CNN
 F 1 "TestPoint" H 3858 6927 50  0000 L CNN
 F 2 "" H 4000 6900 50  0001 C CNN
 F 3 "~" H 4000 6900 50  0001 C CNN
@@ -1133,10 +1133,10 @@ F 3 "~" H 4000 6900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP?
+L Connector:TestPoint TP114
 U 1 1 61D5384A
 P 4300 6900
-F 0 "TP?" H 4358 7018 50  0000 L CNN
+F 0 "TP114" H 4358 7018 50  0000 L CNN
 F 1 "TestPoint" H 4358 6927 50  0000 L CNN
 F 2 "" H 4500 6900 50  0001 C CNN
 F 3 "~" H 4500 6900 50  0001 C CNN
@@ -1144,10 +1144,10 @@ F 3 "~" H 4500 6900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP?
+L Connector:TestPoint TP115
 U 1 1 61D53A32
 P 4800 6900
-F 0 "TP?" H 4858 7018 50  0000 L CNN
+F 0 "TP115" H 4858 7018 50  0000 L CNN
 F 1 "TestPoint" H 4858 6927 50  0000 L CNN
 F 2 "" H 5000 6900 50  0001 C CNN
 F 3 "~" H 5000 6900 50  0001 C CNN
@@ -1226,64 +1226,56 @@ PI_GPIO7
 Text Label 7000 2600 2    50   ~ 0
 PI_GPIO12
 $Comp
-L Connector:Conn_01x10_Female J?
+L Connector:Conn_01x10_Female J103
 U 1 1 61DEF596
-P 6050 6850
-F 0 "J?" V 6215 6780 50  0000 C CNN
-F 1 "Conn_01x10_Female" V 6124 6780 50  0000 C CNN
-F 2 "" H 6050 6850 50  0001 C CNN
-F 3 "~" H 6050 6850 50  0001 C CNN
-	1    6050 6850
-	1    0    0    -1  
+P 10450 5100
+F 0 "J103" V 10615 5030 50  0000 C CNN
+F 1 "Conn_01x10_Female" V 10524 5030 50  0000 C CNN
+F 2 "" H 10450 5100 50  0001 C CNN
+F 3 "~" H 10450 5100 50  0001 C CNN
+	1    10450 5100
+	0    1    1    0   
 $EndComp
 Wire Wire Line
-	5850 6450 5450 6450
+	10850 4900 10850 4500
 Wire Wire Line
-	5850 6550 5450 6550
+	10750 4900 10750 4500
 Wire Wire Line
-	5450 6650 5850 6650
+	10650 4500 10650 4900
 Wire Wire Line
-	5850 6750 5450 6750
+	10550 4900 10550 4500
 Wire Wire Line
-	5850 6850 5450 6850
+	10450 4900 10450 4500
 Wire Wire Line
-	5850 6950 5450 6950
+	10350 4900 10350 4500
 Wire Wire Line
-	5850 7050 5450 7050
+	10250 4900 10250 4500
 Wire Wire Line
-	5850 7150 5450 7150
+	10150 4900 10150 4500
 Wire Wire Line
-	5850 7250 5450 7250
+	10050 4900 10050 4500
 Wire Wire Line
-	5850 7350 5450 7350
-Text Label 5450 6450 0    50   ~ 0
+	9950 4900 9950 4500
+Text Label 10850 4500 3    50   ~ 0
 PI_GPIO4
-Text Label 5450 6550 0    50   ~ 0
+Text Label 10550 4500 3    50   ~ 0
 PI_GPIO17
-Text Label 5450 6650 0    50   ~ 0
+Text Label 9950 4500 3    50   ~ 0
 PI_GPIO27
-Text Label 5450 6750 0    50   ~ 0
+Text Label 10350 4500 3    50   ~ 0
 PI_GPIO22
-Text Label 5450 6850 0    50   ~ 0
+Text Label 10450 4500 3    50   ~ 0
 PI_GPIO18
-Text Label 5450 6950 0    50   ~ 0
+Text Label 10250 4500 3    50   ~ 0
 PI_GPIO23
-Text Label 5450 7050 0    50   ~ 0
+Text Label 10150 4500 3    50   ~ 0
 PI_GPIO24
-Text Label 5450 7150 0    50   ~ 0
+Text Label 10050 4500 3    50   ~ 0
 PI_GPIO25
-Text Label 5450 7250 0    50   ~ 0
+Text Label 10750 4500 3    50   ~ 0
 PI_GPIO7
-Text Label 5450 7350 0    50   ~ 0
+Text Label 10650 4500 3    50   ~ 0
 PI_GPIO12
-Wire Notes Line
-	2650 7700 6400 7700
-Wire Notes Line
-	6400 4900 2650 4900
-Wire Notes Line
-	2650 4900 2650 7700
-Wire Notes Line
-	6400 4900 6400 7700
 Text Notes 5950 7650 0    50   ~ 0
 Test Points
 $Comp
@@ -1301,4 +1293,72 @@ F 7 "https://www.seeedstudio.com/LoRa-E5-Wireless-Module-p-4745.html" H 9850 160
 	1    9050 3050
 	1    0    0    -1  
 $EndComp
+Text Notes 10250 5450 0    50   ~ 0
+GPIO Breakout Points
+Wire Notes Line
+	11100 4400 11100 5500
+Wire Notes Line
+	11100 5500 9650 5500
+Wire Notes Line
+	9650 5500 9650 4400
+Wire Notes Line
+	9650 4400 11100 4400
+Wire Notes Line
+	2650 7700 6850 7700
+Wire Notes Line
+	2650 4600 6850 4600
+Wire Notes Line
+	2650 4600 2650 7650
+Wire Notes Line
+	6850 4600 6850 7700
+$Comp
+L Connector:Conn_01x04_Female J?
+U 1 1 61CFD2AA
+P 8200 5000
+F 0 "J?" V 8138 4712 50  0000 R CNN
+F 1 "Power_Subsystem_Female" V 8300 5400 50  0000 R CNN
+F 2 "Connector_Samtec_HLE_SMD:Samtec_HLE-102-02-xxx-DV_2x02_P2.54mm_Horizontal" H 8200 5000 50  0001 C CNN
+F 3 "~" H 8200 5000 50  0001 C CNN
+	1    8200 5000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8100 5200 8100 5300
+$Comp
+L power:GND #PWR?
+U 1 1 61D09AA3
+P 8400 5250
+F 0 "#PWR?" H 8400 5000 50  0001 C CNN
+F 1 "GND" H 8405 5077 50  0000 C CNN
+F 2 "" H 8400 5250 50  0001 C CNN
+F 3 "" H 8400 5250 50  0001 C CNN
+	1    8400 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8400 5200 8400 5250
+Wire Wire Line
+	8200 5200 8200 5900
+Wire Wire Line
+	8300 5200 8300 5900
+Text Label 8200 5900 1    50   ~ 0
+PS_CC_SDA
+Text GLabel 8100 5300 3    50   Input ~ 0
+5V
+Text Label 8300 5900 1    50   ~ 0
+PS_CC_SCL
+Text Label 1550 6750 1    50   ~ 0
+PS_CC_SDA
+Text Label 1700 6750 1    50   ~ 0
+PS_CC_SCL
+Wire Wire Line
+	1550 6850 1550 6750
+Connection ~ 1550 6850
+Wire Wire Line
+	1550 6850 2000 6850
+Wire Wire Line
+	1700 6750 1700 6950
+Connection ~ 1700 6950
+Wire Wire Line
+	1700 6950 2200 6950
 $EndSCHEMATC
