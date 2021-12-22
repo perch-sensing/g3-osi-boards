@@ -96,19 +96,19 @@ $EndComp
 $Comp
 L Device:R R102
 U 1 1 61A4BC29
-P 1400 4900
-F 0 "R102" V 1500 4900 50  0000 C CNN
-F 1 "470" V 1400 4900 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 1330 4900 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 1400 4900 50  0001 C CNN
-F 4 "470 Resistor" H 1400 4900 50  0001 C CNN "Description"
-F 5 "Yageo" H 1400 4900 50  0001 C CNN "MFN"
-F 6 "RC0402FR-07470RL" H 1400 4900 50  0001 C CNN "MFP"
-F 7 "https://www.digikey.com/en/products/detail/RC0402FR-07470RL/311-470LRTR-ND/726619?WT.z_cid=ref_netcomponents_dkc_buynow&utm_source=netcomponents&utm_medium=aggregator&utm_campaign=buynow" H 1400 4900 50  0001 C CNN "S1PL"
-F 8 "311-470LR" H 1400 4900 50  0001 C CNN "S1PN"
-F 9 "https://www.mouser.com/ProductDetail/YAGEO/RC0402FR-07470RL?qs=dn7UOKrNBAlPAr3vO7H4cA==&utm_source=netcomponents&utm_medium=aggregator&utm_campaign=RC0402FR-07470RL&utm_content=YAGEO" H 1400 4900 50  0001 C CNN "S2PL"
-F 10 "603-RC0402FR-07470RL" H 1400 4900 50  0001 C CNN "S2PN"
-	1    1400 4900
+P 1400 4950
+F 0 "R102" V 1500 4950 50  0000 C CNN
+F 1 "470" V 1400 4950 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 1330 4950 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 1400 4950 50  0001 C CNN
+F 4 "470 Resistor" H 1400 4950 50  0001 C CNN "Description"
+F 5 "Yageo" H 1400 4950 50  0001 C CNN "MFN"
+F 6 "RC0402FR-07470RL" H 1400 4950 50  0001 C CNN "MFP"
+F 7 "https://www.digikey.com/en/products/detail/RC0402FR-07470RL/311-470LRTR-ND/726619?WT.z_cid=ref_netcomponents_dkc_buynow&utm_source=netcomponents&utm_medium=aggregator&utm_campaign=buynow" H 1400 4950 50  0001 C CNN "S1PL"
+F 8 "311-470LR" H 1400 4950 50  0001 C CNN "S1PN"
+F 9 "https://www.mouser.com/ProductDetail/YAGEO/RC0402FR-07470RL?qs=dn7UOKrNBAlPAr3vO7H4cA==&utm_source=netcomponents&utm_medium=aggregator&utm_campaign=RC0402FR-07470RL&utm_content=YAGEO" H 1400 4950 50  0001 C CNN "S2PL"
+F 10 "603-RC0402FR-07470RL" H 1400 4950 50  0001 C CNN "S2PN"
+	1    1400 4950
 	0    1    1    0   
 $EndComp
 $Comp
@@ -141,18 +141,18 @@ $EndComp
 $Comp
 L power:PWR_FLAG #FLG0101
 U 1 1 61980453
-P 800 7150
-F 0 "#FLG0101" H 800 7225 50  0001 C CNN
-F 1 "PWR_FLAG" H 800 7323 50  0000 C CNN
-F 2 "" H 800 7150 50  0001 C CNN
-F 3 "~" H 800 7150 50  0001 C CNN
-	1    800  7150
+P 5700 7150
+F 0 "#FLG0101" H 5700 7225 50  0001 C CNN
+F 1 "PWR_FLAG" H 5700 7323 50  0000 C CNN
+F 2 "" H 5700 7150 50  0001 C CNN
+F 3 "~" H 5700 7150 50  0001 C CNN
+	1    5700 7150
 	1    0    0    -1  
 $EndComp
-Text GLabel 800  7300 3    50   Input ~ 0
+Text GLabel 5700 7300 3    50   Input ~ 0
 3V3
 Wire Wire Line
-	800  7150 800  7300
+	5700 7150 5700 7300
 Text GLabel 8200 950  0    50   Input ~ 0
 3V3
 Text GLabel 7750 2300 0    50   Input ~ 0
@@ -341,8 +341,8 @@ Wire Wire Line
 	10550 3350 10500 3350
 Connection ~ 10500 3350
 Wire Notes Line
-	550  7700 2000 7700
-Text Notes 1250 7650 0    79   ~ 0
+	5450 7700 6900 7700
+Text Notes 6150 7650 0    79   ~ 0
 Power Flags
 Text Label 9800 3350 0    50   ~ 0
 E5_RFIO
@@ -416,13 +416,9 @@ GPS_TX0
 Text Label 1700 2150 0    50   ~ 0
 GPS_RX0
 Wire Notes Line
-	550  550  550  2650
-Wire Notes Line
 	550  2650 4000 2650
 Wire Notes Line
-	4000 2650 4000 550 
-Wire Notes Line
-	550  550  4000 550 
+	550  500  4000 500 
 Text Notes 600  2600 0    50   ~ 0
 GPS Module\n
 $Comp
@@ -461,23 +457,23 @@ Wire Wire Line
 $Comp
 L Device:R R103
 U 1 1 61A4865A
-P 2000 5600
-F 0 "R103" V 2100 5600 50  0000 C CNN
-F 1 "TBD" V 2000 5600 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 1930 5600 50  0001 C CNN
-F 3 "~" H 2000 5600 50  0001 C CNN
-	1    2000 5600
+P 2000 6650
+F 0 "R103" V 2100 6650 50  0000 C CNN
+F 1 "TBD" V 2000 6650 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 1930 6650 50  0001 C CNN
+F 3 "~" H 2000 6650 50  0001 C CNN
+	1    2000 6650
 	-1   0    0    1   
 $EndComp
 $Comp
 L Device:R R104
 U 1 1 61A499B4
-P 2200 5700
-F 0 "R104" V 2100 5700 50  0000 C CNN
-F 1 "TBD" V 2200 5700 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 2130 5700 50  0001 C CNN
-F 3 "~" H 2200 5700 50  0001 C CNN
-	1    2200 5700
+P 2200 6750
+F 0 "R104" V 2100 6750 50  0000 C CNN
+F 1 "TBD" V 2200 6750 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 2130 6750 50  0001 C CNN
+F 3 "~" H 2200 6750 50  0001 C CNN
+	1    2200 6750
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -651,116 +647,110 @@ PI_SCLK
 $Comp
 L power:PWR_FLAG #FLG0102
 U 1 1 61AB0203
-P 1250 7150
-F 0 "#FLG0102" H 1250 7225 50  0001 C CNN
-F 1 "PWR_FLAG" H 1250 7323 50  0000 C CNN
-F 2 "" H 1250 7150 50  0001 C CNN
-F 3 "~" H 1250 7150 50  0001 C CNN
-	1    1250 7150
+P 6150 7150
+F 0 "#FLG0102" H 6150 7225 50  0001 C CNN
+F 1 "PWR_FLAG" H 6150 7323 50  0000 C CNN
+F 2 "" H 6150 7150 50  0001 C CNN
+F 3 "~" H 6150 7150 50  0001 C CNN
+	1    6150 7150
 	1    0    0    -1  
 $EndComp
-Text GLabel 1250 7300 3    50   Input ~ 0
+Text GLabel 6150 7300 3    50   Input ~ 0
 5V
 Wire Wire Line
-	1250 7150 1250 7300
-Text Notes 2300 5950 0    50   ~ 0
+	6150 7150 6150 7300
+Text Notes 2300 7000 0    50   ~ 0
 I2C
-Text Label 600  5750 0    50   ~ 0
+Text Label 600  6800 0    50   ~ 0
 PI_SDA
-Text Label 600  5850 0    50   ~ 0
+Text Label 600  6900 0    50   ~ 0
 PI_SDI
-Text Label 6800 3150 0    50   ~ 0
+Text Label 7050 3150 2    50   ~ 0
 PI_TX0
-Text Label 6800 3250 0    50   ~ 0
+Text Label 7050 3250 2    50   ~ 0
 PI_RX0
 Wire Wire Line
 	6600 3150 7050 3150
 Wire Wire Line
 	6600 3250 7050 3250
-Text Label 1050 5650 1    50   ~ 0
+Text Label 1050 6700 1    50   ~ 0
 Temp_SDA
-Text Label 1200 5650 1    50   ~ 0
+Text Label 1200 6700 1    50   ~ 0
 Temp_SDI
 Wire Notes Line
-	2500 6000 550  6000
+	2500 7050 550  7050
 Wire Notes Line
-	550  6000 550  5250
+	550  7050 550  6300
 Wire Notes Line
-	550  5250 2500 5250
+	550  6300 2500 6300
 Wire Notes Line
-	2500 5250 2500 6000
+	2500 6300 2500 7050
 Wire Wire Line
 	6600 3950 7050 3950
-Text Notes 2250 5050 0    50   ~ 0
-UART0
+Text Notes 2250 6150 0    50   ~ 0
+UART
 Text Label 650  4800 0    50   ~ 0
 PI_TX0
-Text Label 650  4900 0    50   ~ 0
+Text Label 650  4950 0    50   ~ 0
 PI_RX0
 Wire Notes Line
 	550  4650 2500 4650
 Wire Wire Line
-	650  4900 1250 4900
+	650  4950 1250 4950
 Wire Wire Line
 	650  4800 1250 4800
 Wire Notes Line
-	550  4650 550  5100
-Wire Notes Line
-	2500 4650 2500 5100
-Wire Notes Line
-	2500 5100 550  5100
-Text Label 1950 4800 0    50   ~ 0
+	2500 6200 550  6200
+Text Label 2250 4800 2    50   ~ 0
 GPS_RX0
-Text Label 1950 4900 0    50   ~ 0
+Text Label 2250 4950 2    50   ~ 0
 GPS_TX0
 Wire Wire Line
 	1550 4800 2250 4800
-Wire Wire Line
-	1550 4900 2250 4900
 Wire Wire Line
 	1700 2050 2450 2050
 Wire Wire Line
 	1700 2150 2450 2150
 Wire Notes Line
-	550  6150 550  6700
+	550  7200 550  7750
 Wire Notes Line
-	2500 6150 2500 6700
+	2500 7200 2500 7750
 Wire Notes Line
-	2500 6700 550  6700
+	2500 7750 550  7750
 Wire Notes Line
-	550  6150 2500 6150
-Text Label 1950 6600 0    50   ~ 0
+	550  7200 2500 7200
+Text Label 2250 7650 2    50   ~ 0
 ~SX_CS
-Text Label 1950 6500 0    50   ~ 0
+Text Label 2250 7550 2    50   ~ 0
 SX_SCK
-Text Label 1950 6400 0    50   ~ 0
+Text Label 2250 7450 2    50   ~ 0
 SX_SDI
-Text Label 1950 6300 0    50   ~ 0
+Text Label 2250 7350 2    50   ~ 0
 SX_SDO
 Wire Wire Line
-	650  6500 2250 6500
+	650  7550 2250 7550
 Wire Wire Line
-	650  6600 2250 6600
-Text Label 650  6600 0    50   ~ 0
+	650  7650 2250 7650
+Text Label 650  7650 0    50   ~ 0
 ~PI_CE0
-Text Label 650  6500 0    50   ~ 0
+Text Label 650  7550 0    50   ~ 0
 PI_SCLK
 Wire Wire Line
-	650  6300 2250 6300
+	650  7350 2250 7350
 Wire Wire Line
-	650  6400 2250 6400
-Text Label 650  6400 0    50   ~ 0
+	650  7450 2250 7450
+Text Label 650  7450 0    50   ~ 0
 PI_SDO
-Text Label 650  6300 0    50   ~ 0
+Text Label 650  7350 0    50   ~ 0
 PI_SDI
-Text Notes 2300 6650 0    50   ~ 0
+Text Notes 2300 7700 0    50   ~ 0
 SPI
 Wire Notes Line
-	2000 6850 2000 7700
+	6900 6850 6900 7700
 Wire Notes Line
-	550  6850 550  7700
+	5450 6850 5450 7700
 Wire Notes Line
-	2000 6850 550  6850
+	6900 6850 5450 6850
 Wire Wire Line
 	4250 4250 4800 4250
 Wire Wire Line
@@ -802,24 +792,397 @@ Wire Wire Line
 	1750 3900 3650 3900
 Wire Wire Line
 	1750 3800 3650 3800
-Text GLabel 2000 5450 1    50   Input ~ 0
+Text GLabel 2000 6500 1    50   Input ~ 0
 3V3
 Wire Wire Line
-	600  5850 1200 5850
+	600  6900 1200 6900
 Wire Wire Line
-	600  5750 1050 5750
+	600  6800 1050 6800
 Wire Wire Line
-	1050 5650 1050 5750
-Connection ~ 1050 5750
+	1050 6700 1050 6800
+Connection ~ 1050 6800
 Wire Wire Line
-	1200 5650 1200 5850
-Connection ~ 1200 5850
+	1200 6700 1200 6900
+Connection ~ 1200 6900
 Wire Wire Line
-	1050 5750 2000 5750
-Text GLabel 2200 5450 1    50   Input ~ 0
+	1050 6800 2000 6800
+Text GLabel 2200 6500 1    50   Input ~ 0
 3V3
 Wire Wire Line
-	2200 5450 2200 5550
+	2200 6500 2200 6600
 Wire Wire Line
-	1200 5850 2200 5850
+	1200 6900 2200 6900
+Wire Wire Line
+	700  5300 1250 5300
+Wire Wire Line
+	700  5800 1250 5800
+Text Label 2250 5300 2    50   ~ 0
+PPT_RX0
+Text Label 2250 5450 2    50   ~ 0
+PPT_TX0
+Text Label 2250 5800 2    50   ~ 0
+E5_RX
+Text Label 2250 5950 2    50   ~ 0
+E5_TX
+Wire Notes Line
+	2500 4650 2500 6200
+Wire Notes Line
+	550  4650 550  6200
+Wire Wire Line
+	4800 4550 4250 4550
+Wire Wire Line
+	4800 4650 4250 4650
+Wire Wire Line
+	6600 4650 7050 4650
+Wire Wire Line
+	6600 4750 7050 4750
+Text Label 700  5950 0    50   ~ 0
+PI_RX2
+Text Label 700  5800 0    50   ~ 0
+PI_TX2
+Text Label 700  5450 0    50   ~ 0
+PI_RX1
+Text Label 700  5300 0    50   ~ 0
+PI_TX1
+Wire Wire Line
+	1550 4950 2250 4950
+Wire Wire Line
+	700  5450 1250 5450
+Wire Wire Line
+	700  5950 1250 5950
+Text Label 4250 4550 0    50   ~ 0
+PI_TX1
+Text Label 4250 4650 0    50   ~ 0
+PI_RX1
+Text Label 7050 4650 2    50   ~ 0
+PI_TX2
+Text Label 7050 4750 2    50   ~ 0
+PI_RX2
+$Comp
+L Device:R R105
+U 1 1 61CBBC82
+P 1400 5300
+F 0 "R105" V 1300 5300 50  0000 C CNN
+F 1 "0" V 1400 5300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 1330 5300 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 1400 5300 50  0001 C CNN
+F 4 "470 Resistor" H 1400 5300 50  0001 C CNN "Description"
+F 5 "Yageo" H 1400 5300 50  0001 C CNN "MFN"
+F 6 "RC0402FR-07470RL" H 1400 5300 50  0001 C CNN "MFP"
+F 7 "https://www.digikey.com/en/products/detail/RC0402FR-07470RL/311-470LRTR-ND/726619?WT.z_cid=ref_netcomponents_dkc_buynow&utm_source=netcomponents&utm_medium=aggregator&utm_campaign=buynow" H 1400 5300 50  0001 C CNN "S1PL"
+F 8 "311-470LR" H 1400 5300 50  0001 C CNN "S1PN"
+F 9 "https://www.mouser.com/ProductDetail/YAGEO/RC0402FR-07470RL?qs=dn7UOKrNBAlPAr3vO7H4cA==&utm_source=netcomponents&utm_medium=aggregator&utm_campaign=RC0402FR-07470RL&utm_content=YAGEO" H 1400 5300 50  0001 C CNN "S2PL"
+F 10 "603-RC0402FR-07470RL" H 1400 5300 50  0001 C CNN "S2PN"
+	1    1400 5300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1550 5300 2250 5300
+$Comp
+L Device:R R106
+U 1 1 61CBC29F
+P 1400 5450
+F 0 "R106" V 1500 5450 50  0000 C CNN
+F 1 "0" V 1400 5450 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 1330 5450 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 1400 5450 50  0001 C CNN
+F 4 "470 Resistor" H 1400 5450 50  0001 C CNN "Description"
+F 5 "Yageo" H 1400 5450 50  0001 C CNN "MFN"
+F 6 "RC0402FR-07470RL" H 1400 5450 50  0001 C CNN "MFP"
+F 7 "https://www.digikey.com/en/products/detail/RC0402FR-07470RL/311-470LRTR-ND/726619?WT.z_cid=ref_netcomponents_dkc_buynow&utm_source=netcomponents&utm_medium=aggregator&utm_campaign=buynow" H 1400 5450 50  0001 C CNN "S1PL"
+F 8 "311-470LR" H 1400 5450 50  0001 C CNN "S1PN"
+F 9 "https://www.mouser.com/ProductDetail/YAGEO/RC0402FR-07470RL?qs=dn7UOKrNBAlPAr3vO7H4cA==&utm_source=netcomponents&utm_medium=aggregator&utm_campaign=RC0402FR-07470RL&utm_content=YAGEO" H 1400 5450 50  0001 C CNN "S2PL"
+F 10 "603-RC0402FR-07470RL" H 1400 5450 50  0001 C CNN "S2PN"
+	1    1400 5450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1550 5450 2250 5450
+$Comp
+L Device:R R107
+U 1 1 61CBC4E4
+P 1400 5800
+F 0 "R107" V 1300 5800 50  0000 C CNN
+F 1 "22" V 1400 5800 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 1330 5800 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 1400 5800 50  0001 C CNN
+F 4 "470 Resistor" H 1400 5800 50  0001 C CNN "Description"
+F 5 "Yageo" H 1400 5800 50  0001 C CNN "MFN"
+F 6 "RC0402FR-07470RL" H 1400 5800 50  0001 C CNN "MFP"
+F 7 "https://www.digikey.com/en/products/detail/RC0402FR-07470RL/311-470LRTR-ND/726619?WT.z_cid=ref_netcomponents_dkc_buynow&utm_source=netcomponents&utm_medium=aggregator&utm_campaign=buynow" H 1400 5800 50  0001 C CNN "S1PL"
+F 8 "311-470LR" H 1400 5800 50  0001 C CNN "S1PN"
+F 9 "https://www.mouser.com/ProductDetail/YAGEO/RC0402FR-07470RL?qs=dn7UOKrNBAlPAr3vO7H4cA==&utm_source=netcomponents&utm_medium=aggregator&utm_campaign=RC0402FR-07470RL&utm_content=YAGEO" H 1400 5800 50  0001 C CNN "S2PL"
+F 10 "603-RC0402FR-07470RL" H 1400 5800 50  0001 C CNN "S2PN"
+	1    1400 5800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1550 5800 2250 5800
+$Comp
+L Device:R R108
+U 1 1 61CBC84D
+P 1400 5950
+F 0 "R108" V 1500 5950 50  0000 C CNN
+F 1 "22" V 1400 5950 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 1330 5950 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 1400 5950 50  0001 C CNN
+F 4 "470 Resistor" H 1400 5950 50  0001 C CNN "Description"
+F 5 "Yageo" H 1400 5950 50  0001 C CNN "MFN"
+F 6 "RC0402FR-07470RL" H 1400 5950 50  0001 C CNN "MFP"
+F 7 "https://www.digikey.com/en/products/detail/RC0402FR-07470RL/311-470LRTR-ND/726619?WT.z_cid=ref_netcomponents_dkc_buynow&utm_source=netcomponents&utm_medium=aggregator&utm_campaign=buynow" H 1400 5950 50  0001 C CNN "S1PL"
+F 8 "311-470LR" H 1400 5950 50  0001 C CNN "S1PN"
+F 9 "https://www.mouser.com/ProductDetail/YAGEO/RC0402FR-07470RL?qs=dn7UOKrNBAlPAr3vO7H4cA==&utm_source=netcomponents&utm_medium=aggregator&utm_campaign=RC0402FR-07470RL&utm_content=YAGEO" H 1400 5950 50  0001 C CNN "S2PL"
+F 10 "603-RC0402FR-07470RL" H 1400 5950 50  0001 C CNN "S2PN"
+	1    1400 5950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1550 5950 2250 5950
+Text Label 7100 4550 2    50   ~ 0
+~E5_RESET
+Wire Wire Line
+	6600 4550 7100 4550
+Wire Wire Line
+	4800 6100 4800 6350
+Wire Wire Line
+	4300 6100 4300 6350
+Wire Wire Line
+	3800 6100 3800 6350
+Wire Wire Line
+	3300 6100 3300 6350
+Wire Wire Line
+	2800 6100 2800 6350
+Wire Wire Line
+	4800 5400 4800 5650
+Wire Wire Line
+	4300 5400 4300 5650
+Wire Wire Line
+	3800 5400 3800 5650
+Wire Wire Line
+	2800 5400 2800 5650
+$Comp
+L Connector:TestPoint TP107
+U 1 1 61CD6F7A
+P 4300 5400
+F 0 "TP107" H 4358 5518 50  0000 L CNN
+F 1 "TestPoint" H 4358 5427 50  0000 L CNN
+F 2 "" H 4500 5400 50  0001 C CNN
+F 3 "~" H 4500 5400 50  0001 C CNN
+	1    4300 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP101
+U 1 1 61CD7CFE
+P 2800 5400
+F 0 "TP101" H 2858 5518 50  0000 L CNN
+F 1 "TestPoint" H 2858 5427 50  0000 L CNN
+F 2 "" H 3000 5400 50  0001 C CNN
+F 3 "~" H 3000 5400 50  0001 C CNN
+	1    2800 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP103
+U 1 1 61CD7911
+P 3300 5400
+F 0 "TP103" H 3358 5518 50  0000 L CNN
+F 1 "TestPoint" H 3358 5427 50  0000 L CNN
+F 2 "" H 3500 5400 50  0001 C CNN
+F 3 "~" H 3500 5400 50  0001 C CNN
+	1    3300 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP105
+U 1 1 61CD7319
+P 3800 5400
+F 0 "TP105" H 3858 5518 50  0000 L CNN
+F 1 "TestPoint" H 3858 5427 50  0000 L CNN
+F 2 "" H 4000 5400 50  0001 C CNN
+F 3 "~" H 4000 5400 50  0001 C CNN
+	1    3800 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP109
+U 1 1 61CD6CE1
+P 4800 5400
+F 0 "TP109" H 4858 5518 50  0000 L CNN
+F 1 "TestPoint" H 4858 5427 50  0000 L CNN
+F 2 "" H 5000 5400 50  0001 C CNN
+F 3 "~" H 5000 5400 50  0001 C CNN
+	1    4800 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP110
+U 1 1 61CD6A5B
+P 4800 6100
+F 0 "TP110" H 4858 6218 50  0000 L CNN
+F 1 "TestPoint" H 4858 6127 50  0000 L CNN
+F 2 "" H 5000 6100 50  0001 C CNN
+F 3 "~" H 5000 6100 50  0001 C CNN
+	1    4800 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP108
+U 1 1 61CD66B6
+P 4300 6100
+F 0 "TP108" H 4358 6218 50  0000 L CNN
+F 1 "TestPoint" H 4358 6127 50  0000 L CNN
+F 2 "" H 4500 6100 50  0001 C CNN
+F 3 "~" H 4500 6100 50  0001 C CNN
+	1    4300 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP106
+U 1 1 61CD6534
+P 3800 6100
+F 0 "TP106" H 3858 6218 50  0000 L CNN
+F 1 "TestPoint" H 3858 6127 50  0000 L CNN
+F 2 "" H 4000 6100 50  0001 C CNN
+F 3 "~" H 4000 6100 50  0001 C CNN
+	1    3800 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP104
+U 1 1 61CD62C2
+P 3300 6100
+F 0 "TP104" H 3358 6218 50  0000 L CNN
+F 1 "TestPoint" H 3358 6127 50  0000 L CNN
+F 2 "" H 3500 6100 50  0001 C CNN
+F 3 "~" H 3500 6100 50  0001 C CNN
+	1    3300 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP102
+U 1 1 61CD4D02
+P 2800 6100
+F 0 "TP102" H 2858 6218 50  0000 L CNN
+F 1 "TestPoint" H 2858 6127 50  0000 L CNN
+F 2 "" H 3000 6100 50  0001 C CNN
+F 3 "~" H 3000 6100 50  0001 C CNN
+	1    2800 6100
+	1    0    0    -1  
+$EndComp
+Text GLabel 2800 5650 3    50   Input ~ 0
+5V
+Wire Wire Line
+	3300 5400 3300 5650
+$Comp
+L power:GND #PWR?
+U 1 1 61D37571
+P 3300 5650
+F 0 "#PWR?" H 3300 5400 50  0001 C CNN
+F 1 "GND" H 3305 5477 50  0000 C CNN
+F 2 "" H 3300 5650 50  0001 C CNN
+F 3 "" H 3300 5650 50  0001 C CNN
+	1    3300 5650
+	1    0    0    -1  
+$EndComp
+Text GLabel 3800 5650 3    50   Input ~ 0
+3V3
+Text Label 4300 5650 3    50   ~ 0
+PI_SDA
+Text Label 4800 5650 3    50   ~ 0
+PI_SDI
+Text Label 2800 6350 3    50   ~ 0
+PI_SDI
+Text Label 3300 6350 3    50   ~ 0
+PI_SDO
+Text Label 3800 6350 3    50   ~ 0
+PI_SCLK
+Text Label 4300 6350 3    50   ~ 0
+~PI_CE0
+$Comp
+L Connector:TestPoint TP?
+U 1 1 61D52A9D
+P 2800 7050
+F 0 "TP?" H 2858 7168 50  0000 L CNN
+F 1 "TestPoint" H 2858 7077 50  0000 L CNN
+F 2 "" H 3000 7050 50  0001 C CNN
+F 3 "~" H 3000 7050 50  0001 C CNN
+	1    2800 7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 61D5325D
+P 3300 7050
+F 0 "TP?" H 3358 7168 50  0000 L CNN
+F 1 "TestPoint" H 3358 7077 50  0000 L CNN
+F 2 "" H 3500 7050 50  0001 C CNN
+F 3 "~" H 3500 7050 50  0001 C CNN
+	1    3300 7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 61D53599
+P 3800 7050
+F 0 "TP?" H 3858 7168 50  0000 L CNN
+F 1 "TestPoint" H 3858 7077 50  0000 L CNN
+F 2 "" H 4000 7050 50  0001 C CNN
+F 3 "~" H 4000 7050 50  0001 C CNN
+	1    3800 7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 61D5384A
+P 4300 7050
+F 0 "TP?" H 4358 7168 50  0000 L CNN
+F 1 "TestPoint" H 4358 7077 50  0000 L CNN
+F 2 "" H 4500 7050 50  0001 C CNN
+F 3 "~" H 4500 7050 50  0001 C CNN
+	1    4300 7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 61D53A32
+P 4800 7050
+F 0 "TP?" H 4858 7168 50  0000 L CNN
+F 1 "TestPoint" H 4858 7077 50  0000 L CNN
+F 2 "" H 5000 7050 50  0001 C CNN
+F 3 "~" H 5000 7050 50  0001 C CNN
+	1    4800 7050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 7050 2800 7400
+Wire Wire Line
+	3300 7050 3300 7400
+Wire Wire Line
+	3800 7050 3800 7400
+Wire Wire Line
+	4300 7050 4300 7400
+Wire Wire Line
+	4800 7050 4800 7400
+Wire Wire Line
+	2300 600  2600 600 
+Connection ~ 2300 600 
+Text Label 2600 600  0    50   ~ 0
+GPS_VCC
+Wire Notes Line
+	4000 500  4000 2650
+Wire Notes Line
+	550  500  550  2650
+Text Label 4800 6350 3    50   ~ 0
+GPS_VCC
+Text Label 2800 7400 3    50   ~ 0
+~E5_RESET
+Text Label 3300 7400 3    50   ~ 0
+PI_TX0
+Text Label 3800 7400 3    50   ~ 0
+PI_RX0
+Text Label 4300 7400 3    50   ~ 0
+PI_TX2
+Text Label 4800 7400 3    50   ~ 0
+PI_RX2
 $EndSCHEMATC
