@@ -39,41 +39,41 @@ Connection ~ 3250 3600
 $Comp
 L Device:C C202
 U 1 1 6189FC21
-P 2900 4350
-F 0 "C202" H 3015 4396 50  0000 L CNN
-F 1 "100nF" H 3015 4305 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 2938 4200 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_20.pdf" H 2900 4350 50  0001 C CNN
-F 4 "100nF Capacitor" H 2900 4350 50  0001 C CNN "Description"
-F 5 "Yageo" H 2900 4350 50  0001 C CNN "MFN"
-F 6 "CC0402JRX7R6BB104" H 2900 4350 50  0001 C CNN "MFP"
-F 7 "https://www.digikey.com/en/products/detail/CC0402JRX7R6BB104/311-3757-1-ND/8024846?WT.z_cid=ref_netcomponents_dkc_buynow&utm_source=netcomponents&utm_medium=aggregator&utm_campaign=buynow" H 2900 4350 50  0001 C CNN "S1PL"
-F 8 "311-3757" H 2900 4350 50  0001 C CNN "S1PN"
-F 9 "DNL" H 2900 4350 50  0001 C CNN "Notes"
-	1    2900 4350
+P 2900 4375
+F 0 "C202" H 2925 4525 50  0000 L CNN
+F 1 "100nF" H 2925 4450 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 2938 4225 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_20.pdf" H 2900 4375 50  0001 C CNN
+F 4 "100nF Capacitor" H 2900 4375 50  0001 C CNN "Description"
+F 5 "Yageo" H 2900 4375 50  0001 C CNN "MFN"
+F 6 "CC0402JRX7R6BB104" H 2900 4375 50  0001 C CNN "MFP"
+F 7 "https://www.digikey.com/en/products/detail/CC0402JRX7R6BB104/311-3757-1-ND/8024846?WT.z_cid=ref_netcomponents_dkc_buynow&utm_source=netcomponents&utm_medium=aggregator&utm_campaign=buynow" H 2900 4375 50  0001 C CNN "S1PL"
+F 8 "311-3757" H 2900 4375 50  0001 C CNN "S1PN"
+F 9 "DNL" H 2900 4375 50  0001 C CNN "Notes"
+	1    2900 4375
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C201
 U 1 1 6189FC27
-P 2500 4200
-F 0 "C201" H 2615 4246 50  0000 L CNN
-F 1 "470nF" H 2615 4155 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 2538 4050 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X5R_4V-to-50V_27.pdf" H 2500 4200 50  0001 C CNN
-F 4 "470nF Capacitor" H 2500 4200 50  0001 C CNN "Description"
-F 5 "Yageo" H 2500 4200 50  0001 C CNN "MFN"
-F 6 "CC0402KRX5R5BB474" H 2500 4200 50  0001 C CNN "MFP"
-F 7 "http://www.digikey.com/product-detail/en/CC0402KRX5R5BB474/311-1684-1-ND/5195586?WT.z_cid=ref_netcomponents_dkc_buynow&utm_source=netcomponents&utm_medium=aggregator&utm_campaign=buynow" H 2500 4200 50  0001 C CNN "S1PL"
-F 8 "311-1684" H 2500 4200 50  0001 C CNN "S1PN"
-F 9 "https://www.mouser.com/ProductDetail/YAGEO/CC0402KRX5R5BB474?qs=5q%2BqlK8CmJSyt2qjWQmZ1A==&utm_source=netcomponents&utm_medium=aggregator&utm_campaign=CC0402KRX5R5BB474&utm_content=YAGEO" H 2500 4200 50  0001 C CNN "S2PL"
-F 10 "603-CC402KRX5R5BB474" H 2500 4200 50  0001 C CNN "S2PN"
-F 11 "DNL" H 2500 4200 50  0001 C CNN "Notes"
-	1    2500 4200
+P 2500 4325
+F 0 "C201" H 2500 4500 50  0000 L CNN
+F 1 "470nF" H 2500 4425 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 2538 4175 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X5R_4V-to-50V_27.pdf" H 2500 4325 50  0001 C CNN
+F 4 "470nF Capacitor" H 2500 4325 50  0001 C CNN "Description"
+F 5 "Yageo" H 2500 4325 50  0001 C CNN "MFN"
+F 6 "CC0402KRX5R5BB474" H 2500 4325 50  0001 C CNN "MFP"
+F 7 "http://www.digikey.com/product-detail/en/CC0402KRX5R5BB474/311-1684-1-ND/5195586?WT.z_cid=ref_netcomponents_dkc_buynow&utm_source=netcomponents&utm_medium=aggregator&utm_campaign=buynow" H 2500 4325 50  0001 C CNN "S1PL"
+F 8 "311-1684" H 2500 4325 50  0001 C CNN "S1PN"
+F 9 "https://www.mouser.com/ProductDetail/YAGEO/CC0402KRX5R5BB474?qs=5q%2BqlK8CmJSyt2qjWQmZ1A==&utm_source=netcomponents&utm_medium=aggregator&utm_campaign=CC0402KRX5R5BB474&utm_content=YAGEO" H 2500 4325 50  0001 C CNN "S2PL"
+F 10 "603-CC402KRX5R5BB474" H 2500 4325 50  0001 C CNN "S2PN"
+F 11 "DNL" H 2500 4325 50  0001 C CNN "Notes"
+	1    2500 4325
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2500 4000 2500 4050
+	2500 4000 2500 4175
 Wire Wire Line
 	3650 4100 3350 4100
 Wire Wire Line
@@ -99,19 +99,19 @@ Wire Wire Line
 Wire Wire Line
 	3650 3800 2500 3800
 Wire Wire Line
-	2500 4350 2500 4550
+	2500 4475 2500 4550
 Wire Wire Line
 	2500 4550 2900 4550
 Connection ~ 3250 4550
 Wire Wire Line
 	3250 4550 3250 4600
 Wire Wire Line
-	2900 4500 2900 4550
+	2900 4525 2900 4550
 Connection ~ 2900 4550
 Wire Wire Line
 	2900 4550 3250 4550
 Wire Wire Line
-	2900 4200 2900 4150
+	2900 4225 2900 4150
 Wire Wire Line
 	2900 4150 3350 4150
 Wire Wire Line
@@ -778,57 +778,55 @@ DIO2
 $Comp
 L Device:Crystal_GND24 Y201
 U 1 1 619297FF
-P 2650 3200
-F 0 "Y201" H 2800 3450 50  0000 L CNN
-F 1 "TBD" H 2800 3350 50  0000 L CNN
-F 2 "Crystal:Crystal_SMD_2016-4Pin_2.0x1.6mm" H 2650 3200 50  0001 C CNN
-F 3 "~" H 2650 3200 50  0001 C CNN
-F 4 "" H 2650 3200 50  0001 C CNN "MFN"
-F 5 "" H 2650 3200 50  0001 C CNN "MFL"
-F 6 "" H 2650 3200 50  0001 C CNN "S1PN"
-F 7 "" H 2650 3200 50  0001 C CNN "S1PL"
-F 8 "DNL" H 2650 3200 50  0001 C CNN "Notes"
-	1    2650 3200
+P 2925 3200
+F 0 "Y201" H 3025 3450 50  0000 L CNN
+F 1 "TBD" H 3050 3350 50  0000 L CNN
+F 2 "Crystal:Crystal_SMD_2016-4Pin_2.0x1.6mm" H 2925 3200 50  0001 C CNN
+F 3 "~" H 2925 3200 50  0001 C CNN
+F 4 "" H 2925 3200 50  0001 C CNN "MFN"
+F 5 "" H 2925 3200 50  0001 C CNN "MFL"
+F 6 "" H 2925 3200 50  0001 C CNN "S1PN"
+F 7 "" H 2925 3200 50  0001 C CNN "S1PL"
+F 8 "DNL" H 2925 3200 50  0001 C CNN "Notes"
+	1    2925 3200
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3650 3400 2800 3400
+	3075 3400 3075 3200
 Wire Wire Line
-	2800 3400 2800 3200
+	2775 3200 2775 3500
 Wire Wire Line
-	2500 3200 2500 3500
-Wire Wire Line
-	2500 3500 3650 3500
+	2775 3500 3650 3500
 $Comp
 L power:GND #PWR0202
 U 1 1 61935D97
-P 2650 3550
-F 0 "#PWR0202" H 2650 3300 50  0001 C CNN
-F 1 "GND" H 2655 3377 50  0000 C CNN
-F 2 "" H 2650 3550 50  0001 C CNN
-F 3 "" H 2650 3550 50  0001 C CNN
-	1    2650 3550
+P 2925 3550
+F 0 "#PWR0202" H 2925 3300 50  0001 C CNN
+F 1 "GND" H 2930 3377 50  0000 C CNN
+F 2 "" H 2925 3550 50  0001 C CNN
+F 3 "" H 2925 3550 50  0001 C CNN
+	1    2925 3550
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2650 3400 2650 3550
+	2925 3400 2925 3550
 $Comp
 L power:GND #PWR0201
 U 1 1 61939540
-P 2350 3050
-F 0 "#PWR0201" H 2350 2800 50  0001 C CNN
-F 1 "GND" H 2355 2877 50  0000 C CNN
-F 2 "" H 2350 3050 50  0001 C CNN
-F 3 "" H 2350 3050 50  0001 C CNN
-	1    2350 3050
+P 2625 3050
+F 0 "#PWR0201" H 2625 2800 50  0001 C CNN
+F 1 "GND" H 2630 2877 50  0000 C CNN
+F 2 "" H 2625 3050 50  0001 C CNN
+F 3 "" H 2625 3050 50  0001 C CNN
+	1    2625 3050
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2650 3000 2650 2950
+	2925 3000 2925 2950
 Wire Wire Line
-	2650 2950 2350 2950
+	2925 2950 2625 2950
 Wire Wire Line
-	2350 2950 2350 3050
+	2625 2950 2625 3050
 $Comp
 L power:GND #PWR0205
 U 1 1 61A0034A
@@ -846,8 +844,8 @@ $Comp
 L Device:L L201
 U 1 1 6189FC2D
 P 2800 4000
-F 0 "L201" V 2990 4000 50  0000 C CNN
-F 1 "15uH" V 2899 4000 50  0000 C CNN
+F 0 "L201" V 2950 4000 50  0000 C CNN
+F 1 "15uH" V 2875 4000 50  0000 C CNN
 F 2 "Inductor_SMD:L_0805_2012Metric_Pad1.05x1.20mm_HandSolder" H 2800 4000 50  0001 C CNN
 F 3 "~" H 2800 4000 50  0001 C CNN
 F 4 "" V 2800 4000 50  0001 C CNN "MFN"
@@ -906,4 +904,6 @@ F 8 "DNL" H 8700 2450 50  0001 C CNN "Notes"
 	1    8750 3650
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	3650 3400 3075 3400
 $EndSCHEMATC

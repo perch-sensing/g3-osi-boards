@@ -4,7 +4,7 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 3
-Title "G3 Compute System"
+Title "G3 Compute Subsystem"
 Date ""
 Rev "1"
 Comp ""
@@ -16,8 +16,8 @@ $EndDescr
 $Sheet
 S 8450 800  850  950 
 U 618967E8
-F0 "LoRa Module" 50
-F1 "LoRaModule.sch" 50
+F0 "SX1262 LoRa Module" 50
+F1 "SX1262LoRaModule.sch" 50
 F2 "VDD" I L 8450 950 50 
 F3 "~CS" I L 8450 1150 50 
 F4 "SCK" I L 8450 1250 50 
@@ -1425,4 +1425,14 @@ Wire Notes Line
 	9450 6450 8450 6450
 Wire Notes Line
 	8450 6450 8450 5200
+Wire Notes Line
+	9625 650  9625 1900
+Wire Notes Line
+	7650 1900 7650 650 
+Text Notes 7700 1875 0    50   ~ 0
+Alternative - DNL
+Wire Notes Line
+	7650 1900 9625 1900
+Wire Notes Line
+	7650 650  9625 650 
 $EndSCHEMATC

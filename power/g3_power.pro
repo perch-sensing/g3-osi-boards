@@ -1,4 +1,4 @@
-update=Date
+update=Saturday, December 25, 2021 at 09:28:05 PM
 version=1
 last_client=kicad
 [general]
@@ -33,7 +33,7 @@ LibDir=
 [eeschema/libraries]
 [schematic_editor]
 version=1
-PageLayoutDescrFile=
+PageLayoutDescrFile=/Users/diego/Documents/g3-osi-hw/perch_page_layout.kicad_wks
 PlotDirectoryName=
 SubpartIdSeparator=0
 SubpartFirstId=65
