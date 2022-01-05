@@ -1290,9 +1290,7 @@ Wire Notes Line
 Wire Notes Line
 	7375 4475 11125 4475
 Wire Wire Line
-	9275 1675 10575 1675
-Wire Wire Line
-	10525 1875 10525 3575
+	9275 1675 10525 1675
 Wire Notes Line
 	2575 4550 2575 7725
 Wire Notes Line
@@ -1341,10 +1339,10 @@ PI_GPIO7
 Text Notes 10250 6050 0    50   ~ 0
 GPIO Breakout Points
 $Comp
-L Connector:Conn_01x09_Female J3
+L Connector:Conn_01x09_Female J105
 U 1 1 61D95581
 P 10950 5500
-F 0 "J3" H 10850 6050 50  0000 L CNN
+F 0 "J105" H 10850 6050 50  0000 L CNN
 F 1 "GPIO_Breakout_Conn" H 10000 6050 50  0000 L CNN
 F 2 "Connector_Samtec_HLE_SMD:Samtec_HLE-105-02-xxx-DV_2x05_P2.54mm_Horizontal" H 10950 5500 50  0001 C CNN
 F 3 "~" H 10950 5500 50  0001 C CNN
@@ -1408,7 +1406,7 @@ U 1 1 61EF637D
 P 6525 5450
 F 0 "J103" H 6000 5725 50  0000 C CNN
 F 1 "Conn_02x03_Counter_Clockwise" H 6550 5800 50  0000 C CNN
-F 2 "" H 6525 5450 50  0001 C CNN
+F 2 "Connector_Samtec_HLE_SMD:Samtec_HLE-103-02-xxx-DV_2x03_P2.54mm_Horizontal" H 6525 5450 50  0001 C CNN
 F 3 "~" H 6525 5450 50  0001 C CNN
 	1    6525 5450
 	1    0    0    -1  
@@ -1419,7 +1417,7 @@ U 1 1 61D59DB2
 P 8550 5475
 F 0 "J104" H 8125 5825 50  0000 C CNN
 F 1 "Conn_Power_Compute_02x05" H 8625 5900 50  0000 C CNN
-F 2 "" H 8550 5475 50  0001 C CNN
+F 2 "Connector_Samtec_HLE_SMD:Samtec_HLE-105-02-xxx-DV_2x05_P2.54mm_Horizontal" H 8550 5475 50  0001 C CNN
 F 3 "~" H 8550 5475 50  0001 C CNN
 	1    8550 5475
 	1    0    0    -1  
@@ -1440,4 +1438,9 @@ Wire Wire Line
 	6825 5350 6900 5350
 Wire Wire Line
 	6900 5350 6900 5650
+Wire Wire Line
+	10525 1675 10525 3575
+Connection ~ 10525 1675
+Wire Wire Line
+	10525 1675 10575 1675
 $EndSCHEMATC
