@@ -617,15 +617,6 @@ Wire Wire Line
 	4850 2875 4450 2875
 Wire Wire Line
 	4850 2975 4450 2975
-Wire Wire Line
-	6650 1875 6750 1875
-Wire Wire Line
-	6650 1975 6750 1975
-Wire Wire Line
-	6750 1975 6750 1875
-Connection ~ 6750 1875
-Wire Wire Line
-	6750 1875 7025 1875
 Text GLabel 7025 1875 2    50   Input ~ 0
 5V
 Text Label 6850 2975 0    50   ~ 0
@@ -1275,7 +1266,7 @@ Wire Wire Line
 	9000 5850 8800 5850
 Text Notes 8550 6400 0    50   ~ 0
 CPPC Breakout Points
-Text Notes 6800 6325 0    50   ~ 0
+Text Notes 7300 6375 0    50   ~ 0
 Power Subsystem Points
 Wire Notes Line
 	2575 4550 5225 4550
@@ -1299,67 +1290,30 @@ Wire Notes Line
 	7625 1925 9600 1925
 Wire Notes Line
 	7625 675  9600 675 
-$Comp
-L Connector:Conn_01x10_Male J?
-U 1 1 61FDC30C
-P 6675 5450
-F 0 "J?" H 6425 5925 50  0000 C CNN
-F 1 "Conn_Power_Compute_01x10_Male" H 7025 6000 50  0000 C CNN
-F 2 "" H 6675 5450 50  0001 C CNN
-F 3 "~" H 6675 5450 50  0001 C CNN
-	1    6675 5450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6875 5050 7400 5050
-Wire Wire Line
-	6875 5150 7325 5150
-Wire Wire Line
-	6875 5250 7325 5250
-Wire Wire Line
-	6875 5350 7325 5350
-Wire Wire Line
-	6875 5450 7325 5450
-Wire Wire Line
-	6875 5550 7325 5550
-Wire Wire Line
-	6875 5650 7400 5650
-Wire Wire Line
-	6875 5750 7400 5750
-Wire Wire Line
-	6875 5850 7325 5850
-Wire Wire Line
-	6875 5950 7300 5950
-Text Label 7325 5350 2    50   ~ 0
+Text Label 7825 5375 2    50   ~ 0
 ~PS_CC_CE
-Text Label 7325 5250 2    50   ~ 0
-~PS_CC_INT
-Text Label 7325 5850 2    50   ~ 0
+Text Label 7825 5875 2    50   ~ 0
 PS_VR_PS
-Text Label 7325 5150 2    50   ~ 0
+Text Label 7825 5175 2    50   ~ 0
 ~PS_CC_QON
-Text GLabel 7400 5050 2    50   Output ~ 0
-5V
 $Comp
 L power:GND #PWR?
 U 1 1 62071DF4
-P 7300 6025
-F 0 "#PWR?" H 7300 5775 50  0001 C CNN
-F 1 "GND" H 7305 5852 50  0000 C CNN
-F 2 "" H 7300 6025 50  0001 C CNN
-F 3 "" H 7300 6025 50  0001 C CNN
-	1    7300 6025
+P 7825 6050
+F 0 "#PWR?" H 7825 5800 50  0001 C CNN
+F 1 "GND" H 7830 5877 50  0000 C CNN
+F 2 "" H 7825 6050 50  0001 C CNN
+F 3 "" H 7825 6050 50  0001 C CNN
+	1    7825 6050
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7300 5950 7300 6025
-Text Label 7325 5450 2    50   ~ 0
+	7825 5975 7825 6050
+Text Label 7825 5475 2    50   ~ 0
 PS_CC_SCL
-Text Label 7325 5550 2    50   ~ 0
+Text Label 7825 5575 2    50   ~ 0
 PS_CC_SDA
-Text GLabel 7400 5650 2    50   Output ~ 0
-VSolSense
-Text GLabel 7400 5750 2    50   Output ~ 0
+Text GLabel 7375 5775 0    50   Output ~ 0
 VBatSense
 Wire Notes Line
 	550  6125 2500 6125
@@ -1391,14 +1345,57 @@ Wire Notes Line
 	11125 575  11125 4475
 Wire Notes Line
 	7375 4475 11125 4475
+Wire Wire Line
+	9275 1675 10575 1675
+Wire Wire Line
+	10525 1875 10525 3575
 Wire Notes Line
-	5550 6450 6750 6450
+	2575 4550 2575 7725
 Wire Notes Line
-	5550 7700 5550 6450
-Wire Notes Line
-	6750 7700 5550 7700
-Wire Notes Line
-	6750 6450 6750 7700
+	5225 4550 5225 7725
+Wire Wire Line
+	1825 900  1575 900 
+Wire Wire Line
+	6650 1875 7025 1875
+NoConn ~ 6650 1975
+Wire Wire Line
+	6350 6700 5950 6700
+Wire Wire Line
+	6350 6800 5950 6800
+Wire Wire Line
+	6350 6900 5950 6900
+Wire Wire Line
+	6350 7000 5950 7000
+Wire Wire Line
+	6350 7100 5950 7100
+Wire Wire Line
+	6350 7200 5950 7200
+Wire Wire Line
+	6350 7300 5950 7300
+Wire Wire Line
+	6350 7400 5950 7400
+Wire Wire Line
+	6350 7500 5950 7500
+Text Label 5950 6700 0    50   ~ 0
+PI_GPIO4
+Text Label 5950 6900 0    50   ~ 0
+PI_GPIO17
+Text Label 5950 7500 0    50   ~ 0
+PI_GPIO27
+Text Label 5950 7100 0    50   ~ 0
+PI_GPIO22
+Text Label 5950 7000 0    50   ~ 0
+PI_GPIO18
+Text Label 5950 7200 0    50   ~ 0
+PI_GPIO23
+Text Label 5950 7300 0    50   ~ 0
+PI_GPIO24
+Text Label 5950 7400 0    50   ~ 0
+PI_GPIO25
+Text Label 5950 6800 0    50   ~ 0
+PI_GPIO7
+Text Notes 5850 7650 0    50   ~ 0
+GPIO Breakout Points
 $Comp
 L Connector:Conn_01x09_Female J3
 U 1 1 61D95581
@@ -1410,52 +1407,57 @@ F 3 "~" H 6550 7100 50  0001 C CNN
 	1    6550 7100
 	1    0    0    -1  
 $EndComp
-Text Notes 5850 7650 0    50   ~ 0
-GPIO Breakout Points
-Text Label 5950 6800 0    50   ~ 0
-PI_GPIO7
-Text Label 5950 7400 0    50   ~ 0
-PI_GPIO25
-Text Label 5950 7300 0    50   ~ 0
-PI_GPIO24
-Text Label 5950 7200 0    50   ~ 0
-PI_GPIO23
-Text Label 5950 7000 0    50   ~ 0
-PI_GPIO18
-Text Label 5950 7100 0    50   ~ 0
-PI_GPIO22
-Text Label 5950 7500 0    50   ~ 0
-PI_GPIO27
-Text Label 5950 6900 0    50   ~ 0
-PI_GPIO17
-Text Label 5950 6700 0    50   ~ 0
-PI_GPIO4
-Wire Wire Line
-	6350 7500 5950 7500
-Wire Wire Line
-	6350 7400 5950 7400
-Wire Wire Line
-	6350 7300 5950 7300
-Wire Wire Line
-	6350 7200 5950 7200
-Wire Wire Line
-	6350 7100 5950 7100
-Wire Wire Line
-	6350 7000 5950 7000
-Wire Wire Line
-	6350 6900 5950 6900
-Wire Wire Line
-	6350 6800 5950 6800
-Wire Wire Line
-	6350 6700 5950 6700
-Wire Wire Line
-	9275 1675 10575 1675
-Wire Wire Line
-	10525 1875 10525 3575
 Wire Notes Line
-	2575 4550 2575 7725
+	6750 6450 6750 7700
 Wire Notes Line
-	5225 4550 5225 7725
+	6750 7700 5550 7700
+Wire Notes Line
+	5550 7700 5550 6450
+Wire Notes Line
+	5550 6450 6750 6450
 Wire Wire Line
-	1825 900  1575 900 
+	7325 5075 7925 5075
+Text GLabel 7325 5075 0    50   Output ~ 0
+5V
+Text Label 7825 5275 2    50   ~ 0
+~PS_CC_INT
+$Comp
+L Connector:Conn_01x10_Female J?
+U 1 1 61D84775
+P 8125 5475
+F 0 "J?" H 6700 5925 50  0000 L CNN
+F 1 "Conn_Power_Compute_01x10_Female" H 6700 6025 50  0000 L CNN
+F 2 "" H 8125 5475 50  0001 C CNN
+F 3 "~" H 8125 5475 50  0001 C CNN
+	1    8125 5475
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7825 5275 7925 5275
+Wire Wire Line
+	7825 5175 7925 5175
+Wire Wire Line
+	7925 5375 7825 5375
+Wire Wire Line
+	7825 5475 7925 5475
+Wire Wire Line
+	7825 5575 7925 5575
+Wire Wire Line
+	7925 5875 7825 5875
+Wire Wire Line
+	7375 5775 7925 5775
+Wire Wire Line
+	7925 5975 7825 5975
+Wire Wire Line
+	7375 5675 7925 5675
+Text GLabel 7375 5675 0    50   Output ~ 0
+VSolSense
+Wire Notes Line
+	6675 4850 8275 4850
+Wire Notes Line
+	8275 4850 8275 6400
+Wire Notes Line
+	8275 6400 6675 6400
+Wire Notes Line
+	6675 6400 6675 4850
 $EndSCHEMATC
