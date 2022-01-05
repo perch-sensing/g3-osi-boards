@@ -129,18 +129,18 @@ Wire Wire Line
 $Comp
 L power:PWR_FLAG #FLG0101
 U 1 1 61980453
-P 9900 5900
-F 0 "#FLG0101" H 9900 5975 50  0001 C CNN
-F 1 "PWR_FLAG" H 9900 6073 50  0000 C CNN
-F 2 "" H 9900 5900 50  0001 C CNN
-F 3 "~" H 9900 5900 50  0001 C CNN
-	1    9900 5900
+P 5550 7175
+F 0 "#FLG0101" H 5550 7250 50  0001 C CNN
+F 1 "PWR_FLAG" H 5550 7348 50  0000 C CNN
+F 2 "" H 5550 7175 50  0001 C CNN
+F 3 "~" H 5550 7175 50  0001 C CNN
+	1    5550 7175
 	1    0    0    -1  
 $EndComp
-Text GLabel 9900 6050 3    50   Input ~ 0
+Text GLabel 5550 7325 3    50   Input ~ 0
 3V3
 Wire Wire Line
-	9900 5900 9900 6050
+	5550 7175 5550 7325
 Text GLabel 8175 975  0    50   Input ~ 0
 3V3
 Text GLabel 7725 2525 0    50   Input ~ 0
@@ -333,8 +333,8 @@ Wire Wire Line
 	10525 3575 10475 3575
 Connection ~ 10475 3575
 Wire Notes Line
-	9650 6450 11100 6450
-Text Notes 10350 6400 0    79   ~ 0
+	5300 7725 6750 7725
+Text Notes 6000 7675 0    79   ~ 0
 Power Flags
 Text Label 9775 3575 0    50   ~ 0
 E5_RFIO
@@ -628,18 +628,18 @@ PI_SCLK
 $Comp
 L power:PWR_FLAG #FLG0102
 U 1 1 61AB0203
-P 10350 5900
-F 0 "#FLG0102" H 10350 5975 50  0001 C CNN
-F 1 "PWR_FLAG" H 10350 6073 50  0000 C CNN
-F 2 "" H 10350 5900 50  0001 C CNN
-F 3 "~" H 10350 5900 50  0001 C CNN
-	1    10350 5900
+P 6000 7175
+F 0 "#FLG0102" H 6000 7250 50  0001 C CNN
+F 1 "PWR_FLAG" H 6000 7348 50  0000 C CNN
+F 2 "" H 6000 7175 50  0001 C CNN
+F 3 "~" H 6000 7175 50  0001 C CNN
+	1    6000 7175
 	1    0    0    -1  
 $EndComp
-Text GLabel 10350 6050 3    50   Input ~ 0
+Text GLabel 6000 7325 3    50   Input ~ 0
 5V
 Wire Wire Line
-	10350 5900 10350 6050
+	6000 7175 6000 7325
 Text Notes 2325 7075 0    50   ~ 0
 I2C
 Text Label 600  6850 0    50   ~ 0
@@ -719,11 +719,11 @@ PI_SDI
 Text Notes 2325 7700 0    50   ~ 0
 SPI
 Wire Notes Line
-	11100 5600 11100 6450
+	6750 6875 6750 7725
 Wire Notes Line
-	9650 5600 9650 6450
+	5300 6875 5300 7725
 Wire Notes Line
-	11100 5600 9650 5600
+	6750 6875 5300 6875
 Wire Wire Line
 	4300 3275 4850 3275
 Wire Wire Line
@@ -1218,68 +1218,29 @@ Wire Wire Line
 Connection ~ 1700 6950
 Wire Wire Line
 	1700 6950 2200 6950
-Wire Wire Line
-	9000 5650 8600 5650
-Text Label 8600 5450 0    50   ~ 0
+Text Label 5900 5350 0    50   ~ 0
 CPPC_RX0
-Text Label 8600 5550 0    50   ~ 0
+Text Label 5900 5450 0    50   ~ 0
 CPPC_TX0
-Wire Wire Line
-	8600 5450 9000 5450
-Wire Wire Line
-	8600 5550 9000 5550
-Text Label 8600 5650 0    50   ~ 0
+Text Label 5900 5550 0    50   ~ 0
 PI_INT
-$Comp
-L Connector:Conn_01x06_Female J1
-U 1 1 61D0CEBE
-P 9200 5650
-F 0 "J1" H 9100 6000 50  0000 L CNN
-F 1 "CPPC_Conn" H 8500 6000 50  0000 L CNN
-F 2 "Connector_Samtec_HLE_SMD:Samtec_HLE-103-02-xxx-DV_2x03_P2.54mm_Horizontal" H 9200 5650 50  0001 C CNN
-F 3 "~" H 9200 5650 50  0001 C CNN
-	1    9200 5650
-	1    0    0    -1  
-$EndComp
-Text GLabel 8750 5750 0    50   Input ~ 0
+Text GLabel 7075 5550 2    50   Input ~ 0
 5V
 $Comp
 L power:GND #PWR0115
 U 1 1 61D2BE63
-P 8900 6050
-F 0 "#PWR0115" H 8900 5800 50  0001 C CNN
-F 1 "GND" H 8905 5877 50  0000 C CNN
-F 2 "" H 8900 6050 50  0001 C CNN
-F 3 "" H 8900 6050 50  0001 C CNN
-	1    8900 6050
+P 6900 5650
+F 0 "#PWR0115" H 6900 5400 50  0001 C CNN
+F 1 "GND" H 6905 5477 50  0000 C CNN
+F 2 "" H 6900 5650 50  0001 C CNN
+F 3 "" H 6900 5650 50  0001 C CNN
+	1    6900 5650
 	1    0    0    -1  
 $EndComp
-Text GLabel 8800 5850 0    50   Input ~ 0
-3V3
-Wire Wire Line
-	9000 5750 8750 5750
-Wire Wire Line
-	9000 5950 8900 5950
-Wire Wire Line
-	8900 5950 8900 6050
-Wire Wire Line
-	9000 5850 8800 5850
-Text Notes 8550 6400 0    50   ~ 0
-CPPC Breakout Points
-Text Notes 7300 6375 0    50   ~ 0
-Power Subsystem Points
 Wire Notes Line
 	2575 4550 5225 4550
 Wire Notes Line
 	5225 7725 2575 7725
-Wire Notes Line
-	8450 5200 9450 5200
-Wire Notes Line
-	9450 5200 9450 6450
-Wire Notes Line
-	9450 6450 8450 6450
-Wire Notes Line
-	8450 6450 8450 5200
 Wire Notes Line
 	9600 675  9600 1925
 Wire Notes Line
@@ -1290,31 +1251,14 @@ Wire Notes Line
 	7625 1925 9600 1925
 Wire Notes Line
 	7625 675  9600 675 
-Text Label 7825 5375 2    50   ~ 0
+Text Label 7850 5575 0    50   ~ 0
 ~PS_CC_CE
-Text Label 7825 5875 2    50   ~ 0
+Text Label 9325 5675 2    50   ~ 0
 PS_VR_PS
-Text Label 7825 5175 2    50   ~ 0
-~PS_CC_QON
-$Comp
-L power:GND #PWR?
-U 1 1 62071DF4
-P 7825 6050
-F 0 "#PWR?" H 7825 5800 50  0001 C CNN
-F 1 "GND" H 7830 5877 50  0000 C CNN
-F 2 "" H 7825 6050 50  0001 C CNN
-F 3 "" H 7825 6050 50  0001 C CNN
-	1    7825 6050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7825 5975 7825 6050
-Text Label 7825 5475 2    50   ~ 0
+Text Label 7850 5675 0    50   ~ 0
 PS_CC_SCL
-Text Label 7825 5575 2    50   ~ 0
+Text Label 9375 5375 2    50   ~ 0
 PS_CC_SDA
-Text GLabel 7375 5775 0    50   Output ~ 0
-VBatSense
 Wire Notes Line
 	550  6125 2500 6125
 Wire Notes Line
@@ -1359,105 +1303,141 @@ Wire Wire Line
 	6650 1875 7025 1875
 NoConn ~ 6650 1975
 Wire Wire Line
-	6350 6700 5950 6700
+	10750 5100 10350 5100
 Wire Wire Line
-	6350 6800 5950 6800
+	10750 5200 10350 5200
 Wire Wire Line
-	6350 6900 5950 6900
+	10750 5300 10350 5300
 Wire Wire Line
-	6350 7000 5950 7000
+	10750 5400 10350 5400
 Wire Wire Line
-	6350 7100 5950 7100
+	10750 5500 10350 5500
 Wire Wire Line
-	6350 7200 5950 7200
+	10750 5600 10350 5600
 Wire Wire Line
-	6350 7300 5950 7300
+	10750 5700 10350 5700
 Wire Wire Line
-	6350 7400 5950 7400
+	10750 5800 10350 5800
 Wire Wire Line
-	6350 7500 5950 7500
-Text Label 5950 6700 0    50   ~ 0
+	10750 5900 10350 5900
+Text Label 10350 5100 0    50   ~ 0
 PI_GPIO4
-Text Label 5950 6900 0    50   ~ 0
+Text Label 10350 5300 0    50   ~ 0
 PI_GPIO17
-Text Label 5950 7500 0    50   ~ 0
+Text Label 10350 5900 0    50   ~ 0
 PI_GPIO27
-Text Label 5950 7100 0    50   ~ 0
+Text Label 10350 5500 0    50   ~ 0
 PI_GPIO22
-Text Label 5950 7000 0    50   ~ 0
+Text Label 10350 5400 0    50   ~ 0
 PI_GPIO18
-Text Label 5950 7200 0    50   ~ 0
+Text Label 10350 5600 0    50   ~ 0
 PI_GPIO23
-Text Label 5950 7300 0    50   ~ 0
+Text Label 10350 5700 0    50   ~ 0
 PI_GPIO24
-Text Label 5950 7400 0    50   ~ 0
+Text Label 10350 5800 0    50   ~ 0
 PI_GPIO25
-Text Label 5950 6800 0    50   ~ 0
+Text Label 10350 5200 0    50   ~ 0
 PI_GPIO7
-Text Notes 5850 7650 0    50   ~ 0
+Text Notes 10250 6050 0    50   ~ 0
 GPIO Breakout Points
 $Comp
 L Connector:Conn_01x09_Female J3
 U 1 1 61D95581
-P 6550 7100
-F 0 "J3" H 6450 7650 50  0000 L CNN
-F 1 "GPIO_Breakout_Conn" H 5600 7650 50  0000 L CNN
-F 2 "Connector_Samtec_HLE_SMD:Samtec_HLE-105-02-xxx-DV_2x05_P2.54mm_Horizontal" H 6550 7100 50  0001 C CNN
-F 3 "~" H 6550 7100 50  0001 C CNN
-	1    6550 7100
+P 10950 5500
+F 0 "J3" H 10850 6050 50  0000 L CNN
+F 1 "GPIO_Breakout_Conn" H 10000 6050 50  0000 L CNN
+F 2 "Connector_Samtec_HLE_SMD:Samtec_HLE-105-02-xxx-DV_2x05_P2.54mm_Horizontal" H 10950 5500 50  0001 C CNN
+F 3 "~" H 10950 5500 50  0001 C CNN
+	1    10950 5500
 	1    0    0    -1  
 $EndComp
 Wire Notes Line
-	6750 6450 6750 7700
+	11150 4850 11150 6100
 Wire Notes Line
-	6750 7700 5550 7700
+	11150 6100 9950 6100
 Wire Notes Line
-	5550 7700 5550 6450
+	9950 6100 9950 4850
 Wire Notes Line
-	5550 6450 6750 6450
-Wire Wire Line
-	7325 5075 7925 5075
-Text GLabel 7325 5075 0    50   Output ~ 0
+	9950 4850 11150 4850
+Text GLabel 7750 5275 0    50   Output ~ 0
 5V
-Text Label 7825 5275 2    50   ~ 0
+Text Label 7850 5475 0    50   ~ 0
 ~PS_CC_INT
+Text Label 7850 5375 0    50   ~ 0
+~PS_CC_QON
+Wire Wire Line
+	7850 5675 8350 5675
+Wire Wire Line
+	7850 5575 8350 5575
+Wire Wire Line
+	7850 5475 8350 5475
+Wire Wire Line
+	8350 5375 7850 5375
+Wire Wire Line
+	7750 5275 8350 5275
+Text Label 9475 5475 2    50   ~ 0
+PS_VSolSense
+Text Label 9475 5575 2    50   ~ 0
+PS_VSolSense
+Wire Wire Line
+	9325 5675 8850 5675
+Wire Wire Line
+	9475 5575 8850 5575
+Wire Wire Line
+	8850 5475 9475 5475
+Wire Wire Line
+	8850 5375 9375 5375
 $Comp
-L Connector:Conn_01x10_Female J?
-U 1 1 61D84775
-P 8125 5475
-F 0 "J?" H 6700 5925 50  0000 L CNN
-F 1 "Conn_Power_Compute_01x10_Female" H 6700 6025 50  0000 L CNN
-F 2 "" H 8125 5475 50  0001 C CNN
-F 3 "~" H 8125 5475 50  0001 C CNN
-	1    8125 5475
+L power:GND #PWR0114
+U 1 1 61EB2604
+P 8925 5750
+F 0 "#PWR0114" H 8925 5500 50  0001 C CNN
+F 1 "GND" H 8930 5577 50  0000 C CNN
+F 2 "" H 8925 5750 50  0001 C CNN
+F 3 "" H 8925 5750 50  0001 C CNN
+	1    8925 5750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7825 5275 7925 5275
+	8925 5275 8925 5750
 Wire Wire Line
-	7825 5175 7925 5175
+	8925 5275 8850 5275
+$Comp
+L Connector_Generic:Conn_02x03_Counter_Clockwise J103
+U 1 1 61EF637D
+P 6525 5450
+F 0 "J103" H 6000 5725 50  0000 C CNN
+F 1 "Conn_02x03_Counter_Clockwise" H 6550 5800 50  0000 C CNN
+F 2 "" H 6525 5450 50  0001 C CNN
+F 3 "~" H 6525 5450 50  0001 C CNN
+	1    6525 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x05_Counter_Clockwise J104
+U 1 1 61D59DB2
+P 8550 5475
+F 0 "J104" H 8125 5825 50  0000 C CNN
+F 1 "Conn_Power_Compute_02x05" H 8625 5900 50  0000 C CNN
+F 2 "" H 8550 5475 50  0001 C CNN
+F 3 "~" H 8550 5475 50  0001 C CNN
+	1    8550 5475
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	7925 5375 7825 5375
+	6325 5350 5900 5350
 Wire Wire Line
-	7825 5475 7925 5475
+	5900 5450 6325 5450
 Wire Wire Line
-	7825 5575 7925 5575
+	5900 5550 6325 5550
+Text GLabel 7075 5450 2    50   Input ~ 0
+3V3
 Wire Wire Line
-	7925 5875 7825 5875
+	7075 5550 6825 5550
 Wire Wire Line
-	7375 5775 7925 5775
+	7075 5450 6825 5450
 Wire Wire Line
-	7925 5975 7825 5975
+	6825 5350 6900 5350
 Wire Wire Line
-	7375 5675 7925 5675
-Text GLabel 7375 5675 0    50   Output ~ 0
-VSolSense
-Wire Notes Line
-	6675 4850 8275 4850
-Wire Notes Line
-	8275 4850 8275 6400
-Wire Notes Line
-	8275 6400 6675 6400
-Wire Notes Line
-	6675 6400 6675 4850
+	6900 5350 6900 5650
 $EndSCHEMATC
