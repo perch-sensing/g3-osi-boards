@@ -499,10 +499,6 @@ F 3 "" H 2150 4075 50  0001 C CNN
 	1    2150 4075
 	1    0    0    -1  
 $EndComp
-Text Label 3650 3775 2    50   ~ 0
-Temp_SDA
-Text Label 3650 3875 2    50   ~ 0
-Temp_SCL
 Wire Notes Line
 	550  2775 4000 2775
 Wire Notes Line
@@ -619,7 +615,7 @@ Wire Wire Line
 	4850 2975 4450 2975
 Text GLabel 7025 1875 2    50   Input ~ 0
 5V
-Text Label 6850 2975 0    50   ~ 0
+Text Label 7075 2975 2    50   ~ 0
 ~PI_CE0
 Text Label 4450 2875 0    50   ~ 0
 PI_SDO
@@ -645,15 +641,15 @@ I2C
 Text Label 600  6850 0    50   ~ 0
 PI_SDA
 Text Label 600  6950 0    50   ~ 0
-PI_SDL
-Text Label 7100 2175 2    50   ~ 0
+PI_SCL
+Text Label 7075 2175 2    50   ~ 0
 PI_TX0
-Text Label 7100 2275 2    50   ~ 0
+Text Label 7075 2275 2    50   ~ 0
 PI_RX0
 Wire Wire Line
-	6650 2175 7100 2175
+	6650 2175 7075 2175
 Wire Wire Line
-	6650 2275 7100 2275
+	6650 2275 7075 2275
 Text Label 1050 6750 1    50   ~ 0
 Temp_SDA
 Text Label 1200 6750 1    50   ~ 0
@@ -661,7 +657,7 @@ Temp_SCL
 Wire Notes Line
 	550  6200 2500 6200
 Wire Wire Line
-	6650 2975 7100 2975
+	6650 2975 7075 2975
 Text Notes 2275 6100 0    50   ~ 0
 UART
 Text Label 650  4750 0    50   ~ 0
@@ -754,10 +750,6 @@ Text Label 10125 3375 2    50   ~ 0
 ~E5_RESET
 Wire Wire Line
 	2150 3075 3450 3075
-Wire Wire Line
-	1750 3875 3650 3875
-Wire Wire Line
-	1750 3775 3650 3775
 Text GLabel 2000 6550 1    50   Input ~ 0
 3V3
 Wire Wire Line
@@ -795,9 +787,9 @@ Wire Wire Line
 Wire Wire Line
 	4850 3675 4300 3675
 Wire Wire Line
-	6650 3675 7100 3675
+	6650 3675 7075 3675
 Wire Wire Line
-	6650 3775 7100 3775
+	6650 3775 7075 3775
 Text Label 700  5900 0    50   ~ 0
 PI_RX2
 Text Label 700  5750 0    50   ~ 0
@@ -816,9 +808,9 @@ Text Label 4300 3575 0    50   ~ 0
 PI_TX1
 Text Label 4300 3675 0    50   ~ 0
 PI_RX1
-Text Label 7100 3675 2    50   ~ 0
+Text Label 7075 3675 2    50   ~ 0
 PI_TX2
-Text Label 7100 3775 2    50   ~ 0
+Text Label 7075 3775 2    50   ~ 0
 PI_RX2
 $Comp
 L Device:R R105
@@ -900,10 +892,10 @@ F 10 "603-RC0402FR-07470RL" H 1400 5900 50  0001 C CNN "S2PN"
 $EndComp
 Wire Wire Line
 	1550 5900 2250 5900
-Text Label 7150 3575 2    50   ~ 0
+Text Label 7175 3575 2    50   ~ 0
 ~E5_RESET
 Wire Wire Line
-	6650 3575 7150 3575
+	6650 3575 7175 3575
 Wire Wire Line
 	4725 5975 4725 6225
 Wire Wire Line
@@ -1148,45 +1140,45 @@ PI_TX2
 Text Label 4725 7275 3    50   ~ 0
 PI_RX2
 Wire Wire Line
-	4850 2575 4450 2575
+	4850 2575 4325 2575
 Wire Wire Line
-	4850 2475 4450 2475
+	4850 2475 4325 2475
 Wire Wire Line
-	4850 2375 4450 2375
+	4850 2375 4200 2375
 Wire Wire Line
-	4850 2175 4450 2175
+	4850 2175 4200 2175
 Wire Wire Line
-	6650 2375 7100 2375
+	6650 2375 7250 2375
 Wire Wire Line
-	6650 2575 7100 2575
+	6650 2575 7200 2575
 Wire Wire Line
-	6650 2675 7100 2675
+	6650 2675 7200 2675
 Wire Wire Line
-	6650 2875 7100 2875
+	6650 2875 7175 2875
 Wire Wire Line
-	6650 3075 7100 3075
+	6650 3075 7150 3075
 Wire Wire Line
-	6650 3375 7100 3375
-Text Label 4450 2175 0    50   ~ 0
-PI_GPIO4
-Text Label 4450 2375 0    50   ~ 0
-PI_GPIO17
-Text Label 4450 2475 0    50   ~ 0
+	6650 3375 7175 3375
+Text Label 4200 2175 0    50   ~ 0
+PS_VBatSense
+Text Label 4200 2375 0    50   ~ 0
+PS_VSolSense
+Text Label 4325 2475 0    50   ~ 0
 PI_GPIO27
-Text Label 4450 2575 0    50   ~ 0
+Text Label 4325 2575 0    50   ~ 0
 PI_GPIO22
-Text Label 7100 2375 2    50   ~ 0
-PI_GPIO18
-Text Label 7100 2575 2    50   ~ 0
-PI_GPIO23
-Text Label 7100 2675 2    50   ~ 0
-PI_GPIO24
-Text Label 7100 2875 2    50   ~ 0
-PI_GPIO25
-Text Label 7100 3075 2    50   ~ 0
+Text Label 7250 2375 2    50   ~ 0
+~PS_CC_QON
+Text Label 7200 2575 2    50   ~ 0
+~PS_CC_INT
+Text Label 7200 2675 2    50   ~ 0
+~PC_CC_CE
+Text Label 7175 2875 2    50   ~ 0
+PS_VR_PS
+Text Label 7150 3075 2    50   ~ 0
 PI_GPIO7
-Text Label 7100 3375 2    50   ~ 0
-PI_INT
+Text Label 7175 3375 2    50   ~ 0
+CPPC_INT
 Text Notes 4625 7675 0    50   ~ 0
 Test Points
 $Comp
@@ -1223,7 +1215,7 @@ CPPC_RX0
 Text Label 5900 5450 0    50   ~ 0
 CPPC_TX0
 Text Label 5900 5550 0    50   ~ 0
-PI_INT
+CPPC_INT
 Text GLabel 7075 5550 2    50   Input ~ 0
 5V
 $Comp
@@ -1326,14 +1318,6 @@ Text Label 10350 5900 0    50   ~ 0
 PI_GPIO27
 Text Label 10350 5500 0    50   ~ 0
 PI_GPIO22
-Text Label 10350 5400 0    50   ~ 0
-PI_GPIO18
-Text Label 10350 5600 0    50   ~ 0
-PI_GPIO23
-Text Label 10350 5700 0    50   ~ 0
-PI_GPIO24
-Text Label 10350 5800 0    50   ~ 0
-PI_GPIO25
 Text Label 10350 5200 0    50   ~ 0
 PI_GPIO7
 Text Notes 10250 6050 0    50   ~ 0
@@ -1373,8 +1357,6 @@ Wire Wire Line
 	8350 5375 7850 5375
 Wire Wire Line
 	7750 5275 8350 5275
-Text Label 9475 5475 2    50   ~ 0
-PS_VSolSense
 Text Label 9475 5575 2    50   ~ 0
 PS_VSolSense
 Wire Wire Line
@@ -1443,4 +1425,14 @@ Wire Wire Line
 Connection ~ 10525 1675
 Wire Wire Line
 	10525 1675 10575 1675
+Text Label 9475 5475 2    50   ~ 0
+PS_VBatSense
+Wire Wire Line
+	1750 3775 3650 3775
+Wire Wire Line
+	1750 3875 3650 3875
+Text Label 3650 3875 2    50   ~ 0
+Temp_SCL
+Text Label 3650 3775 2    50   ~ 0
+Temp_SDA
 $EndSCHEMATC
