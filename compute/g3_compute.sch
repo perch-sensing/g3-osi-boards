@@ -1463,45 +1463,45 @@ F 10 "MOL53261-1071.P" H 10900 5000 50  0001 C CNN "S2PN"
 $EndComp
 Text Notes 9775 3225 0    50   ~ 0
 Note: \nProbably used as filters, do \nnot load until needed
-Text Label 7725 5800 0    50   ~ 0
+Text Label 7375 5800 0    50   ~ 0
 PS_VR_PS
-Text Label 7725 5600 0    50   ~ 0
+Text Label 7375 5600 0    50   ~ 0
 PS_VSolSense
-Text Label 7725 5700 0    50   ~ 0
+Text Label 7375 5700 0    50   ~ 0
 PS_VBatSense
 $Comp
 L power:GND #PWR0114
 U 1 1 61E9F60C
-P 8275 6025
-F 0 "#PWR0114" H 8275 5775 50  0001 C CNN
-F 1 "GND" H 8280 5852 50  0000 C CNN
-F 2 "" H 8275 6025 50  0001 C CNN
-F 3 "" H 8275 6025 50  0001 C CNN
-	1    8275 6025
+P 7925 6025
+F 0 "#PWR0114" H 7925 5775 50  0001 C CNN
+F 1 "GND" H 7930 5852 50  0000 C CNN
+F 2 "" H 7925 6025 50  0001 C CNN
+F 3 "" H 7925 6025 50  0001 C CNN
+	1    7925 6025
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8275 5900 8275 6025
+	7925 5900 7925 6025
 $Comp
 L power:+5V #PWR0122
 U 1 1 61DC6E6C
-P 7750 5000
-F 0 "#PWR0122" H 7750 4850 50  0001 C CNN
-F 1 "+5V" V 7765 5173 50  0000 C CNN
-F 2 "" H 7750 5000 50  0001 C CNN
-F 3 "" H 7750 5000 50  0001 C CNN
-	1    7750 5000
+P 7400 5000
+F 0 "#PWR0122" H 7400 4850 50  0001 C CNN
+F 1 "+5V" V 7415 5173 50  0000 C CNN
+F 2 "" H 7400 5000 50  0001 C CNN
+F 3 "" H 7400 5000 50  0001 C CNN
+	1    7400 5000
 	0    -1   -1   0   
 $EndComp
-Text Label 7725 5100 0    50   ~ 0
+Text Label 7375 5100 0    50   ~ 0
 ~PS_CC_QON
-Text Label 7725 5400 0    50   ~ 0
+Text Label 7375 5400 0    50   ~ 0
 PS_CC_SCL
-Text Label 7725 5500 0    50   ~ 0
+Text Label 7375 5500 0    50   ~ 0
 PS_CC_SDA
-Text Label 7725 5300 0    50   ~ 0
+Text Label 7375 5300 0    50   ~ 0
 ~PS_CC_INT
-Text Label 7725 5200 0    50   ~ 0
+Text Label 7375 5200 0    50   ~ 0
 ~PS_CC_CE
 Wire Wire Line
 	9750 5000 10000 5000
@@ -1518,39 +1518,79 @@ Wire Wire Line
 $Comp
 L 53261-1071:53261-1071 J104
 U 1 1 61E5BCC4
-P 9300 5000
-F 0 "J104" H 9750 5265 50  0000 C CNN
-F 1 "53261-1071" H 9750 5174 50  0000 C CNN
-F 2 "Perch:532611071_Molex" H 10050 5100 50  0001 L CNN
-F 3 "https://www.molex.com/webdocs/datasheets/pdf/en-us/0532611071_PCB_HEADERS.pdf" H 10050 5000 50  0001 L CNN
-F 4 "10 way SMT r/a header Molex PICOBLADE Series, Series Number 53261, 1.25mm Pitch 10 Way 1 Row Shrouded Right Angle PCB Header, Surface Mount" H 10050 4900 50  0001 L CNN "Description"
-F 5 "Molex" H 9300 5000 50  0001 C CNN "MFN"
-F 6 "53261-1071" H 9300 5000 50  0001 C CNN "MFP"
-F 7 "https://www.mouser.com/ProductDetail/Molex/53261-1071?qs=%252B72YyncTwW%252Bzs3RwZTiukQ%3D%3D" H 9300 5000 50  0001 C CNN "S1PL"
-F 8 "538-53261-1071" H 9300 5000 50  0001 C CNN "S1PN"
-F 9 "https://www.heilind.com/search/result?q=53261-1071&manufacturer=5031&utm_source=molex.com&utm_medium=referral&utm_campaign=molex-disty-stock-check" H 9300 5000 50  0001 C CNN "S2PL"
-F 10 "MOL53261-1071.P" H 9300 5000 50  0001 C CNN "S2PN"
-	1    9300 5000
+P 8950 5000
+F 0 "J104" H 9400 5265 50  0000 C CNN
+F 1 "53261-1071" H 9400 5174 50  0000 C CNN
+F 2 "Perch:532611071_Molex" H 9700 5100 50  0001 L CNN
+F 3 "https://www.molex.com/webdocs/datasheets/pdf/en-us/0532611071_PCB_HEADERS.pdf" H 9700 5000 50  0001 L CNN
+F 4 "10 way SMT r/a header Molex PICOBLADE Series, Series Number 53261, 1.25mm Pitch 10 Way 1 Row Shrouded Right Angle PCB Header, Surface Mount" H 9700 4900 50  0001 L CNN "Description"
+F 5 "Molex" H 8950 5000 50  0001 C CNN "MFN"
+F 6 "53261-1071" H 8950 5000 50  0001 C CNN "MFP"
+F 7 "https://www.mouser.com/ProductDetail/Molex/53261-1071?qs=%252B72YyncTwW%252Bzs3RwZTiukQ%3D%3D" H 8950 5000 50  0001 C CNN "S1PL"
+F 8 "538-53261-1071" H 8950 5000 50  0001 C CNN "S1PN"
+F 9 "https://www.heilind.com/search/result?q=53261-1071&manufacturer=5031&utm_source=molex.com&utm_medium=referral&utm_campaign=molex-disty-stock-check" H 8950 5000 50  0001 C CNN "S2PL"
+F 10 "MOL53261-1071.P" H 8950 5000 50  0001 C CNN "S2PN"
+	1    8950 5000
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	7750 5000 8400 5000
+	7400 5000 8050 5000
 Wire Wire Line
-	7725 5100 8400 5100
+	7375 5100 8050 5100
 Wire Wire Line
-	7725 5200 8400 5200
+	7375 5200 8050 5200
 Wire Wire Line
-	7725 5300 8400 5300
+	7375 5300 8050 5300
 Wire Wire Line
-	7725 5400 8400 5400
+	7375 5400 8050 5400
 Wire Wire Line
-	7725 5500 8400 5500
+	7375 5500 8050 5500
 Wire Wire Line
-	7725 5600 8400 5600
+	7375 5600 8050 5600
 Wire Wire Line
-	7725 5700 8400 5700
+	7375 5700 8050 5700
 Wire Wire Line
-	7725 5800 8400 5800
+	7375 5800 8050 5800
 Wire Wire Line
-	8275 5900 8400 5900
+	7925 5900 8050 5900
+$Comp
+L power:GND #PWR?
+U 1 1 61ED6461
+P 10950 5350
+F 0 "#PWR?" H 10950 5100 50  0001 C CNN
+F 1 "GND" H 10955 5177 50  0000 C CNN
+F 2 "" H 10950 5350 50  0001 C CNN
+F 3 "" H 10950 5350 50  0001 C CNN
+	1    10950 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61EDF3A5
+P 9000 5350
+F 0 "#PWR?" H 9000 5100 50  0001 C CNN
+F 1 "GND" H 9005 5177 50  0000 C CNN
+F 2 "" H 9000 5350 50  0001 C CNN
+F 3 "" H 9000 5350 50  0001 C CNN
+	1    9000 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9000 5350 9000 5100
+Wire Wire Line
+	9000 5000 8950 5000
+Wire Wire Line
+	8950 5100 9000 5100
+Connection ~ 9000 5100
+Wire Wire Line
+	9000 5100 9000 5000
+Wire Wire Line
+	10950 5350 10950 5100
+Wire Wire Line
+	10950 5000 10900 5000
+Wire Wire Line
+	10950 5100 10900 5100
+Connection ~ 10950 5100
+Wire Wire Line
+	10950 5100 10950 5000
 $EndSCHEMATC
