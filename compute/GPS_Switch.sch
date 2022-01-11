@@ -46,7 +46,14 @@ P 5750 4150
 F 0 "R301" V 5650 4150 50  0000 C CNN
 F 1 "TBD" V 5750 4150 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 5680 4150 50  0001 C CNN
-F 3 "~" H 5750 4150 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 5750 4150 50  0001 C CNN
+F 4 "470 Resistor" H 5750 4150 50  0001 C CNN "Description"
+F 5 "Yageo" H 5750 4150 50  0001 C CNN "MFN"
+F 6 "RC0402FR-07470RL" H 5750 4150 50  0001 C CNN "MFP"
+F 7 "https://www.digikey.com/en/products/detail/RC0402FR-07470RL/311-470LRTR-ND/726619?WT.z_cid=ref_netcomponents_dkc_buynow&utm_source=netcomponents&utm_medium=aggregator&utm_campaign=buynow" H 5750 4150 50  0001 C CNN "S1PL"
+F 8 "311-470LR" H 5750 4150 50  0001 C CNN "S1PN"
+F 9 "https://www.mouser.com/ProductDetail/YAGEO/RC0402FR-07470RL?qs=dn7UOKrNBAlPAr3vO7H4cA==&utm_source=netcomponents&utm_medium=aggregator&utm_campaign=RC0402FR-07470RL&utm_content=YAGEO" H 5750 4150 50  0001 C CNN "S2PL"
+F 10 "603-RC0402FR-07470RL" H 5750 4150 50  0001 C CNN "S2PN"
 	1    5750 4150
 	0    1    1    0   
 $EndComp

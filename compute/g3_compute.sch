@@ -425,7 +425,14 @@ P 2000 6700
 F 0 "R103" V 2100 6700 50  0000 C CNN
 F 1 "10k" V 2000 6700 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 1930 6700 50  0001 C CNN
-F 3 "~" H 2000 6700 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 2000 6700 50  0001 C CNN
+F 4 "10k Resistor" H 2000 6700 50  0001 C CNN "Description"
+F 5 "Yageo" H 2000 6700 50  0001 C CNN "MFN"
+F 6 "RC0402JR-0710KL" H 2000 6700 50  0001 C CNN "MFP"
+F 7 "digikey.com/en/products/detail/yageo/RC0402JR-0710KL/726418" H 2000 6700 50  0001 C CNN "S1PL"
+F 8 "311-10KJRTR" H 2000 6700 50  0001 C CNN "S1PN"
+F 9 "https://www.mouser.com/ProductDetail/YAGEO/RC0402JR-0710KL?qs=V1yeUXFNrkk4BhFptVo0Rw%3D%3D" H 2000 6700 50  0001 C CNN "S2PL"
+F 10 "603-RC0402JR-0710KL" H 2000 6700 50  0001 C CNN "S2PN"
 	1    2000 6700
 	-1   0    0    1   
 $EndComp
@@ -436,7 +443,14 @@ P 2275 6800
 F 0 "R104" V 2175 6800 50  0000 C CNN
 F 1 "10k" V 2275 6800 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 2205 6800 50  0001 C CNN
-F 3 "~" H 2275 6800 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 2275 6800 50  0001 C CNN
+F 4 "10k Resistor" H 2275 6800 50  0001 C CNN "Description"
+F 5 "Yageo" H 2275 6800 50  0001 C CNN "MFN"
+F 6 "RC0402JR-0710KL" H 2275 6800 50  0001 C CNN "MFP"
+F 7 "digikey.com/en/products/detail/yageo/RC0402JR-0710KL/726418" H 2275 6800 50  0001 C CNN "S1PL"
+F 8 "311-10KJRTR" H 2275 6800 50  0001 C CNN "S1PN"
+F 9 "https://www.mouser.com/ProductDetail/YAGEO/RC0402JR-0710KL?qs=V1yeUXFNrkk4BhFptVo0Rw%3D%3D" H 2275 6800 50  0001 C CNN "S2PL"
+F 10 "603-RC0402JR-0710KL" H 2275 6800 50  0001 C CNN "S2PN"
 	1    2275 6800
 	-1   0    0    1   
 $EndComp
@@ -752,7 +766,7 @@ L Device:R R107
 U 1 1 61CBC4E4
 P 1400 5750
 F 0 "R107" V 1300 5750 50  0000 C CNN
-F 1 "22" V 1400 5750 50  0000 C CNN
+F 1 "470" V 1400 5750 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 1330 5750 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 1400 5750 50  0001 C CNN
 F 4 "470 Resistor" H 1400 5750 50  0001 C CNN "Description"
@@ -772,7 +786,7 @@ L Device:R R108
 U 1 1 61CBC84D
 P 1400 5900
 F 0 "R108" V 1500 5900 50  0000 C CNN
-F 1 "22" V 1400 5900 50  0000 C CNN
+F 1 "470" V 1400 5900 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 1330 5900 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 1400 5900 50  0001 C CNN
 F 4 "470 Resistor" H 1400 5900 50  0001 C CNN "Description"
@@ -1526,11 +1540,6 @@ F 1 "53261-1071" H 11350 4999 50  0000 C CNN
 F 2 "532611071" H 11650 4925 50  0001 L CNN
 F 3 "https://www.molex.com/webdocs/datasheets/pdf/en-us/0532611071_PCB_HEADERS.pdf" H 11650 4825 50  0001 L CNN
 F 4 "10 way SMT r/a header Molex PICOBLADE Series, Series Number 53261, 1.25mm Pitch 10 Way 1 Row Shrouded Right Angle PCB Header, Surface Mount" H 11650 4725 50  0001 L CNN "Description"
-F 5 "3" H 11650 4625 50  0001 L CNN "Height"
-F 6 "538-53261-1071" H 11650 4525 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.co.uk/ProductDetail/Molex/53261-1071?qs=%252B72YyncTwW%252Bzs3RwZTiukQ%3D%3D" H 11650 4425 50  0001 L CNN "Mouser Price/Stock"
-F 8 "Molex" H 11650 4325 50  0001 L CNN "Manufacturer_Name"
-F 9 "53261-1071" H 11650 4225 50  0001 L CNN "Manufacturer_Part_Number"
 	1    10900 4825
 	-1   0    0    -1  
 $EndComp
