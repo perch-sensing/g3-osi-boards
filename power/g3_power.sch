@@ -16,12 +16,12 @@ $EndDescr
 $Comp
 L Connector:Conn_01x02_Female J102
 U 1 1 61BA49C7
-P 875 7125
-F 0 "J102" H 1075 7000 50  0000 C CNN
-F 1 "Conn_Battery_01x02_Female" H 625 6900 50  0000 C CNN
-F 2 "" H 875 7125 50  0001 C CNN
-F 3 "~" H 875 7125 50  0001 C CNN
-	1    875  7125
+P 875 7300
+F 0 "J102" H 1075 7175 50  0000 C CNN
+F 1 "Conn_Battery_01x02_Female" H 625 6950 50  0000 C CNN
+F 2 "" H 875 7300 50  0001 C CNN
+F 3 "~" H 875 7300 50  0001 C CNN
+	1    875  7300
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -29,7 +29,7 @@ L Connector:Conn_01x02_Female J101
 U 1 1 61BA5A31
 P 875 6475
 F 0 "J101" H 1000 6350 50  0000 L CNN
-F 1 "Conn_Solar_Panel_01x02_Female" H -75 6250 50  0000 L CNN
+F 1 "Conn_Solar_Panel_01x02_Female" H -75 6125 50  0000 L CNN
 F 2 "" H 875 6475 50  0001 C CNN
 F 3 "~" H 875 6475 50  0001 C CNN
 	1    875  6475
@@ -49,20 +49,20 @@ $EndComp
 $Comp
 L power:GND #PWR0107
 U 1 1 61BAA18A
-P 1200 7200
-F 0 "#PWR0107" H 1200 6950 50  0001 C CNN
-F 1 "GND" H 1205 7027 50  0000 C CNN
-F 2 "" H 1200 7200 50  0001 C CNN
-F 3 "" H 1200 7200 50  0001 C CNN
-	1    1200 7200
+P 1200 7375
+F 0 "#PWR0107" H 1200 7125 50  0001 C CNN
+F 1 "GND" H 1205 7202 50  0000 C CNN
+F 2 "" H 1200 7375 50  0001 C CNN
+F 3 "" H 1200 7375 50  0001 C CNN
+	1    1200 7375
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1075 7125 1200 7125
+	1075 7300 1200 7300
 Wire Wire Line
-	1200 7125 1200 7200
+	1200 7300 1200 7375
 Wire Wire Line
-	1075 7025 1200 7025
+	1075 7200 1200 7200
 Wire Wire Line
 	3950 2025 3950 2125
 Wire Wire Line
@@ -162,14 +162,14 @@ F 3 "" H 9425 3400 50  0001 C CNN
 	1    9425 3400
 	1    0    0    -1  
 $EndComp
-Text Label 8725 2650 2    50   ~ 0
+Text Label 8500 2650 0    50   ~ 0
 VR_EN
 Text GLabel 8725 2850 0    50   Input ~ 0
 VAUX
 Wire Wire Line
 	8925 2850 8725 2850
 Wire Wire Line
-	8925 2650 8725 2650
+	8925 2650 8500 2650
 Wire Wire Line
 	9925 2650 10125 2650
 Connection ~ 9925 2650
@@ -226,15 +226,15 @@ Wire Notes Line
 Wire Notes Line
 	10575 1450 7875 1450
 Wire Wire Line
-	8925 2750 8725 2750
-Text Label 8725 2750 2    50   ~ 0
+	8925 2750 8500 2750
+Text Label 8500 2750 0    50   ~ 0
 VR_PS
 Wire Wire Line
 	9725 2550 9800 2550
 Wire Wire Line
 	3175 1725 3175 1325
 Text Label 3275 1325 3    50   ~ 0
-CC_RGEN
+CC_REGN
 Text Label 3175 1325 3    50   ~ 0
 CC_PMID
 Text Label 3075 1325 3    50   ~ 0
@@ -336,44 +336,40 @@ F 3 "" H 1625 3625 50  0001 C CNN
 	1    1625 3625
 	1    0    0    -1  
 $EndComp
-Text GLabel 1200 7025 2    50   Output ~ 0
-VBAT
-Text GLabel 1200 6375 2    50   Output ~ 0
-VSOL
 $Comp
 L power:PWR_FLAG #FLG0101
 U 1 1 61DA0E60
-P 3900 7300
-F 0 "#FLG0101" H 3900 7375 50  0001 C CNN
-F 1 "PWR_FLAG" H 3900 7473 50  0000 C CNN
-F 2 "" H 3900 7300 50  0001 C CNN
-F 3 "~" H 3900 7300 50  0001 C CNN
-	1    3900 7300
+P 5725 7225
+F 0 "#FLG0101" H 5725 7300 50  0001 C CNN
+F 1 "PWR_FLAG" H 5725 7398 50  0000 C CNN
+F 2 "" H 5725 7225 50  0001 C CNN
+F 3 "~" H 5725 7225 50  0001 C CNN
+	1    5725 7225
 	1    0    0    -1  
 $EndComp
-Text GLabel 3800 7450 0    50   Input ~ 0
+Text GLabel 5625 7375 0    50   Input ~ 0
 VBAT
 Wire Wire Line
-	3800 7450 3900 7450
+	5625 7375 5725 7375
 Wire Wire Line
-	3900 7450 3900 7300
+	5725 7375 5725 7225
 $Comp
 L power:PWR_FLAG #FLG0102
 U 1 1 61DA5B77
-P 4575 7300
-F 0 "#FLG0102" H 4575 7375 50  0001 C CNN
-F 1 "PWR_FLAG" H 4575 7473 50  0000 C CNN
-F 2 "" H 4575 7300 50  0001 C CNN
-F 3 "~" H 4575 7300 50  0001 C CNN
-	1    4575 7300
+P 6400 7225
+F 0 "#FLG0102" H 6400 7300 50  0001 C CNN
+F 1 "PWR_FLAG" H 6400 7398 50  0000 C CNN
+F 2 "" H 6400 7225 50  0001 C CNN
+F 3 "~" H 6400 7225 50  0001 C CNN
+	1    6400 7225
 	1    0    0    -1  
 $EndComp
-Text GLabel 4475 7425 0    50   Input ~ 0
+Text GLabel 6300 7350 0    50   Input ~ 0
 VSOL
 Wire Wire Line
-	4475 7425 4575 7425
+	6300 7350 6400 7350
 Wire Wire Line
-	4575 7425 4575 7300
+	6400 7350 6400 7225
 Wire Wire Line
 	3075 1325 3075 1725
 Wire Wire Line
@@ -395,8 +391,6 @@ Wire Wire Line
 	2975 1725 2975 1525
 Wire Wire Line
 	2975 1525 2850 1525
-Text GLabel 2175 2025 0    50   Input ~ 0
-VSOL
 $Comp
 L Device:L_Small L101
 U 1 1 61DE0060
@@ -414,8 +408,8 @@ $Comp
 L Device:C_Small C104
 U 1 1 61DDCCDF
 P 3525 1550
-F 0 "C104" H 3550 1625 50  0000 L CNN
-F 1 "47nF" H 3575 1500 50  0000 L CNN
+F 0 "C104" V 3725 1500 50  0000 L CNN
+F 1 "47nF" V 3650 1500 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 3525 1550 50  0001 C CNN
 F 3 "~" H 3525 1550 50  0001 C CNN
 	1    3525 1550
@@ -450,8 +444,6 @@ Wire Wire Line
 	4300 2675 4300 2725
 Text Notes 4325 2750 0    39   ~ 0
 Note: \nPlace near BAT pin\n
-Text GLabel 4825 2425 2    50   Input ~ 0
-VBAT
 $Comp
 L Device:C_Small C105
 U 1 1 61E294DF
@@ -489,8 +481,6 @@ F 3 "" H 4575 1975 50  0001 C CNN
 	1    4575 1975
 	1    0    0    -1  
 $EndComp
-Text GLabel 4700 1675 2    50   Output ~ 0
-VCC_SYS
 Wire Wire Line
 	3425 1550 3375 1550
 Wire Wire Line
@@ -532,22 +522,20 @@ Wire Wire Line
 	8875 2250 9225 2250
 Wire Wire Line
 	8875 2550 8925 2550
-Text GLabel 10125 2650 2    50   Output ~ 0
-5V
 $Comp
 L Device:LED_Small D101
 U 1 1 61F81EE2
-P 825 1425
-F 0 "D101" V 871 1355 50  0000 R CNN
-F 1 "LED_Green" V 780 1355 50  0000 R CNN
-F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 825 1425 50  0001 C CNN
-F 3 "~" V 825 1425 50  0001 C CNN
-F 4 "" V 825 1425 50  0001 C CNN "MFN"
-F 5 "" V 825 1425 50  0001 C CNN "MFP"
-F 6 "" V 825 1425 50  0001 C CNN "S1PN"
-F 7 "" V 825 1425 50  0001 C CNN "S1PL"
-F 8 "" V 825 1425 50  0001 C CNN "Notes"
-	1    825  1425
+P 725 1425
+F 0 "D101" V 771 1355 50  0000 R CNN
+F 1 "LED_Green" V 680 1355 50  0000 R CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 725 1425 50  0001 C CNN
+F 3 "~" V 725 1425 50  0001 C CNN
+F 4 "" V 725 1425 50  0001 C CNN "MFN"
+F 5 "" V 725 1425 50  0001 C CNN "MFP"
+F 6 "" V 725 1425 50  0001 C CNN "S1PN"
+F 7 "" V 725 1425 50  0001 C CNN "S1PL"
+F 8 "" V 725 1425 50  0001 C CNN "Notes"
+	1    725  1425
 	0    -1   -1   0   
 $EndComp
 Text Label 2250 2225 0    50   ~ 0
@@ -557,47 +545,31 @@ Wire Wire Line
 $Comp
 L Device:R_Small_US R101
 U 1 1 61F9B393
-P 825 1650
-F 0 "R101" H 893 1696 50  0000 L CNN
-F 1 "2.2k" H 893 1605 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 825 1650 50  0001 C CNN
-F 3 "~" H 825 1650 50  0001 C CNN
-F 4 "" H 825 1650 50  0001 C CNN "MFN"
-F 5 "" H 825 1650 50  0001 C CNN "MFP"
-F 6 "" H 825 1650 50  0001 C CNN "S1PN"
-F 7 "" H 825 1650 50  0001 C CNN "S1PL"
-F 8 "" H 825 1650 50  0001 C CNN "Notes"
-	1    825  1650
+P 725 1650
+F 0 "R101" H 793 1696 50  0000 L CNN
+F 1 "2.2k" H 793 1605 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 725 1650 50  0001 C CNN
+F 3 "~" H 725 1650 50  0001 C CNN
+F 4 "" H 725 1650 50  0001 C CNN "MFN"
+F 5 "" H 725 1650 50  0001 C CNN "MFP"
+F 6 "" H 725 1650 50  0001 C CNN "S1PN"
+F 7 "" H 725 1650 50  0001 C CNN "S1PL"
+F 8 "" H 725 1650 50  0001 C CNN "Notes"
+	1    725  1650
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	825  1325 825  1250
+	725  1325 725  1250
 Wire Wire Line
-	825  1550 825  1525
+	725  1550 725  1525
 Wire Wire Line
-	1325 1850 825  1850
+	1225 1850 725  1850
 Wire Wire Line
-	825  1750 825  1850
-Text GLabel 825  1250 1    50   Input ~ 0
-VCC_REGN
-Text Label 1325 1850 2    50   ~ 0
+	725  1750 725  1850
+Text Label 1225 1850 2    50   ~ 0
 ~CC_PG
 Text Label 2250 2025 0    50   ~ 0
 CC_VBUS
-Wire Wire Line
-	825  1925 825  1850
-Connection ~ 825  1850
-$Comp
-L power:GND #PWR0106
-U 1 1 61FCD8A6
-P 825 1925
-F 0 "#PWR0106" H 825 1675 50  0001 C CNN
-F 1 "GND" H 830 1752 50  0000 C CNN
-F 2 "" H 825 1925 50  0001 C CNN
-F 3 "" H 825 1925 50  0001 C CNN
-	1    825  1925
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2625 2325 2100 2325
 Text Label 2100 2325 0    50   ~ 0
@@ -608,7 +580,7 @@ Wire Wire Line
 	3575 3325 3575 2875
 Text Notes 675  2950 0    50   ~ 0
 Capacitors
-Text Notes 775  725  0    50   ~ 0
+Text Notes 650  725  0    50   ~ 0
 Indicators
 Text Notes 5675 725  0    50   ~ 0
 Pull-Up / Pull-Down Resistors
@@ -628,8 +600,6 @@ Text Notes 2700 7675 0    79   ~ 0
 Connectors
 Text Notes 9450 4075 0    79   ~ 0
 Voltage Regulator
-Text GLabel 2450 6400 0    50   Input ~ 0
-5v
 Wire Wire Line
 	2450 6400 2925 6400
 Wire Wire Line
@@ -680,43 +650,12 @@ Wire Wire Line
 	4275 1675 4575 1675
 Connection ~ 4575 1675
 Wire Wire Line
-	4575 1675 4700 1675
-$Comp
-L Device:R_Small_US R106
-U 1 1 622110AB
-P 6500 1775
-F 0 "R106" H 6568 1821 50  0000 L CNN
-F 1 "10k" H 6568 1730 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 6500 1775 50  0001 C CNN
-F 3 "~" H 6500 1775 50  0001 C CNN
-	1    6500 1775
-	1    0    0    -1  
-$EndComp
+	4575 1675 5000 1675
 Wire Wire Line
 	6500 1525 6500 1600
 Wire Wire Line
-	6500 1600 7025 1600
-Connection ~ 6500 1600
-Wire Wire Line
-	6500 1600 6500 1675
-Wire Wire Line
-	6500 1875 6500 1925
-$Comp
-L power:GND #PWR0114
-U 1 1 6221E93D
-P 6500 1925
-F 0 "#PWR0114" H 6500 1675 50  0001 C CNN
-F 1 "GND" H 6505 1752 50  0000 C CNN
-F 2 "" H 6500 1925 50  0001 C CNN
-F 3 "" H 6500 1925 50  0001 C CNN
-	1    6500 1925
-	1    0    0    -1  
-$EndComp
-Text GLabel 6500 1250 1    50   Input ~ 0
-VCC_SYS
-Wire Wire Line
-	6500 1325 6500 1250
-Text Label 7025 1600 2    50   ~ 0
+	6500 1600 7000 1600
+Text Label 7000 1600 2    50   ~ 0
 CC_PSEL
 Connection ~ 4300 2425
 Wire Wire Line
@@ -733,8 +672,6 @@ Connection ~ 4000 2225
 Connection ~ 4000 1675
 Wire Wire Line
 	4000 1675 4275 1675
-Text GLabel 3275 1275 1    50   Input ~ 0
-VCC_REGN
 $Comp
 L Device:R_Small_US R105
 U 1 1 62210648
@@ -781,8 +718,6 @@ Text Label 3475 3175 1    50   ~ 0
 CC_TS
 Text Label 7025 3050 2    50   ~ 0
 CC_TS
-Text GLabel 6500 2725 1    50   Input ~ 0
-VCC_REGN
 Wire Wire Line
 	6500 2725 6500 2800
 $Comp
@@ -798,33 +733,27 @@ F 3 "" H 6500 3350 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6500 3350 6500 3300
-Text Notes 6575 2775 0    39   ~ 0
+Text Notes 6700 2775 0    39   ~ 0
 Note: \nUsed 2 x 10k Ohm if \ntemperature sensing \nnot used 
 Text Notes 4100 2250 0    39   ~ 0
 Note: \nPlace near SYS pin\n
-Text Notes 6750 1875 0    39   ~ 0
-IMPORTANT: \nOnly load one\npull resistor!
-Text GLabel 6050 2700 1    50   Input ~ 0
-VCC_SYS
-Wire Wire Line
-	6050 2775 6050 2700
-Text Label 5600 3050 0    50   ~ 0
+Text Label 5625 1600 0    50   ~ 0
 ~CC_INT
 $Comp
 L Device:R_Small_US R104
 U 1 1 623A6EE5
-P 6050 2875
-F 0 "R104" H 6118 2921 50  0000 L CNN
-F 1 "10k" H 6118 2830 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 6050 2875 50  0001 C CNN
-F 3 "~" H 6050 2875 50  0001 C CNN
-	1    6050 2875
+P 6075 1425
+F 0 "R104" H 6143 1471 50  0000 L CNN
+F 1 "10k" H 6143 1380 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 6075 1425 50  0001 C CNN
+F 3 "~" H 6075 1425 50  0001 C CNN
+	1    6075 1425
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6050 2975 6050 3050
+	6075 1525 6075 1600
 Wire Wire Line
-	6050 3050 5600 3050
+	6075 1600 5625 1600
 Wire Notes Line
 	550  3925 7325 3925
 Wire Notes Line
@@ -858,8 +787,6 @@ Wire Wire Line
 Connection ~ 7100 5700
 Wire Wire Line
 	7100 5700 7100 5750
-Text GLabel 7100 5375 1    50   Input ~ 0
-VSOL
 Wire Wire Line
 	7100 5375 7100 5450
 $Comp
@@ -875,9 +802,9 @@ F 3 "" H 7100 6000 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7100 6000 7100 5950
-Text Notes 7175 5375 0    39   ~ 0
+Text Notes 7250 5350 0    39   ~ 0
 Note: \nSolar Panel Ranges from 0v to peak 6.5v \nwith a peak current draw of 340 mA
-Text Notes 4075 7675 0    79   ~ 0
+Text Notes 5900 7600 0    79   ~ 0
 Power Flags
 Text Notes 10100 6400 0    79   ~ 0
 Voltage Sensing
@@ -929,8 +856,6 @@ Wire Wire Line
 	10725 5950 10725 6000
 Wire Wire Line
 	10725 5350 10725 5300
-Text GLabel 10725 5300 1    50   Input ~ 0
-5V
 Wire Wire Line
 	7500 5900 7450 5900
 Wire Wire Line
@@ -941,11 +866,7 @@ Wire Wire Line
 	8150 6050 8150 5800
 Wire Wire Line
 	8150 5800 8100 5800
-Wire Wire Line
-	8150 5800 8250 5800
 Connection ~ 8150 5800
-Text GLabel 8250 5800 2    50   Input ~ 0
-VSolSense
 $Comp
 L Device:R_Small_US R111
 U 1 1 61DE2C22
@@ -962,7 +883,7 @@ L Device:R_Small_US R112
 U 1 1 61DE2C28
 P 9000 5850
 F 0 "R112" H 9068 5896 50  0000 L CNN
-F 1 "1ok" H 9068 5805 50  0000 L CNN
+F 1 "10k" H 9068 5805 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 9000 5850 50  0001 C CNN
 F 3 "~" H 9000 5850 50  0001 C CNN
 	1    9000 5850
@@ -975,8 +896,6 @@ Wire Wire Line
 Connection ~ 9000 5700
 Wire Wire Line
 	9000 5700 9000 5750
-Text GLabel 9000 5375 1    50   Input ~ 0
-VBAT
 Wire Wire Line
 	9000 5375 9000 5450
 $Comp
@@ -1004,17 +923,9 @@ Wire Wire Line
 	10000 6050 10000 5800
 Wire Wire Line
 	10000 5800 9925 5800
-Text GLabel 10100 5800 2    50   Input ~ 0
-VBatSense
-Wire Wire Line
-	10100 5800 10000 5800
 Connection ~ 10000 5800
-Text GLabel 2450 7000 0    50   Input ~ 0
-VSolSense
 Wire Wire Line
 	2450 7000 2925 7000
-Text GLabel 2450 7100 0    50   Input ~ 0
-VBatSense
 Wire Wire Line
 	2450 7100 2925 7100
 Wire Notes Line
@@ -1060,100 +971,254 @@ $EndComp
 Wire Wire Line
 	7050 3450 7050 3400
 Wire Notes Line
-	3475 7000 3475 7700
+	5300 6925 5300 7625
 Wire Notes Line
-	3475 7700 4850 7700
+	5300 7625 6675 7625
 Wire Notes Line
-	4850 7700 4850 7000
+	6675 7625 6675 6925
 Wire Notes Line
-	4850 7000 3475 7000
+	6675 6925 5300 6925
 Text Label 2500 7200 0    50   ~ 0
 VR_PS
 Wire Wire Line
 	2500 7200 2925 7200
-$Comp
-L Connector:Conn_01x10_Female J1
-U 1 1 61F632E5
-P 3125 6800
-F 0 "J1" H 2000 7275 50  0000 L CNN
-F 1 "Conn_Power_Compute_01x10_Female" H 2000 7350 50  0000 L CNN
-F 2 "Perch:532611071_Molex" H 3125 6800 50  0001 C CNN
-F 3 "~" H 3125 6800 50  0001 C CNN
-	1    3125 6800
-	1    0    0    -1  
-$EndComp
 Wire Notes Line
 	550  6175 550  7700
-Wire Notes Line
-	550  7700 3400 7700
-Wire Notes Line
-	3400 7700 3400 6175
-Wire Notes Line
-	3400 6175 550  6175
-Wire Wire Line
-	5675 1600 6050 1600
-Text GLabel 6050 1250 1    50   Input ~ 0
-VCC_SYS
-Text Label 5675 1600 0    50   ~ 0
-~CC_QON
-Wire Wire Line
-	6050 1250 6050 1600
-Text GLabel 1575 1225 1    50   Input ~ 0
-VCC_REGN
 $Comp
 L Device:LED_Small D1
 U 1 1 61DDDC71
-P 1575 1425
-F 0 "D1" V 1621 1355 50  0000 R CNN
-F 1 "LED_Green" V 1530 1355 50  0000 R CNN
-F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1575 1425 50  0001 C CNN
-F 3 "~" V 1575 1425 50  0001 C CNN
-F 4 "" V 1575 1425 50  0001 C CNN "MFN"
-F 5 "" V 1575 1425 50  0001 C CNN "MFP"
-F 6 "" V 1575 1425 50  0001 C CNN "S1PN"
-F 7 "" V 1575 1425 50  0001 C CNN "S1PL"
-F 8 "" V 1575 1425 50  0001 C CNN "Notes"
-	1    1575 1425
+P 1450 1425
+F 0 "D1" V 1496 1355 50  0000 R CNN
+F 1 "LED_Green" V 1405 1355 50  0000 R CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1450 1425 50  0001 C CNN
+F 3 "~" V 1450 1425 50  0001 C CNN
+F 4 "" V 1450 1425 50  0001 C CNN "MFN"
+F 5 "" V 1450 1425 50  0001 C CNN "MFP"
+F 6 "" V 1450 1425 50  0001 C CNN "S1PN"
+F 7 "" V 1450 1425 50  0001 C CNN "S1PL"
+F 8 "" V 1450 1425 50  0001 C CNN "Notes"
+	1    1450 1425
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	1575 1325 1575 1225
+	1450 1325 1450 1225
 Wire Wire Line
-	1575 1525 1575 1550
-$Comp
-L power:GND #PWR0120
-U 1 1 61DF12CD
-P 1575 1925
-F 0 "#PWR0120" H 1575 1675 50  0001 C CNN
-F 1 "GND" H 1580 1752 50  0000 C CNN
-F 2 "" H 1575 1925 50  0001 C CNN
-F 3 "" H 1575 1925 50  0001 C CNN
-	1    1575 1925
-	1    0    0    -1  
-$EndComp
+	1450 1525 1450 1550
 Wire Wire Line
-	1575 1750 1575 1850
+	1450 1750 1450 1850
 Wire Wire Line
-	1575 1850 2000 1850
-Connection ~ 1575 1850
-Wire Wire Line
-	1575 1850 1575 1925
-Text Label 2000 1850 2    50   ~ 0
+	1450 1850 1875 1850
+Text Label 1875 1850 2    50   ~ 0
 CC_STAT
 $Comp
 L Device:R_Small_US R1
 U 1 1 61E00AE9
-P 1575 1650
-F 0 "R1" H 1643 1696 50  0000 L CNN
-F 1 "2.2k" H 1643 1605 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 1575 1650 50  0001 C CNN
-F 3 "~" H 1575 1650 50  0001 C CNN
-F 4 "" H 1575 1650 50  0001 C CNN "MFN"
-F 5 "" H 1575 1650 50  0001 C CNN "MFP"
-F 6 "" H 1575 1650 50  0001 C CNN "S1PN"
-F 7 "" H 1575 1650 50  0001 C CNN "S1PL"
-F 8 "" H 1575 1650 50  0001 C CNN "Notes"
-	1    1575 1650
+P 1450 1650
+F 0 "R1" H 1518 1696 50  0000 L CNN
+F 1 "2.2k" H 1518 1605 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 1450 1650 50  0001 C CNN
+F 3 "~" H 1450 1650 50  0001 C CNN
+F 4 "" H 1450 1650 50  0001 C CNN "MFN"
+F 5 "" H 1450 1650 50  0001 C CNN "MFP"
+F 6 "" H 1450 1650 50  0001 C CNN "S1PN"
+F 7 "" H 1450 1650 50  0001 C CNN "S1PL"
+F 8 "" H 1450 1650 50  0001 C CNN "Notes"
+	1    1450 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L 53261-1071:53261-1071 J?
+U 1 1 61DE7F1F
+P 3825 6400
+F 0 "J?" H 4275 6665 50  0000 C CNN
+F 1 "53261-1071" H 4275 6574 50  0000 C CNN
+F 2 "532611071" H 4575 6500 50  0001 L CNN
+F 3 "https://www.molex.com/webdocs/datasheets/pdf/en-us/0532611071_PCB_HEADERS.pdf" H 4575 6400 50  0001 L CNN
+F 4 "10 way SMT r/a header Molex PICOBLADE Series, Series Number 53261, 1.25mm Pitch 10 Way 1 Row Shrouded Right Angle PCB Header, Surface Mount" H 4575 6300 50  0001 L CNN "Description"
+F 5 "3" H 4575 6200 50  0001 L CNN "Height"
+F 6 "538-53261-1071" H 4575 6100 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Molex/53261-1071?qs=%252B72YyncTwW%252Bzs3RwZTiukQ%3D%3D" H 4575 6000 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Molex" H 4575 5900 50  0001 L CNN "Manufacturer_Name"
+F 9 "53261-1071" H 4575 5800 50  0001 L CNN "Manufacturer_Part_Number"
+	1    3825 6400
+	-1   0    0    -1  
+$EndComp
+Text Notes 3900 6500 0    50   ~ 0
+Question: \nWhat do these do?
+$Comp
+L custom_power:V_SOL #PWR?
+U 1 1 61E0E911
+P 1200 6375
+F 0 "#PWR?" H 1200 6225 50  0001 C CNN
+F 1 "V_SOL" H 1215 6548 50  0000 C CNN
+F 2 "" H 1200 6375 50  0001 C CNN
+F 3 "" H 1200 6375 50  0001 C CNN
+	1    1200 6375
+	1    0    0    -1  
+$EndComp
+$Comp
+L custom_power:V_BATT #PWR?
+U 1 1 61E0F5A4
+P 1200 7200
+F 0 "#PWR?" H 1200 7050 50  0001 C CNN
+F 1 "V_BATT" H 1215 7373 50  0000 C CNN
+F 2 "" H 1200 7200 50  0001 C CNN
+F 3 "" H 1200 7200 50  0001 C CNN
+	1    1200 7200
+	1    0    0    -1  
+$EndComp
+Text Notes 1600 950  0    50   ~ 0
+Note: REGN LDO is 5V when \nexternal power applied, \notherwise off to save power
+$Comp
+L custom_power:V_SOL #PWR?
+U 1 1 61E34A3A
+P 2175 2025
+F 0 "#PWR?" H 2175 1875 50  0001 C CNN
+F 1 "V_SOL" H 2190 2198 50  0000 C CNN
+F 2 "" H 2175 2025 50  0001 C CNN
+F 3 "" H 2175 2025 50  0001 C CNN
+	1    2175 2025
+	1    0    0    -1  
+$EndComp
+$Comp
+L custom_power:V_BATT #PWR?
+U 1 1 61E34C79
+P 4825 2425
+F 0 "#PWR?" H 4825 2275 50  0001 C CNN
+F 1 "V_BATT" H 4840 2598 50  0000 C CNN
+F 2 "" H 4825 2425 50  0001 C CNN
+F 3 "" H 4825 2425 50  0001 C CNN
+	1    4825 2425
+	1    0    0    -1  
+$EndComp
+Text Label 5000 1675 2    50   ~ 0
+CC_SYS
+Text Label 8500 2550 0    50   ~ 0
+CC_SYS
+Wire Wire Line
+	8500 2550 8875 2550
+Connection ~ 8875 2550
+$Comp
+L power:+5V #PWR?
+U 1 1 61E5DB4F
+P 2450 6400
+F 0 "#PWR?" H 2450 6250 50  0001 C CNN
+F 1 "+5V" H 2465 6573 50  0000 C CNN
+F 2 "" H 2450 6400 50  0001 C CNN
+F 3 "" H 2450 6400 50  0001 C CNN
+	1    2450 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 61E5E41D
+P 10125 2650
+F 0 "#PWR?" H 10125 2500 50  0001 C CNN
+F 1 "+5V" H 10140 2823 50  0000 C CNN
+F 2 "" H 10125 2650 50  0001 C CNN
+F 3 "" H 10125 2650 50  0001 C CNN
+	1    10125 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 61E5FF55
+P 10725 5300
+F 0 "#PWR?" H 10725 5150 50  0001 C CNN
+F 1 "+5V" H 10740 5473 50  0000 C CNN
+F 2 "" H 10725 5300 50  0001 C CNN
+F 3 "" H 10725 5300 50  0001 C CNN
+	1    10725 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L custom_power:V_SOL #PWR?
+U 1 1 61DD9DBA
+P 7100 5375
+F 0 "#PWR?" H 7100 5225 50  0001 C CNN
+F 1 "V_SOL" H 7115 5548 50  0000 C CNN
+F 2 "" H 7100 5375 50  0001 C CNN
+F 3 "" H 7100 5375 50  0001 C CNN
+	1    7100 5375
+	1    0    0    -1  
+$EndComp
+$Comp
+L custom_power:V_BATT #PWR?
+U 1 1 61DDA3D7
+P 9000 5375
+F 0 "#PWR?" H 9000 5225 50  0001 C CNN
+F 1 "V_BATT" H 9015 5548 50  0000 C CNN
+F 2 "" H 9000 5375 50  0001 C CNN
+F 3 "" H 9000 5375 50  0001 C CNN
+	1    9000 5375
+	1    0    0    -1  
+$EndComp
+Text Label 8600 5800 2    50   ~ 0
+VSolSense
+Wire Wire Line
+	8150 5800 8600 5800
+Text Label 10425 5800 2    50   ~ 0
+VBatSense
+Wire Wire Line
+	10000 5800 10425 5800
+Text Notes 7325 6275 0    50   ~ 0
+TODO: Add adc module to this \nschematic, Ideal using a I2C module
+Text Notes 1825 7100 0    50   ~ 0
+TODO: Add ADC\nconnections
+Wire Wire Line
+	6075 1125 5625 1125
+Wire Wire Line
+	6075 1125 6075 1325
+Text Label 5625 1125 0    50   ~ 0
+CC_SYS
+Wire Wire Line
+	6500 1125 7000 1125
+Wire Wire Line
+	6500 1125 6500 1325
+Text Label 7000 1125 2    50   ~ 0
+CC_SYS
+$Comp
+L custom_power:V_REGN #PWR?
+U 1 1 61E3ACD3
+P 3275 1275
+F 0 "#PWR?" H 3275 1125 50  0001 C CNN
+F 1 "V_REGN" H 3290 1448 50  0000 C CNN
+F 2 "" H 3275 1275 50  0001 C CNN
+F 3 "" H 3275 1275 50  0001 C CNN
+	1    3275 1275
+	1    0    0    -1  
+$EndComp
+$Comp
+L custom_power:V_REGN #PWR?
+U 1 1 61E50B1B
+P 1450 1225
+F 0 "#PWR?" H 1450 1075 50  0001 C CNN
+F 1 "V_REGN" H 1465 1398 50  0000 C CNN
+F 2 "" H 1450 1225 50  0001 C CNN
+F 3 "" H 1450 1225 50  0001 C CNN
+	1    1450 1225
+	1    0    0    -1  
+$EndComp
+$Comp
+L custom_power:V_REGN #PWR?
+U 1 1 61E51380
+P 725 1250
+F 0 "#PWR?" H 725 1100 50  0001 C CNN
+F 1 "V_REGN" H 740 1423 50  0000 C CNN
+F 2 "" H 725 1250 50  0001 C CNN
+F 3 "" H 725 1250 50  0001 C CNN
+	1    725  1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L custom_power:V_REGN #PWR?
+U 1 1 61E5191F
+P 6500 2725
+F 0 "#PWR?" H 6500 2575 50  0001 C CNN
+F 1 "V_REGN" H 6515 2898 50  0000 C CNN
+F 2 "" H 6500 2725 50  0001 C CNN
+F 3 "" H 6500 2725 50  0001 C CNN
+	1    6500 2725
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

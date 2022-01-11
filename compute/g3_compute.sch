@@ -403,7 +403,7 @@ L Device:R R103
 U 1 1 61A4865A
 P 2000 6700
 F 0 "R103" V 2100 6700 50  0000 C CNN
-F 1 "TBD" V 2000 6700 50  0000 C CNN
+F 1 "10k" V 2000 6700 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 1930 6700 50  0001 C CNN
 F 3 "~" H 2000 6700 50  0001 C CNN
 	1    2000 6700
@@ -414,7 +414,7 @@ L Device:R R104
 U 1 1 61A499B4
 P 2275 6800
 F 0 "R104" V 2175 6800 50  0000 C CNN
-F 1 "TBD" V 2275 6800 50  0000 C CNN
+F 1 "10k" V 2275 6800 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 2205 6800 50  0001 C CNN
 F 3 "~" H 2275 6800 50  0001 C CNN
 	1    2275 6800
@@ -1487,4 +1487,23 @@ Wire Wire Line
 	8925 5350 9550 5350
 Wire Wire Line
 	8925 5650 9550 5650
+$Comp
+L 53261-1071:53261-1071 J?
+U 1 1 61E456C4
+P 10900 4825
+F 0 "J?" H 11350 5090 50  0000 C CNN
+F 1 "53261-1071" H 11350 4999 50  0000 C CNN
+F 2 "532611071" H 11650 4925 50  0001 L CNN
+F 3 "https://www.molex.com/webdocs/datasheets/pdf/en-us/0532611071_PCB_HEADERS.pdf" H 11650 4825 50  0001 L CNN
+F 4 "10 way SMT r/a header Molex PICOBLADE Series, Series Number 53261, 1.25mm Pitch 10 Way 1 Row Shrouded Right Angle PCB Header, Surface Mount" H 11650 4725 50  0001 L CNN "Description"
+F 5 "3" H 11650 4625 50  0001 L CNN "Height"
+F 6 "538-53261-1071" H 11650 4525 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Molex/53261-1071?qs=%252B72YyncTwW%252Bzs3RwZTiukQ%3D%3D" H 11650 4425 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Molex" H 11650 4325 50  0001 L CNN "Manufacturer_Name"
+F 9 "53261-1071" H 11650 4225 50  0001 L CNN "Manufacturer_Part_Number"
+	1    10900 4825
+	-1   0    0    -1  
+$EndComp
+Text Notes 9775 3225 0    50   ~ 0
+Note: \nProbably used as filters, do \nnot load until needed
 $EndSCHEMATC
