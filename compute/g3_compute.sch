@@ -21,10 +21,18 @@ F 0 "A101" H 5750 2925 50  0000 C CNN
 F 1 "ADA3708" H 5750 2625 50  0000 C CNN
 F 2 "Perch:ADA3708_RaspPiZero" H 5750 2775 50  0001 L BNN
 F 3 "https://adafruit.com/images/product-files/2885/E1775E40.pdf" H 5750 2775 50  0001 L BNN
-F 4 "Raspberry Pi Foundation" H 5750 2775 50  0001 C CNN "MFN"
+F 4 "2885" H 5750 2775 50  0001 C CNN "MFN"
 F 5 "https://www.adafruit.com/product/2885?gclid=Cj0KCQjwqp-LBhDQARIsAO0a6aIR3sqfGFEBlXdj8U2bi7F3STeS_1LtpSjam7JfdBiGVESx38VjjzsaAgUqEALw_wcB" H 5750 2775 50  0001 C CNN "S1PL"
 F 6 "2885" H 5750 2775 50  0001 C CNN "S1PN"
-F 7 "Raspberry Pi Zero v1.3" H 5750 2775 50  0001 C CNN "Notes"
+F 7 "Raspberry Pi Zero" H 5750 2775 50  0001 C CNN "Notes"
+F 8 "Raspberry Pi Zero" H 5750 2775 50  0001 C CNN "Description"
+F 9 "Raspberry Pi Foundation" H 5750 2775 50  0001 C CNN "Height"
+F 10 "Raspberry Pi Zero v1.3" H 5750 2775 50  0001 C CNN "MFP"
+F 11 "https://www.adafruit.com/product/2885?gclid=Cj0KCQjwqp-LBhDQARIsAO0a6aIR3sqfGFEBlXdj8U2bi7F3STeS_1LtpSjam7JfdBiGVESx38VjjzsaAgUqEALw_wcB" H 5750 2775 50  0001 C CNN "Manufacturer_Name"
+F 12 "2885" H 5750 2775 50  0001 C CNN "Manufacturer_Part_Number"
+F 13 "https://www.canakit.com/raspberry-pi-zero.html?src=raspberrypi" H 5750 2775 50  0001 C CNN "Mouser Part Number"
+F 14 "https://adafruit.com/images/product-files/2885/E1775E40.pdf" H 5750 2775 50  0001 C CNN "Mouser Price/Stock"
+F 15 "https://www.canakit.com/raspberry-pi-zero.html?src=raspberrypi" H 5750 2775 50  0001 C CNN "S2PL"
 	1    5750 2775
 	1    0    0    -1  
 $EndComp
@@ -53,8 +61,15 @@ P 2100 900
 F 0 "C101" H 2125 1025 50  0000 L CNN
 F 1 "1uF" H 2125 1100 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 2138 750 50  0001 C CNN
-F 3 "~" H 2100 900 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X5R_4V-to-50V_26.pdf" H 2100 900 50  0001 C CNN
 F 4 "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05B103KO5NNNC/3886709" H 2100 900 50  0001 C CNN "S1PL"
+F 5 "1 uF Capacitor" H 2100 900 50  0001 C CNN "Description"
+F 6 "Yageo" H 2100 900 50  0001 C CNN "Height"
+F 7 "Yageo" H 2100 900 50  0001 C CNN "MFN"
+F 8 "CC0402KRX5R5BB105" H 2100 900 50  0001 C CNN "MFP"
+F 9 "311-1438" H 2100 900 50  0001 C CNN "S1PN"
+F 10 "https://www.mouser.com/ProductDetail/YAGEO/CC0402KRX5R5BB105?qs=sGAEpiMZZMvCgIIVhD0CykSaAV4XcsQWIlFIPpyXbt8%3D&gclid=CjwKCAiAz--OBhBIEiwAG1rIOnJnO7dQNloIiBUz8kK3Ggjn7eD7ZR4H-93uJgNgeC6HAKtgKOrezRoCYpoQAvD_BwE" H 2100 900 50  0001 C CNN "S2PL"
+F 11 "603-CC402KRX5R5BB105" H 2100 900 50  0001 C CNN "S2PN"
 	1    2100 900 
 	-1   0    0    1   
 $EndComp
@@ -200,8 +215,11 @@ F 3 "https://linxtechnologies.com/wp/wp-content/uploads/consma001-smd-g.pdf" H 1
 F 4 "Linx Technologies Inc." H 10975 2775 60  0001 L CNN "MFN"
 F 5 "CONSMA001-SMD-G" H 10975 2175 60  0001 L CNN "MFP"
 F 6 "CONSMA001-SMD-G-ND" H 10975 2075 60  0001 L CNN "S1PN"
-F 7 "/product-detail/en/linx-technologies-inc/CONSMA001-SMD-G/CONSMA001-SMD-G-ND/4496569" H 10975 2575 60  0001 L CNN "S1PL"
+F 7 "https://www.digikey.com/en/products/detail/linx-technologies-inc/CONSMA001-SMD-G-T/10524519?utm_adgroup=Connectors%20%26%20Interconnects&utm_source=google&utm_medium=cpc&utm_campaign=Dynamic%20Search_EN_Product&utm_term=&utm_content=Connectors%20%26%20Interconnects&gclid=CjwKCAiAz--OBhBIEiwAG1rIOlW3qGIonBS3c6k7mOONvB062Ackp0ZEu4u6ERbVQAQdKj4E2tq6ZBoCu7AQAvD_BwE" H 10975 2575 60  0001 L CNN "S1PL"
 F 8 "" H 10775 1675 50  0001 C CNN "Notes"
+F 9 "SMA Connector receptacle, Female Socket" H 10775 1675 50  0001 C CNN "Description"
+F 10 "https://www.mouser.com/ProductDetail/Linx-Technologies/CONSMA001-SMD-G-T?qs=BJlw7L4Cy7%252BEXFff93cLJw%3D%3D&gclid=CjwKCAiAz--OBhBIEiwAG1rIOnDdCpPVLGmaBJ-aBl3tMAjzN0CuYcmBO12GsRxUK0g8COkS3argYhoCh34QAvD_BwE" H 10775 1675 50  0001 C CNN "S2PL"
+F 11 "712-CONSMA001-SMD-GT" H 10775 1675 50  0001 C CNN "S2PN"
 	1    10775 1675
 	-1   0    0    1   
 $EndComp
@@ -391,6 +409,8 @@ F 5 "Phoenix Contact" H 1200 3575 50  0001 C CNN "MFN"
 F 6 "1702474" H 1200 3575 50  0001 C CNN "MFP"
 F 7 "https://www.digikey.com/en/products/detail/phoenix-contact/1702474/2643221" H 1200 3575 50  0001 C CNN "S1PL"
 F 8 "277-2338" H 1200 3575 50  0001 C CNN "S1PN"
+F 9 "mouser.com/ProductDetail/Phoenix-Contact/1702474?qs=x%252BboDt8B4zS2Jo19D0PEUw%3D%3D" H 1200 3575 50  0001 C CNN "S2PL"
+F 10 "651-1702474" H 1200 3575 50  0001 C CNN "S2PN"
 	1    1200 3575
 	1    0    0    -1  
 $EndComp
@@ -427,8 +447,15 @@ P 2150 3375
 F 0 "C105" H 2300 3325 50  0000 L CNN
 F 1 "1uF" H 2300 3425 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 2188 3225 50  0001 C CNN
-F 3 "~" H 2150 3375 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X5R_4V-to-50V_26.pdf" H 2150 3375 50  0001 C CNN
 F 4 "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05B103KO5NNNC/3886709" H 2150 3375 50  0001 C CNN "S1PL"
+F 5 "1 uF Capacitor" H 2150 3375 50  0001 C CNN "Description"
+F 6 "Yageo" H 2150 3375 50  0001 C CNN "Height"
+F 7 "Yageo" H 2150 3375 50  0001 C CNN "MFN"
+F 8 "CC0402KRX5R5BB105" H 2150 3375 50  0001 C CNN "MFP"
+F 9 "311-1438" H 2150 3375 50  0001 C CNN "S1PN"
+F 10 "https://www.mouser.com/ProductDetail/YAGEO/CC0402KRX5R5BB105?qs=sGAEpiMZZMvCgIIVhD0CykSaAV4XcsQWIlFIPpyXbt8%3D&gclid=CjwKCAiAz--OBhBIEiwAG1rIOnJnO7dQNloIiBUz8kK3Ggjn7eD7ZR4H-93uJgNgeC6HAKtgKOrezRoCYpoQAvD_BwE" H 2150 3375 50  0001 C CNN "S2PL"
+F 11 "603-CC402KRX5R5BB105" H 2150 3375 50  0001 C CNN "S2PN"
 	1    2150 3375
 	-1   0    0    1   
 $EndComp
@@ -1033,6 +1060,9 @@ F 4 "SeeedStudio" H 8600 1000 50  0001 C CNN "MFN"
 F 5 "LoRa-E5" H 8550 800 50  0001 C CNN "MFP"
 F 6 "LoRa-E5" H 8600 900 50  0001 C CNN "S1PN"
 F 7 "https://www.seeedstudio.com/LoRa-E5-Wireless-Module-p-4745.html" H 9750 700 50  0001 C CNN "S1PL"
+F 8 "LoRa-E5 Module" H 8950 2150 50  0001 C CNN "Description"
+F 9 "https://www.mouser.com/ProductDetail/Seeed-Studio/317990687?qs=hd1VzrDQEGhZOj13wvzSLA%3D%3D" H 8950 2150 50  0001 C CNN "S2PL"
+F 10 "713-317990687" H 8950 2150 50  0001 C CNN "S2PN"
 	1    8950 2150
 	1    0    0    -1  
 $EndComp

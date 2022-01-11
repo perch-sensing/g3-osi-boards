@@ -27,8 +27,15 @@ U 1 1 61C517AB
 P 6250 4150
 F 0 "Q301" H 6440 4104 50  0000 L CNN
 F 1 "Q_PNP_BCE" H 6440 4195 50  0000 L CNN
-F 2 "Perch:TCN75AVOA713" H 6450 4250 50  0001 C CNN
-F 3 "~" H 6250 4150 50  0001 C CNN
+F 2 "Perch:PBSS4140DPN" H 6450 4250 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/PBSS4140DPN.pdf" H 6250 4150 50  0001 C CNN
+F 4 "BJT Transistor Array" H 6250 4150 50  0001 C CNN "Description"
+F 5 "Nexperia USA Inc." H 6250 4150 50  0001 C CNN "MFN"
+F 6 "PBSS4140DPN,115" H 6250 4150 50  0001 C CNN "MFP"
+F 7 "https://www.digikey.com/en/products/detail/nexperia-usa-inc/PBSS4140DPN-115/1156926?utm_adgroup=Semiconductor%20Modules&utm_source=google&utm_medium=cpc&utm_campaign=Dynamic%20Search_EN_Product&utm_term=&utm_content=Semiconductor%20Modules&gclid=CjwKCAiAz--OBhBIEiwAG1rIOnfNYCfMx2ITlSYg59RzW_gpFrWZweD7vvrD8bBxi6JVwMmspkeghBoC1dkQAvD_BwE" H 6250 4150 50  0001 C CNN "S1PL"
+F 8 "1727-3896" H 6250 4150 50  0001 C CNN "S1PN"
+F 9 "https://www.mouser.com/ProductDetail/Nexperia/PBSS4140DPN115?qs=LOCUfHb8d9uI%2F4H%2FLdNjCQ%3D%3D" H 6250 4150 50  0001 C CNN "S2PL"
+F 10 "771-PBSS4140DPN-T/R" H 6250 4150 50  0001 C CNN "S2PN"
 	1    6250 4150
 	1    0    0    1   
 $EndComp
