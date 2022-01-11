@@ -259,12 +259,15 @@ P 9900 2600
 F 0 "C103" H 9700 2500 50  0000 L CNN
 F 1 "DNL" H 9700 2400 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 9938 2450 50  0001 C CNN
-F 3 "~" H 9900 2600 50  0001 C CNN
-F 4 "" H 9900 2600 50  0001 C CNN "MFN"
-F 5 "" H 9900 2600 50  0001 C CNN "MFP"
-F 6 "" H 9900 2600 50  0001 C CNN "S1PN"
-F 7 "" H 9900 2600 50  0001 C CNN "S1PL"
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X5R_4V-to-50V_26.pdf" H 9900 2600 50  0001 C CNN
+F 4 "Yageo" H 9900 2600 50  0001 C CNN "MFN"
+F 5 "CC0402KRX5R5BB105" H 9900 2600 50  0001 C CNN "MFP"
+F 6 "311-1438" H 9900 2600 50  0001 C CNN "S1PN"
+F 7 "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05B103KO5NNNC/3886709" H 9900 2600 50  0001 C CNN "S1PL"
 F 8 "" H 9900 2600 50  0001 C CNN "Notes"
+F 9 "TBD Capacitor" H 9900 2600 50  0001 C CNN "Description"
+F 10 "https://www.mouser.com/ProductDetail/YAGEO/CC0402KRX5R5BB105?qs=sGAEpiMZZMvCgIIVhD0CykSaAV4XcsQWIlFIPpyXbt8%3D&gclid=CjwKCAiAz--OBhBIEiwAG1rIOnJnO7dQNloIiBUz8kK3Ggjn7eD7ZR4H-93uJgNgeC6HAKtgKOrezRoCYpoQAvD_BwE" H 9900 2600 50  0001 C CNN "S2PL"
+F 11 "603-CC402KRX5R5BB105" H 9900 2600 50  0001 C CNN "S2PN"
 	1    9900 2600
 	1    0    0    -1  
 $EndComp
@@ -275,12 +278,15 @@ P 10400 2600
 F 0 "C104" H 10510 2510 50  0000 L CNN
 F 1 "DNL" H 10460 2430 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 10438 2450 50  0001 C CNN
-F 3 "~" H 10400 2600 50  0001 C CNN
-F 4 "" H 10400 2600 50  0001 C CNN "MFN"
-F 5 "" H 10400 2600 50  0001 C CNN "MFP"
-F 6 "" H 10400 2600 50  0001 C CNN "S1PN"
-F 7 "" H 10400 2600 50  0001 C CNN "S1PL"
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X5R_4V-to-50V_26.pdf" H 10400 2600 50  0001 C CNN
+F 4 "Yageo" H 10400 2600 50  0001 C CNN "MFN"
+F 5 "CC0402KRX5R5BB105" H 10400 2600 50  0001 C CNN "MFP"
+F 6 "311-1438" H 10400 2600 50  0001 C CNN "S1PN"
+F 7 "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05B103KO5NNNC/3886709" H 10400 2600 50  0001 C CNN "S1PL"
 F 8 "" H 10400 2600 50  0001 C CNN "Notes"
+F 9 "TBD Capacitor" H 10400 2600 50  0001 C CNN "Description"
+F 10 "https://www.mouser.com/ProductDetail/YAGEO/CC0402KRX5R5BB105?qs=sGAEpiMZZMvCgIIVhD0CykSaAV4XcsQWIlFIPpyXbt8%3D&gclid=CjwKCAiAz--OBhBIEiwAG1rIOnJnO7dQNloIiBUz8kK3Ggjn7eD7ZR4H-93uJgNgeC6HAKtgKOrezRoCYpoQAvD_BwE" H 10400 2600 50  0001 C CNN "S2PL"
+F 11 "603-CC402KRX5R5BB105" H 10400 2600 50  0001 C CNN "S2PN"
 	1    10400 2600
 	1    0    0    -1  
 $EndComp
@@ -1091,18 +1097,16 @@ Wire Wire Line
 	1550 6850 2000 6850
 Wire Wire Line
 	1700 6750 1700 6950
-Text Label 7200 5050 0    50   ~ 0
+Text Label 9450 5300 0    50   ~ 0
 CPPC_RX0
-Text Label 7200 5150 0    50   ~ 0
+Text Label 9450 5400 0    50   ~ 0
 CPPC_TX0
-Text Label 7200 5250 0    50   ~ 0
+Text Label 9450 5500 0    50   ~ 0
 CPPC_INT
 Wire Notes Line
 	2575 4550 5225 4550
 Wire Notes Line
 	5225 7725 2575 7725
-Text Label 8925 5650 0    50   ~ 0
-PS_VR_PS
 Wire Notes Line
 	550  6125 2500 6125
 Wire Notes Line
@@ -1138,16 +1142,6 @@ Wire Wire Line
 Wire Wire Line
 	6650 1875 7025 1875
 NoConn ~ 6650 1975
-Wire Wire Line
-	8950 4850 9550 4850
-Text Label 8925 5450 0    50   ~ 0
-PS_VSolSense
-Wire Wire Line
-	8925 5450 9550 5450
-Wire Wire Line
-	9550 5550 8925 5550
-Text Label 8925 5550 0    50   ~ 0
-PS_VBatSense
 Wire Wire Line
 	1750 3775 3650 3775
 Wire Wire Line
@@ -1361,89 +1355,40 @@ Wire Notes Line
 Wire Notes Line
 	4075 1525 4075 4475
 $Comp
-L Connector:Conn_01x10_Female J1
-U 1 1 61DCD200
-P 7925 5150
-F 0 "J1" H 7953 5126 50  0000 L CNN
-F 1 "Conn_01x10_Female" H 7250 5675 50  0000 L CNN
-F 2 "Perch:532611071_Molex" H 7925 5150 50  0001 C CNN
-F 3 "~" H 7925 5150 50  0001 C CNN
-	1    7925 5150
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:+5V #PWR0129
 U 1 1 61DF7584
-P 7500 4750
-F 0 "#PWR0129" H 7500 4600 50  0001 C CNN
-F 1 "+5V" V 7515 4923 50  0000 C CNN
-F 2 "" H 7500 4750 50  0001 C CNN
-F 3 "" H 7500 4750 50  0001 C CNN
-	1    7500 4750
+P 9750 5000
+F 0 "#PWR0129" H 9750 4850 50  0001 C CNN
+F 1 "+5V" V 9765 5173 50  0000 C CNN
+F 2 "" H 9750 5000 50  0001 C CNN
+F 3 "" H 9750 5000 50  0001 C CNN
+	1    9750 5000
 	0    -1   -1   0   
 $EndComp
 $Comp
 L power:+3.3V #PWR0130
 U 1 1 61DF7A7B
-P 7500 4850
-F 0 "#PWR0130" H 7500 4700 50  0001 C CNN
-F 1 "+3.3V" V 7500 5075 50  0000 C CNN
-F 2 "" H 7500 4850 50  0001 C CNN
-F 3 "" H 7500 4850 50  0001 C CNN
-	1    7500 4850
+P 9750 5100
+F 0 "#PWR0130" H 9750 4950 50  0001 C CNN
+F 1 "+3.3V" V 9750 5325 50  0000 C CNN
+F 2 "" H 9750 5100 50  0001 C CNN
+F 3 "" H 9750 5100 50  0001 C CNN
+	1    9750 5100
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	7500 4750 7725 4750
-Wire Wire Line
-	7725 4850 7500 4850
-$Comp
-L Connector:Conn_01x10_Female J2
-U 1 1 61E74AFE
-P 9750 5250
-F 0 "J2" H 9778 5226 50  0000 L CNN
-F 1 "Conn_01x10_Female" H 9025 5775 50  0000 L CNN
-F 2 "Perch:532611071_Molex" H 9750 5250 50  0001 C CNN
-F 3 "~" H 9750 5250 50  0001 C CNN
-	1    9750 5250
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0114
-U 1 1 61E9F60C
-P 9475 5875
-F 0 "#PWR0114" H 9475 5625 50  0001 C CNN
-F 1 "GND" H 9480 5702 50  0000 C CNN
-F 2 "" H 9475 5875 50  0001 C CNN
-F 3 "" H 9475 5875 50  0001 C CNN
-	1    9475 5875
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9550 5750 9475 5750
-Wire Wire Line
-	9475 5750 9475 5875
-Wire Wire Line
-	7200 5050 7725 5050
-Wire Wire Line
-	7200 5150 7725 5150
-Wire Wire Line
-	7200 5250 7725 5250
-Wire Wire Line
-	7725 4950 7625 4950
 $Comp
 L power:GND #PWR0115
 U 1 1 61EE3A32
-P 7625 5750
-F 0 "#PWR0115" H 7625 5500 50  0001 C CNN
-F 1 "GND" H 7630 5577 50  0000 C CNN
-F 2 "" H 7625 5750 50  0001 C CNN
-F 3 "" H 7625 5750 50  0001 C CNN
-	1    7625 5750
+P 9875 6000
+F 0 "#PWR0115" H 9875 5750 50  0001 C CNN
+F 1 "GND" H 9880 5827 50  0000 C CNN
+F 2 "" H 9875 6000 50  0001 C CNN
+F 3 "" H 9875 6000 50  0001 C CNN
+	1    9875 6000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7625 4950 7625 5750
+	9875 5200 9875 6000
 $Comp
 L Connector:TestPoint TP1
 U 1 1 61F2514D
@@ -1499,50 +1444,113 @@ Connection ~ 2275 6525
 Wire Wire Line
 	2275 6425 2275 6525
 $Comp
-L power:+5V #PWR0122
-U 1 1 61DC6E6C
-P 8950 4850
-F 0 "#PWR0122" H 8950 4700 50  0001 C CNN
-F 1 "+5V" V 8965 5023 50  0000 C CNN
-F 2 "" H 8950 4850 50  0001 C CNN
-F 3 "" H 8950 4850 50  0001 C CNN
-	1    8950 4850
-	0    -1   -1   0   
-$EndComp
-Text Label 8925 4950 0    50   ~ 0
-~PS_CC_QON
-Text Label 8925 5250 0    50   ~ 0
-PS_CC_SCL
-Text Label 8925 5350 0    50   ~ 0
-PS_CC_SDA
-Text Label 8925 5150 0    50   ~ 0
-~PS_CC_INT
-Text Label 8925 5050 0    50   ~ 0
-~PS_CC_CE
-Wire Wire Line
-	8925 4950 9550 4950
-Wire Wire Line
-	8925 5050 9550 5050
-Wire Wire Line
-	8925 5150 9550 5150
-Wire Wire Line
-	8925 5250 9550 5250
-Wire Wire Line
-	8925 5350 9550 5350
-Wire Wire Line
-	8925 5650 9550 5650
-$Comp
-L 53261-1071:53261-1071 J?
+L 53261-1071:53261-1071 J103
 U 1 1 61E456C4
-P 10900 4825
-F 0 "J?" H 11350 5090 50  0000 C CNN
-F 1 "53261-1071" H 11350 4999 50  0000 C CNN
-F 2 "532611071" H 11650 4925 50  0001 L CNN
-F 3 "https://www.molex.com/webdocs/datasheets/pdf/en-us/0532611071_PCB_HEADERS.pdf" H 11650 4825 50  0001 L CNN
-F 4 "10 way SMT r/a header Molex PICOBLADE Series, Series Number 53261, 1.25mm Pitch 10 Way 1 Row Shrouded Right Angle PCB Header, Surface Mount" H 11650 4725 50  0001 L CNN "Description"
-	1    10900 4825
+P 10900 5000
+F 0 "J103" H 11350 5265 50  0000 C CNN
+F 1 "53261-1071" H 11350 5174 50  0000 C CNN
+F 2 "Perch:532611071_Molex" H 11650 5100 50  0001 L CNN
+F 3 "https://www.molex.com/webdocs/datasheets/pdf/en-us/0532611071_PCB_HEADERS.pdf" H 11650 5000 50  0001 L CNN
+F 4 "10 way SMT r/a header Molex PICOBLADE Series, Series Number 53261, 1.25mm Pitch 10 Way 1 Row Shrouded Right Angle PCB Header, Surface Mount" H 11650 4900 50  0001 L CNN "Description"
+F 5 "Molex" H 10900 5000 50  0001 C CNN "MFN"
+F 6 "53261-1071" H 10900 5000 50  0001 C CNN "MFP"
+F 7 "https://www.mouser.com/ProductDetail/Molex/53261-1071?qs=%252B72YyncTwW%252Bzs3RwZTiukQ%3D%3D" H 10900 5000 50  0001 C CNN "S1PL"
+F 8 "538-53261-1071" H 10900 5000 50  0001 C CNN "S1PN"
+F 9 "https://www.heilind.com/search/result?q=53261-1071&manufacturer=5031&utm_source=molex.com&utm_medium=referral&utm_campaign=molex-disty-stock-check" H 10900 5000 50  0001 C CNN "S2PL"
+F 10 "MOL53261-1071.P" H 10900 5000 50  0001 C CNN "S2PN"
+	1    10900 5000
 	-1   0    0    -1  
 $EndComp
 Text Notes 9775 3225 0    50   ~ 0
 Note: \nProbably used as filters, do \nnot load until needed
+Text Label 7725 5800 0    50   ~ 0
+PS_VR_PS
+Text Label 7725 5600 0    50   ~ 0
+PS_VSolSense
+Text Label 7725 5700 0    50   ~ 0
+PS_VBatSense
+$Comp
+L power:GND #PWR0114
+U 1 1 61E9F60C
+P 8275 6025
+F 0 "#PWR0114" H 8275 5775 50  0001 C CNN
+F 1 "GND" H 8280 5852 50  0000 C CNN
+F 2 "" H 8275 6025 50  0001 C CNN
+F 3 "" H 8275 6025 50  0001 C CNN
+	1    8275 6025
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8275 5900 8275 6025
+$Comp
+L power:+5V #PWR0122
+U 1 1 61DC6E6C
+P 7750 5000
+F 0 "#PWR0122" H 7750 4850 50  0001 C CNN
+F 1 "+5V" V 7765 5173 50  0000 C CNN
+F 2 "" H 7750 5000 50  0001 C CNN
+F 3 "" H 7750 5000 50  0001 C CNN
+	1    7750 5000
+	0    -1   -1   0   
+$EndComp
+Text Label 7725 5100 0    50   ~ 0
+~PS_CC_QON
+Text Label 7725 5400 0    50   ~ 0
+PS_CC_SCL
+Text Label 7725 5500 0    50   ~ 0
+PS_CC_SDA
+Text Label 7725 5300 0    50   ~ 0
+~PS_CC_INT
+Text Label 7725 5200 0    50   ~ 0
+~PS_CC_CE
+Wire Wire Line
+	9750 5000 10000 5000
+Wire Wire Line
+	9750 5100 10000 5100
+Wire Wire Line
+	9875 5200 10000 5200
+Wire Wire Line
+	9450 5300 10000 5300
+Wire Wire Line
+	9450 5400 10000 5400
+Wire Wire Line
+	9450 5500 10000 5500
+$Comp
+L 53261-1071:53261-1071 J104
+U 1 1 61E5BCC4
+P 9300 5000
+F 0 "J104" H 9750 5265 50  0000 C CNN
+F 1 "53261-1071" H 9750 5174 50  0000 C CNN
+F 2 "Perch:532611071_Molex" H 10050 5100 50  0001 L CNN
+F 3 "https://www.molex.com/webdocs/datasheets/pdf/en-us/0532611071_PCB_HEADERS.pdf" H 10050 5000 50  0001 L CNN
+F 4 "10 way SMT r/a header Molex PICOBLADE Series, Series Number 53261, 1.25mm Pitch 10 Way 1 Row Shrouded Right Angle PCB Header, Surface Mount" H 10050 4900 50  0001 L CNN "Description"
+F 5 "Molex" H 9300 5000 50  0001 C CNN "MFN"
+F 6 "53261-1071" H 9300 5000 50  0001 C CNN "MFP"
+F 7 "https://www.mouser.com/ProductDetail/Molex/53261-1071?qs=%252B72YyncTwW%252Bzs3RwZTiukQ%3D%3D" H 9300 5000 50  0001 C CNN "S1PL"
+F 8 "538-53261-1071" H 9300 5000 50  0001 C CNN "S1PN"
+F 9 "https://www.heilind.com/search/result?q=53261-1071&manufacturer=5031&utm_source=molex.com&utm_medium=referral&utm_campaign=molex-disty-stock-check" H 9300 5000 50  0001 C CNN "S2PL"
+F 10 "MOL53261-1071.P" H 9300 5000 50  0001 C CNN "S2PN"
+	1    9300 5000
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	7750 5000 8400 5000
+Wire Wire Line
+	7725 5100 8400 5100
+Wire Wire Line
+	7725 5200 8400 5200
+Wire Wire Line
+	7725 5300 8400 5300
+Wire Wire Line
+	7725 5400 8400 5400
+Wire Wire Line
+	7725 5500 8400 5500
+Wire Wire Line
+	7725 5600 8400 5600
+Wire Wire Line
+	7725 5700 8400 5700
+Wire Wire Line
+	7725 5800 8400 5800
+Wire Wire Line
+	8275 5900 8400 5900
 $EndSCHEMATC
