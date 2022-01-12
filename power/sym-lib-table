@@ -189,4 +189,5 @@
   (lib (name pycom)(type Legacy)(uri ${KIPRJMOD}/kicad-lib/pycom-footprints/pycom.lib)(options "")(descr ""))
   (lib (name RT9471GQW)(type Legacy)(uri ${KIPRJMOD}/kicad-lib/Perch.sch/RT9471GQW.lib)(options "")(descr ""))
   (lib (name 53261-1071)(type Legacy)(uri ${KIPRJMOD}/kicad-lib/Perch.sch/53261-1071.lib)(options "")(descr ""))
+  (lib (name g3_power-rescue)(type Legacy)(uri ${KIPRJMOD}/g3_power-rescue.lib)(options "")(descr ""))
 )
