@@ -55,73 +55,41 @@ F 10 "GPS Module" H 2700 1200 50  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C101
-U 1 1 619DAF8F
-P 1925 1550
-F 0 "C101" H 2025 1500 50  0000 L CNN
-F 1 "1uF" H 2050 1575 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 1963 1400 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X5R_4V-to-50V_26.pdf" H 1925 1550 50  0001 C CNN
-F 4 "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05B103KO5NNNC/3886709" H 1925 1550 50  0001 C CNN "S1PL"
-F 5 "1 uF Capacitor" H 1925 1550 50  0001 C CNN "Description"
-F 6 "Yageo" H 1925 1550 50  0001 C CNN "Height"
-F 7 "Yageo" H 1925 1550 50  0001 C CNN "MFN"
-F 8 "CC0402KRX5R5BB105" H 1925 1550 50  0001 C CNN "MFP"
-F 9 "311-1438" H 1925 1550 50  0001 C CNN "S1PN"
-F 10 "https://www.mouser.com/ProductDetail/YAGEO/CC0402KRX5R5BB105?qs=sGAEpiMZZMvCgIIVhD0CykSaAV4XcsQWIlFIPpyXbt8%3D&gclid=CjwKCAiAz--OBhBIEiwAG1rIOnJnO7dQNloIiBUz8kK3Ggjn7eD7ZR4H-93uJgNgeC6HAKtgKOrezRoCYpoQAvD_BwE" H 1925 1550 50  0001 C CNN "S2PL"
-F 11 "603-CC402KRX5R5BB105" H 1925 1550 50  0001 C CNN "S2PN"
-	1    1925 1550
-	-1   0    0    1   
-$EndComp
-$Comp
 L Device:R_Small_US R101
 U 1 1 61A4B379
-P 1400 4750
-F 0 "R101" V 1300 4625 50  0000 C CNN
-F 1 "470" V 1300 4875 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 1330 4750 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 1400 4750 50  0001 C CNN
-F 4 "470 Resistor" H 1400 4750 50  0001 C CNN "Description"
-F 5 "Yageo" H 1400 4750 50  0001 C CNN "MFN"
-F 6 "RC0402FR-07470RL" H 1400 4750 50  0001 C CNN "MFP"
-F 7 "https://www.digikey.com/en/products/detail/RC0402FR-07470RL/311-470LRTR-ND/726619?WT.z_cid=ref_netcomponents_dkc_buynow&utm_source=netcomponents&utm_medium=aggregator&utm_campaign=buynow" H 1400 4750 50  0001 C CNN "S1PL"
-F 8 "311-470LR" H 1400 4750 50  0001 C CNN "S1PN"
-F 9 "https://www.mouser.com/ProductDetail/YAGEO/RC0402FR-07470RL?qs=dn7UOKrNBAlPAr3vO7H4cA==&utm_source=netcomponents&utm_medium=aggregator&utm_campaign=RC0402FR-07470RL&utm_content=YAGEO" H 1400 4750 50  0001 C CNN "S2PL"
-F 10 "603-RC0402FR-07470RL" H 1400 4750 50  0001 C CNN "S2PN"
-	1    1400 4750
+P 1650 2350
+F 0 "R101" V 1575 2200 50  0000 C CNN
+F 1 "470" V 1575 2475 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 1580 2350 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 1650 2350 50  0001 C CNN
+F 4 "470 Resistor" H 1650 2350 50  0001 C CNN "Description"
+F 5 "Yageo" H 1650 2350 50  0001 C CNN "MFN"
+F 6 "RC0402FR-07470RL" H 1650 2350 50  0001 C CNN "MFP"
+F 7 "https://www.digikey.com/en/products/detail/RC0402FR-07470RL/311-470LRTR-ND/726619?WT.z_cid=ref_netcomponents_dkc_buynow&utm_source=netcomponents&utm_medium=aggregator&utm_campaign=buynow" H 1650 2350 50  0001 C CNN "S1PL"
+F 8 "311-470LR" H 1650 2350 50  0001 C CNN "S1PN"
+F 9 "https://www.mouser.com/ProductDetail/YAGEO/RC0402FR-07470RL?qs=dn7UOKrNBAlPAr3vO7H4cA==&utm_source=netcomponents&utm_medium=aggregator&utm_campaign=RC0402FR-07470RL&utm_content=YAGEO" H 1650 2350 50  0001 C CNN "S2PL"
+F 10 "603-RC0402FR-07470RL" H 1650 2350 50  0001 C CNN "S2PN"
+	1    1650 2350
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R_Small_US R102
 U 1 1 61A4BC29
-P 1400 4900
-F 0 "R102" V 1475 4775 50  0000 C CNN
-F 1 "470" V 1475 5025 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 1330 4900 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 1400 4900 50  0001 C CNN
-F 4 "470 Resistor" H 1400 4900 50  0001 C CNN "Description"
-F 5 "Yageo" H 1400 4900 50  0001 C CNN "MFN"
-F 6 "RC0402FR-07470RL" H 1400 4900 50  0001 C CNN "MFP"
-F 7 "https://www.digikey.com/en/products/detail/RC0402FR-07470RL/311-470LRTR-ND/726619?WT.z_cid=ref_netcomponents_dkc_buynow&utm_source=netcomponents&utm_medium=aggregator&utm_campaign=buynow" H 1400 4900 50  0001 C CNN "S1PL"
-F 8 "311-470LR" H 1400 4900 50  0001 C CNN "S1PN"
-F 9 "https://www.mouser.com/ProductDetail/YAGEO/RC0402FR-07470RL?qs=dn7UOKrNBAlPAr3vO7H4cA==&utm_source=netcomponents&utm_medium=aggregator&utm_campaign=RC0402FR-07470RL&utm_content=YAGEO" H 1400 4900 50  0001 C CNN "S2PL"
-F 10 "603-RC0402FR-07470RL" H 1400 4900 50  0001 C CNN "S2PN"
-	1    1400 4900
+P 1650 2475
+F 0 "R102" V 1725 2350 50  0000 C CNN
+F 1 "470" V 1725 2600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 1580 2475 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 1650 2475 50  0001 C CNN
+F 4 "470 Resistor" H 1650 2475 50  0001 C CNN "Description"
+F 5 "Yageo" H 1650 2475 50  0001 C CNN "MFN"
+F 6 "RC0402FR-07470RL" H 1650 2475 50  0001 C CNN "MFP"
+F 7 "https://www.digikey.com/en/products/detail/RC0402FR-07470RL/311-470LRTR-ND/726619?WT.z_cid=ref_netcomponents_dkc_buynow&utm_source=netcomponents&utm_medium=aggregator&utm_campaign=buynow" H 1650 2475 50  0001 C CNN "S1PL"
+F 8 "311-470LR" H 1650 2475 50  0001 C CNN "S1PN"
+F 9 "https://www.mouser.com/ProductDetail/YAGEO/RC0402FR-07470RL?qs=dn7UOKrNBAlPAr3vO7H4cA==&utm_source=netcomponents&utm_medium=aggregator&utm_campaign=RC0402FR-07470RL&utm_content=YAGEO" H 1650 2475 50  0001 C CNN "S2PL"
+F 10 "603-RC0402FR-07470RL" H 1650 2475 50  0001 C CNN "S2PN"
+	1    1650 2475
 	0    1    1    0   
 $EndComp
-$Comp
-L power:GND #PWR0101
-U 1 1 61A5F204
-P 1925 1750
-F 0 "#PWR0101" H 1925 1500 50  0001 C CNN
-F 1 "GND" H 1800 1675 50  0000 C CNN
-F 2 "" H 1925 1750 50  0001 C CNN
-F 3 "" H 1925 1750 50  0001 C CNN
-	1    1925 1750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1925 1750 1925 1700
 $Comp
 L power:PWR_FLAG #FLG0101
 U 1 1 61980453
@@ -326,14 +294,14 @@ Power Flags
 Text Label 9700 2450 0    50   ~ 0
 E5_RFIO
 Wire Wire Line
-	2300 1500 2300 2000
+	2325 1500 2325 2000
 Wire Wire Line
-	2300 1500 2450 1500
+	2325 1500 2450 1500
 Wire Wire Line
-	2300 2000 2450 2000
-Connection ~ 2300 2000
+	2325 2000 2450 2000
+Connection ~ 2325 2000
 Wire Wire Line
-	2300 2000 2300 2400
+	2325 2000 2325 2400
 Wire Wire Line
 	3850 1400 3850 2100
 Wire Wire Line
@@ -351,16 +319,14 @@ F 3 "" H 3850 2400 50  0001 C CNN
 	1    3850 2400
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3850 2400 3850 2100
 Connection ~ 3850 2100
-Text Label 575  625  0    39   ~ 0
+Text Label 575  625  0    50   ~ 0
 GPS_SW_EN
-Text Label 1700 2000 0    50   ~ 0
+Text Label 1025 2125 0    50   ~ 0
 ~GPS_RESET
-Text Label 1700 2100 0    50   ~ 0
+Text Label 1025 2350 0    50   ~ 0
 GPS_TX0
-Text Label 1700 2200 0    50   ~ 0
+Text Label 1025 2475 0    50   ~ 0
 GPS_RX0
 Wire Notes Line
 	550  2700 4000 2700
@@ -371,12 +337,12 @@ GPS Module\n
 $Comp
 L power:GND #PWR0109
 U 1 1 61A44DBA
-P 2300 2400
-F 0 "#PWR0109" H 2300 2150 50  0001 C CNN
-F 1 "GND" H 2305 2227 50  0000 C CNN
-F 2 "" H 2300 2400 50  0001 C CNN
-F 3 "" H 2300 2400 50  0001 C CNN
-	1    2300 2400
+P 2325 2400
+F 0 "#PWR0109" H 2325 2150 50  0001 C CNN
+F 1 "GND" H 2330 2227 50  0000 C CNN
+F 2 "" H 2325 2400 50  0001 C CNN
+F 3 "" H 2325 2400 50  0001 C CNN
+	1    2325 2400
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -485,7 +451,7 @@ Wire Notes Line
 	4000 4475 550  4475
 Wire Notes Line
 	550  4475 550  2775
-Text Notes 1350 4425 2    50   ~ 0
+Text Notes 1800 4425 2    79   ~ 0
 Temperature Module
 Wire Wire Line
 	4400 1875 4850 1875
@@ -576,14 +542,10 @@ Text Label 600  6850 0    50   ~ 0
 PI_SDA
 Text Label 600  6950 0    50   ~ 0
 PI_SCL
-Text Label 7075 2175 2    50   ~ 0
-PI_TX0
-Text Label 7075 2275 2    50   ~ 0
-PI_RX0
-Wire Wire Line
-	6650 2175 7075 2175
-Wire Wire Line
-	6650 2275 7075 2275
+Text Label 7150 2175 2    50   ~ 0
+GPS_RX0
+Text Label 7150 2275 2    50   ~ 0
+GPS_TX0
 Text Label 1050 6750 1    50   ~ 0
 Temp_SDA
 Text Label 1200 6750 1    50   ~ 0
@@ -592,20 +554,8 @@ Wire Notes Line
 	550  6200 2500 6200
 Text Notes 2275 6100 0    50   ~ 0
 UART
-Text Label 650  4750 0    50   ~ 0
-PI_TX0
-Text Label 650  4900 0    50   ~ 0
-PI_RX0
 Wire Notes Line
 	550  4550 2500 4550
-Text Label 2250 4750 2    50   ~ 0
-GPS_RX0
-Text Label 2250 4900 2    50   ~ 0
-GPS_TX0
-Wire Wire Line
-	1700 2100 2450 2100
-Wire Wire Line
-	1700 2200 2450 2200
 Wire Notes Line
 	6750 6875 6750 7725
 Wire Notes Line
@@ -765,7 +715,7 @@ Text Label 7175 3575 2    50   ~ 0
 Wire Wire Line
 	6650 3575 7175 3575
 Wire Wire Line
-	3550 6475 3550 6225
+	3550 6450 3550 6200
 Wire Wire Line
 	4050 6475 4050 6225
 Wire Wire Line
@@ -873,19 +823,19 @@ $EndComp
 $Comp
 L Connector:TestPoint TP108
 U 1 1 61CD66B6
-P 3550 6475
-F 0 "TP108" H 3608 6593 50  0000 L CNN
-F 1 "TestPoint" H 3608 6502 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 3750 6475 50  0001 C CNN
-F 3 "https://cdn.harwin.com/pdfs/Harwin_PC_PCB_Hardware.pdf" H 3750 6475 50  0001 C CNN
-F 4 "SMD Test Point" H 3550 6475 50  0001 C CNN "Description"
-F 5 "Harwin Inc." H 3550 6475 50  0001 C CNN "MFN"
-F 6 "S2751-46R" H 3550 6475 50  0001 C CNN "MFP"
-F 7 "https://www.digikey.com/en/products/detail/harwin-inc/S2751-46R/5250499?WT.z_cid=sp_952_buynow&lang=en&s=N4IgTCBcDaIMpgOwFYCMBaALANgEogF0BfIA&site=us&vendor=0" H 3550 6475 50  0001 C CNN "S1PL"
-F 8 "952-2664" H 3550 6475 50  0001 C CNN "S1PN"
-F 9 "https://www.mouser.com/ProductDetail/Harwin/S2751-46R?qs=DaxoyN%2FvrebM3VuuS3MPNA%3D%3D" H 3550 6475 50  0001 C CNN "S2PL"
-F 10 "855-S2751-46R" H 3550 6475 50  0001 C CNN "S2PN"
-	1    3550 6475
+P 3550 6450
+F 0 "TP108" H 3608 6568 50  0000 L CNN
+F 1 "TestPoint" H 3608 6477 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 3750 6450 50  0001 C CNN
+F 3 "https://cdn.harwin.com/pdfs/Harwin_PC_PCB_Hardware.pdf" H 3750 6450 50  0001 C CNN
+F 4 "SMD Test Point" H 3550 6450 50  0001 C CNN "Description"
+F 5 "Harwin Inc." H 3550 6450 50  0001 C CNN "MFN"
+F 6 "S2751-46R" H 3550 6450 50  0001 C CNN "MFP"
+F 7 "https://www.digikey.com/en/products/detail/harwin-inc/S2751-46R/5250499?WT.z_cid=sp_952_buynow&lang=en&s=N4IgTCBcDaIMpgOwFYCMBaALANgEogF0BfIA&site=us&vendor=0" H 3550 6450 50  0001 C CNN "S1PL"
+F 8 "952-2664" H 3550 6450 50  0001 C CNN "S1PN"
+F 9 "https://www.mouser.com/ProductDetail/Harwin/S2751-46R?qs=DaxoyN%2FvrebM3VuuS3MPNA%3D%3D" H 3550 6450 50  0001 C CNN "S2PL"
+F 10 "855-S2751-46R" H 3550 6450 50  0001 C CNN "S2PN"
+	1    3550 6450
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -965,7 +915,7 @@ Text Label 4550 6225 1    50   ~ 0
 PI_SDO
 Text Label 4050 6225 1    50   ~ 0
 PI_SCLK
-Text Label 3550 6225 1    50   ~ 0
+Text Label 3550 6200 1    50   ~ 0
 ~PI_CE0
 $Comp
 L Connector:TestPoint TP111
@@ -1110,7 +1060,7 @@ Text Label 7200 2675 2    50   ~ 0
 Text Label 7175 2875 2    50   ~ 0
 PS_VR_PS
 Text Label 7150 3075 2    50   ~ 0
-PI_GPIO7
+GPS_3DFIX
 Text Label 7175 3375 2    50   ~ 0
 CPPC_INT
 Text Notes 4625 7675 0    50   ~ 0
@@ -1657,8 +1607,8 @@ U 1 1 61DF9A4F
 P 950 825
 AR Path="/61A64342/61DF9A4F" Ref="R?"  Part="1" 
 AR Path="/61DF9A4F" Ref="R109"  Part="1" 
-F 0 "R109" H 1075 900 50  0000 C CNN
-F 1 "TBD" H 1075 800 50  0000 C CNN
+F 0 "R109" H 1100 875 50  0000 C CNN
+F 1 "TBD" H 1075 775 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 880 825 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 950 825 50  0001 C CNN
 F 4 "470 Resistor" H 950 825 50  0001 C CNN "Description"
@@ -1700,13 +1650,9 @@ Wire Wire Line
 Wire Wire Line
 	575  625  950  625 
 Wire Wire Line
-	2450 1400 2225 1400
+	2450 1400 2000 1400
 Wire Wire Line
-	2225 1400 2225 2000
-Wire Wire Line
-	2225 2000 1700 2000
-Wire Wire Line
-	1925 1300 2450 1300
+	2000 1400 2000 2125
 Wire Wire Line
 	1100 1000 950  1000
 Wire Wire Line
@@ -1715,11 +1661,6 @@ Wire Notes Line
 	550  525  550  2700
 Wire Notes Line
 	4000 525  4000 2700
-Wire Wire Line
-	1925 1300 1925 1400
-Wire Wire Line
-	1400 1300 1925 1300
-Connection ~ 1925 1300
 Wire Wire Line
 	2275 6525 2275 6700
 Wire Wire Line
@@ -1744,12 +1685,230 @@ Wire Wire Line
 	700  5250 1300 5250
 Wire Wire Line
 	700  5375 1300 5375
+$Comp
+L Device:C C106
+U 1 1 61FE937F
+P 1975 850
+F 0 "C106" H 2100 800 50  0000 L CNN
+F 1 "0.1uF" H 2100 875 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 2013 700 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X5R_4V-to-50V_26.pdf" H 1975 850 50  0001 C CNN
+F 4 "" H 1975 850 50  0001 C CNN "S1PL"
+F 5 "0.1 uF Capacitor" H 1975 850 50  0001 C CNN "Description"
+F 6 "Yageo" H 1975 850 50  0001 C CNN "Height"
+F 7 "Yageo" H 1975 850 50  0001 C CNN "MFN"
+F 8 "" H 1975 850 50  0001 C CNN "MFP"
+F 9 "" H 1975 850 50  0001 C CNN "S1PN"
+F 10 "" H 1975 850 50  0001 C CNN "S2PL"
+F 11 "" H 1975 850 50  0001 C CNN "S2PN"
+	1    1975 850 
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0133
+U 1 1 61FE9385
+P 1975 1050
+F 0 "#PWR0133" H 1975 800 50  0001 C CNN
+F 1 "GND" H 1850 975 50  0000 C CNN
+F 2 "" H 1975 1050 50  0001 C CNN
+F 3 "" H 1975 1050 50  0001 C CNN
+	1    1975 1050
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	650  4900 1300 4900
+	1975 1050 1975 1000
 Wire Wire Line
-	1500 4900 2250 4900
+	1975 600  1975 700 
+$Comp
+L Connector:TestPoint TP110
+U 1 1 6201C796
+P 3050 6450
+F 0 "TP110" H 3108 6568 50  0000 L CNN
+F 1 "TestPoint" H 3108 6477 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 3250 6450 50  0001 C CNN
+F 3 "https://cdn.harwin.com/pdfs/Harwin_PC_PCB_Hardware.pdf" H 3250 6450 50  0001 C CNN
+F 4 "SMD Test Point" H 3050 6450 50  0001 C CNN "Description"
+F 5 "Harwin Inc." H 3050 6450 50  0001 C CNN "MFN"
+F 6 "S2751-46R" H 3050 6450 50  0001 C CNN "MFP"
+F 7 "https://www.digikey.com/en/products/detail/harwin-inc/S2751-46R/5250499?WT.z_cid=sp_952_buynow&lang=en&s=N4IgTCBcDaIMpgOwFYCMBaALANgEogF0BfIA&site=us&vendor=0" H 3050 6450 50  0001 C CNN "S1PL"
+F 8 "952-2664" H 3050 6450 50  0001 C CNN "S1PN"
+F 9 "https://www.mouser.com/ProductDetail/Harwin/S2751-46R?qs=DaxoyN%2FvrebM3VuuS3MPNA%3D%3D" H 3050 6450 50  0001 C CNN "S2PL"
+F 10 "855-S2751-46R" H 3050 6450 50  0001 C CNN "S2PN"
+	1    3050 6450
+	-1   0    0    1   
+$EndComp
 Wire Wire Line
-	650  4750 1300 4750
+	3050 6450 3050 6200
+Text Label 3050 6200 1    50   ~ 0
+GPS_VCC
+Text Label 3075 600  2    50   ~ 0
+GPS_VCC
 Wire Wire Line
-	1500 4750 2250 4750
+	1400 1300 1600 1300
+Wire Wire Line
+	1600 1300 1600 600 
+Wire Wire Line
+	1600 600  1975 600 
+$Comp
+L power:+3.3V #PWR0134
+U 1 1 62089417
+P 1725 1725
+F 0 "#PWR0134" H 1725 1575 50  0001 C CNN
+F 1 "+3.3V" H 1740 1898 50  0000 C CNN
+F 2 "" H 1725 1725 50  0001 C CNN
+F 3 "" H 1725 1725 50  0001 C CNN
+	1    1725 1725
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R110
+U 1 1 6208A4C3
+P 1725 1900
+F 0 "R110" H 1825 1850 50  0000 C CNN
+F 1 "10k" H 1850 1950 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 1655 1900 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 1725 1900 50  0001 C CNN
+F 4 "10k Resistor" H 1725 1900 50  0001 C CNN "Description"
+F 5 "Yageo" H 1725 1900 50  0001 C CNN "MFN"
+F 6 "RC0402JR-0710KL" H 1725 1900 50  0001 C CNN "MFP"
+F 7 "digikey.com/en/products/detail/yageo/RC0402JR-0710KL/726418" H 1725 1900 50  0001 C CNN "S1PL"
+F 8 "311-10KJRTR" H 1725 1900 50  0001 C CNN "S1PN"
+F 9 "https://www.mouser.com/ProductDetail/YAGEO/RC0402JR-0710KL?qs=V1yeUXFNrkk4BhFptVo0Rw%3D%3D" H 1725 1900 50  0001 C CNN "S2PL"
+F 10 "603-RC0402JR-0710KL" H 1725 1900 50  0001 C CNN "S2PN"
+	1    1725 1900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1725 2125 1725 2000
+Wire Wire Line
+	1725 1800 1725 1725
+Wire Wire Line
+	1025 2125 1725 2125
+Wire Wire Line
+	1550 2475 1025 2475
+Wire Wire Line
+	3850 2400 3850 2350
+$Comp
+L dk_Coaxial-Connectors-RF:CONSMA001-SMD-G J105
+U 1 1 6211521F
+P 3300 2500
+F 0 "J105" V 3300 2700 60  0000 R CNN
+F 1 "CONSMA001-SMD-G" H 3212 2475 60  0001 R CNN
+F 2 "digikey-footprints:RF_SMA_Receptical_Vertical_CONSMA001-SMD-G" H 3500 2700 60  0001 L CNN
+F 3 "https://linxtechnologies.com/wp/wp-content/uploads/consma001-smd-g.pdf" H 3500 2800 60  0001 L CNN
+F 4 "Linx Technologies Inc." H 3500 3600 60  0001 L CNN "MFN"
+F 5 "CONSMA001-SMD-G" H 3500 3000 60  0001 L CNN "MFP"
+F 6 "CONSMA001-SMD-G-ND" H 3500 2900 60  0001 L CNN "S1PN"
+F 7 "https://www.digikey.com/en/products/detail/linx-technologies-inc/CONSMA001-SMD-G-T/10524519?utm_adgroup=Connectors%20%26%20Interconnects&utm_source=google&utm_medium=cpc&utm_campaign=Dynamic%20Search_EN_Product&utm_term=&utm_content=Connectors%20%26%20Interconnects&gclid=CjwKCAiAz--OBhBIEiwAG1rIOlW3qGIonBS3c6k7mOONvB062Ackp0ZEu4u6ERbVQAQdKj4E2tq6ZBoCu7AQAvD_BwE" H 3500 3400 60  0001 L CNN "S1PL"
+F 8 "" H 3300 2500 50  0001 C CNN "Notes"
+F 9 "SMA Connector receptacle, Female Socket" H 3300 2500 50  0001 C CNN "Description"
+F 10 "https://www.mouser.com/ProductDetail/Linx-Technologies/CONSMA001-SMD-G-T?qs=BJlw7L4Cy7%252BEXFff93cLJw%3D%3D&gclid=CjwKCAiAz--OBhBIEiwAG1rIOnDdCpPVLGmaBJ-aBl3tMAjzN0CuYcmBO12GsRxUK0g8COkS3argYhoCh34QAvD_BwE" H 3300 2500 50  0001 C CNN "S2PL"
+F 11 "712-CONSMA001-SMD-GT" H 3300 2500 50  0001 C CNN "S2PN"
+	1    3300 2500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3650 2200 3650 2275
+Wire Wire Line
+	3650 2275 3300 2275
+Wire Wire Line
+	3300 2275 3300 2300
+Wire Wire Line
+	3500 2500 3700 2500
+Wire Wire Line
+	3700 2500 3700 2350
+Wire Wire Line
+	3700 2350 3850 2350
+Connection ~ 3850 2350
+Wire Wire Line
+	3850 2350 3850 2100
+Wire Wire Line
+	6650 2275 7150 2275
+Wire Wire Line
+	6650 2175 7150 2175
+Connection ~ 1975 600 
+Wire Wire Line
+	2625 600  2625 700 
+Wire Wire Line
+	2625 1050 2625 1000
+$Comp
+L power:GND #PWR0101
+U 1 1 61A5F204
+P 2625 1050
+F 0 "#PWR0101" H 2625 800 50  0001 C CNN
+F 1 "GND" H 2500 975 50  0000 C CNN
+F 2 "" H 2625 1050 50  0001 C CNN
+F 3 "" H 2625 1050 50  0001 C CNN
+	1    2625 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C101
+U 1 1 619DAF8F
+P 2625 850
+F 0 "C101" H 2325 800 50  0000 L CNN
+F 1 "1uF" H 2375 875 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 2663 700 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X5R_4V-to-50V_26.pdf" H 2625 850 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05B103KO5NNNC/3886709" H 2625 850 50  0001 C CNN "S1PL"
+F 5 "1 uF Capacitor" H 2625 850 50  0001 C CNN "Description"
+F 6 "Yageo" H 2625 850 50  0001 C CNN "Height"
+F 7 "Yageo" H 2625 850 50  0001 C CNN "MFN"
+F 8 "CC0402KRX5R5BB105" H 2625 850 50  0001 C CNN "MFP"
+F 9 "311-1438" H 2625 850 50  0001 C CNN "S1PN"
+F 10 "https://www.mouser.com/ProductDetail/YAGEO/CC0402KRX5R5BB105?qs=sGAEpiMZZMvCgIIVhD0CykSaAV4XcsQWIlFIPpyXbt8%3D&gclid=CjwKCAiAz--OBhBIEiwAG1rIOnJnO7dQNloIiBUz8kK3Ggjn7eD7ZR4H-93uJgNgeC6HAKtgKOrezRoCYpoQAvD_BwE" H 2625 850 50  0001 C CNN "S2PL"
+F 11 "603-CC402KRX5R5BB105" H 2625 850 50  0001 C CNN "S2PN"
+	1    2625 850 
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:Ferrite_Bead FB101
+U 1 1 6220355F
+P 2300 875
+F 0 "FB101" H 2050 1025 50  0000 L CNN
+F 1 "Bead" H 2100 800 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 2230 875 50  0001 C CNN
+F 3 "~" H 2300 875 50  0001 C CNN
+	1    2300 875 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 1300 2300 1025
+Wire Wire Line
+	2300 600  2300 725 
+Connection ~ 2625 600 
+Wire Wire Line
+	2625 600  3075 600 
+Connection ~ 2300 600 
+Wire Wire Line
+	2300 600  2625 600 
+Wire Wire Line
+	2300 1300 2450 1300
+Wire Wire Line
+	1975 600  2300 600 
+Wire Wire Line
+	1025 2350 1550 2350
+Connection ~ 1725 2125
+Wire Wire Line
+	1725 2125 2000 2125
+Wire Wire Line
+	2075 2225 1025 2225
+Text Label 1025 2225 0    50   ~ 0
+GPS_3DFIX
+Wire Wire Line
+	2450 1700 2075 1700
+Wire Wire Line
+	2075 1700 2075 2225
+Wire Wire Line
+	2450 2100 2150 2100
+Wire Wire Line
+	2150 2350 1750 2350
+Wire Wire Line
+	2450 2200 2225 2200
+Wire Wire Line
+	2225 2475 1750 2475
+Wire Wire Line
+	2150 2100 2150 2350
+Wire Wire Line
+	2225 2200 2225 2475
 $EndSCHEMATC
