@@ -363,10 +363,6 @@ F 10 "651-1702474" H 1200 3575 50  0001 C CNN "S2PN"
 	1    1200 3575
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1750 3575 1750 3075
-Wire Wire Line
-	1750 3075 2150 3075
 $Comp
 L Device:R_Small_US R103
 U 1 1 61A4865A
@@ -403,46 +399,8 @@ F 10 "603-RC0402JR-0710KL" H 2275 6800 50  0001 C CNN "S2PN"
 	1    2275 6800
 	-1   0    0    1   
 $EndComp
-$Comp
-L Device:C C105
-U 1 1 61A49D1D
-P 2150 3375
-F 0 "C105" H 2300 3325 50  0000 L CNN
-F 1 "1uF" H 2300 3425 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 2188 3225 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X5R_4V-to-50V_26.pdf" H 2150 3375 50  0001 C CNN
-F 4 "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05B103KO5NNNC/3886709" H 2150 3375 50  0001 C CNN "S1PL"
-F 5 "1 uF Capacitor" H 2150 3375 50  0001 C CNN "Description"
-F 6 "Yageo" H 2150 3375 50  0001 C CNN "Height"
-F 7 "Yageo" H 2150 3375 50  0001 C CNN "MFN"
-F 8 "CC0402KRX5R5BB105" H 2150 3375 50  0001 C CNN "MFP"
-F 9 "311-1438" H 2150 3375 50  0001 C CNN "S1PN"
-F 10 "https://www.mouser.com/ProductDetail/YAGEO/CC0402KRX5R5BB105?qs=sGAEpiMZZMvCgIIVhD0CykSaAV4XcsQWIlFIPpyXbt8%3D&gclid=CjwKCAiAz--OBhBIEiwAG1rIOnJnO7dQNloIiBUz8kK3Ggjn7eD7ZR4H-93uJgNgeC6HAKtgKOrezRoCYpoQAvD_BwE" H 2150 3375 50  0001 C CNN "S2PL"
-F 11 "603-CC402KRX5R5BB105" H 2150 3375 50  0001 C CNN "S2PN"
-	1    2150 3375
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	2150 3225 2150 3075
-Connection ~ 2150 3075
-Wire Wire Line
-	2150 3525 2150 3675
 Wire Wire Line
 	2150 3675 1750 3675
-Wire Wire Line
-	2150 3675 2150 4075
-Connection ~ 2150 3675
-$Comp
-L power:GND #PWR0110
-U 1 1 61A54EF1
-P 2150 4075
-F 0 "#PWR0110" H 2150 3825 50  0001 C CNN
-F 1 "GND" H 2155 3902 50  0000 C CNN
-F 2 "" H 2150 4075 50  0001 C CNN
-F 3 "" H 2150 4075 50  0001 C CNN
-	1    2150 4075
-	1    0    0    -1  
-$EndComp
 Wire Notes Line
 	550  2775 4000 2775
 Wire Notes Line
@@ -590,8 +548,6 @@ Wire Wire Line
 	9650 2250 10050 2250
 Text Label 10050 2250 2    50   ~ 0
 ~E5_RESET
-Wire Wire Line
-	2150 3075 3450 3075
 Wire Wire Line
 	600  6950 1200 6950
 Wire Wire Line
@@ -1317,12 +1273,12 @@ $EndComp
 $Comp
 L power:+3.3V #PWR0128
 U 1 1 61F35FEA
-P 3450 3075
-F 0 "#PWR0128" H 3450 2925 50  0001 C CNN
-F 1 "+3.3V" H 3465 3248 50  0000 C CNN
-F 2 "" H 3450 3075 50  0001 C CNN
-F 3 "" H 3450 3075 50  0001 C CNN
-	1    3450 3075
+P 2225 3450
+F 0 "#PWR0128" H 2225 3300 50  0001 C CNN
+F 1 "+3.3V" H 2240 3623 50  0000 C CNN
+F 2 "" H 2225 3450 50  0001 C CNN
+F 3 "" H 2225 3450 50  0001 C CNN
+	1    2225 3450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1911,4 +1867,74 @@ Wire Wire Line
 	2150 2100 2150 2350
 Wire Wire Line
 	2225 2200 2225 2475
+NoConn ~ 3650 1800
+NoConn ~ 3650 1900
+NoConn ~ 3650 2000
+NoConn ~ 2450 1600
+Text Notes 625  1675 0    50   ~ 0
+Note: Put R101, R202, \nC101, C106 Close to \nU101\n
+NoConn ~ 8650 2850
+$Comp
+L power:GND #PWR0110
+U 1 1 61A54EF1
+P 2150 3675
+F 0 "#PWR0110" H 2150 3425 50  0001 C CNN
+F 1 "GND" H 2155 3502 50  0000 C CNN
+F 2 "" H 2150 3675 50  0001 C CNN
+F 3 "" H 2150 3675 50  0001 C CNN
+	1    2150 3675
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2225 3450 2225 3575
+Wire Wire Line
+	2225 3575 1750 3575
+$Comp
+L Connector:TestPoint TP?
+U 1 1 61E4E29C
+P 5675 5500
+F 0 "TP?" H 5733 5618 50  0000 L CNN
+F 1 "TestPoint" H 5733 5527 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 5875 5500 50  0001 C CNN
+F 3 "https://cdn.harwin.com/pdfs/Harwin_PC_PCB_Hardware.pdf" H 5875 5500 50  0001 C CNN
+F 4 "SMD Test Point" H 5675 5500 50  0001 C CNN "Description"
+F 5 "Harwin Inc." H 5675 5500 50  0001 C CNN "MFN"
+F 6 "S2751-46R" H 5675 5500 50  0001 C CNN "MFP"
+F 7 "https://www.digikey.com/en/products/detail/harwin-inc/S2751-46R/5250499?WT.z_cid=sp_952_buynow&lang=en&s=N4IgTCBcDaIMpgOwFYCMBaALANgEogF0BfIA&site=us&vendor=0" H 5675 5500 50  0001 C CNN "S1PL"
+F 8 "952-2664" H 5675 5500 50  0001 C CNN "S1PN"
+F 9 "https://www.mouser.com/ProductDetail/Harwin/S2751-46R?qs=DaxoyN%2FvrebM3VuuS3MPNA%3D%3D" H 5675 5500 50  0001 C CNN "S2PL"
+F 10 "855-S2751-46R" H 5675 5500 50  0001 C CNN "S2PN"
+	1    5675 5500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5675 5500 5675 5250
+Text Label 5675 5250 1    50   ~ 0
+PI_TX1
+$Comp
+L Connector:TestPoint TP?
+U 1 1 61E5A98E
+P 6225 5500
+F 0 "TP?" H 6283 5618 50  0000 L CNN
+F 1 "TestPoint" H 6283 5527 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 6425 5500 50  0001 C CNN
+F 3 "https://cdn.harwin.com/pdfs/Harwin_PC_PCB_Hardware.pdf" H 6425 5500 50  0001 C CNN
+F 4 "SMD Test Point" H 6225 5500 50  0001 C CNN "Description"
+F 5 "Harwin Inc." H 6225 5500 50  0001 C CNN "MFN"
+F 6 "S2751-46R" H 6225 5500 50  0001 C CNN "MFP"
+F 7 "https://www.digikey.com/en/products/detail/harwin-inc/S2751-46R/5250499?WT.z_cid=sp_952_buynow&lang=en&s=N4IgTCBcDaIMpgOwFYCMBaALANgEogF0BfIA&site=us&vendor=0" H 6225 5500 50  0001 C CNN "S1PL"
+F 8 "952-2664" H 6225 5500 50  0001 C CNN "S1PN"
+F 9 "https://www.mouser.com/ProductDetail/Harwin/S2751-46R?qs=DaxoyN%2FvrebM3VuuS3MPNA%3D%3D" H 6225 5500 50  0001 C CNN "S2PL"
+F 10 "855-S2751-46R" H 6225 5500 50  0001 C CNN "S2PN"
+	1    6225 5500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6225 5500 6225 5250
+Text Label 6225 5250 1    50   ~ 0
+PI_RX1
+NoConn ~ 10000 5600
+NoConn ~ 10000 5700
+NoConn ~ 10000 5800
+NoConn ~ 10000 5900
 $EndSCHEMATC
