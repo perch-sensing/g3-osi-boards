@@ -1089,10 +1089,6 @@ F 3 "" H 4650 1250 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4650 1250 4650 1175
-Text Label 2125 4700 2    50   ~ 0
-GPS_VCC
-Text Label 2600 1025 2    50   ~ 0
-GPS_VCC
 Wire Wire Line
 	1375 1300 1575 1300
 $Comp
@@ -1197,10 +1193,6 @@ F 3 "http://www.maglayersusa.com/dkspecs/GMLB-100505-0600A-N8-RU.PDF" H 1725 130
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	2275 1300 2275 1025
-Wire Wire Line
-	2275 1300 2425 1300
-Wire Wire Line
 	1000 2350 1525 2350
 Connection ~ 1700 2125
 Wire Wire Line
@@ -1261,7 +1253,7 @@ U 1 1 61E5BBBE
 P 1900 3675
 F 0 "JP101" V 1900 3950 50  0000 R CNN
 F 1 "SolderJumper_2_Bridged" V 1875 4025 50  0001 R CNN
-F 2 "" H 1900 3675 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 1900 3675 50  0001 C CNN
 F 3 "~" H 1900 3675 50  0001 C CNN
 	1    1900 3675
 	0    -1   -1   0   
@@ -2069,18 +2061,16 @@ $EndComp
 Wire Wire Line
 	1775 6925 2175 6925
 Wire Wire Line
-	4975 875  4975 725 
+	4975 875  4975 825 
 Wire Wire Line
-	4975 725  4650 725 
+	4975 825  4650 825 
 Wire Wire Line
-	4650 725  4650 875 
-Text Label 5350 725  2    50   ~ 0
-GPS_VCC
+	4650 825  4650 875 
 $Comp
-L power:+3.3V #PWR?
+L power:+3.3V #PWR0139
 U 1 1 61E9570C
 P 3525 5125
-F 0 "#PWR?" H 3525 4975 50  0001 C CNN
+F 0 "#PWR0139" H 3525 4975 50  0001 C CNN
 F 1 "+3.3V" H 3540 5298 50  0000 C CNN
 F 2 "" H 3525 5125 50  0001 C CNN
 F 3 "" H 3525 5125 50  0001 C CNN
@@ -2088,10 +2078,10 @@ F 3 "" H 3525 5125 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0140
 U 1 1 61E961BB
 P 3525 5750
-F 0 "#PWR?" H 3525 5500 50  0001 C CNN
+F 0 "#PWR0140" H 3525 5500 50  0001 C CNN
 F 1 "GND" H 3530 5577 50  0000 C CNN
 F 2 "" H 3525 5750 50  0001 C CNN
 F 3 "" H 3525 5750 50  0001 C CNN
@@ -2106,9 +2096,6 @@ Wire Wire Line
 	5900 1175 5900 1250
 Wire Wire Line
 	5900 875  5900 825 
-Wire Wire Line
-	5350 725  4975 725 
-Connection ~ 4975 725 
 Wire Notes Line
 	4050 575  4050 1475
 Text Notes 5450 875  0    35   ~ 0
@@ -2119,16 +2106,11 @@ Wire Notes Line
 	4050 1475 7275 1475
 Text Notes 4125 875  0    35   ~ 0
 Note: Put C101,\n106 close to U101\n(GPS Module)
-Wire Wire Line
-	2275 1300 1875 1300
-Connection ~ 2275 1300
-Wire Wire Line
-	2275 1025 2600 1025
 $Comp
-L power:+5V #PWR?
+L power:+5V #PWR0142
 U 1 1 621CBD4E
 P 5400 5025
-F 0 "#PWR?" H 5400 4875 50  0001 C CNN
+F 0 "#PWR0142" H 5400 4875 50  0001 C CNN
 F 1 "+5V" H 5415 5198 50  0000 C CNN
 F 2 "" H 5400 5025 50  0001 C CNN
 F 3 "" H 5400 5025 50  0001 C CNN
@@ -2155,10 +2137,10 @@ Wire Wire Line
 Wire Wire Line
 	6150 825  6150 875 
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0143
 U 1 1 6220FEF3
 P 6150 1250
-F 0 "#PWR?" H 6150 1000 50  0001 C CNN
+F 0 "#PWR0143" H 6150 1000 50  0001 C CNN
 F 1 "GND" H 6155 1077 50  0000 C CNN
 F 2 "" H 6150 1250 50  0001 C CNN
 F 3 "" H 6150 1250 50  0001 C CNN
@@ -2170,10 +2152,10 @@ Note: Put C102\nclose to Lora-E5
 Wire Wire Line
 	8150 1850 8150 1775
 $Comp
-L Connector:TestPoint TP?
+L Connector:TestPoint TP125
 U 1 1 622802A1
 P 850 7125
-F 0 "TP?" V 950 7200 50  0000 L CNN
+F 0 "TP125" V 950 7200 50  0000 L CNN
 F 1 "TestPoint" V 925 7100 50  0001 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 1050 7125 50  0001 C CNN
 F 3 "https://cdn.harwin.com/pdfs/Harwin_PC_PCB_Hardware.pdf" H 1050 7125 50  0001 C CNN
@@ -2190,10 +2172,10 @@ $EndComp
 Wire Wire Line
 	850  7125 1200 7125
 $Comp
-L Connector:TestPoint TP?
+L Connector:TestPoint TP126
 U 1 1 622802B3
 P 850 7325
-F 0 "TP?" V 950 7400 50  0000 L CNN
+F 0 "TP126" V 950 7400 50  0000 L CNN
 F 1 "TestPoint" V 925 7300 50  0001 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 1050 7325 50  0001 C CNN
 F 3 "https://cdn.harwin.com/pdfs/Harwin_PC_PCB_Hardware.pdf" H 1050 7325 50  0001 C CNN
@@ -2210,10 +2192,10 @@ $EndComp
 Wire Wire Line
 	850  7325 1200 7325
 $Comp
-L Connector:TestPoint TP?
+L Connector:TestPoint TP127
 U 1 1 622802C6
 P 1775 7125
-F 0 "TP?" V 1875 7200 50  0000 L CNN
+F 0 "TP127" V 1875 7200 50  0000 L CNN
 F 1 "TestPoint" V 1850 7100 50  0001 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 1975 7125 50  0001 C CNN
 F 3 "https://cdn.harwin.com/pdfs/Harwin_PC_PCB_Hardware.pdf" H 1975 7125 50  0001 C CNN
@@ -2230,10 +2212,10 @@ $EndComp
 Wire Wire Line
 	1775 7125 2125 7125
 $Comp
-L Connector:TestPoint TP?
+L Connector:TestPoint TP128
 U 1 1 622802D9
 P 1775 7325
-F 0 "TP?" V 1875 7400 50  0000 L CNN
+F 0 "TP128" V 1875 7400 50  0000 L CNN
 F 1 "TestPoint" V 1850 7300 50  0001 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 1975 7325 50  0001 C CNN
 F 3 "https://cdn.harwin.com/pdfs/Harwin_PC_PCB_Hardware.pdf" H 1975 7325 50  0001 C CNN
@@ -2261,4 +2243,96 @@ Wire Notes Line
 	2375 4550 2375 7575
 Wire Notes Line
 	525  4550 525  7575
+$Comp
+L custom_power:V_GPS #PWR0125
+U 1 1 622F764C
+P 2125 4700
+F 0 "#PWR0125" H 2275 4600 50  0001 C CNN
+F 1 "V_GPS" V 2050 4675 50  0000 L CNN
+F 2 "" H 2125 4700 50  0001 C CNN
+F 3 "" H 2125 4700 50  0001 C CNN
+	1    2125 4700
+	0    1    1    0   
+$EndComp
+$Comp
+L custom_power:V_GPS #PWR0138
+U 1 1 622F8228
+P 2175 1175
+F 0 "#PWR0138" H 2325 1075 50  0001 C CNN
+F 1 "V_GPS" H 2190 1348 50  0000 C CNN
+F 2 "" H 2175 1175 50  0001 C CNN
+F 3 "" H 2175 1175 50  0001 C CNN
+	1    2175 1175
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1875 1300 2175 1300
+Wire Wire Line
+	2175 1300 2175 1175
+Connection ~ 2175 1300
+Wire Wire Line
+	2175 1300 2425 1300
+$Comp
+L custom_power:V_GPS #PWR0141
+U 1 1 623248EC
+P 4650 800
+F 0 "#PWR0141" H 4800 700 50  0001 C CNN
+F 1 "V_GPS" H 4665 973 50  0000 C CNN
+F 2 "" H 4650 800 50  0001 C CNN
+F 3 "" H 4650 800 50  0001 C CNN
+	1    4650 800 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 800  4650 825 
+Connection ~ 4650 825 
+Text Label 3475 7000 2    50   ~ 0
+PI_GPIO10
+Text Label 3475 6900 2    50   ~ 0
+PI_GPIO9
+Text Label 3475 7100 2    50   ~ 0
+PI_GPIO11
+Text Label 3475 6800 2    50   ~ 0
+PI_GPIO8
+Wire Wire Line
+	3050 6900 3475 6900
+Wire Wire Line
+	3050 6800 3475 6800
+Wire Wire Line
+	3050 7100 3475 7100
+Wire Wire Line
+	3050 7000 3475 7000
+Text Label 3475 7200 2    50   ~ 0
+PI_GPIO17
+Text Label 3475 7300 2    50   ~ 0
+PI_GPIO25
+Wire Wire Line
+	3050 7300 3475 7300
+Wire Wire Line
+	3050 6700 3475 6700
+Text Label 3475 6700 2    50   ~ 0
+PI_GPIO4
+Wire Wire Line
+	3050 7200 3475 7200
+$Comp
+L Connector:Conn_01x07_Male J108
+U 1 1 623358CD
+P 2850 7000
+F 0 "J108" H 2950 7525 50  0000 C CNN
+F 1 "Conn_01x07_Male" H 2950 7450 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical" H 2850 7000 50  0001 C CNN
+F 3 "~" H 2850 7000 50  0001 C CNN
+	1    2850 7000
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	3725 6325 3725 7575
+Wire Notes Line
+	3725 7575 2525 7575
+Wire Notes Line
+	2525 7575 2525 6325
+Wire Notes Line
+	2525 6325 3725 6325
+Text Notes 3700 7550 2    50   ~ 0
+GPIO Connector
 $EndSCHEMATC
