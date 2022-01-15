@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 1
+Sheet 1 2
 Title "G3 Compute Subsystem"
 Date ""
 Rev "2"
@@ -91,7 +91,7 @@ F 10 "603-AC0402FR-070RL" H 1625 2475 50  0001 C CNN "S2PN"
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	8275 1850 8150 1850
+	8100 2475 7975 2475
 $Comp
 L Device:C C102
 U 1 1 61982F4A
@@ -114,164 +114,164 @@ $EndComp
 $Comp
 L power:GND #PWR0103
 U 1 1 61983EF3
-P 8150 2050
-F 0 "#PWR0103" H 8150 1800 50  0001 C CNN
-F 1 "GND" H 8155 1877 50  0000 C CNN
-F 2 "" H 8150 2050 50  0001 C CNN
-F 3 "" H 8150 2050 50  0001 C CNN
-	1    8150 2050
+P 7975 2675
+F 0 "#PWR0103" H 7975 2425 50  0001 C CNN
+F 1 "GND" H 7980 2502 50  0000 C CNN
+F 2 "" H 7975 2675 50  0001 C CNN
+F 3 "" H 7975 2675 50  0001 C CNN
+	1    7975 2675
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0105
 U 1 1 61984243
-P 9275 2950
-F 0 "#PWR0105" H 9275 2700 50  0001 C CNN
-F 1 "GND" H 9280 2777 50  0000 C CNN
-F 2 "" H 9275 2950 50  0001 C CNN
-F 3 "" H 9275 2950 50  0001 C CNN
-	1    9275 2950
+P 9100 3575
+F 0 "#PWR0105" H 9100 3325 50  0001 C CNN
+F 1 "GND" H 9105 3402 50  0000 C CNN
+F 2 "" H 9100 3575 50  0001 C CNN
+F 3 "" H 9100 3575 50  0001 C CNN
+	1    9100 3575
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0104
 U 1 1 61984697
-P 9275 1350
-F 0 "#PWR0104" H 9275 1100 50  0001 C CNN
-F 1 "GND" H 9280 1177 50  0000 C CNN
-F 2 "" H 9275 1350 50  0001 C CNN
-F 3 "" H 9275 1350 50  0001 C CNN
-	1    9275 1350
+P 9100 1975
+F 0 "#PWR0104" H 9100 1725 50  0001 C CNN
+F 1 "GND" H 9105 1802 50  0000 C CNN
+F 2 "" H 9100 1975 50  0001 C CNN
+F 3 "" H 9100 1975 50  0001 C CNN
+	1    9100 1975
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	9275 1350 9275 1450
+	9100 1975 9100 2075
 Wire Wire Line
-	9275 2850 9275 2950
+	9100 3475 9100 3575
 Wire Wire Line
 	6150 1175 6150 1250
 Wire Wire Line
-	8150 1950 8150 2050
+	7975 2575 7975 2675
 Text Notes 10325 4425 0    79   ~ 0
 LoRa Module
 $Comp
 L dk_Coaxial-Connectors-RF:CONSMA001-SMD-G J107
 U 1 1 619927C4
-P 10800 1675
-F 0 "J107" H 10900 1825 60  0000 R CNN
-F 1 "CONSMA001-SMD-G" H 10712 1650 60  0001 R CNN
-F 2 "digikey-footprints:RF_SMA_Receptical_Vertical_CONSMA001-SMD-G" H 11000 1875 60  0001 L CNN
-F 3 "https://linxtechnologies.com/wp/wp-content/uploads/consma001-smd-g.pdf" H 11000 1975 60  0001 L CNN
-F 4 "Linx Technologies Inc." H 11000 2775 60  0001 L CNN "MFN"
-F 5 "CONSMA001-SMD-G" H 11000 2175 60  0001 L CNN "MFP"
-F 6 "CONSMA001-SMD-G-ND" H 11000 2075 60  0001 L CNN "S1PN"
-F 7 "https://www.digikey.com/en/products/detail/linx-technologies-inc/CONSMA001-SMD-G-T/10524519?utm_adgroup=Connectors%20%26%20Interconnects&utm_source=google&utm_medium=cpc&utm_campaign=Dynamic%20Search_EN_Product&utm_term=&utm_content=Connectors%20%26%20Interconnects&gclid=CjwKCAiAz--OBhBIEiwAG1rIOlW3qGIonBS3c6k7mOONvB062Ackp0ZEu4u6ERbVQAQdKj4E2tq6ZBoCu7AQAvD_BwE" H 11000 2575 60  0001 L CNN "S1PL"
-F 8 "" H 10800 1675 50  0001 C CNN "Notes"
-F 9 "SMA Connector receptacle, Female Socket" H 10800 1675 50  0001 C CNN "Description"
-F 10 "https://www.mouser.com/ProductDetail/Linx-Technologies/CONSMA001-SMD-G-T?qs=BJlw7L4Cy7%252BEXFff93cLJw%3D%3D&gclid=CjwKCAiAz--OBhBIEiwAG1rIOnDdCpPVLGmaBJ-aBl3tMAjzN0CuYcmBO12GsRxUK0g8COkS3argYhoCh34QAvD_BwE" H 10800 1675 50  0001 C CNN "S2PL"
-F 11 "712-CONSMA001-SMD-GT" H 10800 1675 50  0001 C CNN "S2PN"
-	1    10800 1675
+P 10625 2300
+F 0 "J107" H 10725 2450 60  0000 R CNN
+F 1 "CONSMA001-SMD-G" H 10537 2275 60  0001 R CNN
+F 2 "digikey-footprints:RF_SMA_Receptical_Vertical_CONSMA001-SMD-G" H 10825 2500 60  0001 L CNN
+F 3 "https://linxtechnologies.com/wp/wp-content/uploads/consma001-smd-g.pdf" H 10825 2600 60  0001 L CNN
+F 4 "Linx Technologies Inc." H 10825 3400 60  0001 L CNN "MFN"
+F 5 "CONSMA001-SMD-G" H 10825 2800 60  0001 L CNN "MFP"
+F 6 "CONSMA001-SMD-G-ND" H 10825 2700 60  0001 L CNN "S1PN"
+F 7 "https://www.digikey.com/en/products/detail/linx-technologies-inc/CONSMA001-SMD-G-T/10524519?utm_adgroup=Connectors%20%26%20Interconnects&utm_source=google&utm_medium=cpc&utm_campaign=Dynamic%20Search_EN_Product&utm_term=&utm_content=Connectors%20%26%20Interconnects&gclid=CjwKCAiAz--OBhBIEiwAG1rIOlW3qGIonBS3c6k7mOONvB062Ackp0ZEu4u6ERbVQAQdKj4E2tq6ZBoCu7AQAvD_BwE" H 10825 3200 60  0001 L CNN "S1PL"
+F 8 "" H 10625 2300 50  0001 C CNN "Notes"
+F 9 "SMA Connector receptacle, Female Socket" H 10625 2300 50  0001 C CNN "Description"
+F 10 "https://www.mouser.com/ProductDetail/Linx-Technologies/CONSMA001-SMD-G-T?qs=BJlw7L4Cy7%252BEXFff93cLJw%3D%3D&gclid=CjwKCAiAz--OBhBIEiwAG1rIOnDdCpPVLGmaBJ-aBl3tMAjzN0CuYcmBO12GsRxUK0g8COkS3argYhoCh34QAvD_BwE" H 10625 2300 50  0001 C CNN "S2PL"
+F 11 "712-CONSMA001-SMD-GT" H 10625 2300 50  0001 C CNN "S2PN"
+	1    10625 2300
 	-1   0    0    1   
 $EndComp
 $Comp
 L Device:L L101
 U 1 1 61997A42
-P 10175 2450
-F 0 "L101" V 10125 2450 50  0000 C CNN
-F 1 "0" V 10025 2450 50  0000 C CNN
-F 2 "Inductor_SMD:L_0402_1005Metric_Pad0.77x0.64mm_HandSolder" H 10175 2450 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 10175 2450 50  0001 C CNN
-F 4 "Yageo" V 10175 2450 50  0001 C CNN "MFN"
-F 5 "RC0402FR-070RL" V 10175 2450 50  0001 C CNN "MFP"
-F 6 "311-0.0LRTR" V 10175 2450 50  0001 C CNN "S1PN"
-F 7 "https://www.digikey.com/en/products/detail/yageo/RC0402FR-070RL/2827570" V 10175 2450 50  0001 C CNN "S1PL"
-F 8 "" V 10175 2450 50  0001 C CNN "Notes"
-F 9 "0 Ohm Resistor" H 10175 2450 50  0001 C CNN "Description"
-F 10 "https://www.mouser.com/ProductDetail/YAGEO/RC0402FR-070RL?qs=sxZXDnvRBEhfSy4CZGX2ww%3D%3D" H 10175 2450 50  0001 C CNN "S2PL"
-F 11 "603-RC0402FR-070RL" H 10175 2450 50  0001 C CNN "S2PN"
-	1    10175 2450
+P 10000 3075
+F 0 "L101" V 9950 3075 50  0000 C CNN
+F 1 "0" V 9850 3075 50  0000 C CNN
+F 2 "Inductor_SMD:L_0402_1005Metric_Pad0.77x0.64mm_HandSolder" H 10000 3075 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 10000 3075 50  0001 C CNN
+F 4 "Yageo" V 10000 3075 50  0001 C CNN "MFN"
+F 5 "RC0402FR-070RL" V 10000 3075 50  0001 C CNN "MFP"
+F 6 "311-0.0LRTR" V 10000 3075 50  0001 C CNN "S1PN"
+F 7 "https://www.digikey.com/en/products/detail/yageo/RC0402FR-070RL/2827570" V 10000 3075 50  0001 C CNN "S1PL"
+F 8 "" V 10000 3075 50  0001 C CNN "Notes"
+F 9 "0 Ohm Resistor" H 10000 3075 50  0001 C CNN "Description"
+F 10 "https://www.mouser.com/ProductDetail/YAGEO/RC0402FR-070RL?qs=sxZXDnvRBEhfSy4CZGX2ww%3D%3D" H 10000 3075 50  0001 C CNN "S2PL"
+F 11 "603-RC0402FR-070RL" H 10000 3075 50  0001 C CNN "S2PN"
+	1    10000 3075
 	0    -1   -1   0   
 $EndComp
 $Comp
 L power:GND #PWR0108
 U 1 1 6199ADF3
-P 10800 1425
-F 0 "#PWR0108" H 10800 1175 50  0001 C CNN
-F 1 "GND" H 10805 1252 50  0000 C CNN
-F 2 "" H 10800 1425 50  0001 C CNN
-F 3 "" H 10800 1425 50  0001 C CNN
-	1    10800 1425
+P 10625 2050
+F 0 "#PWR0108" H 10625 1800 50  0001 C CNN
+F 1 "GND" H 10630 1877 50  0000 C CNN
+F 2 "" H 10625 2050 50  0001 C CNN
+F 3 "" H 10625 2050 50  0001 C CNN
+	1    10625 2050
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	10800 1425 10800 1475
+	10625 2050 10625 2100
 $Comp
 L Device:C C103
 U 1 1 619A2EF3
-P 9925 2600
-F 0 "C103" H 9725 2500 50  0000 L CNN
-F 1 "DNL" H 9725 2400 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 9963 2450 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X5R_4V-to-50V_26.pdf" H 9925 2600 50  0001 C CNN
-F 4 "Yageo" H 9925 2600 50  0001 C CNN "MFN"
-F 5 "CC0402KRX5R5BB105" H 9925 2600 50  0001 C CNN "MFP"
-F 6 "311-1438" H 9925 2600 50  0001 C CNN "S1PN"
-F 7 "https://www.digikey.com/en/products/detail/yageo/CC0402KRX5R5BB105/2833603?s=N4IgTCBcDaIMJwAwBZFgNICUAaBWTuAQoQIyK4gC6AvkA" H 9925 2600 50  0001 C CNN "S1PL"
-F 8 "" H 9925 2600 50  0001 C CNN "Notes"
-F 9 "TBD Capacitor" H 9925 2600 50  0001 C CNN "Description"
-F 10 "https://www.mouser.com/ProductDetail/YAGEO/CC0402KRX5R5BB105?qs=sGAEpiMZZMvCgIIVhD0CykSaAV4XcsQWIlFIPpyXbt8%3D&gclid=CjwKCAiAz--OBhBIEiwAG1rIOnJnO7dQNloIiBUz8kK3Ggjn7eD7ZR4H-93uJgNgeC6HAKtgKOrezRoCYpoQAvD_BwE" H 9925 2600 50  0001 C CNN "S2PL"
-F 11 "603-CC402KRX5R5BB105" H 9925 2600 50  0001 C CNN "S2PN"
-	1    9925 2600
+P 9750 3225
+F 0 "C103" H 9550 3125 50  0000 L CNN
+F 1 "DNL" H 9550 3025 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 9788 3075 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X5R_4V-to-50V_26.pdf" H 9750 3225 50  0001 C CNN
+F 4 "Yageo" H 9750 3225 50  0001 C CNN "MFN"
+F 5 "CC0402KRX5R5BB105" H 9750 3225 50  0001 C CNN "MFP"
+F 6 "311-1438" H 9750 3225 50  0001 C CNN "S1PN"
+F 7 "https://www.digikey.com/en/products/detail/yageo/CC0402KRX5R5BB105/2833603?s=N4IgTCBcDaIMJwAwBZFgNICUAaBWTuAQoQIyK4gC6AvkA" H 9750 3225 50  0001 C CNN "S1PL"
+F 8 "" H 9750 3225 50  0001 C CNN "Notes"
+F 9 "TBD Capacitor" H 9750 3225 50  0001 C CNN "Description"
+F 10 "https://www.mouser.com/ProductDetail/YAGEO/CC0402KRX5R5BB105?qs=sGAEpiMZZMvCgIIVhD0CykSaAV4XcsQWIlFIPpyXbt8%3D&gclid=CjwKCAiAz--OBhBIEiwAG1rIOnJnO7dQNloIiBUz8kK3Ggjn7eD7ZR4H-93uJgNgeC6HAKtgKOrezRoCYpoQAvD_BwE" H 9750 3225 50  0001 C CNN "S2PL"
+F 11 "603-CC402KRX5R5BB105" H 9750 3225 50  0001 C CNN "S2PN"
+	1    9750 3225
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C104
 U 1 1 619A34FC
-P 10425 2600
-F 0 "C104" H 10535 2510 50  0000 L CNN
-F 1 "DNL" H 10485 2430 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 10463 2450 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X5R_4V-to-50V_26.pdf" H 10425 2600 50  0001 C CNN
-F 4 "Yageo" H 10425 2600 50  0001 C CNN "MFN"
-F 5 "CC0402KRX5R5BB105" H 10425 2600 50  0001 C CNN "MFP"
-F 6 "311-1438" H 10425 2600 50  0001 C CNN "S1PN"
-F 7 "https://www.digikey.com/en/products/detail/yageo/CC0402KRX5R5BB105/2833603?s=N4IgTCBcDaIMJwAwBZFgNICUAaBWTuAQoQIyK4gC6AvkA" H 10425 2600 50  0001 C CNN "S1PL"
-F 8 "" H 10425 2600 50  0001 C CNN "Notes"
-F 9 "TBD Capacitor" H 10425 2600 50  0001 C CNN "Description"
-F 10 "https://www.mouser.com/ProductDetail/YAGEO/CC0402KRX5R5BB105?qs=sGAEpiMZZMvCgIIVhD0CykSaAV4XcsQWIlFIPpyXbt8%3D&gclid=CjwKCAiAz--OBhBIEiwAG1rIOnJnO7dQNloIiBUz8kK3Ggjn7eD7ZR4H-93uJgNgeC6HAKtgKOrezRoCYpoQAvD_BwE" H 10425 2600 50  0001 C CNN "S2PL"
-F 11 "603-CC402KRX5R5BB105" H 10425 2600 50  0001 C CNN "S2PN"
-	1    10425 2600
+P 10250 3225
+F 0 "C104" H 10360 3135 50  0000 L CNN
+F 1 "DNL" H 10310 3055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 10288 3075 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X5R_4V-to-50V_26.pdf" H 10250 3225 50  0001 C CNN
+F 4 "Yageo" H 10250 3225 50  0001 C CNN "MFN"
+F 5 "CC0402KRX5R5BB105" H 10250 3225 50  0001 C CNN "MFP"
+F 6 "311-1438" H 10250 3225 50  0001 C CNN "S1PN"
+F 7 "https://www.digikey.com/en/products/detail/yageo/CC0402KRX5R5BB105/2833603?s=N4IgTCBcDaIMJwAwBZFgNICUAaBWTuAQoQIyK4gC6AvkA" H 10250 3225 50  0001 C CNN "S1PL"
+F 8 "" H 10250 3225 50  0001 C CNN "Notes"
+F 9 "TBD Capacitor" H 10250 3225 50  0001 C CNN "Description"
+F 10 "https://www.mouser.com/ProductDetail/YAGEO/CC0402KRX5R5BB105?qs=sGAEpiMZZMvCgIIVhD0CykSaAV4XcsQWIlFIPpyXbt8%3D&gclid=CjwKCAiAz--OBhBIEiwAG1rIOnJnO7dQNloIiBUz8kK3Ggjn7eD7ZR4H-93uJgNgeC6HAKtgKOrezRoCYpoQAvD_BwE" H 10250 3225 50  0001 C CNN "S2PL"
+F 11 "603-CC402KRX5R5BB105" H 10250 3225 50  0001 C CNN "S2PN"
+	1    10250 3225
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0106
 U 1 1 619A38AC
-P 9925 2750
-F 0 "#PWR0106" H 9925 2500 50  0001 C CNN
-F 1 "GND" H 9930 2577 50  0000 C CNN
-F 2 "" H 9925 2750 50  0001 C CNN
-F 3 "" H 9925 2750 50  0001 C CNN
-	1    9925 2750
+P 9750 3375
+F 0 "#PWR0106" H 9750 3125 50  0001 C CNN
+F 1 "GND" H 9755 3202 50  0000 C CNN
+F 2 "" H 9750 3375 50  0001 C CNN
+F 3 "" H 9750 3375 50  0001 C CNN
+	1    9750 3375
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0107
 U 1 1 619A3CC1
-P 10425 2750
-F 0 "#PWR0107" H 10425 2500 50  0001 C CNN
-F 1 "GND" H 10430 2577 50  0000 C CNN
-F 2 "" H 10425 2750 50  0001 C CNN
-F 3 "" H 10425 2750 50  0001 C CNN
-	1    10425 2750
+P 10250 3375
+F 0 "#PWR0107" H 10250 3125 50  0001 C CNN
+F 1 "GND" H 10255 3202 50  0000 C CNN
+F 2 "" H 10250 3375 50  0001 C CNN
+F 3 "" H 10250 3375 50  0001 C CNN
+	1    10250 3375
 	1    0    0    -1  
 $EndComp
-Connection ~ 9925 2450
+Connection ~ 9750 3075
 Wire Wire Line
-	9925 2450 10025 2450
+	9750 3075 9850 3075
 Wire Wire Line
-	10325 2450 10425 2450
-Connection ~ 10425 2450
-Text Label 9725 2450 0    50   ~ 0
+	10150 3075 10250 3075
+Connection ~ 10250 3075
+Text Label 9550 3075 0    50   ~ 0
 E5_RFIO
 Wire Wire Line
 	2300 1500 2300 2000
@@ -445,25 +445,25 @@ Text Label 4275 3275 0    50   ~ 0
 ~GPS_RESET
 Text Label 4275 3375 0    50   ~ 0
 GPS_SW_EN
-Text Label 10550 2450 0    50   ~ 0
+Text Label 10375 3075 0    50   ~ 0
 ANT
 Wire Wire Line
-	9675 2450 9925 2450
+	9500 3075 9750 3075
 Text Label 4275 3475 0    50   ~ 0
 CONN_SW_EN
 Wire Wire Line
 	4825 3475 4275 3475
 Wire Wire Line
-	8775 2850 8775 3150
+	8600 3475 8600 3775
 Wire Wire Line
-	8875 2850 8875 3150
-Text Label 8775 3700 1    50   ~ 0
+	8700 3475 8700 3775
+Text Label 8600 4325 1    50   ~ 0
 E5_RX
-Text Label 8875 3700 1    50   ~ 0
+Text Label 8700 4325 1    50   ~ 0
 E5_TX
 Wire Wire Line
-	9675 2250 10075 2250
-Text Label 10075 2250 2    50   ~ 0
+	9500 2875 9900 2875
+Text Label 9900 2875 2    50   ~ 0
 ~E5_RESET
 Wire Wire Line
 	1450 4150 2050 4150
@@ -494,19 +494,19 @@ E5_TX
 $Comp
 L Device:R_Small_US R107
 U 1 1 61CBC4E4
-P 8775 3250
-F 0 "R107" H 8625 3200 50  0000 C CNN
-F 1 "0" H 8650 3275 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 8705 3250 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AC_51_RoHS_L_8.pdf" H 8775 3250 50  0001 C CNN
-F 4 "0 Ohm resistor" H 8775 3250 50  0001 C CNN "Description"
-F 5 "Yageo" H 8775 3250 50  0001 C CNN "MFN"
-F 6 "AC0402FR-070RL" H 8775 3250 50  0001 C CNN "MFP"
-F 7 "https://www.digikey.com/en/products/detail/yageo/AC0402FR-070RL/12082398" H 8775 3250 50  0001 C CNN "S1PL"
-F 8 "13-AC0402FR-070" H 8775 3250 50  0001 C CNN "S1PN"
-F 9 "https://www.mouser.com/ProductDetail/YAGEO/AC0402FR-070RL?qs=ygRr%2FtkhtettkzGxq5kFaA%3D%3D&gclid=CjwKCAiA24SPBhB0EiwAjBgkhi5uTfBcJS8SsMuz2pyxhEcRqwD_CzKIIyJ_UGE-u-_X0odkln3FZRoC0WIQAvD_BwE" H 8775 3250 50  0001 C CNN "S2PL"
-F 10 "603-AC0402FR-070RL" H 8775 3250 50  0001 C CNN "S2PN"
-	1    8775 3250
+P 8600 3875
+F 0 "R107" H 8450 3825 50  0000 C CNN
+F 1 "0" H 8475 3900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 8530 3875 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AC_51_RoHS_L_8.pdf" H 8600 3875 50  0001 C CNN
+F 4 "0 Ohm resistor" H 8600 3875 50  0001 C CNN "Description"
+F 5 "Yageo" H 8600 3875 50  0001 C CNN "MFN"
+F 6 "AC0402FR-070RL" H 8600 3875 50  0001 C CNN "MFP"
+F 7 "https://www.digikey.com/en/products/detail/yageo/AC0402FR-070RL/12082398" H 8600 3875 50  0001 C CNN "S1PL"
+F 8 "13-AC0402FR-070" H 8600 3875 50  0001 C CNN "S1PN"
+F 9 "https://www.mouser.com/ProductDetail/YAGEO/AC0402FR-070RL?qs=ygRr%2FtkhtettkzGxq5kFaA%3D%3D&gclid=CjwKCAiA24SPBhB0EiwAjBgkhi5uTfBcJS8SsMuz2pyxhEcRqwD_CzKIIyJ_UGE-u-_X0odkln3FZRoC0WIQAvD_BwE" H 8600 3875 50  0001 C CNN "S2PL"
+F 10 "603-AC0402FR-070RL" H 8600 3875 50  0001 C CNN "S2PN"
+	1    8600 3875
 	1    0    0    -1  
 $EndComp
 Text Label 7150 3575 2    50   ~ 0
@@ -589,19 +589,19 @@ Test Points
 $Comp
 L Transceivers:LoRa-E5 U102
 U 1 1 61C457FB
-P 8975 2150
-F 0 "U102" H 8875 2300 50  0000 L CNN
-F 1 "LoRa-E5" H 8825 2050 50  0000 L CNN
-F 2 "Perch:LoRa-E5" H 8675 1100 50  0001 C CNN
-F 3 "https://files.seeedstudio.com/products/317990687/res/LoRa-E5%20module%20datasheet_V1.0.pdf" H 8975 2150 50  0001 C CNN
-F 4 "SeeedStudio" H 8625 1000 50  0001 C CNN "MFN"
-F 5 "LoRa-E5" H 8575 800 50  0001 C CNN "MFP"
-F 6 "LoRa-E5" H 8625 900 50  0001 C CNN "S1PN"
-F 7 "https://www.seeedstudio.com/LoRa-E5-Wireless-Module-p-4745.html" H 9775 700 50  0001 C CNN "S1PL"
-F 8 "LoRa-E5 Module" H 8975 2150 50  0001 C CNN "Description"
-F 9 "https://www.mouser.com/ProductDetail/Seeed-Studio/317990687?qs=hd1VzrDQEGhZOj13wvzSLA%3D%3D" H 8975 2150 50  0001 C CNN "S2PL"
-F 10 "713-317990687" H 8975 2150 50  0001 C CNN "S2PN"
-	1    8975 2150
+P 8800 2775
+F 0 "U102" H 8700 2925 50  0000 L CNN
+F 1 "LoRa-E5" H 8650 2675 50  0000 L CNN
+F 2 "Perch:LoRa-E5" H 8500 1725 50  0001 C CNN
+F 3 "https://files.seeedstudio.com/products/317990687/res/LoRa-E5%20module%20datasheet_V1.0.pdf" H 8800 2775 50  0001 C CNN
+F 4 "SeeedStudio" H 8450 1625 50  0001 C CNN "MFN"
+F 5 "LoRa-E5" H 8400 1425 50  0001 C CNN "MFP"
+F 6 "LoRa-E5" H 8450 1525 50  0001 C CNN "S1PN"
+F 7 "https://www.seeedstudio.com/LoRa-E5-Wireless-Module-p-4745.html" H 9600 1325 50  0001 C CNN "S1PL"
+F 8 "LoRa-E5 Module" H 8800 2775 50  0001 C CNN "Description"
+F 9 "https://www.mouser.com/ProductDetail/Seeed-Studio/317990687?qs=hd1VzrDQEGhZOj13wvzSLA%3D%3D" H 8800 2775 50  0001 C CNN "S2PL"
+F 10 "713-317990687" H 8800 2775 50  0001 C CNN "S2PN"
+	1    8800 2775
 	1    0    0    -1  
 $EndComp
 Text Label 2400 2975 3    50   ~ 0
@@ -679,37 +679,37 @@ F 3 "" H 4425 2675 50  0001 C CNN
 	1    4425 2675
 	0    -1   -1   0   
 $EndComp
-NoConn ~ 9175 2850
-NoConn ~ 9075 2850
-NoConn ~ 8975 2850
-NoConn ~ 9675 2150
-NoConn ~ 9675 2050
-NoConn ~ 9675 1950
-NoConn ~ 9675 1850
-NoConn ~ 9175 1450
-NoConn ~ 9075 1450
-NoConn ~ 8975 1450
-NoConn ~ 8875 1450
-NoConn ~ 8775 1450
-NoConn ~ 8675 1450
-NoConn ~ 8275 2050
-NoConn ~ 8275 2150
-NoConn ~ 8275 2250
-NoConn ~ 8275 2350
-NoConn ~ 8275 2450
+NoConn ~ 9000 3475
+NoConn ~ 8900 3475
+NoConn ~ 8800 3475
+NoConn ~ 9500 2775
+NoConn ~ 9500 2675
+NoConn ~ 9500 2575
+NoConn ~ 9500 2475
+NoConn ~ 9000 2075
+NoConn ~ 8900 2075
+NoConn ~ 8800 2075
+NoConn ~ 8700 2075
+NoConn ~ 8600 2075
+NoConn ~ 8500 2075
+NoConn ~ 8100 2675
+NoConn ~ 8100 2775
+NoConn ~ 8100 2875
+NoConn ~ 8100 2975
+NoConn ~ 8100 3075
 $Comp
 L power:GND #PWR0120
 U 1 1 61F2D2DC
-P 10000 2350
-F 0 "#PWR0120" H 10000 2100 50  0001 C CNN
-F 1 "GND" V 10005 2222 50  0000 R CNN
-F 2 "" H 10000 2350 50  0001 C CNN
-F 3 "" H 10000 2350 50  0001 C CNN
-	1    10000 2350
+P 9825 2975
+F 0 "#PWR0120" H 9825 2725 50  0001 C CNN
+F 1 "GND" V 9830 2847 50  0000 R CNN
+F 2 "" H 9825 2975 50  0001 C CNN
+F 3 "" H 9825 2975 50  0001 C CNN
+	1    9825 2975
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	9675 2350 10000 2350
+	9500 2975 9825 2975
 Text Label 1200 4725 2    50   ~ 0
 E5_TX
 Text Label 1200 4925 2    50   ~ 0
@@ -719,16 +719,16 @@ Wire Wire Line
 $Comp
 L power:+3.3V #PWR0116
 U 1 1 61DE9698
-P 8150 1775
-F 0 "#PWR0116" H 8150 1625 50  0001 C CNN
-F 1 "+3.3V" H 8165 1948 50  0000 C CNN
-F 2 "" H 8150 1775 50  0001 C CNN
-F 3 "" H 8150 1775 50  0001 C CNN
-	1    8150 1775
+P 7975 2400
+F 0 "#PWR0116" H 7975 2250 50  0001 C CNN
+F 1 "+3.3V" H 7990 2573 50  0000 C CNN
+F 2 "" H 7975 2400 50  0001 C CNN
+F 3 "" H 7975 2400 50  0001 C CNN
+	1    7975 2400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8150 1950 8275 1950
+	7975 2575 8100 2575
 $Comp
 L power:+3.3V #PWR0121
 U 1 1 61E8F626
@@ -744,11 +744,11 @@ Wire Wire Line
 	2550 4150 3125 4150
 Connection ~ 2550 4150
 Wire Wire Line
-	10550 1675 10600 1675
+	10375 2300 10425 2300
 Wire Wire Line
-	10550 1675 10550 2450
+	10375 2300 10375 3075
 Wire Wire Line
-	10425 2450 10550 2450
+	10250 3075 10375 3075
 $Comp
 L power:+3.3V #PWR0123
 U 1 1 61EF6AD3
@@ -871,7 +871,7 @@ F 10 "MOL53261-1071.P" H 10925 4900 50  0001 C CNN "S2PN"
 	1    10925 4900
 	-1   0    0    -1  
 $EndComp
-Text Notes 9800 3225 0    50   ~ 0
+Text Notes 9625 3850 0    50   ~ 0
 Note: \nProbably used as filters, do \nnot load until needed
 $Comp
 L power:GND #PWR0114
@@ -1223,7 +1223,7 @@ NoConn ~ 3625 2000
 NoConn ~ 2425 1600
 Text Notes 575  1950 0    50   ~ 0
 Note: Put R101, R202, \nclose to U101\n
-NoConn ~ 8675 2850
+NoConn ~ 8500 3475
 $Comp
 L power:GND #PWR0110
 U 1 1 61A54EF1
@@ -1244,9 +1244,9 @@ NoConn ~ 10025 5600
 NoConn ~ 10025 5700
 NoConn ~ 10025 5800
 Wire Wire Line
-	8875 3350 8875 3700
+	8700 3975 8700 4325
 Wire Wire Line
-	8775 3350 8775 3700
+	8600 3975 8600 4325
 $Comp
 L Jumper:SolderJumper_2_Bridged JP101
 U 1 1 61E5BBBE
@@ -1824,19 +1824,19 @@ PI_RXD0
 $Comp
 L Device:R_Small_US R108
 U 1 1 61E2E05A
-P 8875 3250
-F 0 "R108" H 9000 3200 50  0000 C CNN
-F 1 "0" H 8975 3275 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 8805 3250 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AC_51_RoHS_L_8.pdf" H 8875 3250 50  0001 C CNN
-F 4 "0 Ohm resistor" H 8875 3250 50  0001 C CNN "Description"
-F 5 "Yageo" H 8875 3250 50  0001 C CNN "MFN"
-F 6 "AC0402FR-070RL" H 8875 3250 50  0001 C CNN "MFP"
-F 7 "https://www.digikey.com/en/products/detail/yageo/AC0402FR-070RL/12082398" H 8875 3250 50  0001 C CNN "S1PL"
-F 8 "13-AC0402FR-070" H 8875 3250 50  0001 C CNN "S1PN"
-F 9 "https://www.mouser.com/ProductDetail/YAGEO/AC0402FR-070RL?qs=ygRr%2FtkhtettkzGxq5kFaA%3D%3D&gclid=CjwKCAiA24SPBhB0EiwAjBgkhi5uTfBcJS8SsMuz2pyxhEcRqwD_CzKIIyJ_UGE-u-_X0odkln3FZRoC0WIQAvD_BwE" H 8875 3250 50  0001 C CNN "S2PL"
-F 10 "603-AC0402FR-070RL" H 8875 3250 50  0001 C CNN "S2PN"
-	1    8875 3250
+P 8700 3875
+F 0 "R108" H 8825 3825 50  0000 C CNN
+F 1 "0" H 8800 3900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 8630 3875 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AC_51_RoHS_L_8.pdf" H 8700 3875 50  0001 C CNN
+F 4 "0 Ohm resistor" H 8700 3875 50  0001 C CNN "Description"
+F 5 "Yageo" H 8700 3875 50  0001 C CNN "MFN"
+F 6 "AC0402FR-070RL" H 8700 3875 50  0001 C CNN "MFP"
+F 7 "https://www.digikey.com/en/products/detail/yageo/AC0402FR-070RL/12082398" H 8700 3875 50  0001 C CNN "S1PL"
+F 8 "13-AC0402FR-070" H 8700 3875 50  0001 C CNN "S1PN"
+F 9 "https://www.mouser.com/ProductDetail/YAGEO/AC0402FR-070RL?qs=ygRr%2FtkhtettkzGxq5kFaA%3D%3D&gclid=CjwKCAiA24SPBhB0EiwAjBgkhi5uTfBcJS8SsMuz2pyxhEcRqwD_CzKIIyJ_UGE-u-_X0odkln3FZRoC0WIQAvD_BwE" H 8700 3875 50  0001 C CNN "S2PL"
+F 10 "603-AC0402FR-070RL" H 8700 3875 50  0001 C CNN "S2PN"
+	1    8700 3875
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2150,7 +2150,7 @@ $EndComp
 Text Notes 6025 825  0    35   ~ 0
 Note: Put C102\nclose to Lora-E5
 Wire Wire Line
-	8150 1850 8150 1775
+	7975 2475 7975 2400
 $Comp
 L Connector:TestPoint TP125
 U 1 1 622802A1
@@ -2335,4 +2335,70 @@ Wire Notes Line
 	2525 6325 3725 6325
 Text Notes 3700 7550 2    50   ~ 0
 GPIO Connector
+$Sheet
+S 8350 675  725  925 
+U 624C3AFD
+F0 "LoRa Module" 50
+F1 "SX1262LoRaModule.sch" 50
+F2 "VDD" I L 8350 775 50 
+F3 "~CS" I L 8350 950 50 
+F4 "SCK" I L 8350 1050 50 
+F5 "SDI" I L 8350 1150 50 
+F6 "SDO" I L 8350 1250 50 
+F7 "~RESET" I L 8350 1500 50 
+F8 "BUSY" I R 9075 950 50 
+F9 "DIO1" I R 9075 1050 50 
+F10 "DIO3" I R 9075 1250 50 
+F11 "ANT" I R 9075 1500 50 
+F12 "DIO2" I R 9075 1150 50 
+$EndSheet
+$Comp
+L dk_Coaxial-Connectors-RF:CONSMA001-SMD-G J109
+U 1 1 624E09E8
+P 9775 1500
+F 0 "J109" H 9875 1650 60  0000 R CNN
+F 1 "CONSMA001-SMD-G" H 9687 1475 60  0001 R CNN
+F 2 "digikey-footprints:RF_SMA_Receptical_Vertical_CONSMA001-SMD-G" H 9975 1700 60  0001 L CNN
+F 3 "https://linxtechnologies.com/wp/wp-content/uploads/consma001-smd-g.pdf" H 9975 1800 60  0001 L CNN
+F 4 "Linx Technologies Inc." H 9975 2600 60  0001 L CNN "MFN"
+F 5 "CONSMA001-SMD-G" H 9975 2000 60  0001 L CNN "MFP"
+F 6 "CONSMA001-SMD-G-ND" H 9975 1900 60  0001 L CNN "S1PN"
+F 7 "https://www.digikey.com/en/products/detail/linx-technologies-inc/CONSMA001-SMD-G-T/10524519?utm_adgroup=Connectors%20%26%20Interconnects&utm_source=google&utm_medium=cpc&utm_campaign=Dynamic%20Search_EN_Product&utm_term=&utm_content=Connectors%20%26%20Interconnects&gclid=CjwKCAiAz--OBhBIEiwAG1rIOlW3qGIonBS3c6k7mOONvB062Ackp0ZEu4u6ERbVQAQdKj4E2tq6ZBoCu7AQAvD_BwE" H 9975 2400 60  0001 L CNN "S1PL"
+F 8 "" H 9775 1500 50  0001 C CNN "Notes"
+F 9 "SMA Connector receptacle, Female Socket" H 9775 1500 50  0001 C CNN "Description"
+F 10 "https://www.mouser.com/ProductDetail/Linx-Technologies/CONSMA001-SMD-G-T?qs=BJlw7L4Cy7%252BEXFff93cLJw%3D%3D&gclid=CjwKCAiAz--OBhBIEiwAG1rIOnDdCpPVLGmaBJ-aBl3tMAjzN0CuYcmBO12GsRxUK0g8COkS3argYhoCh34QAvD_BwE" H 9775 1500 50  0001 C CNN "S2PL"
+F 11 "712-CONSMA001-SMD-GT" H 9775 1500 50  0001 C CNN "S2PN"
+	1    9775 1500
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0145
+U 1 1 624E12B9
+P 9775 1150
+F 0 "#PWR0145" H 9775 900 50  0001 C CNN
+F 1 "GND" H 9780 977 50  0000 C CNN
+F 2 "" H 9775 1150 50  0001 C CNN
+F 3 "" H 9775 1150 50  0001 C CNN
+	1    9775 1150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9075 1500 9575 1500
+Wire Wire Line
+	9775 1300 9775 1150
+$Comp
+L power:+3.3V #PWR0144
+U 1 1 625049EA
+P 8075 775
+F 0 "#PWR0144" H 8075 625 50  0001 C CNN
+F 1 "+3.3V" V 8175 875 50  0000 C CNN
+F 2 "" H 8075 775 50  0001 C CNN
+F 3 "" H 8075 775 50  0001 C CNN
+	1    8075 775 
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8350 775  8075 775 
+Text Notes 7375 1225 0    50   ~ 0
+Note: We will implement\nthese pins, but isn't our\ntop priority right now
 $EndSCHEMATC
