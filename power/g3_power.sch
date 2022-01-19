@@ -82,23 +82,6 @@ Wire Wire Line
 Wire Wire Line
 	2675 7350 3100 7350
 $Comp
-L 53261-1071:53261-1071 J1
-U 1 1 61DE7F1F
-P 4000 6450
-F 0 "J1" H 4450 6715 50  0000 C CNN
-F 1 "53261-1071" H 4450 6624 50  0000 C CNN
-F 2 "" H 4750 6550 50  0001 L CNN
-F 3 "https://www.molex.com/webdocs/datasheets/pdf/en-us/0532611071_PCB_HEADERS.pdf" H 4750 6450 50  0001 L CNN
-F 4 "10 way SMT r/a header Molex PICOBLADE Series, Series Number 53261, 1.25mm Pitch 10 Way 1 Row Shrouded Right Angle PCB Header, Surface Mount" H 4750 6350 50  0001 L CNN "Description"
-F 5 "3" H 4750 6250 50  0001 L CNN "Height"
-F 6 "538-53261-1071" H 4750 6150 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.co.uk/ProductDetail/Molex/53261-1071?qs=%252B72YyncTwW%252Bzs3RwZTiukQ%3D%3D" H 4750 6050 50  0001 L CNN "Mouser Price/Stock"
-F 8 "Molex" H 4750 5950 50  0001 L CNN "Manufacturer_Name"
-F 9 "53261-1071" H 4750 5850 50  0001 L CNN "Manufacturer_Part_Number"
-	1    4000 6450
-	-1   0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR0106
 U 1 1 61E98850
 P 4100 6650
@@ -165,15 +148,15 @@ Wire Notes Line
 $Comp
 L Device:L_Small L102
 U 1 1 61F4A718
-P 8850 2300
-F 0 "L102" V 9035 2300 50  0000 C CNN
-F 1 "2.2uH" V 8944 2300 50  0000 C CNN
-F 2 "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8850 2300 50  0001 C CNN
-F 3 "~" H 8850 2300 50  0001 C CNN
-	1    8850 2300
+P 9225 3150
+F 0 "L102" V 9410 3150 50  0000 C CNN
+F 1 "2.2uH" V 9319 3150 50  0000 C CNN
+F 2 "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9225 3150 50  0001 C CNN
+F 3 "~" H 9225 3150 50  0001 C CNN
+	1    9225 3150
 	0    -1   -1   0   
 $EndComp
-Text Notes 9625 3225 0    79   ~ 0
+Text Notes 9925 4875 0    79   ~ 0
 Voltage Regulator
 $Comp
 L Device:R_Small_US R109
@@ -393,41 +376,16 @@ $EndComp
 $Comp
 L power:GND #PWR0136
 U 1 1 620A2210
-P 9525 2825
-F 0 "#PWR0136" H 9525 2575 50  0001 C CNN
-F 1 "GND" H 9425 2725 50  0000 C CNN
-F 2 "" H 9525 2825 50  0001 C CNN
-F 3 "" H 9525 2825 50  0001 C CNN
-	1    9525 2825
-	1    0    0    -1  
-$EndComp
-$Comp
-L Regulator_Switching:TPS613222ADBV U1
-U 1 1 61E15C3D
-P 9525 2400
-F 0 "U1" H 9525 2767 50  0000 C CNN
-F 1 "TPS613222ADBV" H 9525 2676 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-5" H 9525 1600 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tps61322.pdf" H 9525 2250 50  0001 C CNN
-	1    9525 2400
+P 9325 4450
+F 0 "#PWR0136" H 9325 4200 50  0001 C CNN
+F 1 "GND" H 9225 4350 50  0000 C CNN
+F 2 "" H 9325 4450 50  0001 C CNN
+F 3 "" H 9325 4450 50  0001 C CNN
+	1    9325 4450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9525 2700 9525 2825
-Wire Wire Line
-	8950 2300 9125 2300
-Text Label 8400 2300 0    50   ~ 0
-CC_SYS
-Wire Wire Line
-	8750 2300 8400 2300
-Wire Notes Line
-	8050 3300 8050 1850
-Wire Notes Line
-	8050 1850 10750 1850
-Wire Notes Line
-	10750 1850 10750 3300
-Wire Notes Line
-	8050 3300 10750 3300
+	9325 4275 9325 4325
 Wire Notes Line
 	550  550  550  4525
 Wire Notes Line
@@ -1123,21 +1081,6 @@ Wire Wire Line
 	3925 2025 3950 2025
 Wire Wire Line
 	3950 2025 3950 2125
-$Comp
-L power:+5V #PWR?
-U 1 1 61F1AB8A
-P 10200 2225
-F 0 "#PWR?" H 10200 2075 50  0001 C CNN
-F 1 "+5V" H 10215 2398 50  0000 C CNN
-F 2 "" H 10200 2225 50  0001 C CNN
-F 3 "" H 10200 2225 50  0001 C CNN
-	1    10200 2225
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9925 2300 10200 2300
-Wire Wire Line
-	10200 2300 10200 2225
 Wire Wire Line
 	2600 6450 3100 6450
 Wire Wire Line
@@ -1170,7 +1113,6 @@ Wire Wire Line
 	2600 6550 2600 6575
 NoConn ~ 3100 6650
 NoConn ~ 3100 6750
-NoConn ~ 3100 6850
 $Comp
 L Device:R_Small_US R108
 U 1 1 622B0488
@@ -1258,4 +1200,336 @@ F 3 "~" H 6000 3100 50  0001 C CNN
 $EndComp
 Text Notes 6200 2550 0    39   ~ 0
 Note: \nUsed 5.23k x 30.1k Ohm if\ntemperature sensing \nIS used 
+$Comp
+L Analog_ADC:MCP3422 U?
+U 1 1 61E7EEE7
+P 9250 1925
+F 0 "U?" H 8825 2425 50  0000 C CNN
+F 1 "MCP3422" H 8950 2325 50  0000 C CNN
+F 2 "" H 10150 1625 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/22088c.pdf" H 10150 1625 50  0001 C CNN
+	1    9250 1925
+	1    0    0    -1  
+$EndComp
+Text Label 10425 1925 2    50   ~ 0
+CC_SDA
+Wire Wire Line
+	9850 1825 10425 1825
+Wire Wire Line
+	9850 1925 10425 1925
+Text Label 10425 1825 2    50   ~ 0
+CC_SCL
+$Comp
+L power:GND #PWR?
+U 1 1 61EC7538
+P 9250 2550
+F 0 "#PWR?" H 9250 2300 50  0001 C CNN
+F 1 "GND" H 9150 2425 50  0000 C CNN
+F 2 "" H 9250 2550 50  0001 C CNN
+F 3 "" H 9250 2550 50  0001 C CNN
+	1    9250 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9250 2425 9250 2550
+Wire Wire Line
+	9700 1275 9700 1325
+$Comp
+L Device:C_Small C?
+U 1 1 61EF1B91
+P 9700 1175
+F 0 "C?" H 9500 1100 50  0000 L CNN
+F 1 "10uF" H 9500 1025 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 9700 1175 50  0001 C CNN
+F 3 "~" H 9700 1175 50  0001 C CNN
+F 4 "" H 9700 1175 50  0001 C CNN "MFN"
+F 5 "" H 9700 1175 50  0001 C CNN "MFP"
+F 6 "" H 9700 1175 50  0001 C CNN "S1PN"
+F 7 "" H 9700 1175 50  0001 C CNN "S1PL"
+F 8 "" H 9700 1175 50  0001 C CNN "Notes"
+	1    9700 1175
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10050 1275 10050 1325
+$Comp
+L Device:C_Small C?
+U 1 1 61EF867F
+P 10050 1175
+F 0 "C?" H 9825 1100 50  0000 L CNN
+F 1 "0.1uF" H 9825 1025 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 10050 1175 50  0001 C CNN
+F 3 "~" H 10050 1175 50  0001 C CNN
+F 4 "" H 10050 1175 50  0001 C CNN "MFN"
+F 5 "" H 10050 1175 50  0001 C CNN "MFP"
+F 6 "" H 10050 1175 50  0001 C CNN "S1PN"
+F 7 "" H 10050 1175 50  0001 C CNN "S1PL"
+F 8 "" H 10050 1175 50  0001 C CNN "Notes"
+	1    10050 1175
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9250 1525 9250 1025
+Wire Wire Line
+	9250 1025 9700 1025
+Wire Wire Line
+	9700 1025 9700 1075
+Connection ~ 9700 1025
+$Comp
+L power:GND #PWR?
+U 1 1 61F332E5
+P 9700 1325
+F 0 "#PWR?" H 9700 1075 50  0001 C CNN
+F 1 "GND" H 9600 1200 50  0000 C CNN
+F 2 "" H 9700 1325 50  0001 C CNN
+F 3 "" H 9700 1325 50  0001 C CNN
+	1    9700 1325
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61F3A0B2
+P 10050 1325
+F 0 "#PWR?" H 10050 1075 50  0001 C CNN
+F 1 "GND" H 9950 1200 50  0000 C CNN
+F 2 "" H 10050 1325 50  0001 C CNN
+F 3 "" H 10050 1325 50  0001 C CNN
+	1    10050 1325
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10050 1025 10050 1075
+Wire Wire Line
+	9700 1025 10050 1025
+$Comp
+L power:+5V #PWR?
+U 1 1 61F5EA84
+P 9250 975
+F 0 "#PWR?" H 9250 825 50  0001 C CNN
+F 1 "+5V" H 9265 1148 50  0000 C CNN
+F 2 "" H 9250 975 50  0001 C CNN
+F 3 "" H 9250 975 50  0001 C CNN
+	1    9250 975 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9250 975  9250 1025
+Connection ~ 9250 1025
+Text Label 8100 2025 0    50   ~ 0
+CC_SYS
+$Comp
+L power:+5V #PWR?
+U 1 1 61F7407A
+P 8125 1650
+F 0 "#PWR?" H 8125 1500 50  0001 C CNN
+F 1 "+5V" H 8140 1823 50  0000 C CNN
+F 2 "" H 8125 1650 50  0001 C CNN
+F 3 "" H 8125 1650 50  0001 C CNN
+	1    8125 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8125 1725 8125 1650
+$Comp
+L power:GND #PWR?
+U 1 1 61FA0D38
+P 8600 2150
+F 0 "#PWR?" H 8600 1900 50  0001 C CNN
+F 1 "GND" H 8500 2025 50  0000 C CNN
+F 2 "" H 8600 2150 50  0001 C CNN
+F 3 "" H 8600 2150 50  0001 C CNN
+	1    8600 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61FA7EB1
+P 8600 1850
+F 0 "#PWR?" H 8600 1600 50  0001 C CNN
+F 1 "GND" H 8500 1850 50  0000 C CNN
+F 2 "" H 8600 1850 50  0001 C CNN
+F 3 "" H 8600 1850 50  0001 C CNN
+	1    8600 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8650 1825 8600 1825
+Wire Wire Line
+	8600 1825 8600 1850
+Wire Wire Line
+	8650 2125 8600 2125
+Wire Wire Line
+	8600 2125 8600 2150
+Wire Wire Line
+	8125 1725 8650 1725
+Wire Wire Line
+	8100 2025 8650 2025
+Text Notes 4125 2300 0    39   ~ 0
+Note: \nPlace near switch \nVR input
+Text Notes 9575 975  0    39   ~ 0
+Note: \nPlace near Vdd pin
+Wire Notes Line
+	7925 2775 10750 2775
+Wire Notes Line
+	10750 2775 10750 575 
+Wire Notes Line
+	10750 575  7925 575 
+Wire Notes Line
+	7925 575  7925 2750
+Text Notes 10425 2725 0    79   ~ 0
+ADC
+$Comp
+L Regulator_Switching:TPS61202DRC U?
+U 1 1 61E87D64
+P 9225 3775
+F 0 "U?" H 9225 4242 50  0000 C CNN
+F 1 "TPS61202DRC" H 9225 4151 50  0000 C CNN
+F 2 "Package_SON:Texas_S-PVSON-N10_ThermalVias" H 9225 3325 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tps61200.pdf" H 9225 3775 50  0001 C CNN
+	1    9225 3775
+	1    0    0    -1  
+$EndComp
+Text Label 8325 3575 0    50   ~ 0
+CC_SYS
+Wire Wire Line
+	9325 3150 9800 3150
+Wire Wire Line
+	9800 3150 9800 3575
+Wire Wire Line
+	9800 3575 9625 3575
+Wire Wire Line
+	9125 3150 8725 3150
+Wire Wire Line
+	8725 3150 8725 3575
+Wire Wire Line
+	9225 4325 9225 4275
+Wire Wire Line
+	9225 4325 9325 4325
+Connection ~ 9325 4325
+Wire Wire Line
+	9325 4325 9325 4450
+Wire Wire Line
+	9125 4275 9125 4325
+Wire Wire Line
+	9125 4325 9225 4325
+Connection ~ 9225 4325
+$Comp
+L Device:C_Small C?
+U 1 1 61EE0DAE
+P 10025 4125
+F 0 "C?" H 9800 4050 50  0000 L CNN
+F 1 "0.1uF" H 9800 3975 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 10025 4125 50  0001 C CNN
+F 3 "~" H 10025 4125 50  0001 C CNN
+F 4 "" H 10025 4125 50  0001 C CNN "MFN"
+F 5 "" H 10025 4125 50  0001 C CNN "MFP"
+F 6 "" H 10025 4125 50  0001 C CNN "S1PN"
+F 7 "" H 10025 4125 50  0001 C CNN "S1PL"
+F 8 "" H 10025 4125 50  0001 C CNN "Notes"
+	1    10025 4125
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8725 3575 8800 3575
+Wire Wire Line
+	8725 3575 8325 3575
+Connection ~ 8725 3575
+Wire Wire Line
+	9625 3975 9700 3975
+Wire Wire Line
+	10025 4225 10025 4325
+Wire Wire Line
+	9700 3975 9700 4675
+Wire Wire Line
+	9700 4675 8700 4675
+Wire Wire Line
+	8700 4675 8700 3875
+Wire Wire Line
+	8700 3875 8825 3875
+Connection ~ 9700 3975
+Wire Wire Line
+	9700 3975 9850 3975
+Wire Wire Line
+	9625 3775 9850 3775
+Wire Wire Line
+	9850 3775 9850 3975
+Connection ~ 9850 3975
+$Comp
+L power:+5V #PWR?
+U 1 1 61F39346
+P 10100 3625
+F 0 "#PWR?" H 10100 3475 50  0001 C CNN
+F 1 "+5V" H 10115 3798 50  0000 C CNN
+F 2 "" H 10100 3625 50  0001 C CNN
+F 3 "" H 10100 3625 50  0001 C CNN
+	1    10100 3625
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9625 3675 10025 3675
+Wire Wire Line
+	10100 3675 10100 3625
+Wire Wire Line
+	10025 3675 10025 3975
+Wire Wire Line
+	9850 3975 10025 3975
+Connection ~ 10025 3675
+Wire Wire Line
+	10025 3675 10100 3675
+Wire Wire Line
+	10025 3975 10025 4025
+Connection ~ 10025 3975
+$Comp
+L power:GND #PWR?
+U 1 1 61F5E996
+P 10025 4325
+F 0 "#PWR?" H 10025 4075 50  0001 C CNN
+F 1 "GND" H 9925 4225 50  0000 C CNN
+F 2 "" H 10025 4325 50  0001 C CNN
+F 3 "" H 10025 4325 50  0001 C CNN
+	1    10025 4325
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8825 3675 8800 3675
+Wire Wire Line
+	8800 3675 8800 3575
+Connection ~ 8800 3575
+Wire Wire Line
+	8800 3575 8825 3575
+Wire Wire Line
+	8825 3775 8325 3775
+Text Label 8325 3775 0    50   ~ 0
+VR_PS
+Wire Notes Line
+	11050 2850 11050 4900
+Wire Notes Line
+	11050 4900 7925 4900
+Wire Notes Line
+	7925 2850 7925 4900
+Wire Notes Line
+	7925 2850 11050 2850
+Text Label 2675 6850 0    50   ~ 0
+VR_PS
+$Comp
+L 53261-1071:53261-1071 J1
+U 1 1 61DE7F1F
+P 4000 6450
+F 0 "J1" H 4450 6715 50  0000 C CNN
+F 1 "53261-1071" H 4450 6624 50  0000 C CNN
+F 2 "" H 4750 6550 50  0001 L CNN
+F 3 "https://www.molex.com/webdocs/datasheets/pdf/en-us/0532611071_PCB_HEADERS.pdf" H 4750 6450 50  0001 L CNN
+F 4 "10 way SMT r/a header Molex PICOBLADE Series, Series Number 53261, 1.25mm Pitch 10 Way 1 Row Shrouded Right Angle PCB Header, Surface Mount" H 4750 6350 50  0001 L CNN "Description"
+F 5 "3" H 4750 6250 50  0001 L CNN "Height"
+F 6 "538-53261-1071" H 4750 6150 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Molex/53261-1071?qs=%252B72YyncTwW%252Bzs3RwZTiukQ%3D%3D" H 4750 6050 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Molex" H 4750 5950 50  0001 L CNN "Manufacturer_Name"
+F 9 "53261-1071" H 4750 5850 50  0001 L CNN "Manufacturer_Part_Number"
+	1    4000 6450
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2675 6850 3100 6850
+Text Notes 9975 3325 0    50   ~ 0
+NOTE:\nI don't think this is \nthe correct config. \nMight need to be \nlooked at further.
 $EndSCHEMATC
