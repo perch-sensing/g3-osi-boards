@@ -1799,7 +1799,6 @@ Wire Wire Line
 	7450 4900 7450 4850
 Wire Wire Line
 	7450 5000 7450 5050
-NoConn ~ 8250 5300
 NoConn ~ 8250 5200
 NoConn ~ 8250 5100
 Text Label 7125 2175 2    50   ~ 0
@@ -2442,4 +2441,14 @@ F 3 "" H 7025 1250 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7025 1175 7025 1250
+Wire Wire Line
+	8250 5300 7575 5300
+Text Label 7575 5300 0    50   ~ 0
+PS_BOOST
+NoConn ~ 3625 1600
+NoConn ~ 3625 1700
+NoConn ~ 3625 1500
+NoConn ~ 3625 1300
+NoConn ~ 2425 1800
+NoConn ~ 2425 1900
 $EndSCHEMATC
