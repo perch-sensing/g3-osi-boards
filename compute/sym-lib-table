@@ -194,4 +194,5 @@
   (lib (name GPS_PA1616D)(type Legacy)(uri ${KIPRJMOD}/kicad-lib/Perch.sch/GPS_PA1616D.lib)(options "")(descr ""))
   (lib (name 53261-1071)(type Legacy)(uri ${KIPRJMOD}/kicad-lib/Perch.sch/53261-1071.lib)(options "")(descr ""))
   (lib (name 53261-0271_Molex)(type Legacy)(uri ${KIPRJMOD}/kicad-lib/Perch.sch/53261-0271_Molex.lib)(options "")(descr ""))
+  (lib (name 452403012014_Switch)(type Legacy)(uri ${KIPRJMOD}/kicad-lib/Perch.pretty/452403012014_Switch.lib)(options "")(descr ""))
 )

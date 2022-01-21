@@ -1778,23 +1778,23 @@ Note: Put C107,\nC108 close to\nJ101-2
 $Comp
 L power:GND #PWR0127
 U 1 1 61E6E7A1
-P 6050 5125
-F 0 "#PWR0127" H 6050 4875 50  0001 C CNN
-F 1 "GND" H 5925 5000 50  0000 C CNN
-F 2 "" H 6050 5125 50  0001 C CNN
-F 3 "" H 6050 5125 50  0001 C CNN
-	1    6050 5125
+P 6400 5125
+F 0 "#PWR0127" H 6400 4875 50  0001 C CNN
+F 1 "GND" H 6275 5000 50  0000 C CNN
+F 2 "" H 6400 5125 50  0001 C CNN
+F 3 "" H 6400 5125 50  0001 C CNN
+	1    6400 5125
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6050 5125 6325 5125
+	6400 5125 6675 5125
 Wire Wire Line
-	6325 5425 6000 5425
+	6675 5425 6350 5425
 Wire Wire Line
-	6325 5525 6000 5525
-Text Label 6000 5525 0    50   ~ 0
+	6675 5525 6350 5525
+Text Label 6350 5525 0    50   ~ 0
 PI_TXD0
-Text Label 6000 5425 0    50   ~ 0
+Text Label 6350 5425 0    50   ~ 0
 PI_RXD0
 Wire Notes Line
 	7275 4550 7275 6250
@@ -1963,20 +1963,14 @@ Note: Put C101,\n106 close to U101-1
 $Comp
 L power:+5V #PWR0142
 U 1 1 621CBD4E
-P 5625 5250
-F 0 "#PWR0142" H 5625 5100 50  0001 C CNN
-F 1 "+5V" H 5640 5423 50  0000 C CNN
-F 2 "" H 5625 5250 50  0001 C CNN
-F 3 "" H 5625 5250 50  0001 C CNN
-	1    5625 5250
+P 6050 5075
+F 0 "#PWR0142" H 6050 4925 50  0001 C CNN
+F 1 "+5V" H 6065 5248 50  0000 C CNN
+F 2 "" H 6050 5075 50  0001 C CNN
+F 3 "" H 6050 5075 50  0001 C CNN
+	1    6050 5075
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5625 5325 5625 5250
-Wire Wire Line
-	5625 5325 6325 5325
-Text Notes 5150 5625 0    50   ~ 0
-Note: How should\na switch be set up?
 Text Notes 1475 900  0    50   ~ 0
 Note: BJT from prev.\nboard. There will be \none unused transistor.
 Text Notes 2375 3300 0    50   ~ 0
@@ -2391,16 +2385,40 @@ Connection ~ 2625 3725
 Wire Wire Line
 	2625 3725 2900 3725
 $Comp
-L Connector:Conn_01x06_Male J?
+L Connector:Conn_01x06_Male J106
 U 1 1 62043352
-P 6525 5325
-F 0 "J?" H 6700 5750 50  0000 R CNN
-F 1 "Conn_01x06_Male" H 6975 5650 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 6525 5325 50  0001 C CNN
-F 3 "~" H 6525 5325 50  0001 C CNN
-	1    6525 5325
+P 6875 5325
+F 0 "J106" H 7050 5750 50  0000 R CNN
+F 1 "Conn_01x06_Male" H 7325 5650 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 6875 5325 50  0001 C CNN
+F 3 "~" H 6875 5325 50  0001 C CNN
+	1    6875 5325
 	-1   0    0    -1  
 $EndComp
-NoConn ~ 6325 5225
-NoConn ~ 6325 5625
+NoConn ~ 6675 5225
+NoConn ~ 6675 5625
+$Comp
+L 452403012014_Switch:452403012014 S101
+U 1 1 620C2712
+P 4775 5325
+F 0 "S101" H 5375 5590 50  0000 C CNN
+F 1 "452403012014" H 5375 5499 50  0000 C CNN
+F 2 "Perch:452403012014_Switch" H 5825 5425 50  0001 L CNN
+F 3 "https://katalog.we-online.de/em/datasheet/452403012014.pdf" H 5825 5325 50  0001 L CNN
+F 4 "Slide Switches WS-SLSV Slide Switch SMD 7.65mm x 5.5mm" H 5825 5225 50  0001 L CNN "Description"
+	1    4775 5325
+	1    0    0    -1  
+$EndComp
+NoConn ~ 5975 5525
+NoConn ~ 4775 5525
+NoConn ~ 4775 5325
+NoConn ~ 4775 5425
+Wire Wire Line
+	6675 5325 5975 5325
+Wire Wire Line
+	5975 5425 6050 5425
+Wire Wire Line
+	6050 5425 6050 5075
+Text Notes 4800 5750 0    50   ~ 0
+Note: Please verify this switch setup\n
 $EndSCHEMATC
