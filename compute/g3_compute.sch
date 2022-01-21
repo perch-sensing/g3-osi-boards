@@ -551,11 +551,11 @@ PS_CC_SCL
 Connection ~ 2050 4050
 Wire Wire Line
 	2050 4050 2500 4050
-Text Label 9475 5200 0    50   ~ 0
+Text Label 9475 5100 0    50   ~ 0
 CPPC_RX
-Text Label 9475 5300 0    50   ~ 0
+Text Label 9475 5000 0    50   ~ 0
 CPPC_TX
-Text Label 9475 5400 0    50   ~ 0
+Text Label 9475 4900 0    50   ~ 0
 CPPC_INT
 Text Notes 5425 4425 0    79   ~ 0
 Raspberry PI Zero Connector
@@ -745,60 +745,40 @@ Wire Notes Line
 $Comp
 L power:+5V #PWR0129
 U 1 1 61DF7584
-P 9775 4900
-F 0 "#PWR0129" H 9775 4750 50  0001 C CNN
-F 1 "+5V" H 9825 5050 50  0000 C CNN
-F 2 "" H 9775 4900 50  0001 C CNN
-F 3 "" H 9775 4900 50  0001 C CNN
-	1    9775 4900
-	1    0    0    -1  
+P 9700 5400
+F 0 "#PWR0129" H 9700 5250 50  0001 C CNN
+F 1 "+5V" H 9825 5450 50  0000 C CNN
+F 2 "" H 9700 5400 50  0001 C CNN
+F 3 "" H 9700 5400 50  0001 C CNN
+	1    9700 5400
+	-1   0    0    -1  
 $EndComp
 $Comp
 L power:+3.3V #PWR0130
 U 1 1 61DF7A7B
-P 9650 5000
-F 0 "#PWR0130" H 9650 4850 50  0001 C CNN
-F 1 "+3.3V" H 9550 5150 50  0000 C CNN
-F 2 "" H 9650 5000 50  0001 C CNN
-F 3 "" H 9650 5000 50  0001 C CNN
-	1    9650 5000
-	1    0    0    -1  
+P 9500 5300
+F 0 "#PWR0130" H 9500 5150 50  0001 C CNN
+F 1 "+3.3V" H 9375 5375 50  0000 C CNN
+F 2 "" H 9500 5300 50  0001 C CNN
+F 3 "" H 9500 5300 50  0001 C CNN
+	1    9500 5300
+	-1   0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0115
 U 1 1 61EE3A32
-P 9900 5900
-F 0 "#PWR0115" H 9900 5650 50  0001 C CNN
-F 1 "GND" H 9905 5727 50  0000 C CNN
-F 2 "" H 9900 5900 50  0001 C CNN
-F 3 "" H 9900 5900 50  0001 C CNN
-	1    9900 5900
+P 9900 5675
+F 0 "#PWR0115" H 9900 5425 50  0001 C CNN
+F 1 "GND" H 9905 5502 50  0000 C CNN
+F 2 "" H 9900 5675 50  0001 C CNN
+F 3 "" H 9900 5675 50  0001 C CNN
+	1    9900 5675
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9900 5100 9900 5900
 Wire Wire Line
 	2500 3725 2625 3725
 Wire Wire Line
 	2900 3625 2900 3725
-$Comp
-L 53261-1071:53261-1071 J103
-U 1 1 61E456C4
-P 10925 4900
-F 0 "J103" H 11375 5165 50  0000 C CNN
-F 1 "53261-1071" H 11375 5074 50  0000 C CNN
-F 2 "Perch:532611071_Molex" H 11675 5000 50  0001 L CNN
-F 3 "https://www.molex.com/webdocs/datasheets/pdf/en-us/0532611071_PCB_HEADERS.pdf" H 11675 4900 50  0001 L CNN
-F 4 "10 way SMT r/a header Molex PICOBLADE Series, Series Number 53261, 1.25mm Pitch 10 Way 1 Row Shrouded Right Angle PCB Header, Surface Mount" H 11675 4800 50  0001 L CNN "Description"
-F 5 "Molex" H 10925 4900 50  0001 C CNN "MFN"
-F 6 "53261-1071" H 10925 4900 50  0001 C CNN "MFP"
-F 7 "https://www.mouser.com/ProductDetail/Molex/53261-1071?qs=%252B72YyncTwW%252Bzs3RwZTiukQ%3D%3D" H 10925 4900 50  0001 C CNN "S1PL"
-F 8 "538-53261-1071" H 10925 4900 50  0001 C CNN "S1PN"
-F 9 "https://www.heilind.com/search/result?q=53261-1071&manufacturer=5031&utm_source=molex.com&utm_medium=referral&utm_campaign=molex-disty-stock-check" H 10925 4900 50  0001 C CNN "S2PL"
-F 10 "MOL53261-1071.P" H 10925 4900 50  0001 C CNN "S2PN"
-	1    10925 4900
-	-1   0    0    -1  
-$EndComp
 Text Notes 9625 3850 0    50   ~ 0
 Note: \nProbably used as filters, do \nnot load until needed
 $Comp
@@ -823,60 +803,34 @@ F 3 "" H 7450 4850 50  0001 C CNN
 	1    7450 4850
 	1    0    0    -1  
 $EndComp
-Text Label 7575 5600 0    50   ~ 0
+Text Label 8000 5525 0    50   ~ 0
 ~PS_CC_QON
-Text Label 7575 5700 0    50   ~ 0
+Text Label 8000 5625 0    50   ~ 0
 PS_CC_SCL
-Text Label 7575 5800 0    50   ~ 0
+Text Label 8000 5725 0    50   ~ 0
 PS_CC_SDA
-Text Label 7575 5400 0    50   ~ 0
+Text Label 7575 5200 0    50   ~ 0
 ~PS_CC_INT
-Text Label 7575 5500 0    50   ~ 0
+Text Label 8000 5425 0    50   ~ 0
 ~PS_CC_CE
 Wire Wire Line
-	9775 4900 10025 4900
+	9700 5400 10025 5400
 Wire Wire Line
-	9650 5000 10025 5000
+	9500 5300 10025 5300
 Wire Wire Line
-	9900 5100 10025 5100
+	9900 5200 10025 5200
 Wire Wire Line
-	9475 5200 10025 5200
+	9475 5100 10025 5100
 Wire Wire Line
-	9475 5300 10025 5300
+	9475 5000 10025 5000
 Wire Wire Line
-	9475 5400 10025 5400
-$Comp
-L 53261-1071:53261-1071 J104
-U 1 1 61E5BCC4
-P 9150 4900
-F 0 "J104" H 9600 5165 50  0000 C CNN
-F 1 "53261-1071" H 9600 5074 50  0000 C CNN
-F 2 "Perch:532611071_Molex" H 9900 5000 50  0001 L CNN
-F 3 "https://www.molex.com/webdocs/datasheets/pdf/en-us/0532611071_PCB_HEADERS.pdf" H 9900 4900 50  0001 L CNN
-F 4 "10 way SMT r/a header Molex PICOBLADE Series, Series Number 53261, 1.25mm Pitch 10 Way 1 Row Shrouded Right Angle PCB Header, Surface Mount" H 9900 4800 50  0001 L CNN "Description"
-F 5 "Molex" H 9150 4900 50  0001 C CNN "MFN"
-F 6 "53261-1071" H 9150 4900 50  0001 C CNN "MFP"
-F 7 "https://www.mouser.com/ProductDetail/Molex/53261-1071?qs=%252B72YyncTwW%252Bzs3RwZTiukQ%3D%3D" H 9150 4900 50  0001 C CNN "S1PL"
-F 8 "538-53261-1071" H 9150 4900 50  0001 C CNN "S1PN"
-F 9 "https://www.heilind.com/search/result?q=53261-1071&manufacturer=5031&utm_source=molex.com&utm_medium=referral&utm_campaign=molex-disty-stock-check" H 9150 4900 50  0001 C CNN "S2PL"
-F 10 "MOL53261-1071.P" H 9150 4900 50  0001 C CNN "S2PN"
-	1    9150 4900
-	-1   0    0    -1  
-$EndComp
+	9475 4900 10025 4900
 Wire Wire Line
-	7450 4900 8250 4900
+	7450 4900 8200 4900
 Wire Wire Line
-	7450 5000 8250 5000
+	7450 5000 8200 5000
 Wire Wire Line
-	7575 5400 8250 5400
-Wire Wire Line
-	7575 5500 8250 5500
-Wire Wire Line
-	7575 5600 8250 5600
-Wire Wire Line
-	7575 5700 8250 5700
-Wire Wire Line
-	7575 5800 8250 5800
+	7575 5200 8200 5200
 $Comp
 L power:GND #PWR0132
 U 1 1 61ED6461
@@ -888,26 +842,6 @@ F 3 "" H 10975 5250 50  0001 C CNN
 	1    10975 5250
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GND #PWR0131
-U 1 1 61EDF3A5
-P 9200 5250
-F 0 "#PWR0131" H 9200 5000 50  0001 C CNN
-F 1 "GND" H 9205 5077 50  0000 C CNN
-F 2 "" H 9200 5250 50  0001 C CNN
-F 3 "" H 9200 5250 50  0001 C CNN
-	1    9200 5250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9200 5250 9200 5000
-Wire Wire Line
-	9200 4900 9150 4900
-Wire Wire Line
-	9150 5000 9200 5000
-Connection ~ 9200 5000
-Wire Wire Line
-	9200 5000 9200 4900
 Wire Wire Line
 	10975 5250 10975 5000
 Wire Wire Line
@@ -1160,10 +1094,6 @@ Text Label 1200 6525 2    50   ~ 0
 CPPC_RX
 Text Label 1200 6325 2    50   ~ 0
 CPPC_TX
-NoConn ~ 10025 5500
-NoConn ~ 10025 5600
-NoConn ~ 10025 5700
-NoConn ~ 10025 5800
 Wire Wire Line
 	8600 3850 8250 3850
 $Comp
@@ -1731,8 +1661,6 @@ Wire Wire Line
 	7450 4900 7450 4850
 Wire Wire Line
 	7450 5000 7450 5050
-NoConn ~ 8250 5200
-NoConn ~ 8250 5100
 Text Label 7125 2175 2    50   ~ 0
 PI_TXD0
 Text Label 7125 2275 2    50   ~ 0
@@ -2304,8 +2232,8 @@ $EndComp
 Wire Wire Line
 	7025 1175 7025 1250
 Wire Wire Line
-	8250 5300 7575 5300
-Text Label 7575 5300 0    50   ~ 0
+	8200 5100 7575 5100
+Text Label 7575 5100 0    50   ~ 0
 PS_BOOST
 NoConn ~ 3625 1600
 NoConn ~ 3625 1700
@@ -2421,4 +2349,53 @@ Wire Wire Line
 	6050 5425 6050 5075
 Text Notes 4800 5750 0    50   ~ 0
 Note: Please verify this switch setup\n
+$Comp
+L 533980871_Molex:53398-0871 J?
+U 1 1 6227437C
+P 8200 4900
+F 0 "J?" H 8600 5165 50  0000 C CNN
+F 1 "53398-0871" H 8600 5074 50  0000 C CNN
+F 2 "Perch:53398-0871_Molex" H 8850 5000 50  0001 L CNN
+F 3 "http://www.molex.com/webdocs/datasheets/pdf/en-us/0533980871_PCB_HEADERS.pdf" H 8850 4900 50  0001 L CNN
+	1    8200 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9000 4900 9050 4900
+Wire Wire Line
+	9050 4900 9050 5425
+Wire Wire Line
+	8000 5425 9050 5425
+Wire Wire Line
+	9125 5525 9125 5000
+Wire Wire Line
+	9125 5000 9000 5000
+Wire Wire Line
+	8000 5525 9125 5525
+Wire Wire Line
+	9000 5100 9200 5100
+Wire Wire Line
+	9200 5100 9200 5625
+Wire Wire Line
+	8000 5625 9200 5625
+Wire Wire Line
+	9275 5725 9275 5200
+Wire Wire Line
+	9275 5200 9000 5200
+Wire Wire Line
+	8000 5725 9275 5725
+$Comp
+L 533980671_Molex:53398-0671 J?
+U 1 1 6232A005
+P 10025 4900
+F 0 "J?" H 10475 5165 50  0000 C CNN
+F 1 "53398-0671" H 10475 5074 50  0000 C CNN
+F 2 "Perch:533980671_Molex" H 10775 5000 50  0001 L CNN
+F 3 "https://www.mouser.co.uk/datasheet/2/276/0533980671_PCB_HEADERS-256970.pdf" H 10775 4900 50  0001 L CNN
+F 4 "Headers & Wire Housings VERTICAL HDR SMT 6P" H 10775 4800 50  0001 L CNN "Description"
+	1    10025 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9900 5200 9900 5675
 $EndSCHEMATC
