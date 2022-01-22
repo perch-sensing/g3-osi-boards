@@ -1,33 +1,78 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# 53261-1071_53261-1071
+# 452403012014_Switch_452403012014
 #
-DEF 53261-1071_53261-1071 J 0 30 Y Y 1 F N
-F0 "J" 750 300 50 H V L CNN
-F1 "53261-1071_53261-1071" 750 200 50 H V L CNN
-F2 "532611071" 750 100 50 H I L CNN
-F3 "https://www.molex.com/webdocs/datasheets/pdf/en-us/0532611071_PCB_HEADERS.pdf" 750 0 50 H I L CNN
-F4 "10 way SMT r/a header Molex PICOBLADE Series, Series Number 53261, 1.25mm Pitch 10 Way 1 Row Shrouded Right Angle PCB Header, Surface Mount" 750 -100 50 H I L CNN "Description"
-F5 "3" 750 -200 50 H I L CNN "Height"
-F6 "538-53261-1071" 750 -300 50 H I L CNN "Mouser Part Number"
-F7 "https://www.mouser.co.uk/ProductDetail/Molex/53261-1071?qs=%252B72YyncTwW%252Bzs3RwZTiukQ%3D%3D" 750 -400 50 H I L CNN "Mouser Price/Stock"
-F8 "Molex" 750 -500 50 H I L CNN "Manufacturer_Name"
-F9 "53261-1071" 750 -600 50 H I L CNN "Manufacturer_Part_Number"
+DEF 452403012014_Switch_452403012014 S 0 30 Y Y 1 F N
+F0 "S" 1050 300 50 H V L CNN
+F1 "452403012014_Switch_452403012014" 1050 200 50 H V L CNN
+F2 "452403012014" 1050 100 50 H I L CNN
+F3 "https://katalog.we-online.de/em/datasheet/452403012014.pdf" 1050 0 50 H I L CNN
+F4 "Slide Switches WS-SLSV Slide Switch SMD 7.65mm x 5.5mm" 1050 -100 50 H I L CNN "Description"
+F5 "3.3" 1050 -200 50 H I L CNN "Height"
+F6 "710-452403012014" 1050 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/452403012014?qs=DvsTirrhYfOi0QxHyAEO3w%3D%3D" 1050 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Wurth Elektronik" 1050 -500 50 H I L CNN "Manufacturer_Name"
+F9 "452403012014" 1050 -600 50 H I L CNN "Manufacturer_Part_Number"
 DRAW
-P 5 0 1 6 200 100 700 100 700 -1000 200 -1000 200 100 N
-X 1 1 900 0 200 L 50 50 0 0 P
-X 10 10 900 -900 200 L 50 50 0 0 P
-X 11 11 0 0 200 R 50 50 0 0 P
-X 12 12 0 -100 200 R 50 50 0 0 P
-X 2 2 900 -100 200 L 50 50 0 0 P
-X 3 3 900 -200 200 L 50 50 0 0 P
-X 4 4 900 -300 200 L 50 50 0 0 P
-X 5 5 900 -400 200 L 50 50 0 0 P
-X 6 6 900 -500 200 L 50 50 0 0 P
-X 7 7 900 -600 200 L 50 50 0 0 P
-X 8 8 900 -700 200 L 50 50 0 0 P
-X 9 9 900 -800 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1000 100 1000 -300 200 -300 200 100 N
+X NO_1 1 1200 0 200 L 50 50 0 0 P
+X COM_1 2 1200 -100 200 L 50 50 0 0 P
+X NC_1 3 1200 -200 200 L 50 50 0 0 P
+X NO_2 4 0 0 200 R 50 50 0 0 P
+X COM_2 5 0 -100 200 R 50 50 0 0 P
+X NC_2 6 0 -200 200 R 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# 533980671_Molex_53398-0671
+#
+DEF 533980671_Molex_53398-0671 J 0 30 Y Y 1 F N
+F0 "J" 750 300 50 H V L CNN
+F1 "533980671_Molex_53398-0671" 750 200 50 H V L CNN
+F2 "533980671" 750 100 50 H I L CNN
+F3 "https://www.mouser.co.uk/datasheet/2/276/0533980671_PCB_HEADERS-256970.pdf" 750 0 50 H I L CNN
+F4 "Headers & Wire Housings VERTICAL HDR SMT 6P" 750 -100 50 H I L CNN "Description"
+F5 "4.9" 750 -200 50 H I L CNN "Height"
+F6 "538-53398-0671" 750 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Molex/53398-0671?qs=JoXVr8r77yUvqiGcudjIoQ%3D%3D" 750 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Molex" 750 -500 50 H I L CNN "Manufacturer_Name"
+F9 "53398-0671" 750 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 700 100 700 -600 200 -600 200 100 N
+X 1 1 0 -500 200 R 50 50 0 0 P
+X 2 2 0 -400 200 R 50 50 0 0 P
+X 3 3 0 -300 200 R 50 50 0 0 P
+X 4 4 0 -200 200 R 50 50 0 0 P
+X 5 5 0 -100 200 R 50 50 0 0 P
+X 6 6 0 0 200 R 50 50 0 0 P
+X MP1 MP1 900 0 200 L 50 50 0 0 P
+X MP2 MP2 900 -100 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# 533980871_Molex_53398-0871
+#
+DEF 533980871_Molex_53398-0871 J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "533980871_Molex_53398-0871" 650 200 50 H V L CNN
+F2 "53398-0871" 650 100 50 H I L CNN
+F3 "http://www.molex.com/webdocs/datasheets/pdf/en-us/0533980871_PCB_HEADERS.pdf" 650 0 50 H I L CNN
+F4 "8 way straight SMT header,1.25mm pitch Molex PICOBLADE Series, Series Number 53398, 1.25mm Pitch 8 Way 1 Row Shrouded Straight PCB Header, Surface Mount" 650 -100 50 H I L CNN "Description"
+F5 "538-53398-0871" 650 -300 50 H I L CNN "Mouser Part Number"
+F6 "https://www.mouser.co.uk/ProductDetail/Molex/53398-0871?qs=yqtfsgZKt1RXEPdc98IXkw%3D%3D" 650 -400 50 H I L CNN "Mouser Price/Stock"
+F7 "Molex" 650 -500 50 H I L CNN "Manufacturer_Name"
+F8 "53398-0871" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 600 100 600 -400 200 -400 200 100 N
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+X 3 3 0 -200 200 R 50 50 0 0 P
+X 4 4 0 -300 200 R 50 50 0 0 P
+X 5 5 800 0 200 L 50 50 0 0 P
+X 6 6 800 -100 200 L 50 50 0 0 P
+X 7 7 800 -200 200 L 50 50 0 0 P
+X 8 8 800 -300 200 L 50 50 0 0 P
 ENDDRAW
 ENDDEF
 #
@@ -108,6 +153,38 @@ X Vdd 1 550 0 200 L 59 59 1 1 W
 X Gnd 2 550 -100 200 L 59 59 1 1 W
 X SDA 3 550 -200 200 L 59 59 1 1 B
 X SCL 4 550 -300 200 L 59 59 1 1 I
+ENDDRAW
+ENDDEF
+#
+# Connector_Conn_01x06_Male
+#
+DEF Connector_Conn_01x06_Male J 0 40 Y N 1 F N
+F0 "J" 0 300 50 H V C CNN
+F1 "Connector_Conn_01x06_Male" 0 -400 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+S 34 -295 0 -305 1 1 6 F
+S 34 -195 0 -205 1 1 6 F
+S 34 -95 0 -105 1 1 6 F
+S 34 5 0 -5 1 1 6 F
+S 34 105 0 95 1 1 6 F
+S 34 205 0 195 1 1 6 F
+P 2 1 1 6 50 -300 34 -300 N
+P 2 1 1 6 50 -200 34 -200 N
+P 2 1 1 6 50 -100 34 -100 N
+P 2 1 1 6 50 0 34 0 N
+P 2 1 1 6 50 100 34 100 N
+P 2 1 1 6 50 200 34 200 N
+X Pin_1 1 200 200 150 L 50 50 1 1 P
+X Pin_2 2 200 100 150 L 50 50 1 1 P
+X Pin_3 3 200 0 150 L 50 50 1 1 P
+X Pin_4 4 200 -100 150 L 50 50 1 1 P
+X Pin_5 5 200 -200 150 L 50 50 1 1 P
+X Pin_6 6 200 -300 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -358,6 +435,22 @@ P 2 0 1 0 -10 40 -10 -40 N
 P 2 0 1 0 10 40 10 -40 N
 X A 1 -150 0 100 R 50 50 1 1 P
 X B 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Mechanical_MountingHole_Pad
+#
+DEF Mechanical_MountingHole_Pad H 0 40 N N 1 F N
+F0 "H" 0 250 50 H V C CNN
+F1 "Mechanical_MountingHole_Pad" 0 175 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ MountingHole*Pad*
+$ENDFPLIST
+DRAW
+C 0 50 50 0 1 50 N
+X 1 1 0 -100 100 U 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
