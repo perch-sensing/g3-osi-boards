@@ -2147,8 +2147,6 @@ F 3 "" H 8075 775 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	8350 775  8075 775 
-Text Notes 7375 1225 0    50   ~ 0
-Note: We will implement\nthese pins, but isn't our\ntop priority right now
 NoConn ~ 6625 3175
 NoConn ~ 4825 3175
 Wire Wire Line
@@ -2324,10 +2322,10 @@ Wire Wire Line
 Text Notes 4800 5750 0    50   ~ 0
 Note: Please verify this switch setup\n
 $Comp
-L 533980871_Molex:53398-0871 J?
+L 533980871_Molex:53398-0871 J104
 U 1 1 6227437C
 P 8200 4900
-F 0 "J?" H 8600 5165 50  0000 C CNN
+F 0 "J104" H 8600 5165 50  0000 C CNN
 F 1 "53398-0871" H 8600 5074 50  0000 C CNN
 F 2 "Perch:53398-0871_Molex" H 8850 5000 50  0001 L CNN
 F 3 "http://www.molex.com/webdocs/datasheets/pdf/en-us/0533980871_PCB_HEADERS.pdf" H 8850 4900 50  0001 L CNN
@@ -2359,10 +2357,10 @@ Wire Wire Line
 Wire Wire Line
 	8000 5725 9275 5725
 $Comp
-L 533980671_Molex:53398-0671 J?
+L 533980671_Molex:53398-0671 J110
 U 1 1 6232A005
 P 10025 4900
-F 0 "J?" H 10475 5165 50  0000 C CNN
+F 0 "J110" H 10475 5165 50  0000 C CNN
 F 1 "53398-0671" H 10475 5074 50  0000 C CNN
 F 2 "Perch:533980671_Molex" H 10775 5000 50  0001 L CNN
 F 3 "https://www.mouser.co.uk/datasheet/2/276/0533980671_PCB_HEADERS-256970.pdf" H 10775 4900 50  0001 L CNN
@@ -2373,113 +2371,113 @@ $EndComp
 Wire Wire Line
 	9900 5200 9900 5675
 $Comp
-L Mechanical:MountingHole_Pad H?
+L Mechanical:MountingHole_Pad H101
 U 1 1 6242761B
-P 4175 6525
-F 0 "H?" H 4275 6528 50  0000 L CNN
-F 1 "MountingHole_Pad" H 4275 6483 50  0001 L CNN
-F 2 "MountingHole:MountingHole_2.5mm_Pad" H 4175 6525 50  0001 C CNN
-F 3 "~" H 4175 6525 50  0001 C CNN
-	1    4175 6525
+P 5025 6525
+F 0 "H101" H 5050 6675 50  0000 L CNN
+F 1 "MountingHole_Pad" H 5125 6483 50  0001 L CNN
+F 2 "MountingHole:MountingHole_2.5mm_Pad" H 5025 6525 50  0001 C CNN
+F 3 "~" H 5025 6525 50  0001 C CNN
+	1    5025 6525
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad H?
+L Mechanical:MountingHole_Pad H102
 U 1 1 624282C9
-P 4475 6525
-F 0 "H?" H 4575 6528 50  0000 L CNN
-F 1 "MountingHole_Pad" H 4575 6483 50  0001 L CNN
-F 2 "MountingHole:MountingHole_2.5mm_Pad" H 4475 6525 50  0001 C CNN
-F 3 "~" H 4475 6525 50  0001 C CNN
-	1    4475 6525
+P 5325 6525
+F 0 "H102" H 5350 6675 50  0000 L CNN
+F 1 "MountingHole_Pad" H 5425 6483 50  0001 L CNN
+F 2 "MountingHole:MountingHole_2.5mm_Pad" H 5325 6525 50  0001 C CNN
+F 3 "~" H 5325 6525 50  0001 C CNN
+	1    5325 6525
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad H?
+L Mechanical:MountingHole_Pad H103
 U 1 1 6242854A
-P 4775 6525
-F 0 "H?" H 4875 6528 50  0000 L CNN
-F 1 "MountingHole_Pad" H 4875 6483 50  0001 L CNN
-F 2 "MountingHole:MountingHole_2.5mm_Pad" H 4775 6525 50  0001 C CNN
-F 3 "~" H 4775 6525 50  0001 C CNN
-	1    4775 6525
+P 5625 6525
+F 0 "H103" H 5650 6675 50  0000 L CNN
+F 1 "MountingHole_Pad" H 5725 6483 50  0001 L CNN
+F 2 "MountingHole:MountingHole_2.5mm_Pad" H 5625 6525 50  0001 C CNN
+F 3 "~" H 5625 6525 50  0001 C CNN
+	1    5625 6525
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad H?
+L Mechanical:MountingHole_Pad H104
 U 1 1 624288B4
-P 5075 6525
-F 0 "H?" H 5175 6528 50  0000 L CNN
-F 1 "MountingHole_Pad" H 5175 6483 50  0001 L CNN
-F 2 "MountingHole:MountingHole_2.5mm_Pad" H 5075 6525 50  0001 C CNN
-F 3 "~" H 5075 6525 50  0001 C CNN
-	1    5075 6525
+P 5925 6525
+F 0 "H104" H 5975 6675 50  0000 L CNN
+F 1 "MountingHole_Pad" H 6025 6483 50  0001 L CNN
+F 2 "MountingHole:MountingHole_2.5mm_Pad" H 5925 6525 50  0001 C CNN
+F 3 "~" H 5925 6525 50  0001 C CNN
+	1    5925 6525
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4175 6625 4175 6700
+	5025 6625 5025 6700
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0131
 U 1 1 6243AD3B
-P 4175 6700
-F 0 "#PWR?" H 4175 6450 50  0001 C CNN
-F 1 "GND" H 4180 6527 50  0000 C CNN
-F 2 "" H 4175 6700 50  0001 C CNN
-F 3 "" H 4175 6700 50  0001 C CNN
-	1    4175 6700
+P 5025 6700
+F 0 "#PWR0131" H 5025 6450 50  0001 C CNN
+F 1 "GND" H 5030 6527 50  0000 C CNN
+F 2 "" H 5025 6700 50  0001 C CNN
+F 3 "" H 5025 6700 50  0001 C CNN
+	1    5025 6700
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4475 6625 4475 6700
+	5325 6625 5325 6700
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0137
 U 1 1 6243B990
-P 4475 6700
-F 0 "#PWR?" H 4475 6450 50  0001 C CNN
-F 1 "GND" H 4480 6527 50  0000 C CNN
-F 2 "" H 4475 6700 50  0001 C CNN
-F 3 "" H 4475 6700 50  0001 C CNN
-	1    4475 6700
+P 5325 6700
+F 0 "#PWR0137" H 5325 6450 50  0001 C CNN
+F 1 "GND" H 5330 6527 50  0000 C CNN
+F 2 "" H 5325 6700 50  0001 C CNN
+F 3 "" H 5325 6700 50  0001 C CNN
+	1    5325 6700
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4775 6625 4775 6700
+	5625 6625 5625 6700
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0146
 U 1 1 6244D81C
-P 4775 6700
-F 0 "#PWR?" H 4775 6450 50  0001 C CNN
-F 1 "GND" H 4780 6527 50  0000 C CNN
-F 2 "" H 4775 6700 50  0001 C CNN
-F 3 "" H 4775 6700 50  0001 C CNN
-	1    4775 6700
+P 5625 6700
+F 0 "#PWR0146" H 5625 6450 50  0001 C CNN
+F 1 "GND" H 5630 6527 50  0000 C CNN
+F 2 "" H 5625 6700 50  0001 C CNN
+F 3 "" H 5625 6700 50  0001 C CNN
+	1    5625 6700
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5075 6625 5075 6700
+	5925 6625 5925 6700
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0147
 U 1 1 6245F779
-P 5075 6700
-F 0 "#PWR?" H 5075 6450 50  0001 C CNN
-F 1 "GND" H 5080 6527 50  0000 C CNN
-F 2 "" H 5075 6700 50  0001 C CNN
-F 3 "" H 5075 6700 50  0001 C CNN
-	1    5075 6700
+P 5925 6700
+F 0 "#PWR0147" H 5925 6450 50  0001 C CNN
+F 1 "GND" H 5930 6527 50  0000 C CNN
+F 2 "" H 5925 6700 50  0001 C CNN
+F 3 "" H 5925 6700 50  0001 C CNN
+	1    5925 6700
 	1    0    0    -1  
 $EndComp
-Text Notes 4050 7075 0    35   ~ 0
+Text Notes 4900 7075 0    35   ~ 0
 Note: Used MountingHole:MountingHole_2.5mm_Pad\nas the footprint.
-Text Notes 5450 7175 0    50   ~ 0
+Text Notes 6300 7175 0    50   ~ 0
 Mounting Holes
 Wire Notes Line
-	3800 7200 6050 7200
+	4650 7200 6900 7200
 Wire Notes Line
-	6050 7200 6050 6325
+	6900 7200 6900 6325
 Wire Notes Line
-	6050 6325 3800 6325
+	6900 6325 4650 6325
 Wire Notes Line
-	3800 6325 3800 7200
+	4650 6325 4650 7200
 $Comp
 L PBSS4140DPN:PBSS4140DPN Q?
 U 1 1 61DF9A42
@@ -2513,4 +2511,65 @@ Wire Wire Line
 	2100 1300 2350 1300
 Wire Wire Line
 	1700 1300 1900 1300
+Wire Wire Line
+	8350 950  7950 950 
+Wire Wire Line
+	8350 1050 7950 1050
+Wire Wire Line
+	8350 1150 7950 1150
+Wire Wire Line
+	8350 1250 7950 1250
+Wire Wire Line
+	8350 1500 7950 1500
+Text Label 7950 950  0    50   ~ 0
+~SX_CS
+Text Label 7950 1050 0    50   ~ 0
+SX_SCK
+Text Label 7950 1150 0    50   ~ 0
+SX_SDI
+Text Label 7950 1250 0    50   ~ 0
+SX_SDO
+Text Label 7950 1500 0    50   ~ 0
+~SX_RESET
+$Comp
+L Connector:Conn_01x05_Male J103
+U 1 1 62154B92
+P 3900 6875
+F 0 "J103" H 4150 7325 50  0000 C CNN
+F 1 "Conn_01x05_Male" H 4150 7250 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 3900 6875 50  0001 C CNN
+F 3 "~" H 3900 6875 50  0001 C CNN
+	1    3900 6875
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4100 6675 4500 6675
+Wire Wire Line
+	4100 6775 4500 6775
+Wire Wire Line
+	4100 6875 4500 6875
+Wire Wire Line
+	4100 6975 4500 6975
+Text Label 4500 6675 2    50   ~ 0
+~SX_CS
+Text Label 4500 6775 2    50   ~ 0
+SX_SCK
+Text Label 4500 6875 2    50   ~ 0
+SX_SDI
+Text Label 4500 6975 2    50   ~ 0
+SX_SDO
+Wire Wire Line
+	4100 7075 4500 7075
+Text Label 4500 7075 2    50   ~ 0
+~SX_RESET
+Wire Notes Line
+	3800 6325 3800 7200
+Wire Notes Line
+	3800 7200 4575 7200
+Wire Notes Line
+	4575 7200 4575 6325
+Wire Notes Line
+	4575 6325 3800 6325
+Text Notes 3850 7200 0    50   ~ 0
+SX1262 Connector
 $EndSCHEMATC
