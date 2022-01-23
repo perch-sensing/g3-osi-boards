@@ -857,17 +857,17 @@ U 1 1 61DF9A4F
 P 1800 750
 AR Path="/61A64342/61DF9A4F" Ref="R?"  Part="1" 
 AR Path="/61DF9A4F" Ref="R109"  Part="1" 
-F 0 "R109" H 1950 800 50  0000 C CNN
-F 1 "TBD" H 1925 700 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 1730 750 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 1800 750 50  0001 C CNN
-F 4 "470 Resistor" H 1800 750 50  0001 C CNN "Description"
+F 0 "R109" H 1950 700 50  0000 C CNN
+F 1 "1.62k" H 1950 800 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 1730 750 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RT_1-to-0.01_RoHS_L_12.pdf" H 1800 750 50  0001 C CNN
+F 4 "1.62k resistor" H 1800 750 50  0001 C CNN "Description"
 F 5 "Yageo" H 1800 750 50  0001 C CNN "MFN"
-F 6 "RC0402FR-07470RL" H 1800 750 50  0001 C CNN "MFP"
-F 7 "https://www.digikey.com/en/products/detail/RC0402FR-07470RL/311-470LRTR-ND/726619?WT.z_cid=ref_netcomponents_dkc_buynow&utm_source=netcomponents&utm_medium=aggregator&utm_campaign=buynow" H 1800 750 50  0001 C CNN "S1PL"
-F 8 "311-470LR" H 1800 750 50  0001 C CNN "S1PN"
-F 9 "https://www.mouser.com/ProductDetail/YAGEO/RC0402FR-07470RL?qs=dn7UOKrNBAlPAr3vO7H4cA==&utm_source=netcomponents&utm_medium=aggregator&utm_campaign=RC0402FR-07470RL&utm_content=YAGEO" H 1800 750 50  0001 C CNN "S2PL"
-F 10 "603-RC0402FR-07470RL" H 1800 750 50  0001 C CNN "S2PN"
+F 6 "RT0603FRE071K62L" H 1800 750 50  0001 C CNN "MFP"
+F 7 "https://www.digikey.com/en/products/detail/yageo/RT0603FRE071K62L/1075177" H 1800 750 50  0001 C CNN "S1PL"
+F 8 "13-RT0603FRE071K62" H 1800 750 50  0001 C CNN "S1PN"
+F 9 "" H 1800 750 50  0001 C CNN "S2PL"
+F 10 "" H 1800 750 50  0001 C CNN "S2PN"
 	1    1800 750 
 	1    0    0    1   
 $EndComp
