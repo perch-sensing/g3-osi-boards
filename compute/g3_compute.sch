@@ -264,7 +264,7 @@ F 3 "" H 3825 2400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 3825 2100
-Text Label 550  625  0    50   ~ 0
+Text Label 2175 600  2    50   ~ 0
 GPS_SW_EN
 Text Label 1000 2125 0    50   ~ 0
 ~GPS_RESET
@@ -692,12 +692,12 @@ $EndComp
 $Comp
 L power:+3.3V #PWR0124
 U 1 1 61F103CB
-P 1375 750
-F 0 "#PWR0124" H 1375 600 50  0001 C CNN
-F 1 "+3.3V" H 1390 923 50  0000 C CNN
-F 2 "" H 1375 750 50  0001 C CNN
-F 3 "" H 1375 750 50  0001 C CNN
-	1    1375 750 
+P 575 725
+F 0 "#PWR0124" H 575 575 50  0001 C CNN
+F 1 "+3.3V" H 650 875 50  0000 C CNN
+F 2 "" H 575 725 50  0001 C CNN
+F 3 "" H 575 725 50  0001 C CNN
+	1    575  725 
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -854,59 +854,37 @@ Wire Wire Line
 $Comp
 L Device:R_Small_US R?
 U 1 1 61DF9A4F
-P 925 825
+P 1800 750
 AR Path="/61A64342/61DF9A4F" Ref="R?"  Part="1" 
 AR Path="/61DF9A4F" Ref="R109"  Part="1" 
-F 0 "R109" H 1075 875 50  0000 C CNN
-F 1 "TBD" H 1050 775 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 855 825 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 925 825 50  0001 C CNN
-F 4 "470 Resistor" H 925 825 50  0001 C CNN "Description"
-F 5 "Yageo" H 925 825 50  0001 C CNN "MFN"
-F 6 "RC0402FR-07470RL" H 925 825 50  0001 C CNN "MFP"
-F 7 "https://www.digikey.com/en/products/detail/RC0402FR-07470RL/311-470LRTR-ND/726619?WT.z_cid=ref_netcomponents_dkc_buynow&utm_source=netcomponents&utm_medium=aggregator&utm_campaign=buynow" H 925 825 50  0001 C CNN "S1PL"
-F 8 "311-470LR" H 925 825 50  0001 C CNN "S1PN"
-F 9 "https://www.mouser.com/ProductDetail/YAGEO/RC0402FR-07470RL?qs=dn7UOKrNBAlPAr3vO7H4cA==&utm_source=netcomponents&utm_medium=aggregator&utm_campaign=RC0402FR-07470RL&utm_content=YAGEO" H 925 825 50  0001 C CNN "S2PL"
-F 10 "603-RC0402FR-07470RL" H 925 825 50  0001 C CNN "S2PN"
-	1    925  825 
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:Q_PNP_BCE Q?
-U 1 1 61DF9A42
-P 1275 1000
-AR Path="/61A64342/61DF9A42" Ref="Q?"  Part="1" 
-AR Path="/61DF9A42" Ref="Q101"  Part="1" 
-F 0 "Q101" H 1150 850 50  0000 L CNN
-F 1 "PBSS4140DPN" H 800 1150 50  0000 L CNN
-F 2 "Perch:PBSS4140DPN" H 1475 1100 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/PBSS4140DPN.pdf" H 1275 1000 50  0001 C CNN
-F 4 "BJT Transistor Array" H 1275 1000 50  0001 C CNN "Description"
-F 5 "Nexperia USA Inc." H 1275 1000 50  0001 C CNN "MFN"
-F 6 "PBSS4140DPN,115" H 1275 1000 50  0001 C CNN "MFP"
-F 7 "https://www.digikey.com/en/products/detail/nexperia-usa-inc/PBSS4140DPN-115/1156926?utm_adgroup=Semiconductor%20Modules&utm_source=google&utm_medium=cpc&utm_campaign=Dynamic%20Search_EN_Product&utm_term=&utm_content=Semiconductor%20Modules&gclid=CjwKCAiAz--OBhBIEiwAG1rIOnfNYCfMx2ITlSYg59RzW_gpFrWZweD7vvrD8bBxi6JVwMmspkeghBoC1dkQAvD_BwE" H 1275 1000 50  0001 C CNN "S1PL"
-F 8 "1727-3896" H 1275 1000 50  0001 C CNN "S1PN"
-F 9 "https://www.mouser.com/ProductDetail/Nexperia/PBSS4140DPN115?qs=LOCUfHb8d9uI%2F4H%2FLdNjCQ%3D%3D" H 1275 1000 50  0001 C CNN "S2PL"
-F 10 "771-PBSS4140DPN-T/R" H 1275 1000 50  0001 C CNN "S2PN"
-	1    1275 1000
+F 0 "R109" H 1950 800 50  0000 C CNN
+F 1 "TBD" H 1925 700 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 1730 750 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 1800 750 50  0001 C CNN
+F 4 "470 Resistor" H 1800 750 50  0001 C CNN "Description"
+F 5 "Yageo" H 1800 750 50  0001 C CNN "MFN"
+F 6 "RC0402FR-07470RL" H 1800 750 50  0001 C CNN "MFP"
+F 7 "https://www.digikey.com/en/products/detail/RC0402FR-07470RL/311-470LRTR-ND/726619?WT.z_cid=ref_netcomponents_dkc_buynow&utm_source=netcomponents&utm_medium=aggregator&utm_campaign=buynow" H 1800 750 50  0001 C CNN "S1PL"
+F 8 "311-470LR" H 1800 750 50  0001 C CNN "S1PN"
+F 9 "https://www.mouser.com/ProductDetail/YAGEO/RC0402FR-07470RL?qs=dn7UOKrNBAlPAr3vO7H4cA==&utm_source=netcomponents&utm_medium=aggregator&utm_campaign=RC0402FR-07470RL&utm_content=YAGEO" H 1800 750 50  0001 C CNN "S2PL"
+F 10 "603-RC0402FR-07470RL" H 1800 750 50  0001 C CNN "S2PN"
+	1    1800 750 
 	1    0    0    1   
 $EndComp
 Wire Wire Line
-	1375 1300 1375 1200
+	1700 1300 1700 975 
 Wire Wire Line
-	1375 750  1375 800 
+	1800 650  1800 600 
 Wire Wire Line
-	925  725  925  625 
-Wire Wire Line
-	550  625  925  625 
+	2175 600  1800 600 
 Wire Wire Line
 	2425 1400 1975 1400
 Wire Wire Line
 	1975 1400 1975 2125
 Wire Wire Line
-	1075 1000 925  1000
+	1650 875  1800 875 
 Wire Wire Line
-	925  1000 925  925 
+	1800 875  1800 850 
 Wire Notes Line
 	525  525  525  2700
 Wire Notes Line
@@ -949,8 +927,6 @@ F 3 "" H 4650 1250 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4650 1250 4650 1175
-Wire Wire Line
-	1375 1300 1575 1300
 $Comp
 L power:+3.3V #PWR0134
 U 1 1 62089417
@@ -1040,19 +1016,19 @@ F 11 "603-CC402KRX5R5BB105" H 4975 1025 50  0001 C CNN "S2PN"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:Ferrite_Bead FB101
+L Device:Ferrite_Bead_Small FB101
 U 1 1 6220355F
-P 1725 1300
-F 0 "FB101" V 1500 1200 50  0000 L CNN
-F 1 "GMLB-100505" V 1575 1100 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 1655 1300 50  0001 C CNN
-F 3 "http://www.maglayersusa.com/dkspecs/GMLB-100505-0600A-N8-RU.PDF" H 1725 1300 50  0001 C CNN
-F 4 "Ferrite Bead" H 1725 1300 50  0001 C CNN "Description"
-F 5 "Mag Layers" H 1725 1300 50  0001 C CNN "MFN"
-F 6 "GMLB-100505-0600A" H 1725 1300 50  0001 C CNN "MFP"
-F 7 "https://www.digikey.com/en/products/detail/mag-layers/GMLB-100505-0600A-N8-RU/12417638" H 1725 1300 50  0001 C CNN "S1PL"
-F 8 "2669-GMLB-100505-0600A" H 1725 1300 50  0001 C CNN "S1PN"
-	1    1725 1300
+P 2000 1300
+F 0 "FB101" V 1775 1200 50  0000 L CNN
+F 1 "GMLB-100505" V 1850 1050 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 1930 1300 50  0001 C CNN
+F 3 "http://www.maglayersusa.com/dkspecs/GMLB-100505-0600A-N8-RU.PDF" H 2000 1300 50  0001 C CNN
+F 4 "Ferrite Bead" H 2000 1300 50  0001 C CNN "Description"
+F 5 "Mag Layers" H 2000 1300 50  0001 C CNN "MFN"
+F 6 "GMLB-100505-0600A" H 2000 1300 50  0001 C CNN "MFP"
+F 7 "https://www.digikey.com/en/products/detail/mag-layers/GMLB-100505-0600A-N8-RU/12417638" H 2000 1300 50  0001 C CNN "S1PL"
+F 8 "2669-GMLB-100505-0600A" H 2000 1300 50  0001 C CNN "S1PN"
+	1    2000 1300
 	0    1    1    0   
 $EndComp
 Connection ~ 1700 2125
@@ -1899,7 +1875,7 @@ F 3 "" H 6050 5075 50  0001 C CNN
 	1    6050 5075
 	1    0    0    -1  
 $EndComp
-Text Notes 1475 900  0    50   ~ 0
+Text Notes 650  1425 0    50   ~ 0
 Note: BJT from prev.\nboard. There will be \none unused transistor.
 Text Notes 2375 3300 0    50   ~ 0
 \n
@@ -2031,21 +2007,19 @@ $EndComp
 $Comp
 L custom_power:V_GPS #PWR0138
 U 1 1 622F8228
-P 2175 1175
-F 0 "#PWR0138" H 2325 1075 50  0001 C CNN
-F 1 "V_GPS" H 2190 1348 50  0000 C CNN
-F 2 "" H 2175 1175 50  0001 C CNN
-F 3 "" H 2175 1175 50  0001 C CNN
-	1    2175 1175
+P 2350 1175
+F 0 "#PWR0138" H 2500 1075 50  0001 C CNN
+F 1 "V_GPS" H 2365 1348 50  0000 C CNN
+F 2 "" H 2350 1175 50  0001 C CNN
+F 3 "" H 2350 1175 50  0001 C CNN
+	1    2350 1175
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1875 1300 2175 1300
+	2350 1300 2350 1175
+Connection ~ 2350 1300
 Wire Wire Line
-	2175 1300 2175 1175
-Connection ~ 2175 1300
-Wire Wire Line
-	2175 1300 2425 1300
+	2350 1300 2425 1300
 $Comp
 L custom_power:V_GPS #PWR0141
 U 1 1 623248EC
@@ -2506,4 +2480,37 @@ Wire Notes Line
 	6050 6325 3800 6325
 Wire Notes Line
 	3800 6325 3800 7200
+$Comp
+L PBSS4140DPN:PBSS4140DPN Q?
+U 1 1 61DF9A42
+P 3150 925
+AR Path="/61A64342/61DF9A42" Ref="Q?"  Part="1" 
+AR Path="/61DF9A42" Ref="Q101"  Part="1" 
+F 0 "Q101" H 5050 625 50  0000 L CNN
+F 1 "PBSS4140DPN" H 4900 1125 50  0000 L CNN
+F 2 "Perch:PBSS4140DPN" H 3350 1025 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/PBSS4140DPN.pdf" H 3150 925 50  0001 C CNN
+F 4 "BJT Transistor Array" H 3150 925 50  0001 C CNN "Description"
+F 5 "Nexperia USA Inc." H 3150 925 50  0001 C CNN "MFN"
+F 6 "PBSS4140DPN,115" H 3150 925 50  0001 C CNN "MFP"
+F 7 "https://www.digikey.com/en/products/detail/nexperia-usa-inc/PBSS4140DPN-115/1156926?utm_adgroup=Semiconductor%20Modules&utm_source=google&utm_medium=cpc&utm_campaign=Dynamic%20Search_EN_Product&utm_term=&utm_content=Semiconductor%20Modules&gclid=CjwKCAiAz--OBhBIEiwAG1rIOnfNYCfMx2ITlSYg59RzW_gpFrWZweD7vvrD8bBxi6JVwMmspkeghBoC1dkQAvD_BwE" H 3150 925 50  0001 C CNN "S1PL"
+F 8 "1727-3896" H 3150 925 50  0001 C CNN "S1PN"
+F 9 "https://www.mouser.com/ProductDetail/Nexperia/PBSS4140DPN115?qs=LOCUfHb8d9uI%2F4H%2FLdNjCQ%3D%3D" H 3150 925 50  0001 C CNN "S2PL"
+F 10 "771-PBSS4140DPN-T/R" H 3150 925 50  0001 C CNN "S2PN"
+	1    3150 925 
+	-1   0    0    1   
+$EndComp
+NoConn ~ 1650 775 
+NoConn ~ 650  775 
+NoConn ~ 650  875 
+Wire Wire Line
+	1700 975  1650 975 
+Wire Wire Line
+	650  975  575  975 
+Wire Wire Line
+	575  725  575  975 
+Wire Wire Line
+	2100 1300 2350 1300
+Wire Wire Line
+	1700 1300 1900 1300
 $EndSCHEMATC
