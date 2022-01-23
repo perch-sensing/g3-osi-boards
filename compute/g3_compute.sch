@@ -138,25 +138,6 @@ F 11 "712-CONSMA001-SMD-GT" H 10625 2300 50  0001 C CNN "S2PN"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:L L101
-U 1 1 61997A42
-P 10000 3075
-F 0 "L101" V 9950 3075 50  0000 C CNN
-F 1 "0" V 9850 3075 50  0000 C CNN
-F 2 "Inductor_SMD:L_0402_1005Metric_Pad0.77x0.64mm_HandSolder" H 10000 3075 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 10000 3075 50  0001 C CNN
-F 4 "Yageo" V 10000 3075 50  0001 C CNN "MFN"
-F 5 "RC0402FR-070RL" V 10000 3075 50  0001 C CNN "MFP"
-F 6 "311-0.0LRTR" V 10000 3075 50  0001 C CNN "S1PN"
-F 7 "https://www.digikey.com/en/products/detail/yageo/RC0402FR-070RL/2827570" V 10000 3075 50  0001 C CNN "S1PL"
-F 8 "" V 10000 3075 50  0001 C CNN "Notes"
-F 9 "0 Ohm Resistor" H 10000 3075 50  0001 C CNN "Description"
-F 10 "https://www.mouser.com/ProductDetail/YAGEO/RC0402FR-070RL?qs=sxZXDnvRBEhfSy4CZGX2ww%3D%3D" H 10000 3075 50  0001 C CNN "S2PL"
-F 11 "603-RC0402FR-070RL" H 10000 3075 50  0001 C CNN "S2PN"
-	1    10000 3075
-	0    -1   -1   0   
-$EndComp
-$Comp
 L power:GND #PWR0108
 U 1 1 6199ADF3
 P 10625 2550
@@ -230,10 +211,6 @@ F 3 "" H 10250 3425 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 9750 3075
-Wire Wire Line
-	9750 3075 9850 3075
-Wire Wire Line
-	10150 3075 10250 3075
 Connection ~ 10250 3075
 Text Label 9550 3050 0    50   ~ 0
 E5_RFIO
@@ -779,8 +756,8 @@ Wire Wire Line
 	2500 3725 2625 3725
 Wire Wire Line
 	2900 3625 2900 3725
-Text Notes 9625 3850 0    50   ~ 0
-Note: \nProbably used as filters, do \nnot load until needed
+Text Notes 9750 3900 0    50   ~ 0
+Note: \nThis is exact layout of\ntwo LoRa-E5 dev boards
 $Comp
 L power:GND #PWR0114
 U 1 1 61E9F60C
@@ -2150,18 +2127,11 @@ Wire Wire Line
 NoConn ~ 6625 3175
 NoConn ~ 4825 3175
 Wire Wire Line
-	9550 3400 9750 3400
-Wire Wire Line
-	9750 3400 9750 3375
-Connection ~ 9750 3400
-Wire Wire Line
-	9750 3400 9750 3425
-Wire Wire Line
 	10250 3425 10250 3375
 Wire Wire Line
 	9500 3075 9750 3075
 Wire Wire Line
-	9550 2975 9550 3400
+	9550 2975 9550 3425
 $Comp
 L Device:C C108
 U 1 1 6213D1E4
@@ -2572,4 +2542,39 @@ Wire Notes Line
 	4575 6325 3800 6325
 Text Notes 3850 7200 0    50   ~ 0
 SX1262 Connector
+Wire Wire Line
+	9750 3375 9750 3425
+$Comp
+L power:GND #PWR0148
+U 1 1 622B0EC3
+P 9550 3425
+F 0 "#PWR0148" H 9550 3175 50  0001 C CNN
+F 1 "GND" H 9555 3252 50  0000 C CNN
+F 2 "" H 9550 3425 50  0001 C CNN
+F 3 "" H 9550 3425 50  0001 C CNN
+	1    9550 3425
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R105
+U 1 1 622C522E
+P 10000 3075
+F 0 "R105" V 10100 3075 50  0000 C CNN
+F 1 "0" V 9900 3075 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 9930 3075 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AC_51_RoHS_L_8.pdf" H 10000 3075 50  0001 C CNN
+F 4 "0 Resistor" H 10000 3075 50  0001 C CNN "Description"
+F 5 "Yageo" H 10000 3075 50  0001 C CNN "MFN"
+F 6 "AC0402FR-070RL" H 10000 3075 50  0001 C CNN "MFP"
+F 7 "https://www.digikey.com/en/products/detail/yageo/AC0402FR-070RL/12082398" H 10000 3075 50  0001 C CNN "S1PL"
+F 8 "13-AC0402FR-070RL" H 10000 3075 50  0001 C CNN "S1PN"
+F 9 "" H 10000 3075 50  0001 C CNN "S2PL"
+F 10 "" H 10000 3075 50  0001 C CNN "S2PN"
+	1    10000 3075
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10100 3075 10250 3075
+Wire Wire Line
+	9750 3075 9900 3075
 $EndSCHEMATC
