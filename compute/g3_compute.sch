@@ -2501,46 +2501,35 @@ Text Label 7950 1250 0    50   ~ 0
 SX_SDO
 Text Label 7950 1500 0    50   ~ 0
 ~SX_RESET
-$Comp
-L Connector:Conn_01x05_Male J103
-U 1 1 62154B92
-P 3900 6875
-F 0 "J103" H 4150 7325 50  0000 C CNN
-F 1 "Conn_01x05_Male" H 4150 7250 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 3900 6875 50  0001 C CNN
-F 3 "~" H 3900 6875 50  0001 C CNN
-	1    3900 6875
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	4100 6675 4500 6675
+	4075 6600 4475 6600
 Wire Wire Line
-	4100 6775 4500 6775
+	4075 6700 4475 6700
 Wire Wire Line
-	4100 6875 4500 6875
+	4075 6800 4475 6800
 Wire Wire Line
-	4100 6975 4500 6975
-Text Label 4500 6675 2    50   ~ 0
+	4075 6900 4475 6900
+Text Label 4475 6600 2    50   ~ 0
 ~SX_CS
-Text Label 4500 6775 2    50   ~ 0
+Text Label 4475 6700 2    50   ~ 0
 SX_SCK
-Text Label 4500 6875 2    50   ~ 0
+Text Label 4475 6800 2    50   ~ 0
 SX_SDI
-Text Label 4500 6975 2    50   ~ 0
+Text Label 4475 6900 2    50   ~ 0
 SX_SDO
 Wire Wire Line
-	4100 7075 4500 7075
-Text Label 4500 7075 2    50   ~ 0
+	4075 7000 4475 7000
+Text Label 4475 7000 2    50   ~ 0
 ~SX_RESET
 Wire Notes Line
-	3800 6325 3800 7200
+	3800 6325 3800 7575
 Wire Notes Line
-	3800 7200 4575 7200
+	3800 7575 4575 7575
 Wire Notes Line
-	4575 7200 4575 6325
+	4575 7575 4575 6325
 Wire Notes Line
 	4575 6325 3800 6325
-Text Notes 3850 7200 0    50   ~ 0
+Text Notes 3850 7550 0    50   ~ 0
 SX1262 Connector
 Wire Wire Line
 	9750 3375 9750 3425
@@ -2577,4 +2566,47 @@ Wire Wire Line
 	10100 3075 10250 3075
 Wire Wire Line
 	9750 3075 9900 3075
+Wire Wire Line
+	9075 950  9450 950 
+Wire Wire Line
+	9075 1050 9450 1050
+Wire Wire Line
+	9075 1250 9450 1250
+Wire Wire Line
+	9075 1150 9450 1150
+Text Label 9450 950  2    50   ~ 0
+SX_BUSY
+Text Label 9450 1050 2    50   ~ 0
+SX_DIO1
+Text Label 9450 1150 2    50   ~ 0
+SX_DIO2
+Text Label 9450 1250 2    50   ~ 0
+SX_DIO3
+$Comp
+L Connector:Conn_01x09_Male J103
+U 1 1 61FF90F4
+P 3875 7000
+F 0 "J103" H 4150 7600 50  0000 C CNN
+F 1 "Conn_01x09_Male" H 4175 7525 50  0000 C CNN
+F 2 "" H 3875 7000 50  0001 C CNN
+F 3 "~" H 3875 7000 50  0001 C CNN
+	1    3875 7000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4075 7100 4475 7100
+Wire Wire Line
+	4075 7200 4475 7200
+Wire Wire Line
+	4075 7400 4475 7400
+Wire Wire Line
+	4075 7300 4475 7300
+Text Label 4475 7100 2    50   ~ 0
+SX_BUSY
+Text Label 4475 7200 2    50   ~ 0
+SX_DIO1
+Text Label 4475 7300 2    50   ~ 0
+SX_DIO2
+Text Label 4475 7400 2    50   ~ 0
+SX_DIO3
 $EndSCHEMATC
