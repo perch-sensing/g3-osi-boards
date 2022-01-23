@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 1 2
 Title "G3 Compute Subsystem"
 Date ""
-Rev "2"
+Rev "3"
 Comp ""
 Comment1 ""
 Comment2 ""
