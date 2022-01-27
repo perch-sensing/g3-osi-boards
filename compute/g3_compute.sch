@@ -97,17 +97,6 @@ F 3 "" H 9100 3575 50  0001 C CNN
 	1    9100 3575
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GND #PWR0104
-U 1 1 61984697
-P 9100 1975
-F 0 "#PWR0104" H 9100 1725 50  0001 C CNN
-F 1 "GND" H 9105 1802 50  0000 C CNN
-F 2 "" H 9100 1975 50  0001 C CNN
-F 3 "" H 9100 1975 50  0001 C CNN
-	1    9100 1975
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	9100 1975 9100 2075
 Wire Wire Line
@@ -486,7 +475,7 @@ Wire Wire Line
 Wire Wire Line
 	6625 3375 7150 3375
 Text Label 4300 2175 0    50   ~ 0
-PI_GPIO4
+E5_BOOT
 Text Label 4300 2375 0    50   ~ 0
 PI_GPIO17
 Text Label 7225 2375 2    50   ~ 0
@@ -604,7 +593,6 @@ NoConn ~ 9500 2675
 NoConn ~ 9500 2575
 NoConn ~ 9500 2475
 NoConn ~ 9000 2075
-NoConn ~ 8900 2075
 NoConn ~ 8800 2075
 NoConn ~ 8700 2075
 NoConn ~ 8600 2075
@@ -2034,22 +2022,7 @@ PI_GPIO25
 Wire Wire Line
 	3050 7300 3475 7300
 Wire Wire Line
-	3050 6700 3475 6700
-Text Label 3475 6700 2    50   ~ 0
-PI_GPIO4
-Wire Wire Line
 	3050 7200 3475 7200
-$Comp
-L Connector:Conn_01x07_Male J108
-U 1 1 623358CD
-P 2850 7000
-F 0 "J108" H 2950 7525 50  0000 C CNN
-F 1 "Conn_01x07_Male" H 2950 7450 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical" H 2850 7000 50  0001 C CNN
-F 3 "~" H 2850 7000 50  0001 C CNN
-	1    2850 7000
-	1    0    0    -1  
-$EndComp
 Wire Notes Line
 	3725 6325 3725 7575
 Wire Notes Line
@@ -2582,21 +2555,8 @@ Text Label 9450 1150 2    50   ~ 0
 SX_DIO2
 Text Label 9450 1250 2    50   ~ 0
 SX_DIO3
-$Comp
-L Connector:Conn_01x09_Male J103
-U 1 1 61FF90F4
-P 3875 7000
-F 0 "J103" H 4150 7600 50  0000 C CNN
-F 1 "Conn_01x09_Male" H 4175 7525 50  0000 C CNN
-F 2 "" H 3875 7000 50  0001 C CNN
-F 3 "~" H 3875 7000 50  0001 C CNN
-	1    3875 7000
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4075 7100 4475 7100
-Wire Wire Line
-	4075 7200 4475 7200
 Wire Wire Line
 	4075 7400 4475 7400
 Wire Wire Line
@@ -2609,4 +2569,47 @@ Text Label 4475 7300 2    50   ~ 0
 SX_DIO2
 Text Label 4475 7400 2    50   ~ 0
 SX_DIO3
+$Comp
+L power:GND #PWR0104
+U 1 1 61984697
+P 9525 1975
+F 0 "#PWR0104" H 9525 1725 50  0001 C CNN
+F 1 "GND" H 9530 1802 50  0000 C CNN
+F 2 "" H 9525 1975 50  0001 C CNN
+F 3 "" H 9525 1975 50  0001 C CNN
+	1    9525 1975
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9525 1975 9100 1975
+Wire Wire Line
+	8900 2075 8900 1850
+Wire Wire Line
+	8900 1850 9225 1850
+Text Label 9225 1850 2    50   ~ 0
+E5_BOOT
+$Comp
+L Connector:Conn_01x06_Male J108
+U 1 1 61FB8CAA
+P 2850 7000
+F 0 "J108" H 3125 7425 50  0000 C CNN
+F 1 "Conn_01x06_Male" H 3150 7325 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 2850 7000 50  0001 C CNN
+F 3 "~" H 2850 7000 50  0001 C CNN
+	1    2850 7000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4075 7200 4475 7200
+$Comp
+L Connector:Conn_01x09_Male J103
+U 1 1 61FF90F4
+P 3875 7000
+F 0 "J103" H 4150 7600 50  0000 C CNN
+F 1 "Conn_01x09_Male" H 4175 7525 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Vertical" H 3875 7000 50  0001 C CNN
+F 3 "~" H 3875 7000 50  0001 C CNN
+	1    3875 7000
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
