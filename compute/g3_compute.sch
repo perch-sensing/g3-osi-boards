@@ -270,28 +270,28 @@ Wire Notes Line
 Wire Notes Line
 	3950 5875 3950 7575
 Wire Wire Line
-	3175 6800 3600 6800
+	3175 6900 3600 6900
 Wire Wire Line
-	3175 7100 3600 7100
-Text Label 3600 7100 2    50   ~ 0
+	3175 7200 3600 7200
+Text Label 3600 7200 2    50   ~ 0
 PI_GPIO25
-Text Label 3600 6800 2    50   ~ 0
+Text Label 3600 6900 2    50   ~ 0
 PI_GPIO17
-Wire Wire Line
-	3175 6500 3600 6500
 Wire Wire Line
 	3175 6600 3600 6600
 Wire Wire Line
-	3175 6300 3600 6300
+	3175 6700 3600 6700
 Wire Wire Line
 	3175 6400 3600 6400
-Text Label 3600 6300 2    50   ~ 0
-PI_GPIO8
-Text Label 3600 6600 2    50   ~ 0
-PI_GPIO11
+Wire Wire Line
+	3175 6500 3600 6500
 Text Label 3600 6400 2    50   ~ 0
-PI_GPIO9
+PI_GPIO8
+Text Label 3600 6700 2    50   ~ 0
+PI_GPIO11
 Text Label 3600 6500 2    50   ~ 0
+PI_GPIO9
+Text Label 3600 6600 2    50   ~ 0
 PI_GPIO10
 Wire Notes Line
 	7700 6325 11150 6325
@@ -2791,20 +2791,20 @@ F 3 "~" H 2975 6800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3175 6900 3600 6900
-Wire Wire Line
-	3175 6700 3600 6700
-Wire Wire Line
 	3175 7000 3600 7000
 Wire Wire Line
-	3175 7200 3600 7200
-Text Label 3600 6700 2    50   ~ 0
+	3175 6800 3600 6800
+Wire Wire Line
+	3175 7100 3600 7100
+Wire Wire Line
+	3175 7300 3600 7300
+Text Label 3600 6800 2    50   ~ 0
 PI_GPIO13
-Text Label 3600 6900 2    50   ~ 0
-PI_GPIO19
 Text Label 3600 7000 2    50   ~ 0
+PI_GPIO19
+Text Label 3600 7100 2    50   ~ 0
 PI_GPIO22
-Text Label 3600 7200 2    50   ~ 0
+Text Label 3600 7300 2    50   ~ 0
 PI_GPIO26
 Wire Notes Line
 	2850 4550 2850 7575
