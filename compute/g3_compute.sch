@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 1 2
 Title "G3 Compute Subsystem"
 Date ""
-Rev "3"
+Rev "4"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -1623,16 +1623,16 @@ L Device:R_Small_US R103
 U 1 1 61E3116B
 P 2500 3900
 F 0 "R103" H 2650 3875 50  0000 C CNN
-F 1 "10k" H 2650 3950 50  0000 C CNN
+F 1 "4.7k" H 2650 3950 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 2430 3900 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 2500 3900 50  0001 C CNN
-F 4 "10k Resistor" H 2500 3900 50  0001 C CNN "Description"
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AC_51_RoHS_L_8.pdf" H 2500 3900 50  0001 C CNN
+F 4 "4.7k Resistor" H 2500 3900 50  0001 C CNN "Description"
 F 5 "Yageo" H 2500 3900 50  0001 C CNN "MFN"
-F 6 "RC0402JR-0710KL" H 2500 3900 50  0001 C CNN "MFP"
-F 7 "digikey.com/en/products/detail/yageo/RC0402JR-0710KL/726418" H 2500 3900 50  0001 C CNN "S1PL"
-F 8 "311-10KJRTR" H 2500 3900 50  0001 C CNN "S1PN"
-F 9 "https://www.mouser.com/ProductDetail/YAGEO/RC0402JR-0710KL?qs=V1yeUXFNrkk4BhFptVo0Rw%3D%3D" H 2500 3900 50  0001 C CNN "S2PL"
-F 10 "603-RC0402JR-0710KL" H 2500 3900 50  0001 C CNN "S2PN"
+F 6 "AC0402FR-074K7L" H 2500 3900 50  0001 C CNN "MFP"
+F 7 "https://www.digikey.com/en/products/detail/yageo/AC0402FR-074K7L/5895396" H 2500 3900 50  0001 C CNN "S1PL"
+F 8 "" H 2500 3900 50  0001 C CNN "S1PN"
+F 9 "" H 2500 3900 50  0001 C CNN "S2PL"
+F 10 "" H 2500 3900 50  0001 C CNN "S2PN"
 	1    2500 3900
 	-1   0    0    1   
 $EndComp
@@ -1641,16 +1641,16 @@ L Device:R_Small_US R104
 U 1 1 61E31DD5
 P 3300 3900
 F 0 "R104" H 3150 3900 50  0000 C CNN
-F 1 "10k" H 3175 3975 50  0000 C CNN
+F 1 "4.7k" H 3175 3975 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 3230 3900 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 3300 3900 50  0001 C CNN
-F 4 "10k Resistor" H 3300 3900 50  0001 C CNN "Description"
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AC_51_RoHS_L_8.pdf" H 3300 3900 50  0001 C CNN
+F 4 "4.7k Resistor" H 3300 3900 50  0001 C CNN "Description"
 F 5 "Yageo" H 3300 3900 50  0001 C CNN "MFN"
-F 6 "RC0402JR-0710KL" H 3300 3900 50  0001 C CNN "MFP"
-F 7 "digikey.com/en/products/detail/yageo/RC0402JR-0710KL/726418" H 3300 3900 50  0001 C CNN "S1PL"
-F 8 "311-10KJRTR" H 3300 3900 50  0001 C CNN "S1PN"
-F 9 "https://www.mouser.com/ProductDetail/YAGEO/RC0402JR-0710KL?qs=V1yeUXFNrkk4BhFptVo0Rw%3D%3D" H 3300 3900 50  0001 C CNN "S2PL"
-F 10 "603-RC0402JR-0710KL" H 3300 3900 50  0001 C CNN "S2PN"
+F 6 "AC0402FR-074K7L" H 3300 3900 50  0001 C CNN "MFP"
+F 7 "https://www.digikey.com/en/products/detail/yageo/AC0402FR-074K7L/5895396" H 3300 3900 50  0001 C CNN "S1PL"
+F 8 "" H 3300 3900 50  0001 C CNN "S1PN"
+F 9 "" H 3300 3900 50  0001 C CNN "S2PL"
+F 10 "" H 3300 3900 50  0001 C CNN "S2PN"
 	1    3300 3900
 	-1   0    0    1   
 $EndComp
