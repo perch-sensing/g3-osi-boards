@@ -2886,7 +2886,7 @@ $Comp
 L Device:R_Small_US R108
 U 1 1 645F62C0
 P 4500 6625
-F 0 "R108" H 4575 6550 50  0000 C CNN
+F 0 "R108" H 4600 6550 50  0000 C CNN
 F 1 "10k" H 4575 6725 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 4430 6625 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 4500 6625 50  0001 C CNN
@@ -2932,7 +2932,7 @@ $Comp
 L Device:R_Small_US R109
 U 1 1 64913769
 P 6675 6725
-F 0 "R109" H 6750 6650 50  0000 C CNN
+F 0 "R109" H 6775 6650 50  0000 C CNN
 F 1 "10k" H 6750 6825 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 6605 6725 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 6675 6725 50  0001 C CNN
