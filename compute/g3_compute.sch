@@ -1033,8 +1033,6 @@ F 3 "" H 4800 725 50  0001 C CNN
 	1    4800 725 
 	1    0    0    -1  
 $EndComp
-Text Notes 5975 725  0    35   ~ 0
-Note: Put C102\nclose to U102-1
 $Comp
 L power:GND #PWR0127
 U 1 1 6220FEF3
@@ -1065,13 +1063,13 @@ F 3 "" H 2600 3375 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Notes 4200 800  0    35   ~ 0
-Note: Put C101,\n106 close to U101-1
+Note: Put C101,\n102 close to U102-1
 Wire Notes Line
 	4200 1400 7425 1400
 Wire Notes Line
 	4200 500  7425 500 
 Text Notes 5375 775  0    35   ~ 0
-Note: Put C105\nclose to J102-1\n
+Note: Put C105\nclose to J103-1\n
 Wire Notes Line
 	4200 500  4200 1400
 Wire Wire Line
@@ -1112,7 +1110,7 @@ F 3 "" H 2950 3425 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Notes 6500 775  0    35   ~ 0
-Note: Put C107,\nC108 close to\nJ101-2
+Note: Put C105,\nC106 close to\nJ106-2
 Text Label 7275 2275 2    50   ~ 0
 PI_RXD0
 Text Label 7275 2175 2    50   ~ 0
@@ -2578,7 +2576,7 @@ U 1 1 62F9989A
 P 5075 6375
 F 0 "IC101" H 5575 6640 50  0000 C CNN
 F 1 "CD74AC153M96" H 5575 6549 50  0000 C CNN
-F 2 "SOIC127P600X175-16N" H 5925 6475 50  0001 L CNN
+F 2 "Perch:SOIC127P600X175-16N_MUX" H 5925 6475 50  0001 L CNN
 F 3 "https://www.ti.com/lit/ds/symlink/cd74ac153.pdf?ts=1617785711495&ref_url=https%253A%252F%252Fwww.ti.com%252Fstore%252Fti%252Fen%252Fp%252Fproduct%252F%253Fp%253DCD74AC153M96" H 5925 6375 50  0001 L CNN
 F 4 "Texas Instruments CD74AC153M96, Multiplexer Dual 4:1, 16-Pin SOIC" H 5925 6275 50  0001 L CNN "Description"
 F 5 "1.75" H 5925 6175 50  0001 L CNN "Height"
@@ -3172,4 +3170,6 @@ Wire Notes Line
 	3950 4800 3950 4175
 Text Notes 3425 4775 0    50   ~ 0
 Power Flags
+Text Notes 5975 725  0    35   ~ 0
+Note: Put C104\nclose to U101-1
 $EndSCHEMATC
