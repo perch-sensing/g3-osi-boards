@@ -1,33 +1,28 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# 53261-1071_53261-1071
+# 533980871_Molex_53398-0871
 #
-DEF 53261-1071_53261-1071 J 0 30 Y Y 1 F N
-F0 "J" 750 300 50 H V L CNN
-F1 "53261-1071_53261-1071" 750 200 50 H V L CNN
-F2 "532611071" 750 100 50 H I L CNN
-F3 "https://www.molex.com/webdocs/datasheets/pdf/en-us/0532611071_PCB_HEADERS.pdf" 750 0 50 H I L CNN
-F4 "10 way SMT r/a header Molex PICOBLADE Series, Series Number 53261, 1.25mm Pitch 10 Way 1 Row Shrouded Right Angle PCB Header, Surface Mount" 750 -100 50 H I L CNN "Description"
-F5 "3" 750 -200 50 H I L CNN "Height"
-F6 "538-53261-1071" 750 -300 50 H I L CNN "Mouser Part Number"
-F7 "https://www.mouser.co.uk/ProductDetail/Molex/53261-1071?qs=%252B72YyncTwW%252Bzs3RwZTiukQ%3D%3D" 750 -400 50 H I L CNN "Mouser Price/Stock"
-F8 "Molex" 750 -500 50 H I L CNN "Manufacturer_Name"
-F9 "53261-1071" 750 -600 50 H I L CNN "Manufacturer_Part_Number"
+DEF 533980871_Molex_53398-0871 J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "533980871_Molex_53398-0871" 650 200 50 H V L CNN
+F2 "53398-0871" 650 100 50 H I L CNN
+F3 "http://www.molex.com/webdocs/datasheets/pdf/en-us/0533980871_PCB_HEADERS.pdf" 650 0 50 H I L CNN
+F4 "8 way straight SMT header,1.25mm pitch Molex PICOBLADE Series, Series Number 53398, 1.25mm Pitch 8 Way 1 Row Shrouded Straight PCB Header, Surface Mount" 650 -100 50 H I L CNN "Description"
+F5 "538-53398-0871" 650 -300 50 H I L CNN "Mouser Part Number"
+F6 "https://www.mouser.co.uk/ProductDetail/Molex/53398-0871?qs=yqtfsgZKt1RXEPdc98IXkw%3D%3D" 650 -400 50 H I L CNN "Mouser Price/Stock"
+F7 "Molex" 650 -500 50 H I L CNN "Manufacturer_Name"
+F8 "53398-0871" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
 DRAW
-P 5 0 1 6 200 100 700 100 700 -1000 200 -1000 200 100 N
-X 1 1 900 0 200 L 50 50 0 0 P
-X 10 10 900 -900 200 L 50 50 0 0 P
-X 11 11 0 0 200 R 50 50 0 0 P
-X 12 12 0 -100 200 R 50 50 0 0 P
-X 2 2 900 -100 200 L 50 50 0 0 P
-X 3 3 900 -200 200 L 50 50 0 0 P
-X 4 4 900 -300 200 L 50 50 0 0 P
-X 5 5 900 -400 200 L 50 50 0 0 P
-X 6 6 900 -500 200 L 50 50 0 0 P
-X 7 7 900 -600 200 L 50 50 0 0 P
-X 8 8 900 -700 200 L 50 50 0 0 P
-X 9 9 900 -800 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 600 100 600 -400 200 -400 200 100 N
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+X 3 3 0 -200 200 R 50 50 0 0 P
+X 4 4 0 -300 200 R 50 50 0 0 P
+X 5 5 800 0 200 L 50 50 0 0 P
+X 6 6 800 -100 200 L 50 50 0 0 P
+X 7 7 800 -200 200 L 50 50 0 0 P
+X 8 8 800 -300 200 L 50 50 0 0 P
 ENDDRAW
 ENDDEF
 #
@@ -293,6 +288,51 @@ P 2 0 1 0 0 50 0 120 N
 P 2 0 1 0 100 50 -100 50 N
 X 1 1 -200 0 100 R 50 50 0 1 P
 X 2 2 200 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# custom_power_BOOST_VAUX
+#
+DEF custom_power_BOOST_VAUX #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "custom_power_BOOST_VAUX" 0 150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X BOOST_VAUX 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# custom_power_CC_PIMD
+#
+DEF custom_power_CC_PIMD #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "custom_power_CC_PIMD" 0 150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X CC_PIMD 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# custom_power_CC_PWR_OUT
+#
+DEF custom_power_CC_PWR_OUT #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "custom_power_CC_PWR_OUT" 0 150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X CC_PWR_OUT 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
