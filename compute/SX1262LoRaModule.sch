@@ -949,12 +949,15 @@ AR Path="/61FFC2A4/6189FC39" Ref="C?"  Part="1"
 F 0 "C203" H 3465 2946 50  0000 L CNN
 F 1 "1uF" H 3465 2855 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 3388 2750 50  0001 C CNN
-F 3 "~" H 3350 2900 50  0001 C CNN
-F 4 "" H 3350 2900 50  0001 C CNN "MFN"
-F 5 "" H 3350 2900 50  0001 C CNN "MFP"
-F 6 "Digikey" H 3350 2900 50  0001 C CNN "S1PN"
-F 7 "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05B103KO5NNNC/3886709" H 3350 2900 50  0001 C CNN "S1PL"
-F 8 "DNL" H 3350 2900 50  0001 C CNN "Notes"
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X5R_4V-to-50V_26.pdf" H 3350 2900 50  0001 C CNN
+F 4 "Yageo" H 3350 2900 50  0001 C CNN "MFN"
+F 5 "CC0402MRX5R6BB105" H 3350 2900 50  0001 C CNN "MFP"
+F 6 "311-1732" H 3350 2900 50  0001 C CNN "S1PN"
+F 7 "https://www.digikey.com/en/products/detail/yageo/CC0402MRX5R6BB105/5195141" H 3350 2900 50  0001 C CNN "S1PL"
+F 8 "" H 3350 2900 50  0001 C CNN "Notes"
+F 9 "1uF Capacitor" H 3350 2900 50  0001 C CNN "Description"
+F 10 "https://www.mouser.com/ProductDetail/YAGEO/CC0402MRX5R6BB105?qs=sGAEpiMZZMt1iCLsaqcCFv92tuvmRjoeIh9ul0L8pvU%3D" H 3350 2900 50  0001 C CNN "S2PL"
+F 11 "603-CC402MRX5R6BB105" H 3350 2900 50  0001 C CNN "S2PN"
 	1    3350 2900
 	1    0    0    -1  
 $EndComp

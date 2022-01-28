@@ -62,6 +62,11 @@ F 0 "J102" H 1550 1115 50  0000 C CNN
 F 1 "53398-0871" H 1550 1024 50  0000 C CNN
 F 2 "Perch:53398-0871_Molex" H 1800 950 50  0001 L CNN
 F 3 "http://www.molex.com/webdocs/datasheets/pdf/en-us/0533980871_PCB_HEADERS.pdf" H 1800 850 50  0001 L CNN
+F 4 "8 Pin Molex Header" H 1150 850 50  0001 C CNN "Description"
+F 5 "Molex" H 1150 850 50  0001 C CNN "MFN"
+F 6 "533980871" H 1150 850 50  0001 C CNN "MFP"
+F 7 "https://www.heilind.com/search/result?q=53398-0871&manufacturer=5031&utm_source=molex.com&utm_medium=referral&utm_campaign=molex-disty-stock-check" H 1150 850 50  0001 C CNN "S1PL"
+F 8 "MOL53398-0871" H 1150 850 50  0001 C CNN "S1PN"
 	1    1150 850 
 	1    0    0    -1  
 $EndComp
@@ -951,6 +956,10 @@ F 1 "452403012014" H 1925 3799 50  0000 C CNN
 F 2 "Perch:452403012014_Switch" H 2375 3725 50  0001 L CNN
 F 3 "https://katalog.we-online.de/em/datasheet/452403012014.pdf" H 2375 3625 50  0001 L CNN
 F 4 "Slide Switches WS-SLSV Slide Switch SMD 7.65mm x 5.5mm" H 2375 3525 50  0001 L CNN "Description"
+F 5 "Wurth Electronik" H 1325 3625 50  0001 C CNN "MFN"
+F 6 "452403012014" H 1325 3625 50  0001 C CNN "MFP"
+F 7 "https://www.mouser.com/ProductDetail/Wurth-Elektronik/452403012014?qs=DvsTirrhYfOi0QxHyAEO3w%3D%3D" H 1325 3625 50  0001 C CNN "S1PL"
+F 8 "710-452403012014" H 1325 3625 50  0001 C CNN "S1PN"
 	1    1325 3625
 	1    0    0    -1  
 $EndComp
@@ -997,14 +1006,14 @@ F 0 "C106" H 6950 875 50  0000 L CNN
 F 1 "1uF" H 6975 1050 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 7213 800 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X5R_4V-to-50V_26.pdf" H 7175 950 50  0001 C CNN
-F 4 "https://www.digikey.com/en/products/detail/yageo/CC0402KRX5R5BB105/2833603?s=N4IgTCBcDaIMJwAwBZFgNICUAaBWTuAQoQIyK4gC6AvkA" H 7175 950 50  0001 C CNN "S1PL"
-F 5 "1 uF Capacitor" H 7175 950 50  0001 C CNN "Description"
+F 4 "https://www.digikey.com/en/products/detail/yageo/CC0402MRX5R6BB105/5195141" H 7175 950 50  0001 C CNN "S1PL"
+F 5 "1uF Capacitor" H 7175 950 50  0001 C CNN "Description"
 F 6 "Yageo" H 7175 950 50  0001 C CNN "Height"
 F 7 "Yageo" H 7175 950 50  0001 C CNN "MFN"
-F 8 "CC0402KRX5R5BB105" H 7175 950 50  0001 C CNN "MFP"
-F 9 "311-1438" H 7175 950 50  0001 C CNN "S1PN"
-F 10 "https://www.mouser.com/ProductDetail/YAGEO/CC0402KRX5R5BB105?qs=sGAEpiMZZMvCgIIVhD0CykSaAV4XcsQWIlFIPpyXbt8%3D&gclid=CjwKCAiAz--OBhBIEiwAG1rIOnJnO7dQNloIiBUz8kK3Ggjn7eD7ZR4H-93uJgNgeC6HAKtgKOrezRoCYpoQAvD_BwE" H 7175 950 50  0001 C CNN "S2PL"
-F 11 "603-CC402KRX5R5BB105" H 7175 950 50  0001 C CNN "S2PN"
+F 8 "CC0402MRX5R6BB105" H 7175 950 50  0001 C CNN "MFP"
+F 9 "311-1732" H 7175 950 50  0001 C CNN "S1PN"
+F 10 "https://www.mouser.com/ProductDetail/YAGEO/CC0402MRX5R6BB105?qs=sGAEpiMZZMt1iCLsaqcCFv92tuvmRjoeIh9ul0L8pvU%3D" H 7175 950 50  0001 C CNN "S2PL"
+F 11 "603-CC402MRX5R6BB105" H 7175 950 50  0001 C CNN "S2PN"
 	1    7175 950 
 	-1   0    0    1   
 $EndComp
@@ -1193,14 +1202,14 @@ F 0 "C102" H 4825 900 50  0000 L CNN
 F 1 "1uF" H 4875 975 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 5163 800 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X5R_4V-to-50V_26.pdf" H 5125 950 50  0001 C CNN
-F 4 "https://www.digikey.com/en/products/detail/yageo/CC0402KRX5R5BB105/2833603?s=N4IgTCBcDaIMJwAwBZFgNICUAaBWTuAQoQIyK4gC6AvkA" H 5125 950 50  0001 C CNN "S1PL"
-F 5 "1 uF Capacitor" H 5125 950 50  0001 C CNN "Description"
+F 4 "https://www.digikey.com/en/products/detail/yageo/CC0402MRX5R6BB105/5195141" H 5125 950 50  0001 C CNN "S1PL"
+F 5 "1uF Capacitor" H 5125 950 50  0001 C CNN "Description"
 F 6 "Yageo" H 5125 950 50  0001 C CNN "Height"
 F 7 "Yageo" H 5125 950 50  0001 C CNN "MFN"
-F 8 "CC0402KRX5R5BB105" H 5125 950 50  0001 C CNN "MFP"
-F 9 "311-1438" H 5125 950 50  0001 C CNN "S1PN"
-F 10 "https://www.mouser.com/ProductDetail/YAGEO/CC0402KRX5R5BB105?qs=sGAEpiMZZMvCgIIVhD0CykSaAV4XcsQWIlFIPpyXbt8%3D&gclid=CjwKCAiAz--OBhBIEiwAG1rIOnJnO7dQNloIiBUz8kK3Ggjn7eD7ZR4H-93uJgNgeC6HAKtgKOrezRoCYpoQAvD_BwE" H 5125 950 50  0001 C CNN "S2PL"
-F 11 "603-CC402KRX5R5BB105" H 5125 950 50  0001 C CNN "S2PN"
+F 8 "CC0402MRX5R6BB105" H 5125 950 50  0001 C CNN "MFP"
+F 9 "311-1732" H 5125 950 50  0001 C CNN "S1PN"
+F 10 "https://www.mouser.com/ProductDetail/YAGEO/CC0402MRX5R6BB105?qs=sGAEpiMZZMt1iCLsaqcCFv92tuvmRjoeIh9ul0L8pvU%3D" H 5125 950 50  0001 C CNN "S2PL"
+F 11 "603-CC402MRX5R6BB105" H 5125 950 50  0001 C CNN "S2PN"
 	1    5125 950 
 	-1   0    0    1   
 $EndComp
@@ -1513,18 +1522,18 @@ F 0 "J106" H 5875 2925 50  0000 C CNN
 F 1 "Pi_Connector" H 5875 2625 50  0000 C CNN
 F 2 "Perch:ADA3708_RaspPiZero" H 5875 2775 50  0001 L BNN
 F 3 "https://adafruit.com/images/product-files/2885/E1775E40.pdf" H 5875 2775 50  0001 L BNN
-F 4 "2885" H 5875 2775 50  0001 C CNN "MFN"
-F 5 "https://www.adafruit.com/product/2885?gclid=Cj0KCQjwqp-LBhDQARIsAO0a6aIR3sqfGFEBlXdj8U2bi7F3STeS_1LtpSjam7JfdBiGVESx38VjjzsaAgUqEALw_wcB" H 5875 2775 50  0001 C CNN "S1PL"
-F 6 "2885" H 5875 2775 50  0001 C CNN "S1PN"
-F 7 "Raspberry Pi Zero" H 5875 2775 50  0001 C CNN "Notes"
-F 8 "Raspberry Pi Zero" H 5875 2775 50  0001 C CNN "Description"
+F 4 "Raspberry Pi" H 5875 2775 50  0001 C CNN "MFN"
+F 5 "" H 5875 2775 50  0001 C CNN "S1PL"
+F 6 "" H 5875 2775 50  0001 C CNN "S1PN"
+F 7 "" H 5875 2775 50  0001 C CNN "Notes"
+F 8 "Raspberry Pi Zero Connector" H 5875 2775 50  0001 C CNN "Description"
 F 9 "Raspberry Pi Foundation" H 5875 2775 50  0001 C CNN "Height"
-F 10 "Raspberry Pi Zero v1.3" H 5875 2775 50  0001 C CNN "MFP"
+F 10 "" H 5875 2775 50  0001 C CNN "MFP"
 F 11 "https://www.adafruit.com/product/2885?gclid=Cj0KCQjwqp-LBhDQARIsAO0a6aIR3sqfGFEBlXdj8U2bi7F3STeS_1LtpSjam7JfdBiGVESx38VjjzsaAgUqEALw_wcB" H 5875 2775 50  0001 C CNN "Manufacturer_Name"
 F 12 "2885" H 5875 2775 50  0001 C CNN "Manufacturer_Part_Number"
 F 13 "https://www.canakit.com/raspberry-pi-zero.html?src=raspberrypi" H 5875 2775 50  0001 C CNN "Mouser Part Number"
 F 14 "https://adafruit.com/images/product-files/2885/E1775E40.pdf" H 5875 2775 50  0001 C CNN "Mouser Price/Stock"
-F 15 "https://www.canakit.com/raspberry-pi-zero.html?src=raspberrypi" H 5875 2775 50  0001 C CNN "S2PL"
+F 15 "" H 5875 2775 50  0001 C CNN "S2PL"
 	1    5875 2775
 	1    0    0    -1  
 $EndComp
@@ -1600,7 +1609,11 @@ F 0 "J104" H 3375 1090 50  0000 C CNN
 F 1 "53398-0671" H 3375 999 50  0000 C CNN
 F 2 "Perch:533980671_Molex" H 3675 925 50  0001 L CNN
 F 3 "https://www.mouser.co.uk/datasheet/2/276/0533980671_PCB_HEADERS-256970.pdf" H 3675 825 50  0001 L CNN
-F 4 "Headers & Wire Housings VERTICAL HDR SMT 6P" H 3675 725 50  0001 L CNN "Description"
+F 4 "6 Pin Molex Header" H 3675 725 50  0001 L CNN "Description"
+F 5 "Molex" H 2925 825 50  0001 C CNN "MFN"
+F 6 "533980671" H 2925 825 50  0001 C CNN "MFP"
+F 7 "https://www.heilind.com/search/result?q=53398-0671&manufacturer=5031&utm_source=molex.com&utm_medium=referral&utm_campaign=molex-disty-stock-check" H 2925 825 50  0001 C CNN "S1PL"
+F 8 "MOL53398-0671" H 2925 825 50  0001 C CNN "S1PN"
 	1    2925 825 
 	1    0    0    -1  
 $EndComp
@@ -2541,6 +2554,10 @@ F 6 "595-CD74AC153M96" H 5925 6075 50  0001 L CNN "Mouser Part Number"
 F 7 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/CD74AC153M96?qs=bkMXpVdiF41Yiv9m4vuwDg%3D%3D" H 5925 5975 50  0001 L CNN "Mouser Price/Stock"
 F 8 "Texas Instruments" H 5925 5875 50  0001 L CNN "Manufacturer_Name"
 F 9 "CD74AC153M96" H 5925 5775 50  0001 L CNN "Manufacturer_Part_Number"
+F 10 "Texas Instruments" H 5075 6375 50  0001 C CNN "MFN"
+F 11 "CD74AC153M96" H 5075 6375 50  0001 C CNN "MFP"
+F 12 "https://www.digikey.com/en/products/detail/texas-instruments/CD74AC153M96/376207" H 5075 6375 50  0001 C CNN "S1PL"
+F 13 "296-4229" H 5075 6375 50  0001 C CNN "S1PN"
 	1    5075 6375
 	1    0    0    -1  
 $EndComp
@@ -3103,8 +3120,13 @@ U 1 1 64C8893F
 P 9850 4825
 F 0 "U102" H 10200 4950 50  0000 C CNN
 F 1 "PA1616D" H 10200 4859 50  0000 C CNN
-F 2 "" H 9850 4825 50  0001 C CNN
-F 3 "" H 9850 4825 50  0001 C CNN
+F 2 "Perch:PA1616D_GPS" H 9850 4825 50  0001 C CNN
+F 3 "https://cdn-shop.adafruit.com/product-files/5186/5186_PA1616D_Datasheet.pdf" H 9850 4825 50  0001 C CNN
+F 4 "GPS Module" H 9850 4825 50  0001 C CNN "Description"
+F 5 "Adafruit LLC" H 9850 4825 50  0001 C CNN "MFN"
+F 6 "5186" H 9850 4825 50  0001 C CNN "MFP"
+F 7 "https://www.adafruit.com/product/5186?gclid=Cj0KCQiAosmPBhCPARIsAHOen-P_51XDpjNFylbeJsz4sKhBWaDDkRYyinVUSmHTT9wW8h4vla6jbGQaAtabEALw_wcB" H 9850 4825 50  0001 C CNN "S1PL"
+F 8 "5186" H 9850 4825 50  0001 C CNN "S1PN"
 	1    9850 4825
 	1    0    0    -1  
 $EndComp
