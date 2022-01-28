@@ -51,9 +51,9 @@ Wire Notes Line
 Text Notes 1325 1850 0    50   ~ 0
 Power Subsystem Connector\n
 Wire Wire Line
-	1150 1050 650  1050
-Text Label 650  1050 0    50   ~ 0
-PS_BOOST
+	1150 1050 550  1050
+Text Label 550  1050 0    50   ~ 0
+PS_BOOST_PS
 $Comp
 L 533980871_Molex:53398-0871 J102
 U 1 1 6227437C
@@ -1520,15 +1520,15 @@ U 1 1 6192E4C9
 P 5875 2775
 F 0 "J106" H 5875 2925 50  0000 C CNN
 F 1 "Pi_Connector" H 5875 2625 50  0000 C CNN
-F 2 "Perch:ADA3708_RaspPiZero" H 5875 2775 50  0001 L BNN
-F 3 "https://adafruit.com/images/product-files/2885/E1775E40.pdf" H 5875 2775 50  0001 L BNN
-F 4 "Raspberry Pi" H 5875 2775 50  0001 C CNN "MFN"
-F 5 "" H 5875 2775 50  0001 C CNN "S1PL"
-F 6 "" H 5875 2775 50  0001 C CNN "S1PN"
+F 2 "Module:Raspberry_Pi_Zero_Socketed_THT_FaceDown_MountingHoles" H 5875 2775 50  0001 L BNN
+F 3 "https://www.mouser.com/datasheet/2/527/ssm_sm-2853675.pdf" H 5875 2775 50  0001 L BNN
+F 4 "Samtech Inc." H 5875 2775 50  0001 C CNN "MFN"
+F 5 "https://www.mouser.com/ProductDetail/Samtec/SSM-120-S-DV?qs=rU5fayqh%252BE0KXAFLOo8FGg%3D%3D" H 5875 2775 50  0001 C CNN "S1PL"
+F 6 "200-SSM120SDV" H 5875 2775 50  0001 C CNN "S1PN"
 F 7 "" H 5875 2775 50  0001 C CNN "Notes"
 F 8 "Raspberry Pi Zero Connector" H 5875 2775 50  0001 C CNN "Description"
 F 9 "Raspberry Pi Foundation" H 5875 2775 50  0001 C CNN "Height"
-F 10 "" H 5875 2775 50  0001 C CNN "MFP"
+F 10 "SSM-120-S-DV" H 5875 2775 50  0001 C CNN "MFP"
 F 11 "https://www.adafruit.com/product/2885?gclid=Cj0KCQjwqp-LBhDQARIsAO0a6aIR3sqfGFEBlXdj8U2bi7F3STeS_1LtpSjam7JfdBiGVESx38VjjzsaAgUqEALw_wcB" H 5875 2775 50  0001 C CNN "Manufacturer_Name"
 F 12 "2885" H 5875 2775 50  0001 C CNN "Manufacturer_Part_Number"
 F 13 "https://www.canakit.com/raspberry-pi-zero.html?src=raspberrypi" H 5875 2775 50  0001 C CNN "Mouser Part Number"
@@ -1818,7 +1818,15 @@ P 5700 5125
 F 0 "JP104" V 5750 5075 50  0000 R CNN
 F 1 "SolderJumper_2_Bridged" V 5655 5037 50  0001 R CNN
 F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 5700 5125 50  0001 C CNN
-F 3 "~" H 5700 5125 50  0001 C CNN
+F 3 "..." H 5700 5125 50  0001 C CNN
+F 4 "..." H 5700 5125 50  0001 C CNN "Description"
+F 5 "..." H 5700 5125 50  0001 C CNN "MFN"
+F 6 "..." H 5700 5125 50  0001 C CNN "MFP"
+F 7 "..." H 5700 5125 50  0001 C CNN "Notes"
+F 8 "..." H 5700 5125 50  0001 C CNN "S1PL"
+F 9 "..." H 5700 5125 50  0001 C CNN "S1PN"
+F 10 "..." H 5700 5125 50  0001 C CNN "S2PL"
+F 11 "..." H 5700 5125 50  0001 C CNN "S2PN"
 	1    5700 5125
 	0    -1   -1   0   
 $EndComp
@@ -1829,7 +1837,15 @@ P 5550 5125
 F 0 "JP103" V 5450 5375 50  0000 R CNN
 F 1 "SolderJumper_2_Bridged" V 5505 5037 50  0001 R CNN
 F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 5550 5125 50  0001 C CNN
-F 3 "~" H 5550 5125 50  0001 C CNN
+F 3 "..." H 5550 5125 50  0001 C CNN
+F 4 "..." H 5550 5125 50  0001 C CNN "Description"
+F 5 "..." H 5550 5125 50  0001 C CNN "MFN"
+F 6 "..." H 5550 5125 50  0001 C CNN "MFP"
+F 7 "..." H 5550 5125 50  0001 C CNN "Notes"
+F 8 "..." H 5550 5125 50  0001 C CNN "S1PL"
+F 9 "..." H 5550 5125 50  0001 C CNN "S1PN"
+F 10 "..." H 5550 5125 50  0001 C CNN "S2PL"
+F 11 "..." H 5550 5125 50  0001 C CNN "S2PN"
 	1    5550 5125
 	0    -1   -1   0   
 $EndComp
@@ -1840,7 +1856,15 @@ P 5200 5125
 F 0 "JP102" V 5250 5075 50  0000 R CNN
 F 1 "SolderJumper_2_Bridged" V 5155 5037 50  0001 R CNN
 F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 5200 5125 50  0001 C CNN
-F 3 "~" H 5200 5125 50  0001 C CNN
+F 3 "..." H 5200 5125 50  0001 C CNN
+F 4 "..." H 5200 5125 50  0001 C CNN "Description"
+F 5 "..." H 5200 5125 50  0001 C CNN "MFN"
+F 6 "..." H 5200 5125 50  0001 C CNN "MFP"
+F 7 "..." H 5200 5125 50  0001 C CNN "Notes"
+F 8 "..." H 5200 5125 50  0001 C CNN "S1PL"
+F 9 "..." H 5200 5125 50  0001 C CNN "S1PN"
+F 10 "..." H 5200 5125 50  0001 C CNN "S2PL"
+F 11 "..." H 5200 5125 50  0001 C CNN "S2PN"
 	1    5200 5125
 	0    -1   -1   0   
 $EndComp
@@ -1851,7 +1875,15 @@ P 5050 5125
 F 0 "JP101" V 5050 5400 50  0000 R CNN
 F 1 "SolderJumper_2_Bridged" V 5025 5475 50  0001 R CNN
 F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 5050 5125 50  0001 C CNN
-F 3 "~" H 5050 5125 50  0001 C CNN
+F 3 "..." H 5050 5125 50  0001 C CNN
+F 4 "..." H 5050 5125 50  0001 C CNN "Description"
+F 5 "..." H 5050 5125 50  0001 C CNN "MFN"
+F 6 "..." H 5050 5125 50  0001 C CNN "MFP"
+F 7 "..." H 5050 5125 50  0001 C CNN "Notes"
+F 8 "..." H 5050 5125 50  0001 C CNN "S1PL"
+F 9 "..." H 5050 5125 50  0001 C CNN "S1PN"
+F 10 "..." H 5050 5125 50  0001 C CNN "S2PL"
+F 11 "..." H 5050 5125 50  0001 C CNN "S2PN"
 	1    5050 5125
 	0    -1   -1   0   
 $EndComp
