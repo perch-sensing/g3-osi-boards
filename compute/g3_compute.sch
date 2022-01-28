@@ -704,24 +704,6 @@ Wire Wire Line
 	9850 2700 10250 2700
 Text Label 10250 2700 2    50   ~ 0
 ~E5_RESET
-$Comp
-L Transceivers:LoRa-E5 U101
-U 1 1 61C457FB
-P 9150 2600
-F 0 "U101" H 9050 2750 50  0000 L CNN
-F 1 "LoRa-E5" H 9000 2500 50  0000 L CNN
-F 2 "Perch:LoRa-E5" H 8850 1550 50  0001 C CNN
-F 3 "https://files.seeedstudio.com/products/317990687/res/LoRa-E5%20module%20datasheet_V1.0.pdf" H 9150 2600 50  0001 C CNN
-F 4 "SeeedStudio" H 8800 1450 50  0001 C CNN "MFN"
-F 5 "LoRa-E5" H 8750 1250 50  0001 C CNN "MFP"
-F 6 "LoRa-E5" H 8800 1350 50  0001 C CNN "S1PN"
-F 7 "https://www.seeedstudio.com/LoRa-E5-Wireless-Module-p-4745.html" H 9950 1150 50  0001 C CNN "S1PL"
-F 8 "LoRa-E5 Module" H 9150 2600 50  0001 C CNN "Description"
-F 9 "https://www.mouser.com/ProductDetail/Seeed-Studio/317990687?qs=hd1VzrDQEGhZOj13wvzSLA%3D%3D" H 9150 2600 50  0001 C CNN "S2PL"
-F 10 "713-317990687" H 9150 2600 50  0001 C CNN "S2PN"
-	1    9150 2600
-	1    0    0    -1  
-$EndComp
 NoConn ~ 9350 3300
 NoConn ~ 9250 3300
 NoConn ~ 9150 3300
@@ -3172,4 +3154,22 @@ Text Notes 3425 4775 0    50   ~ 0
 Power Flags
 Text Notes 5975 725  0    35   ~ 0
 Note: Put C104\nclose to U101-1
+$Comp
+L Transceivers:LoRa-E5 U101
+U 1 1 61C457FB
+P 9150 2600
+F 0 "U101" H 9050 2750 50  0000 L CNN
+F 1 "LoRa-E5" H 9000 2500 50  0000 L CNN
+F 2 "Perch:LoRa-E5" H 8850 1550 50  0001 C CNN
+F 3 "https://files.seeedstudio.com/products/317990687/res/LoRa-E5%20module%20datasheet_V1.0.pdf" H 9150 2600 50  0001 C CNN
+F 4 "SeeedStudio" H 8800 1450 50  0001 C CNN "MFN"
+F 5 "LoRa-E5" H 8750 1250 50  0001 C CNN "MFP"
+F 6 "LoRa-E5" H 8800 1350 50  0001 C CNN "S1PN"
+F 7 "https://www.seeedstudio.com/LoRa-E5-Wireless-Module-p-4745.html" H 9950 1150 50  0001 C CNN "S1PL"
+F 8 "LoRa-E5 Module" H 9150 2600 50  0001 C CNN "Description"
+F 9 "https://www.mouser.com/ProductDetail/Seeed-Studio/317990687?qs=hd1VzrDQEGhZOj13wvzSLA%3D%3D" H 9150 2600 50  0001 C CNN "S2PL"
+F 10 "713-317990687" H 9150 2600 50  0001 C CNN "S2PN"
+	1    9150 2600
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
