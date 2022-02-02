@@ -1373,9 +1373,9 @@ Text Label 6475 6875 2    50   ~ 0
 E5_TX
 Text Label 4675 6775 0    50   ~ 0
 E5_RX
-Text Label 4675 6675 0    50   ~ 0
+Text Label 4675 6575 0    50   ~ 0
 CPPC_RX
-Text Label 6475 6775 2    50   ~ 0
+Text Label 6475 6675 2    50   ~ 0
 CPPC_TX
 Wire Wire Line
 	6775 3775 7300 3775
@@ -1397,9 +1397,9 @@ Wire Wire Line
 	4975 3375 4425 3375
 Wire Wire Line
 	4425 3275 4975 3275
-Text Label 6475 6675 2    50   ~ 0
+Text Label 6475 6975 2    50   ~ 0
 GPS_TX
-Text Label 4675 6575 0    50   ~ 0
+Text Label 4675 6875 0    50   ~ 0
 GPS_RX
 Wire Wire Line
 	6775 3475 6875 3475
@@ -2620,9 +2620,9 @@ Text Label 2900 3825 0    50   ~ 0
 LOAD_TX
 Text Label 2900 3725 0    50   ~ 0
 LOAD_RX
-Text Label 4675 6875 0    50   ~ 0
+Text Label 4675 6675 0    50   ~ 0
 LOAD_RX
-Text Label 6475 6975 2    50   ~ 0
+Text Label 6475 6775 2    50   ~ 0
 LOAD_TX
 Text Label 4450 2475 0    50   ~ 0
 PS_BOOST
