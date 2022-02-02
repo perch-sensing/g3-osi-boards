@@ -278,9 +278,9 @@ Wire Wire Line
 	3175 7050 3600 7050
 Wire Wire Line
 	3175 7350 3600 7350
-Text Label 3600 7350 2    50   ~ 0
+Text Label 3600 6850 2    50   ~ 0
 PI_GPIO25
-Text Label 3600 7050 2    50   ~ 0
+Text Label 3600 6550 2    50   ~ 0
 PI_GPIO17
 Wire Wire Line
 	3175 6750 3600 6750
@@ -290,11 +290,11 @@ Wire Wire Line
 	3175 6550 3600 6550
 Wire Wire Line
 	3175 6650 3600 6650
-Text Label 3600 6550 2    50   ~ 0
+Text Label 3600 7050 2    50   ~ 0
 PI_GPIO8
-Text Label 3600 6850 2    50   ~ 0
+Text Label 3600 7150 2    50   ~ 0
 PI_GPIO11
-Text Label 3600 6650 2    50   ~ 0
+Text Label 3600 6950 2    50   ~ 0
 PI_GPIO9
 Text Label 3600 6750 2    50   ~ 0
 PI_GPIO10
@@ -2809,11 +2809,11 @@ Wire Wire Line
 	3175 7250 3600 7250
 Wire Wire Line
 	3175 7450 3600 7450
-Text Label 3600 6950 2    50   ~ 0
-PI_GPIO13
-Text Label 3600 7150 2    50   ~ 0
-PI_GPIO19
 Text Label 3600 7250 2    50   ~ 0
+PI_GPIO13
+Text Label 3600 7350 2    50   ~ 0
+PI_GPIO19
+Text Label 3600 6650 2    50   ~ 0
 PI_GPIO22
 Text Label 3600 7450 2    50   ~ 0
 PI_GPIO26
