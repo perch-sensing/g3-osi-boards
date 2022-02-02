@@ -1500,7 +1500,7 @@ U 1 1 6192E4C9
 P 5875 2775
 F 0 "J106" H 5875 2925 50  0000 C CNN
 F 1 "Pi_Connector" H 5875 2625 50  0000 C CNN
-F 2 "Module:Raspberry_Pi_Zero_Socketed_THT_FaceDown_MountingHoles" H 5875 2775 50  0001 L BNN
+F 2 "Perch:ADA3708_RaspPiZero" H 5875 2775 50  0001 L BNN
 F 3 "https://www.mouser.com/datasheet/2/527/ssm_sm-2853675.pdf" H 5875 2775 50  0001 L BNN
 F 4 "Samtech Inc." H 5875 2775 50  0001 C CNN "MFN"
 F 5 "https://www.mouser.com/ProductDetail/Samtec/SSM-120-S-DV?qs=rU5fayqh%252BE0KXAFLOo8FGg%3D%3D" H 5875 2775 50  0001 C CNN "S1PL"
