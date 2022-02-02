@@ -2625,7 +2625,7 @@ LOAD_RX
 Text Label 6475 6775 2    50   ~ 0
 LOAD_TX
 Text Label 4450 2475 0    50   ~ 0
-PS_BOOST
+PS_BOOST_PS
 Text Label 4450 2575 0    50   ~ 0
 PI_GPIO22
 Text Label 4425 3575 0    50   ~ 0
