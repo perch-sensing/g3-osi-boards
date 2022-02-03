@@ -279,7 +279,7 @@ Wire Wire Line
 Wire Wire Line
 	3175 7350 3600 7350
 Text Label 3600 6850 2    50   ~ 0
-PI_GPIO25
+PI_GPIO27
 Text Label 3600 6550 2    50   ~ 0
 PI_GPIO17
 Wire Wire Line
@@ -291,7 +291,7 @@ Wire Wire Line
 Wire Wire Line
 	3175 6650 3600 6650
 Text Label 3600 7050 2    50   ~ 0
-PI_GPIO8
+PI_GPIO4
 Text Label 3600 7150 2    50   ~ 0
 PI_GPIO11
 Text Label 3600 6950 2    50   ~ 0
@@ -1258,8 +1258,8 @@ Wire Wire Line
 	4975 2875 4475 2875
 Wire Wire Line
 	4975 2775 4475 2775
-Text Label 7275 2975 2    50   ~ 0
-PI_GPIO8
+Text Label 4450 2175 0    50   ~ 0
+PI_GPIO4
 Wire Wire Line
 	6775 2975 7275 2975
 $Comp
@@ -1329,34 +1329,34 @@ Wire Notes Line
 	4200 4475 7425 4475
 Text Notes 5575 4425 0    79   ~ 0
 Raspberry PI Zero Connector
-Text Label 7300 3375 2    50   ~ 0
+Text Label 7275 2975 2    50   ~ 0
 CPPC_INT
-Text Label 7275 3075 2    50   ~ 0
+Text Label 7300 3775 2    50   ~ 0
 GPS_3DFIX
-Text Label 7300 2875 2    50   ~ 0
-PI_GPIO25
-Text Label 7325 2675 2    50   ~ 0
+Text Label 4450 2475 0    50   ~ 0
+PI_GPIO27
+Text Label 7300 2675 2    50   ~ 0
 ~PS_CC_CE
 Text Label 7325 2575 2    50   ~ 0
 ~PS_CC_INT
-Text Label 7375 2375 2    50   ~ 0
+Text Label 7375 2875 2    50   ~ 0
 ~PS_CC_QON
 Text Label 4450 2375 0    50   ~ 0
 PI_GPIO17
-Text Label 4450 2175 0    50   ~ 0
+Text Label 7300 3675 2    50   ~ 0
 ~E5_BOOT
 Wire Wire Line
 	6775 3375 7300 3375
 Wire Wire Line
 	6775 3075 7275 3075
 Wire Wire Line
-	6775 2875 7300 2875
+	6775 2875 7375 2875
 Wire Wire Line
-	6775 2675 7325 2675
+	6775 2675 7300 2675
 Wire Wire Line
 	6775 2575 7325 2575
 Wire Wire Line
-	6775 2375 7375 2375
+	6775 2375 7425 2375
 Wire Wire Line
 	4975 2175 4450 2175
 Wire Wire Line
@@ -1369,13 +1369,13 @@ Wire Wire Line
 	6775 3575 7300 3575
 Text Label 7300 3575 2    50   ~ 0
 ~E5_RESET
-Text Label 6475 6875 2    50   ~ 0
-E5_TX
 Text Label 4675 6775 0    50   ~ 0
+E5_TX
+Text Label 6475 6875 2    50   ~ 0
 E5_RX
-Text Label 4675 6575 0    50   ~ 0
-CPPC_RX
 Text Label 6475 6675 2    50   ~ 0
+CPPC_RX
+Text Label 4675 6575 0    50   ~ 0
 CPPC_TX
 Wire Wire Line
 	6775 3775 7300 3775
@@ -1389,17 +1389,17 @@ Wire Wire Line
 	4975 3475 4425 3475
 Text Label 4425 3475 0    50   ~ 0
 PI_GPIO13
-Text Label 4425 3375 0    50   ~ 0
+Text Label 4425 3575 0    50   ~ 0
 GPS_SW_EN
-Text Label 4425 3275 0    50   ~ 0
+Text Label 4425 3675 0    50   ~ 0
 ~GPS_RESET
 Wire Wire Line
 	4975 3375 4425 3375
 Wire Wire Line
 	4425 3275 4975 3275
-Text Label 6475 6975 2    50   ~ 0
-GPS_TX
 Text Label 4675 6875 0    50   ~ 0
+GPS_TX
+Text Label 6475 6975 2    50   ~ 0
 GPS_RX
 Wire Wire Line
 	6775 3475 6875 3475
@@ -2062,7 +2062,7 @@ F 10 "855-S2751-46R" H 2425 6575 50  0001 C CNN "S2PN"
 	0    -1   -1   0   
 $EndComp
 Text Label 2775 6575 2    50   ~ 0
-PI_GPIO25
+PI_GPIO27
 Wire Wire Line
 	2425 6000 2775 6000
 $Comp
@@ -2508,7 +2508,7 @@ Wire Wire Line
 Wire Wire Line
 	850  5625 1200 5625
 Text Label 2775 5025 2    50   ~ 0
-PI_GPIO8
+PI_GPIO4
 Text Label 2775 5625 2    50   ~ 0
 PI_GPIO11
 Text Label 2775 5225 2    50   ~ 0
@@ -2592,13 +2592,13 @@ Wire Wire Line
 	5075 6975 4675 6975
 Wire Wire Line
 	6075 7075 6475 7075
-Text Label 4675 6975 0    50   ~ 0
-PI_TXD0
 Text Label 6475 7075 2    50   ~ 0
+PI_TXD0
+Text Label 4675 6975 0    50   ~ 0
 PI_RXD0
-Text Label 4675 6475 0    50   ~ 0
-MUX_SELA
 Text Label 6475 6575 2    50   ~ 0
+MUX_SELA
+Text Label 4675 6475 0    50   ~ 0
 MUX_SELB
 Wire Wire Line
 	5075 6875 4675 6875
@@ -2620,21 +2620,21 @@ Text Label 2900 3825 0    50   ~ 0
 LOAD_TX
 Text Label 2900 3725 0    50   ~ 0
 LOAD_RX
-Text Label 4675 6675 0    50   ~ 0
-LOAD_RX
 Text Label 6475 6775 2    50   ~ 0
+LOAD_RX
+Text Label 4675 6675 0    50   ~ 0
 LOAD_TX
-Text Label 4450 2475 0    50   ~ 0
+Text Label 7425 2375 2    50   ~ 0
 PS_BOOST_PS
 Text Label 4450 2575 0    50   ~ 0
 PI_GPIO22
-Text Label 4425 3575 0    50   ~ 0
-PI_GPIO19
-Text Label 4425 3675 0    50   ~ 0
-PI_GPIO26
-Text Label 7300 3675 2    50   ~ 0
+Text Label 4425 3375 0    50   ~ 0
+PI_GPIO6
+Text Label 4425 3275 0    50   ~ 0
+PI_GPIO5
+Text Label 7275 3075 2    50   ~ 0
 MUX_SELA
-Text Label 7300 3775 2    50   ~ 0
+Text Label 7300 3375 2    50   ~ 0
 MUX_SELB
 $Comp
 L Connector:TestPoint TP133
@@ -2679,7 +2679,7 @@ $EndComp
 Wire Wire Line
 	2425 6200 2775 6200
 Text Label 2775 6200 2    50   ~ 0
-PI_GPIO19
+PI_GPIO6
 $Comp
 L Connector:TestPoint TP135
 U 1 1 633D67B3
@@ -2701,7 +2701,7 @@ $EndComp
 Wire Wire Line
 	2425 6775 2775 6775
 Text Label 2775 6775 2    50   ~ 0
-PI_GPIO26
+PI_GPIO5
 $Comp
 L Connector:TestPoint TP117
 U 1 1 633F8FA2
@@ -2812,11 +2812,11 @@ Wire Wire Line
 Text Label 3600 7250 2    50   ~ 0
 PI_GPIO13
 Text Label 3600 7350 2    50   ~ 0
-PI_GPIO19
+PI_GPIO6
 Text Label 3600 6650 2    50   ~ 0
 PI_GPIO22
 Text Label 3600 7450 2    50   ~ 0
-PI_GPIO26
+PI_GPIO5
 Wire Notes Line
 	2850 4850 2850 7725
 Wire Notes Line
