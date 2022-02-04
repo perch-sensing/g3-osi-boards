@@ -3172,4 +3172,97 @@ F 10 "713-317990687" H 9150 2600 50  0001 C CNN "S2PN"
 	1    9150 2600
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	2425 6975 2775 6975
+$Comp
+L Connector:TestPoint TP138
+U 1 1 61FF0002
+P 2425 6975
+F 0 "TP138" V 2525 7050 50  0000 L CNN
+F 1 "TestPoint" V 2500 6950 50  0001 L CNN
+F 2 "Perch:HARWIN_S2751-46R" H 2625 6975 50  0001 C CNN
+F 3 "https://cdn.harwin.com/pdfs/Harwin_PC_PCB_Hardware.pdf" H 2625 6975 50  0001 C CNN
+F 4 "SMD Test Point" H 2425 6975 50  0001 C CNN "Description"
+F 5 "Harwin Inc." H 2425 6975 50  0001 C CNN "MFN"
+F 6 "S2751-46R" H 2425 6975 50  0001 C CNN "MFP"
+F 7 "https://www.digikey.com/en/products/detail/harwin-inc/S2751-46R/5250499?WT.z_cid=sp_952_buynow&lang=en&s=N4IgTCBcDaIMpgOwFYCMBaALANgEogF0BfIA&site=us&vendor=0" H 2425 6975 50  0001 C CNN "S1PL"
+F 8 "952-2664" H 2425 6975 50  0001 C CNN "S1PN"
+F 9 "https://www.mouser.com/ProductDetail/Harwin/S2751-46R?qs=DaxoyN%2FvrebM3VuuS3MPNA%3D%3D" H 2425 6975 50  0001 C CNN "S2PL"
+F 10 "855-S2751-46R" H 2425 6975 50  0001 C CNN "S2PN"
+	1    2425 6975
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0157
+U 1 1 61FF0008
+P 2775 6975
+F 0 "#PWR0157" H 2775 6725 50  0001 C CNN
+F 1 "GND" H 2625 6925 50  0000 C CNN
+F 2 "" H 2775 6975 50  0001 C CNN
+F 3 "" H 2775 6975 50  0001 C CNN
+	1    2775 6975
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2425 7175 2775 7175
+$Comp
+L Connector:TestPoint TP139
+U 1 1 62010F39
+P 2425 7175
+F 0 "TP139" V 2525 7250 50  0000 L CNN
+F 1 "TestPoint" V 2500 7150 50  0001 L CNN
+F 2 "Perch:HARWIN_S2751-46R" H 2625 7175 50  0001 C CNN
+F 3 "https://cdn.harwin.com/pdfs/Harwin_PC_PCB_Hardware.pdf" H 2625 7175 50  0001 C CNN
+F 4 "SMD Test Point" H 2425 7175 50  0001 C CNN "Description"
+F 5 "Harwin Inc." H 2425 7175 50  0001 C CNN "MFN"
+F 6 "S2751-46R" H 2425 7175 50  0001 C CNN "MFP"
+F 7 "https://www.digikey.com/en/products/detail/harwin-inc/S2751-46R/5250499?WT.z_cid=sp_952_buynow&lang=en&s=N4IgTCBcDaIMpgOwFYCMBaALANgEogF0BfIA&site=us&vendor=0" H 2425 7175 50  0001 C CNN "S1PL"
+F 8 "952-2664" H 2425 7175 50  0001 C CNN "S1PN"
+F 9 "https://www.mouser.com/ProductDetail/Harwin/S2751-46R?qs=DaxoyN%2FvrebM3VuuS3MPNA%3D%3D" H 2425 7175 50  0001 C CNN "S2PL"
+F 10 "855-S2751-46R" H 2425 7175 50  0001 C CNN "S2PN"
+	1    2425 7175
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0158
+U 1 1 62010F3F
+P 2775 7175
+F 0 "#PWR0158" H 2775 6925 50  0001 C CNN
+F 1 "GND" H 2625 7125 50  0000 C CNN
+F 2 "" H 2775 7175 50  0001 C CNN
+F 3 "" H 2775 7175 50  0001 C CNN
+	1    2775 7175
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2425 7375 2775 7375
+$Comp
+L Connector:TestPoint TP140
+U 1 1 620321C7
+P 2425 7375
+F 0 "TP140" V 2525 7450 50  0000 L CNN
+F 1 "TestPoint" V 2500 7350 50  0001 L CNN
+F 2 "Perch:HARWIN_S2751-46R" H 2625 7375 50  0001 C CNN
+F 3 "https://cdn.harwin.com/pdfs/Harwin_PC_PCB_Hardware.pdf" H 2625 7375 50  0001 C CNN
+F 4 "SMD Test Point" H 2425 7375 50  0001 C CNN "Description"
+F 5 "Harwin Inc." H 2425 7375 50  0001 C CNN "MFN"
+F 6 "S2751-46R" H 2425 7375 50  0001 C CNN "MFP"
+F 7 "https://www.digikey.com/en/products/detail/harwin-inc/S2751-46R/5250499?WT.z_cid=sp_952_buynow&lang=en&s=N4IgTCBcDaIMpgOwFYCMBaALANgEogF0BfIA&site=us&vendor=0" H 2425 7375 50  0001 C CNN "S1PL"
+F 8 "952-2664" H 2425 7375 50  0001 C CNN "S1PN"
+F 9 "https://www.mouser.com/ProductDetail/Harwin/S2751-46R?qs=DaxoyN%2FvrebM3VuuS3MPNA%3D%3D" H 2425 7375 50  0001 C CNN "S2PL"
+F 10 "855-S2751-46R" H 2425 7375 50  0001 C CNN "S2PN"
+	1    2425 7375
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0159
+U 1 1 620321CD
+P 2775 7375
+F 0 "#PWR0159" H 2775 7125 50  0001 C CNN
+F 1 "GND" H 2625 7325 50  0000 C CNN
+F 2 "" H 2775 7375 50  0001 C CNN
+F 3 "" H 2775 7375 50  0001 C CNN
+	1    2775 7375
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
