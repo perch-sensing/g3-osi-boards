@@ -198,4 +198,5 @@
   (lib (name 533980671_Molex)(type Legacy)(uri ${KIPRJMOD}/kicad-lib/Perch.sch/533980671_Molex.lib)(options "")(descr ""))
   (lib (name 533980771_Molex)(type Legacy)(uri ${KIPRJMOD}/kicad-lib/Perch.sch/533980771_Molex.lib)(options "")(descr ""))
   (lib (name 533980871_Molex)(type Legacy)(uri ${KIPRJMOD}/kicad-lib/Perch.sch/533980871_Molex.lib)(options "")(descr ""))
+  (lib (name CD74AC153M96_MUX)(type Legacy)(uri ${KIPRJMOD}/kicad-lib/Perch.sch/CD74AC153M96_MUX.lib)(options "")(descr ""))
 )
