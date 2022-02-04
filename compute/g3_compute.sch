@@ -278,9 +278,9 @@ Wire Wire Line
 	3175 7050 3600 7050
 Wire Wire Line
 	3175 7350 3600 7350
-Text Label 3600 7350 2    50   ~ 0
+Text Label 3600 6850 2    50   ~ 0
 PI_GPIO25
-Text Label 3600 7050 2    50   ~ 0
+Text Label 3600 6550 2    50   ~ 0
 PI_GPIO17
 Wire Wire Line
 	3175 6750 3600 6750
@@ -290,11 +290,11 @@ Wire Wire Line
 	3175 6550 3600 6550
 Wire Wire Line
 	3175 6650 3600 6650
-Text Label 3600 6550 2    50   ~ 0
+Text Label 3600 7050 2    50   ~ 0
 PI_GPIO8
-Text Label 3600 6850 2    50   ~ 0
+Text Label 3600 7150 2    50   ~ 0
 PI_GPIO11
-Text Label 3600 6650 2    50   ~ 0
+Text Label 3600 6950 2    50   ~ 0
 PI_GPIO9
 Text Label 3600 6750 2    50   ~ 0
 PI_GPIO10
@@ -1373,9 +1373,9 @@ Text Label 6475 6875 2    50   ~ 0
 E5_TX
 Text Label 4675 6775 0    50   ~ 0
 E5_RX
-Text Label 4675 6675 0    50   ~ 0
+Text Label 4675 6575 0    50   ~ 0
 CPPC_RX
-Text Label 6475 6775 2    50   ~ 0
+Text Label 6475 6675 2    50   ~ 0
 CPPC_TX
 Wire Wire Line
 	6775 3775 7300 3775
@@ -1397,9 +1397,9 @@ Wire Wire Line
 	4975 3375 4425 3375
 Wire Wire Line
 	4425 3275 4975 3275
-Text Label 6475 6675 2    50   ~ 0
+Text Label 6475 6975 2    50   ~ 0
 GPS_TX
-Text Label 4675 6575 0    50   ~ 0
+Text Label 4675 6875 0    50   ~ 0
 GPS_RX
 Wire Wire Line
 	6775 3475 6875 3475
@@ -1500,7 +1500,7 @@ U 1 1 6192E4C9
 P 5875 2775
 F 0 "J106" H 5875 2925 50  0000 C CNN
 F 1 "Pi_Connector" H 5875 2625 50  0000 C CNN
-F 2 "Module:Raspberry_Pi_Zero_Socketed_THT_FaceDown_MountingHoles" H 5875 2775 50  0001 L BNN
+F 2 "Perch:ADA3708_RaspPiZero" H 5875 2775 50  0001 L BNN
 F 3 "https://www.mouser.com/datasheet/2/527/ssm_sm-2853675.pdf" H 5875 2775 50  0001 L BNN
 F 4 "Samtech Inc." H 5875 2775 50  0001 C CNN "MFN"
 F 5 "https://www.mouser.com/ProductDetail/Samtec/SSM-120-S-DV?qs=rU5fayqh%252BE0KXAFLOo8FGg%3D%3D" H 5875 2775 50  0001 C CNN "S1PL"
@@ -1947,7 +1947,7 @@ U 1 1 622802D9
 P 1625 7350
 F 0 "TP116" V 1725 7425 50  0000 L CNN
 F 1 "TestPoint" V 1700 7325 50  0001 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 1825 7350 50  0001 C CNN
+F 2 "Perch:HARWIN_S2751-46R" H 1825 7350 50  0001 C CNN
 F 3 "https://cdn.harwin.com/pdfs/Harwin_PC_PCB_Hardware.pdf" H 1825 7350 50  0001 C CNN
 F 4 "SMD Test Point" H 1625 7350 50  0001 C CNN "Description"
 F 5 "Harwin Inc." H 1625 7350 50  0001 C CNN "MFN"
@@ -1967,7 +1967,7 @@ U 1 1 622802C6
 P 1625 7150
 F 0 "TP115" V 1725 7225 50  0000 L CNN
 F 1 "TestPoint" V 1700 7125 50  0001 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 1825 7150 50  0001 C CNN
+F 2 "Perch:HARWIN_S2751-46R" H 1825 7150 50  0001 C CNN
 F 3 "https://cdn.harwin.com/pdfs/Harwin_PC_PCB_Hardware.pdf" H 1825 7150 50  0001 C CNN
 F 4 "SMD Test Point" H 1625 7150 50  0001 C CNN "Description"
 F 5 "Harwin Inc." H 1625 7150 50  0001 C CNN "MFN"
@@ -1987,7 +1987,7 @@ U 1 1 622802B3
 P 850 7575
 F 0 "TP114" V 950 7650 50  0000 L CNN
 F 1 "TestPoint" V 925 7550 50  0001 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 1050 7575 50  0001 C CNN
+F 2 "Perch:HARWIN_S2751-46R" H 1050 7575 50  0001 C CNN
 F 3 "https://cdn.harwin.com/pdfs/Harwin_PC_PCB_Hardware.pdf" H 1050 7575 50  0001 C CNN
 F 4 "SMD Test Point" H 850 7575 50  0001 C CNN "Description"
 F 5 "Harwin Inc." H 850 7575 50  0001 C CNN "MFN"
@@ -2007,7 +2007,7 @@ U 1 1 622802A1
 P 850 7375
 F 0 "TP113" V 950 7450 50  0000 L CNN
 F 1 "TestPoint" V 925 7350 50  0001 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 1050 7375 50  0001 C CNN
+F 2 "Perch:HARWIN_S2751-46R" H 1050 7375 50  0001 C CNN
 F 3 "https://cdn.harwin.com/pdfs/Harwin_PC_PCB_Hardware.pdf" H 1050 7375 50  0001 C CNN
 F 4 "SMD Test Point" H 850 7375 50  0001 C CNN "Description"
 F 5 "Harwin Inc." H 850 7375 50  0001 C CNN "MFN"
@@ -2027,7 +2027,7 @@ U 1 1 6244E5EC
 P 2425 5825
 F 0 "TP128" V 2525 5900 50  0000 L CNN
 F 1 "TestPoint" V 2500 5800 50  0001 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 2625 5825 50  0001 C CNN
+F 2 "Perch:HARWIN_S2751-46R" H 2625 5825 50  0001 C CNN
 F 3 "https://cdn.harwin.com/pdfs/Harwin_PC_PCB_Hardware.pdf" H 2625 5825 50  0001 C CNN
 F 4 "SMD Test Point" H 2425 5825 50  0001 C CNN "Description"
 F 5 "Harwin Inc." H 2425 5825 50  0001 C CNN "MFN"
@@ -2049,7 +2049,7 @@ U 1 1 6240D835
 P 2425 6575
 F 0 "TP134" V 2525 6650 50  0000 L CNN
 F 1 "TestPoint" V 2500 6550 50  0001 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 2625 6575 50  0001 C CNN
+F 2 "Perch:HARWIN_S2751-46R" H 2625 6575 50  0001 C CNN
 F 3 "https://cdn.harwin.com/pdfs/Harwin_PC_PCB_Hardware.pdf" H 2625 6575 50  0001 C CNN
 F 4 "SMD Test Point" H 2425 6575 50  0001 C CNN "Description"
 F 5 "Harwin Inc." H 2425 6575 50  0001 C CNN "MFN"
@@ -2071,7 +2071,7 @@ U 1 1 623FD818
 P 2425 6000
 F 0 "TP129" V 2525 6075 50  0000 L CNN
 F 1 "TestPoint" V 2500 5975 50  0001 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 2625 6000 50  0001 C CNN
+F 2 "Perch:HARWIN_S2751-46R" H 2625 6000 50  0001 C CNN
 F 3 "https://cdn.harwin.com/pdfs/Harwin_PC_PCB_Hardware.pdf" H 2625 6000 50  0001 C CNN
 F 4 "SMD Test Point" H 2425 6000 50  0001 C CNN "Description"
 F 5 "Harwin Inc." H 2425 6000 50  0001 C CNN "MFN"
@@ -2091,7 +2091,7 @@ U 1 1 623CE1A5
 P 1625 5825
 F 0 "TP123" V 1725 5900 50  0000 L CNN
 F 1 "TestPoint" V 1700 5800 50  0001 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 1825 5825 50  0001 C CNN
+F 2 "Perch:HARWIN_S2751-46R" H 1825 5825 50  0001 C CNN
 F 3 "https://cdn.harwin.com/pdfs/Harwin_PC_PCB_Hardware.pdf" H 1825 5825 50  0001 C CNN
 F 4 "SMD Test Point" H 1625 5825 50  0001 C CNN "Description"
 F 5 "Harwin Inc." H 1625 5825 50  0001 C CNN "MFN"
@@ -2121,7 +2121,7 @@ U 1 1 6223040D
 P 1625 5025
 F 0 "TP119" V 1725 5100 50  0000 L CNN
 F 1 "TestPoint" V 1700 5000 50  0001 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 1825 5025 50  0001 C CNN
+F 2 "Perch:HARWIN_S2751-46R" H 1825 5025 50  0001 C CNN
 F 3 "https://cdn.harwin.com/pdfs/Harwin_PC_PCB_Hardware.pdf" H 1825 5025 50  0001 C CNN
 F 4 "SMD Test Point" H 1625 5025 50  0001 C CNN "Description"
 F 5 "Harwin Inc." H 1625 5025 50  0001 C CNN "MFN"
@@ -2139,7 +2139,7 @@ U 1 1 62230400
 P 850 5800
 F 0 "TP101" V 950 5875 50  0000 L CNN
 F 1 "TestPoint" V 925 5775 50  0001 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 1050 5800 50  0001 C CNN
+F 2 "Perch:HARWIN_S2751-46R" H 1050 5800 50  0001 C CNN
 F 3 "https://cdn.harwin.com/pdfs/Harwin_PC_PCB_Hardware.pdf" H 1050 5800 50  0001 C CNN
 F 4 "SMD Test Point" H 850 5800 50  0001 C CNN "Description"
 F 5 "Harwin Inc." H 850 5800 50  0001 C CNN "MFN"
@@ -2157,7 +2157,7 @@ U 1 1 622303F3
 P 850 6000
 F 0 "TP102" V 950 6075 50  0000 L CNN
 F 1 "TestPoint" V 925 5975 50  0001 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 1050 6000 50  0001 C CNN
+F 2 "Perch:HARWIN_S2751-46R" H 1050 6000 50  0001 C CNN
 F 3 "https://cdn.harwin.com/pdfs/Harwin_PC_PCB_Hardware.pdf" H 1050 6000 50  0001 C CNN
 F 4 "SMD Test Point" H 850 6000 50  0001 C CNN "Description"
 F 5 "Harwin Inc." H 850 6000 50  0001 C CNN "MFN"
@@ -2175,7 +2175,7 @@ U 1 1 62167D70
 P 2425 5025
 F 0 "TP124" V 2525 5100 50  0000 L CNN
 F 1 "TestPoint" V 2500 5000 50  0001 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 2625 5025 50  0001 C CNN
+F 2 "Perch:HARWIN_S2751-46R" H 2625 5025 50  0001 C CNN
 F 3 "https://cdn.harwin.com/pdfs/Harwin_PC_PCB_Hardware.pdf" H 2625 5025 50  0001 C CNN
 F 4 "SMD Test Point" H 2425 5025 50  0001 C CNN "Description"
 F 5 "Harwin Inc." H 2425 5025 50  0001 C CNN "MFN"
@@ -2193,7 +2193,7 @@ U 1 1 62167D63
 P 2425 5225
 F 0 "TP125" V 2525 5300 50  0000 L CNN
 F 1 "TestPoint" V 2500 5200 50  0001 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 2625 5225 50  0001 C CNN
+F 2 "Perch:HARWIN_S2751-46R" H 2625 5225 50  0001 C CNN
 F 3 "https://cdn.harwin.com/pdfs/Harwin_PC_PCB_Hardware.pdf" H 2625 5225 50  0001 C CNN
 F 4 "SMD Test Point" H 2425 5225 50  0001 C CNN "Description"
 F 5 "Harwin Inc." H 2425 5225 50  0001 C CNN "MFN"
@@ -2215,7 +2215,7 @@ U 1 1 62167D37
 P 2425 5425
 F 0 "TP126" V 2525 5500 50  0000 L CNN
 F 1 "TestPoint" V 2500 5400 50  0001 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 2625 5425 50  0001 C CNN
+F 2 "Perch:HARWIN_S2751-46R" H 2625 5425 50  0001 C CNN
 F 3 "https://cdn.harwin.com/pdfs/Harwin_PC_PCB_Hardware.pdf" H 2625 5425 50  0001 C CNN
 F 4 "SMD Test Point" H 2425 5425 50  0001 C CNN "Description"
 F 5 "Harwin Inc." H 2425 5425 50  0001 C CNN "MFN"
@@ -2233,7 +2233,7 @@ U 1 1 62167D2A
 P 2425 5625
 F 0 "TP127" V 2525 5700 50  0000 L CNN
 F 1 "TestPoint" V 2500 5600 50  0001 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 2625 5625 50  0001 C CNN
+F 2 "Perch:HARWIN_S2751-46R" H 2625 5625 50  0001 C CNN
 F 3 "https://cdn.harwin.com/pdfs/Harwin_PC_PCB_Hardware.pdf" H 2625 5625 50  0001 C CNN
 F 4 "SMD Test Point" H 2425 5625 50  0001 C CNN "Description"
 F 5 "Harwin Inc." H 2425 5625 50  0001 C CNN "MFN"
@@ -2257,7 +2257,7 @@ U 1 1 6210F6F6
 P 850 7175
 F 0 "TP112" V 950 7250 50  0000 L CNN
 F 1 "TestPoint" V 925 7150 50  0001 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 1050 7175 50  0001 C CNN
+F 2 "Perch:HARWIN_S2751-46R" H 1050 7175 50  0001 C CNN
 F 3 "https://cdn.harwin.com/pdfs/Harwin_PC_PCB_Hardware.pdf" H 1050 7175 50  0001 C CNN
 F 4 "SMD Test Point" H 850 7175 50  0001 C CNN "Description"
 F 5 "Harwin Inc." H 850 7175 50  0001 C CNN "MFN"
@@ -2275,7 +2275,7 @@ U 1 1 620C460A
 P 1625 6200
 F 0 "TP103" V 1725 6275 50  0000 L CNN
 F 1 "TestPoint" V 1700 6175 50  0001 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 1825 6200 50  0001 C CNN
+F 2 "Perch:HARWIN_S2751-46R" H 1825 6200 50  0001 C CNN
 F 3 "https://cdn.harwin.com/pdfs/Harwin_PC_PCB_Hardware.pdf" H 1825 6200 50  0001 C CNN
 F 4 "SMD Test Point" H 1625 6200 50  0001 C CNN "Description"
 F 5 "Harwin Inc." H 1625 6200 50  0001 C CNN "MFN"
@@ -2293,7 +2293,7 @@ U 1 1 620C42EB
 P 850 5425
 F 0 "TP104" V 950 5500 50  0000 L CNN
 F 1 "TestPoint" V 925 5400 50  0001 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 1050 5425 50  0001 C CNN
+F 2 "Perch:HARWIN_S2751-46R" H 1050 5425 50  0001 C CNN
 F 3 "https://cdn.harwin.com/pdfs/Harwin_PC_PCB_Hardware.pdf" H 1050 5425 50  0001 C CNN
 F 4 "SMD Test Point" H 850 5425 50  0001 C CNN "Description"
 F 5 "Harwin Inc." H 850 5425 50  0001 C CNN "MFN"
@@ -2311,7 +2311,7 @@ U 1 1 620C401A
 P 850 5625
 F 0 "TP105" V 950 5700 50  0000 L CNN
 F 1 "TestPoint" V 925 5600 50  0001 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 1050 5625 50  0001 C CNN
+F 2 "Perch:HARWIN_S2751-46R" H 1050 5625 50  0001 C CNN
 F 3 "https://cdn.harwin.com/pdfs/Harwin_PC_PCB_Hardware.pdf" H 1050 5625 50  0001 C CNN
 F 4 "SMD Test Point" H 850 5625 50  0001 C CNN "Description"
 F 5 "Harwin Inc." H 850 5625 50  0001 C CNN "MFN"
@@ -2335,7 +2335,7 @@ U 1 1 620A9445
 P 1625 5225
 F 0 "TP120" V 1725 5300 50  0000 L CNN
 F 1 "TestPoint" V 1700 5200 50  0001 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 1825 5225 50  0001 C CNN
+F 2 "Perch:HARWIN_S2751-46R" H 1825 5225 50  0001 C CNN
 F 3 "https://cdn.harwin.com/pdfs/Harwin_PC_PCB_Hardware.pdf" H 1825 5225 50  0001 C CNN
 F 4 "SMD Test Point" H 1625 5225 50  0001 C CNN "Description"
 F 5 "Harwin Inc." H 1625 5225 50  0001 C CNN "MFN"
@@ -2353,7 +2353,7 @@ U 1 1 620A9438
 P 1625 5425
 F 0 "TP121" V 1725 5500 50  0000 L CNN
 F 1 "TestPoint" V 1700 5400 50  0001 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 1825 5425 50  0001 C CNN
+F 2 "Perch:HARWIN_S2751-46R" H 1825 5425 50  0001 C CNN
 F 3 "https://cdn.harwin.com/pdfs/Harwin_PC_PCB_Hardware.pdf" H 1825 5425 50  0001 C CNN
 F 4 "SMD Test Point" H 1625 5425 50  0001 C CNN "Description"
 F 5 "Harwin Inc." H 1625 5425 50  0001 C CNN "MFN"
@@ -2371,7 +2371,7 @@ U 1 1 620A942B
 P 1625 5625
 F 0 "TP122" V 1725 5700 50  0000 L CNN
 F 1 "TestPoint" V 1700 5600 50  0001 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 1825 5625 50  0001 C CNN
+F 2 "Perch:HARWIN_S2751-46R" H 1825 5625 50  0001 C CNN
 F 3 "https://cdn.harwin.com/pdfs/Harwin_PC_PCB_Hardware.pdf" H 1825 5625 50  0001 C CNN
 F 4 "SMD Test Point" H 1625 5625 50  0001 C CNN "Description"
 F 5 "Harwin Inc." H 1625 5625 50  0001 C CNN "MFN"
@@ -2395,7 +2395,7 @@ U 1 1 620A9416
 P 850 6200
 F 0 "TP109" V 950 6275 50  0000 L CNN
 F 1 "TestPoint" V 925 6175 50  0001 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 1050 6200 50  0001 C CNN
+F 2 "Perch:HARWIN_S2751-46R" H 1050 6200 50  0001 C CNN
 F 3 "https://cdn.harwin.com/pdfs/Harwin_PC_PCB_Hardware.pdf" H 1050 6200 50  0001 C CNN
 F 4 "SMD Test Point" H 850 6200 50  0001 C CNN "Description"
 F 5 "Harwin Inc." H 850 6200 50  0001 C CNN "MFN"
@@ -2413,7 +2413,7 @@ U 1 1 620A9409
 P 850 6400
 F 0 "TP110" V 950 6475 50  0000 L CNN
 F 1 "TestPoint" V 925 6375 50  0001 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 1050 6400 50  0001 C CNN
+F 2 "Perch:HARWIN_S2751-46R" H 1050 6400 50  0001 C CNN
 F 3 "https://cdn.harwin.com/pdfs/Harwin_PC_PCB_Hardware.pdf" H 1050 6400 50  0001 C CNN
 F 4 "SMD Test Point" H 850 6400 50  0001 C CNN "Description"
 F 5 "Harwin Inc." H 850 6400 50  0001 C CNN "MFN"
@@ -2431,7 +2431,7 @@ U 1 1 620A93FC
 P 850 6975
 F 0 "TP111" V 950 7050 50  0000 L CNN
 F 1 "TestPoint" V 925 6950 50  0001 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 1050 6975 50  0001 C CNN
+F 2 "Perch:HARWIN_S2751-46R" H 1050 6975 50  0001 C CNN
 F 3 "https://cdn.harwin.com/pdfs/Harwin_PC_PCB_Hardware.pdf" H 1050 6975 50  0001 C CNN
 F 4 "SMD Test Point" H 850 6975 50  0001 C CNN "Description"
 F 5 "Harwin Inc." H 850 6975 50  0001 C CNN "MFN"
@@ -2451,7 +2451,7 @@ U 1 1 6204A87F
 P 1625 6000
 F 0 "TP106" V 1725 6075 50  0000 L CNN
 F 1 "TestPoint" V 1700 5975 50  0001 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 1825 6000 50  0001 C CNN
+F 2 "Perch:HARWIN_S2751-46R" H 1825 6000 50  0001 C CNN
 F 3 "https://cdn.harwin.com/pdfs/Harwin_PC_PCB_Hardware.pdf" H 1825 6000 50  0001 C CNN
 F 4 "SMD Test Point" H 1625 6000 50  0001 C CNN "Description"
 F 5 "Harwin Inc." H 1625 6000 50  0001 C CNN "MFN"
@@ -2620,12 +2620,12 @@ Text Label 2900 3825 0    50   ~ 0
 LOAD_TX
 Text Label 2900 3725 0    50   ~ 0
 LOAD_RX
-Text Label 4675 6875 0    50   ~ 0
+Text Label 4675 6675 0    50   ~ 0
 LOAD_RX
-Text Label 6475 6975 2    50   ~ 0
+Text Label 6475 6775 2    50   ~ 0
 LOAD_TX
 Text Label 4450 2475 0    50   ~ 0
-PS_BOOST
+PS_BOOST_PS
 Text Label 4450 2575 0    50   ~ 0
 PI_GPIO22
 Text Label 4425 3575 0    50   ~ 0
@@ -2642,7 +2642,7 @@ U 1 1 633989D1
 P 2425 6375
 F 0 "TP133" V 2525 6450 50  0000 L CNN
 F 1 "TestPoint" V 2500 6350 50  0001 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 2625 6375 50  0001 C CNN
+F 2 "Perch:HARWIN_S2751-46R" H 2625 6375 50  0001 C CNN
 F 3 "https://cdn.harwin.com/pdfs/Harwin_PC_PCB_Hardware.pdf" H 2625 6375 50  0001 C CNN
 F 4 "SMD Test Point" H 2425 6375 50  0001 C CNN "Description"
 F 5 "Harwin Inc." H 2425 6375 50  0001 C CNN "MFN"
@@ -2664,7 +2664,7 @@ U 1 1 633D5F0A
 P 2425 6200
 F 0 "TP130" V 2525 6275 50  0000 L CNN
 F 1 "TestPoint" V 2500 6175 50  0001 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 2625 6200 50  0001 C CNN
+F 2 "Perch:HARWIN_S2751-46R" H 2625 6200 50  0001 C CNN
 F 3 "https://cdn.harwin.com/pdfs/Harwin_PC_PCB_Hardware.pdf" H 2625 6200 50  0001 C CNN
 F 4 "SMD Test Point" H 2425 6200 50  0001 C CNN "Description"
 F 5 "Harwin Inc." H 2425 6200 50  0001 C CNN "MFN"
@@ -2686,7 +2686,7 @@ U 1 1 633D67B3
 P 2425 6775
 F 0 "TP135" V 2525 6850 50  0000 L CNN
 F 1 "TestPoint" V 2500 6750 50  0001 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 2625 6775 50  0001 C CNN
+F 2 "Perch:HARWIN_S2751-46R" H 2625 6775 50  0001 C CNN
 F 3 "https://cdn.harwin.com/pdfs/Harwin_PC_PCB_Hardware.pdf" H 2625 6775 50  0001 C CNN
 F 4 "SMD Test Point" H 2425 6775 50  0001 C CNN "Description"
 F 5 "Harwin Inc." H 2425 6775 50  0001 C CNN "MFN"
@@ -2708,7 +2708,7 @@ U 1 1 633F8FA2
 P 850 5025
 F 0 "TP117" V 950 5100 50  0000 L CNN
 F 1 "TestPoint" V 925 5000 50  0001 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 1050 5025 50  0001 C CNN
+F 2 "Perch:HARWIN_S2751-46R" H 1050 5025 50  0001 C CNN
 F 3 "https://cdn.harwin.com/pdfs/Harwin_PC_PCB_Hardware.pdf" H 1050 5025 50  0001 C CNN
 F 4 "SMD Test Point" H 850 5025 50  0001 C CNN "Description"
 F 5 "Harwin Inc." H 850 5025 50  0001 C CNN "MFN"
@@ -2730,7 +2730,7 @@ U 1 1 633F9867
 P 850 5225
 F 0 "TP118" V 950 5300 50  0000 L CNN
 F 1 "TestPoint" V 925 5200 50  0001 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 1050 5225 50  0001 C CNN
+F 2 "Perch:HARWIN_S2751-46R" H 1050 5225 50  0001 C CNN
 F 3 "https://cdn.harwin.com/pdfs/Harwin_PC_PCB_Hardware.pdf" H 1050 5225 50  0001 C CNN
 F 4 "SMD Test Point" H 850 5225 50  0001 C CNN "Description"
 F 5 "Harwin Inc." H 850 5225 50  0001 C CNN "MFN"
@@ -2752,7 +2752,7 @@ U 1 1 63440F06
 P 1625 6775
 F 0 "TP131" V 1725 6850 50  0000 L CNN
 F 1 "TestPoint" V 1700 6750 50  0001 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 1825 6775 50  0001 C CNN
+F 2 "Perch:HARWIN_S2751-46R" H 1825 6775 50  0001 C CNN
 F 3 "https://cdn.harwin.com/pdfs/Harwin_PC_PCB_Hardware.pdf" H 1825 6775 50  0001 C CNN
 F 4 "SMD Test Point" H 1625 6775 50  0001 C CNN "Description"
 F 5 "Harwin Inc." H 1625 6775 50  0001 C CNN "MFN"
@@ -2774,7 +2774,7 @@ U 1 1 634417E7
 P 1625 6975
 F 0 "TP132" V 1725 7050 50  0000 L CNN
 F 1 "TestPoint" V 1700 6950 50  0001 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 1825 6975 50  0001 C CNN
+F 2 "Perch:HARWIN_S2751-46R" H 1825 6975 50  0001 C CNN
 F 3 "https://cdn.harwin.com/pdfs/Harwin_PC_PCB_Hardware.pdf" H 1825 6975 50  0001 C CNN
 F 4 "SMD Test Point" H 1625 6975 50  0001 C CNN "Description"
 F 5 "Harwin Inc." H 1625 6975 50  0001 C CNN "MFN"
@@ -2809,11 +2809,11 @@ Wire Wire Line
 	3175 7250 3600 7250
 Wire Wire Line
 	3175 7450 3600 7450
-Text Label 3600 6950 2    50   ~ 0
-PI_GPIO13
-Text Label 3600 7150 2    50   ~ 0
-PI_GPIO19
 Text Label 3600 7250 2    50   ~ 0
+PI_GPIO13
+Text Label 3600 7350 2    50   ~ 0
+PI_GPIO19
+Text Label 3600 6650 2    50   ~ 0
 PI_GPIO22
 Text Label 3600 7450 2    50   ~ 0
 PI_GPIO26
@@ -2870,7 +2870,7 @@ U 1 1 6204A872
 P 1625 6375
 F 0 "TP107" V 1725 6450 50  0000 L CNN
 F 1 "TestPoint" V 1700 6350 50  0001 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 1825 6375 50  0001 C CNN
+F 2 "Perch:HARWIN_S2751-46R" H 1825 6375 50  0001 C CNN
 F 3 "https://cdn.harwin.com/pdfs/Harwin_PC_PCB_Hardware.pdf" H 1825 6375 50  0001 C CNN
 F 4 "SMD Test Point" H 1625 6375 50  0001 C CNN "Description"
 F 5 "Harwin Inc." H 1625 6375 50  0001 C CNN "MFN"
@@ -2888,7 +2888,7 @@ U 1 1 6204A865
 P 1625 6600
 F 0 "TP108" V 1725 6675 50  0000 L CNN
 F 1 "TestPoint" V 1700 6575 50  0001 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 1825 6600 50  0001 C CNN
+F 2 "Perch:HARWIN_S2751-46R" H 1825 6600 50  0001 C CNN
 F 3 "https://cdn.harwin.com/pdfs/Harwin_PC_PCB_Hardware.pdf" H 1825 6600 50  0001 C CNN
 F 4 "SMD Test Point" H 1625 6600 50  0001 C CNN "Description"
 F 5 "Harwin Inc." H 1625 6600 50  0001 C CNN "MFN"
@@ -2996,7 +2996,7 @@ U 1 1 649A094E
 P 850 6600
 F 0 "TP136" V 950 6675 50  0000 L CNN
 F 1 "TestPoint" V 925 6575 50  0001 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 1050 6600 50  0001 C CNN
+F 2 "Perch:HARWIN_S2751-46R" H 1050 6600 50  0001 C CNN
 F 3 "https://cdn.harwin.com/pdfs/Harwin_PC_PCB_Hardware.pdf" H 1050 6600 50  0001 C CNN
 F 4 "SMD Test Point" H 850 6600 50  0001 C CNN "Description"
 F 5 "Harwin Inc." H 850 6600 50  0001 C CNN "MFN"
@@ -3014,7 +3014,7 @@ U 1 1 649A095F
 P 850 6800
 F 0 "TP137" V 950 6875 50  0000 L CNN
 F 1 "TestPoint" V 925 6775 50  0001 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 1050 6800 50  0001 C CNN
+F 2 "Perch:HARWIN_S2751-46R" H 1050 6800 50  0001 C CNN
 F 3 "https://cdn.harwin.com/pdfs/Harwin_PC_PCB_Hardware.pdf" H 1050 6800 50  0001 C CNN
 F 4 "SMD Test Point" H 850 6800 50  0001 C CNN "Description"
 F 5 "Harwin Inc." H 850 6800 50  0001 C CNN "MFN"
