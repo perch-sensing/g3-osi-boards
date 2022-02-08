@@ -332,51 +332,6 @@ X ~ 4 300 100 200 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# custom_power_BOOST_VAUX
-#
-DEF custom_power_BOOST_VAUX #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -150 50 H I C CNN
-F1 "custom_power_BOOST_VAUX" 0 150 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 2 0 1 0 -30 50 0 100 N
-P 2 0 1 0 0 0 0 100 N
-P 2 0 1 0 0 100 30 50 N
-X BOOST_VAUX 1 0 0 0 U 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# custom_power_CC_PIMD
-#
-DEF custom_power_CC_PIMD #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -150 50 H I C CNN
-F1 "custom_power_CC_PIMD" 0 150 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 2 0 1 0 -30 50 0 100 N
-P 2 0 1 0 0 0 0 100 N
-P 2 0 1 0 0 100 30 50 N
-X CC_PIMD 1 0 0 0 U 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# custom_power_CC_PWR_OUT
-#
-DEF custom_power_CC_PWR_OUT #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -150 50 H I C CNN
-F1 "custom_power_CC_PWR_OUT" 0 150 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 2 0 1 0 -30 50 0 100 N
-P 2 0 1 0 0 0 0 100 N
-P 2 0 1 0 0 100 30 50 N
-X CC_PWR_OUT 1 0 0 0 U 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
 # custom_power_V_BATT
 #
 DEF custom_power_V_BATT #PWR 0 0 Y Y 1 F P
@@ -419,6 +374,51 @@ P 2 0 1 0 -30 50 0 100 N
 P 2 0 1 0 0 0 0 100 N
 P 2 0 1 0 0 100 30 50 N
 X V_SOL 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# g3_power-rescue_BOOST_VAUX-custom_power
+#
+DEF g3_power-rescue_BOOST_VAUX-custom_power #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "g3_power-rescue_BOOST_VAUX-custom_power" 0 150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X BOOST_VAUX 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# g3_power-rescue_CC_PIMD-custom_power
+#
+DEF g3_power-rescue_CC_PIMD-custom_power #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "g3_power-rescue_CC_PIMD-custom_power" 0 150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X CC_PIMD 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# g3_power-rescue_CC_PWR_OUT-custom_power
+#
+DEF g3_power-rescue_CC_PWR_OUT-custom_power #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "g3_power-rescue_CC_PWR_OUT-custom_power" 0 150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X CC_PWR_OUT 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #

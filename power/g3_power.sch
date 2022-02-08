@@ -989,7 +989,7 @@ U 1 1 61E87D64
 P 9275 3375
 F 0 "U102" H 9275 3842 50  0000 C CNN
 F 1 "TPS61202DRC" H 9275 3751 50  0000 C CNN
-F 2 "Package_SON:Texas_S-PVSON-N10_ThermalVias" H 9275 2925 50  0001 C CNN
+F 2 "digikey-footprints:VSON-10-1EP_3x3mm" H 9275 2925 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tps61200.pdf" H 9275 3375 50  0001 C CNN
 	1    9275 3375
 	1    0    0    -1  
@@ -1320,7 +1320,7 @@ F 8 "" H 5600 6550 50  0001 C CNN "Notes"
 	1    0    0    -1  
 $EndComp
 $Comp
-L custom_power:CC_PWR_OUT #PWR0115
+L g3_power-rescue:CC_PWR_OUT-custom_power #PWR0115
 U 1 1 62098452
 P 1250 6300
 F 0 "#PWR0115" H 1250 6150 50  0001 C CNN
@@ -1331,7 +1331,7 @@ F 3 "" H 1250 6300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L custom_power:CC_PWR_OUT #PWR0117
+L g3_power-rescue:CC_PWR_OUT-custom_power #PWR0117
 U 1 1 62098FD7
 P 950 6300
 F 0 "#PWR0117" H 950 6150 50  0001 C CNN
@@ -1353,7 +1353,7 @@ F 3 "" H 1725 6300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L custom_power:CC_PIMD #PWR0121
+L g3_power-rescue:CC_PIMD-custom_power #PWR0121
 U 1 1 620AAC46
 P 2300 6300
 F 0 "#PWR0121" H 2300 6150 50  0001 C CNN
@@ -1441,7 +1441,7 @@ F 3 "" H 4725 2675 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L custom_power:CC_PWR_OUT #PWR0132
+L g3_power-rescue:CC_PWR_OUT-custom_power #PWR0132
 U 1 1 620C5643
 P 1300 3500
 F 0 "#PWR0132" H 1300 3350 50  0001 C CNN
@@ -1452,7 +1452,7 @@ F 3 "" H 1300 3500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L custom_power:CC_PWR_OUT #PWR0133
+L g3_power-rescue:CC_PWR_OUT-custom_power #PWR0133
 U 1 1 620C5BAD
 P 4950 1775
 F 0 "#PWR0133" H 4950 1625 50  0001 C CNN
@@ -1520,7 +1520,7 @@ F 3 "" H 2600 4850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L custom_power:BOOST_VAUX #PWR0148
+L g3_power-rescue:BOOST_VAUX-custom_power #PWR0148
 U 1 1 620D33DE
 P 4450 6275
 F 0 "#PWR0148" H 4450 6125 50  0001 C CNN
@@ -1542,7 +1542,7 @@ F 3 "" H 4225 2550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L custom_power:BOOST_VAUX #PWR0150
+L g3_power-rescue:BOOST_VAUX-custom_power #PWR0150
 U 1 1 620DC5AE
 P 8000 3425
 F 0 "#PWR0150" H 8000 3275 50  0001 C CNN
@@ -1553,7 +1553,7 @@ F 3 "" H 8000 3425 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L custom_power:CC_PWR_OUT #PWR0151
+L g3_power-rescue:CC_PWR_OUT-custom_power #PWR0151
 U 1 1 620DD237
 P 8000 3125
 F 0 "#PWR0151" H 8000 2975 50  0001 C CNN
@@ -1572,7 +1572,7 @@ Wire Wire Line
 Wire Wire Line
 	8000 3475 8875 3475
 $Comp
-L custom_power:BOOST_VAUX #PWR0152
+L g3_power-rescue:BOOST_VAUX-custom_power #PWR0152
 U 1 1 620EE8BF
 P 10100 3225
 F 0 "#PWR0152" H 10100 3075 50  0001 C CNN
@@ -1591,7 +1591,7 @@ Wire Wire Line
 Wire Wire Line
 	10100 3375 10100 3225
 $Comp
-L custom_power:CC_PWR_OUT #PWR0153
+L g3_power-rescue:CC_PWR_OUT-custom_power #PWR0153
 U 1 1 62018816
 P 1825 3500
 F 0 "#PWR0153" H 1825 3350 50  0001 C CNN
@@ -1602,7 +1602,7 @@ F 3 "" H 1825 3500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L custom_power:CC_PIMD #PWR0154
+L g3_power-rescue:CC_PIMD-custom_power #PWR0154
 U 1 1 620415CA
 P 3125 1300
 F 0 "#PWR0154" H 3125 1150 50  0001 C CNN
@@ -1625,7 +1625,7 @@ Wire Notes Line
 Wire Wire Line
 	5600 6450 5600 6300
 $Comp
-L custom_power:CC_PWR_OUT #PWR0106
+L g3_power-rescue:CC_PWR_OUT-custom_power #PWR0106
 U 1 1 620113D1
 P 5600 6300
 F 0 "#PWR0106" H 5600 6150 50  0001 C CNN
@@ -1707,7 +1707,7 @@ NoConn ~ 6175 5175
 NoConn ~ 6175 5575
 NoConn ~ 5225 5575
 $Comp
-L custom_power:BOOST_VAUX #PWR0155
+L g3_power-rescue:BOOST_VAUX-custom_power #PWR0155
 U 1 1 62184ADE
 P 6200 825
 F 0 "#PWR0155" H 6200 675 50  0001 C CNN
@@ -1733,7 +1733,7 @@ F 3 "~" H 6175 1150 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L custom_power:CC_PWR_OUT #PWR0156
+L g3_power-rescue:CC_PWR_OUT-custom_power #PWR0156
 U 1 1 621D276E
 P 6200 1100
 F 0 "#PWR0156" H 6200 950 50  0001 C CNN
@@ -1834,7 +1834,7 @@ F 3 "" H 6200 1400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L custom_power:CC_PIMD #PWR0158
+L g3_power-rescue:CC_PIMD-custom_power #PWR0158
 U 1 1 62224531
 P 6200 1700
 F 0 "#PWR0158" H 6200 1550 50  0001 C CNN
