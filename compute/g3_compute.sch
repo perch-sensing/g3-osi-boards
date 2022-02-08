@@ -1431,14 +1431,14 @@ P 5875 2775
 F 0 "J106" H 5875 2925 50  0000 C CNN
 F 1 "Pi_Connector" H 5875 2625 50  0000 C CNN
 F 2 "Perch:ADA3708_RaspPiZero" H 5875 2775 50  0001 L BNN
-F 3 "https://www.mouser.com/datasheet/2/527/ssm_sm-2853675.pdf" H 5875 2775 50  0001 L BNN
-F 4 "Samtech Inc." H 5875 2775 50  0001 C CNN "MFN"
-F 5 "https://www.mouser.com/ProductDetail/Samtec/SSM-120-S-DV?qs=rU5fayqh%252BE0KXAFLOo8FGg%3D%3D" H 5875 2775 50  0001 C CNN "S1PL"
-F 6 "200-SSM120SDV" H 5875 2775 50  0001 C CNN "S1PN"
+F 3 "https://cdn-shop.adafruit.com/product-files/2187/CS25582-40G-M36-0A+(1).jpg" H 5875 2775 50  0001 L BNN
+F 4 "Adafruit LLC" H 5875 2775 50  0001 C CNN "MFN"
+F 5 "https://www.adafruit.com/product/2187" H 5875 2775 50  0001 C CNN "S1PL"
+F 6 "2187" H 5875 2775 50  0001 C CNN "S1PN"
 F 7 "" H 5875 2775 50  0001 C CNN "Notes"
 F 8 "Raspberry Pi Zero Connector" H 5875 2775 50  0001 C CNN "Description"
 F 9 "Raspberry Pi Foundation" H 5875 2775 50  0001 C CNN "Height"
-F 10 "SSM-120-S-DV" H 5875 2775 50  0001 C CNN "MFP"
+F 10 "2187" H 5875 2775 50  0001 C CNN "MFP"
 F 11 "https://www.adafruit.com/product/2885?gclid=Cj0KCQjwqp-LBhDQARIsAO0a6aIR3sqfGFEBlXdj8U2bi7F3STeS_1LtpSjam7JfdBiGVESx38VjjzsaAgUqEALw_wcB" H 5875 2775 50  0001 C CNN "Manufacturer_Name"
 F 12 "2885" H 5875 2775 50  0001 C CNN "Manufacturer_Part_Number"
 F 13 "https://www.canakit.com/raspberry-pi-zero.html?src=raspberrypi" H 5875 2775 50  0001 C CNN "Mouser Part Number"
@@ -3214,7 +3214,12 @@ P 1825 3375
 F 0 "J111" V 1775 3100 50  0000 L CNN
 F 1 "Conn_01x02_Male" V 1700 3100 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical_SMD_Pin1Left" H 1825 3375 50  0001 C CNN
-F 3 "~" H 1825 3375 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/878980204_sd.pdf" H 1825 3375 50  0001 C CNN
+F 4 "Jumper Connector" H 1825 3375 50  0001 C CNN "Description"
+F 5 "Molex" H 1825 3375 50  0001 C CNN "MFN"
+F 6 "0878980204" H 1825 3375 50  0001 C CNN "MFP"
+F 7 "https://www.digikey.com/en/products/detail/molex/0878980204/3303535" H 1825 3375 50  0001 C CNN "S1PL"
+F 8 "WM9852-ND" H 1825 3375 50  0001 C CNN "S1PN"
 	1    1825 3375
 	0    1    1    0   
 $EndComp
