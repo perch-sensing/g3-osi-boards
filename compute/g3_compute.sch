@@ -140,56 +140,12 @@ F 3 "~" H 2125 2400 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1125 2500 1125 2525
-$Comp
-L power:GND #PWR0101
-U 1 1 6243AD3B
-P 1125 2525
-F 0 "#PWR0101" H 1125 2275 50  0001 C CNN
-F 1 "GND" H 1130 2352 50  0000 C CNN
-F 2 "" H 1125 2525 50  0001 C CNN
-F 3 "" H 1125 2525 50  0001 C CNN
-	1    1125 2525
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1800 2500 1800 2525
-$Comp
-L power:GND #PWR0103
-U 1 1 6243B990
-P 1800 2525
-F 0 "#PWR0103" H 1800 2275 50  0001 C CNN
-F 1 "GND" H 1805 2352 50  0000 C CNN
-F 2 "" H 1800 2525 50  0001 C CNN
-F 3 "" H 1800 2525 50  0001 C CNN
-	1    1800 2525
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1450 2500 1450 2525
-$Comp
-L power:GND #PWR0102
-U 1 1 6244D81C
-P 1450 2525
-F 0 "#PWR0102" H 1450 2275 50  0001 C CNN
-F 1 "GND" H 1455 2352 50  0000 C CNN
-F 2 "" H 1450 2525 50  0001 C CNN
-F 3 "" H 1450 2525 50  0001 C CNN
-	1    1450 2525
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2125 2500 2125 2525
-$Comp
-L power:GND #PWR0104
-U 1 1 6245F779
-P 2125 2525
-F 0 "#PWR0104" H 2125 2275 50  0001 C CNN
-F 1 "GND" H 2130 2352 50  0000 C CNN
-F 2 "" H 2125 2525 50  0001 C CNN
-F 3 "" H 2125 2525 50  0001 C CNN
-	1    2125 2525
-	1    0    0    -1  
-$EndComp
 Text Notes 1775 3050 0    50   ~ 0
 Mounting Holes
 Wire Wire Line
@@ -278,9 +234,9 @@ Wire Wire Line
 	3175 7050 3600 7050
 Wire Wire Line
 	3175 7350 3600 7350
-Text Label 3600 6850 2    50   ~ 0
-PI_GPIO25
-Text Label 3600 6550 2    50   ~ 0
+Text Label 3600 6750 2    50   ~ 0
+PI_GPIO27
+Text Label 3600 6650 2    50   ~ 0
 PI_GPIO17
 Wire Wire Line
 	3175 6750 3600 6750
@@ -290,13 +246,13 @@ Wire Wire Line
 	3175 6550 3600 6550
 Wire Wire Line
 	3175 6650 3600 6650
-Text Label 3600 7050 2    50   ~ 0
-PI_GPIO8
+Text Label 3600 6550 2    50   ~ 0
+PI_GPIO4
 Text Label 3600 7150 2    50   ~ 0
 PI_GPIO11
-Text Label 3600 6950 2    50   ~ 0
+Text Label 3600 7050 2    50   ~ 0
 PI_GPIO9
-Text Label 3600 6750 2    50   ~ 0
+Text Label 3600 6950 2    50   ~ 0
 PI_GPIO10
 Wire Notes Line
 	7700 6325 11150 6325
@@ -917,45 +873,19 @@ Wire Wire Line
 	8325 2400 8325 2500
 Wire Wire Line
 	8325 2300 8325 2225
-Text Notes 1350 4050 0    50   ~ 0
-Note: Please verify this switch setup\n
 Wire Wire Line
-	2600 3725 2600 3375
-Wire Wire Line
-	2525 3725 2600 3725
-Wire Wire Line
-	3225 3625 2525 3625
-NoConn ~ 1325 3725
-NoConn ~ 1325 3625
-NoConn ~ 1325 3825
-NoConn ~ 2525 3825
-$Comp
-L 452403012014_Switch:452403012014 S101
-U 1 1 620C2712
-P 1325 3625
-F 0 "S101" H 1925 3890 50  0000 C CNN
-F 1 "452403012014" H 1925 3799 50  0000 C CNN
-F 2 "Perch:452403012014_Switch" H 2375 3725 50  0001 L CNN
-F 3 "https://katalog.we-online.de/em/datasheet/452403012014.pdf" H 2375 3625 50  0001 L CNN
-F 4 "Slide Switches WS-SLSV Slide Switch SMD 7.65mm x 5.5mm" H 2375 3525 50  0001 L CNN "Description"
-F 5 "Wurth Electronik" H 1325 3625 50  0001 C CNN "MFN"
-F 6 "452403012014" H 1325 3625 50  0001 C CNN "MFP"
-F 7 "https://www.mouser.com/ProductDetail/Wurth-Elektronik/452403012014?qs=DvsTirrhYfOi0QxHyAEO3w%3D%3D" H 1325 3625 50  0001 C CNN "S1PL"
-F 8 "710-452403012014" H 1325 3625 50  0001 C CNN "S1PN"
-	1    1325 3625
-	1    0    0    -1  
-$EndComp
-NoConn ~ 3225 3925
-NoConn ~ 3225 3525
+	2525 3675 1825 3675
+NoConn ~ 2525 3975
+NoConn ~ 2525 3575
 $Comp
 L Connector:Conn_01x06_Male J107
 U 1 1 62043352
-P 3425 3625
-F 0 "J107" H 3600 4050 50  0000 R CNN
-F 1 "Conn_01x06_Male" H 3875 3950 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 3425 3625 50  0001 C CNN
-F 3 "~" H 3425 3625 50  0001 C CNN
-	1    3425 3625
+P 2725 3675
+F 0 "J107" H 2900 4100 50  0000 R CNN
+F 1 "Conn_01x06_Male" H 3175 4000 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 2725 3675 50  0001 C CNN
+F 3 "~" H 2725 3675 50  0001 C CNN
+	1    2725 3675
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1036,12 +966,12 @@ Wire Wire Line
 $Comp
 L power:+5V #PWR0129
 U 1 1 621CBD4E
-P 2600 3375
-F 0 "#PWR0129" H 2600 3225 50  0001 C CNN
-F 1 "+5V" H 2615 3548 50  0000 C CNN
-F 2 "" H 2600 3375 50  0001 C CNN
-F 3 "" H 2600 3375 50  0001 C CNN
-	1    2600 3375
+P 1375 3500
+F 0 "#PWR0129" H 1375 3350 50  0001 C CNN
+F 1 "+5V" H 1390 3673 50  0000 C CNN
+F 2 "" H 1375 3500 50  0001 C CNN
+F 3 "" H 1375 3500 50  0001 C CNN
+	1    1375 3500
 	1    0    0    -1  
 $EndComp
 Text Notes 4200 800  0    35   ~ 0
@@ -1075,20 +1005,20 @@ Wire Notes Line
 Wire Notes Line
 	3950 3125 3950 4125
 Wire Wire Line
-	3225 3825 2900 3825
+	2525 3875 2200 3875
 Wire Wire Line
-	3225 3725 2900 3725
+	2525 3775 2200 3775
 Wire Wire Line
-	2950 3425 3225 3425
+	2250 3475 2525 3475
 $Comp
 L power:GND #PWR0130
 U 1 1 61E6E7A1
-P 2950 3425
-F 0 "#PWR0130" H 2950 3175 50  0001 C CNN
-F 1 "GND" H 2825 3300 50  0000 C CNN
-F 2 "" H 2950 3425 50  0001 C CNN
-F 3 "" H 2950 3425 50  0001 C CNN
-	1    2950 3425
+P 2250 3475
+F 0 "#PWR0130" H 2250 3225 50  0001 C CNN
+F 1 "GND" H 2125 3350 50  0000 C CNN
+F 2 "" H 2250 3475 50  0001 C CNN
+F 3 "" H 2250 3475 50  0001 C CNN
+	1    2250 3475
 	1    0    0    -1  
 $EndComp
 Text Notes 6500 775  0    35   ~ 0
@@ -1258,8 +1188,8 @@ Wire Wire Line
 	4975 2875 4475 2875
 Wire Wire Line
 	4975 2775 4475 2775
-Text Label 7275 2975 2    50   ~ 0
-PI_GPIO8
+Text Label 4450 2175 0    50   ~ 0
+PI_GPIO4
 Wire Wire Line
 	6775 2975 7275 2975
 $Comp
@@ -1329,34 +1259,34 @@ Wire Notes Line
 	4200 4475 7425 4475
 Text Notes 5575 4425 0    79   ~ 0
 Raspberry PI Zero Connector
-Text Label 7300 3375 2    50   ~ 0
+Text Label 7275 2975 2    50   ~ 0
 CPPC_INT
-Text Label 7275 3075 2    50   ~ 0
+Text Label 7300 3775 2    50   ~ 0
 GPS_3DFIX
-Text Label 7300 2875 2    50   ~ 0
-PI_GPIO25
-Text Label 7325 2675 2    50   ~ 0
+Text Label 4450 2475 0    50   ~ 0
+PI_GPIO27
+Text Label 7300 2675 2    50   ~ 0
 ~PS_CC_CE
 Text Label 7325 2575 2    50   ~ 0
 ~PS_CC_INT
-Text Label 7375 2375 2    50   ~ 0
+Text Label 7375 2875 2    50   ~ 0
 ~PS_CC_QON
 Text Label 4450 2375 0    50   ~ 0
 PI_GPIO17
-Text Label 4450 2175 0    50   ~ 0
+Text Label 7300 3675 2    50   ~ 0
 ~E5_BOOT
 Wire Wire Line
 	6775 3375 7300 3375
 Wire Wire Line
 	6775 3075 7275 3075
 Wire Wire Line
-	6775 2875 7300 2875
+	6775 2875 7375 2875
 Wire Wire Line
-	6775 2675 7325 2675
+	6775 2675 7300 2675
 Wire Wire Line
 	6775 2575 7325 2575
 Wire Wire Line
-	6775 2375 7375 2375
+	6775 2375 7425 2375
 Wire Wire Line
 	4975 2175 4450 2175
 Wire Wire Line
@@ -1369,13 +1299,13 @@ Wire Wire Line
 	6775 3575 7300 3575
 Text Label 7300 3575 2    50   ~ 0
 ~E5_RESET
-Text Label 6475 6875 2    50   ~ 0
+Text Label 4675 6675 0    50   ~ 0
 E5_TX
-Text Label 4675 6775 0    50   ~ 0
+Text Label 6475 6775 2    50   ~ 0
 E5_RX
-Text Label 4675 6575 0    50   ~ 0
-CPPC_RX
 Text Label 6475 6675 2    50   ~ 0
+CPPC_RX
+Text Label 4675 6575 0    50   ~ 0
 CPPC_TX
 Wire Wire Line
 	6775 3775 7300 3775
@@ -1389,17 +1319,17 @@ Wire Wire Line
 	4975 3475 4425 3475
 Text Label 4425 3475 0    50   ~ 0
 PI_GPIO13
-Text Label 4425 3375 0    50   ~ 0
+Text Label 4425 3575 0    50   ~ 0
 GPS_SW_EN
-Text Label 4425 3275 0    50   ~ 0
+Text Label 4425 3675 0    50   ~ 0
 ~GPS_RESET
 Wire Wire Line
 	4975 3375 4425 3375
 Wire Wire Line
 	4425 3275 4975 3275
-Text Label 6475 6975 2    50   ~ 0
+Text Label 4675 6775 0    50   ~ 0
 GPS_TX
-Text Label 4675 6875 0    50   ~ 0
+Text Label 6475 6875 2    50   ~ 0
 GPS_RX
 Wire Wire Line
 	6775 3475 6875 3475
@@ -1501,14 +1431,14 @@ P 5875 2775
 F 0 "J106" H 5875 2925 50  0000 C CNN
 F 1 "Pi_Connector" H 5875 2625 50  0000 C CNN
 F 2 "Perch:ADA3708_RaspPiZero" H 5875 2775 50  0001 L BNN
-F 3 "https://www.mouser.com/datasheet/2/527/ssm_sm-2853675.pdf" H 5875 2775 50  0001 L BNN
-F 4 "Samtech Inc." H 5875 2775 50  0001 C CNN "MFN"
-F 5 "https://www.mouser.com/ProductDetail/Samtec/SSM-120-S-DV?qs=rU5fayqh%252BE0KXAFLOo8FGg%3D%3D" H 5875 2775 50  0001 C CNN "S1PL"
-F 6 "200-SSM120SDV" H 5875 2775 50  0001 C CNN "S1PN"
+F 3 "https://cdn-shop.adafruit.com/product-files/2187/CS25582-40G-M36-0A+(1).jpg" H 5875 2775 50  0001 L BNN
+F 4 "Adafruit LLC" H 5875 2775 50  0001 C CNN "MFN"
+F 5 "https://www.adafruit.com/product/2187" H 5875 2775 50  0001 C CNN "S1PL"
+F 6 "2187" H 5875 2775 50  0001 C CNN "S1PN"
 F 7 "" H 5875 2775 50  0001 C CNN "Notes"
 F 8 "Raspberry Pi Zero Connector" H 5875 2775 50  0001 C CNN "Description"
 F 9 "Raspberry Pi Foundation" H 5875 2775 50  0001 C CNN "Height"
-F 10 "SSM-120-S-DV" H 5875 2775 50  0001 C CNN "MFP"
+F 10 "2187" H 5875 2775 50  0001 C CNN "MFP"
 F 11 "https://www.adafruit.com/product/2885?gclid=Cj0KCQjwqp-LBhDQARIsAO0a6aIR3sqfGFEBlXdj8U2bi7F3STeS_1LtpSjam7JfdBiGVESx38VjjzsaAgUqEALw_wcB" H 5875 2775 50  0001 C CNN "Manufacturer_Name"
 F 12 "2885" H 5875 2775 50  0001 C CNN "Manufacturer_Part_Number"
 F 13 "https://www.canakit.com/raspberry-pi-zero.html?src=raspberrypi" H 5875 2775 50  0001 C CNN "Mouser Part Number"
@@ -2062,7 +1992,7 @@ F 10 "855-S2751-46R" H 2425 6575 50  0001 C CNN "S2PN"
 	0    -1   -1   0   
 $EndComp
 Text Label 2775 6575 2    50   ~ 0
-PI_GPIO25
+PI_GPIO27
 Wire Wire Line
 	2425 6000 2775 6000
 $Comp
@@ -2508,7 +2438,7 @@ Wire Wire Line
 Wire Wire Line
 	850  5625 1200 5625
 Text Label 2775 5025 2    50   ~ 0
-PI_GPIO8
+PI_GPIO4
 Text Label 2775 5625 2    50   ~ 0
 PI_GPIO11
 Text Label 2775 5225 2    50   ~ 0
@@ -2592,13 +2522,13 @@ Wire Wire Line
 	5075 6975 4675 6975
 Wire Wire Line
 	6075 7075 6475 7075
-Text Label 4675 6975 0    50   ~ 0
-PI_TXD0
 Text Label 6475 7075 2    50   ~ 0
+PI_TXD0
+Text Label 4675 6975 0    50   ~ 0
 PI_RXD0
-Text Label 4675 6475 0    50   ~ 0
-MUX_SELA
 Text Label 6475 6575 2    50   ~ 0
+MUX_SELA
+Text Label 4675 6475 0    50   ~ 0
 MUX_SELB
 Wire Wire Line
 	5075 6875 4675 6875
@@ -2616,25 +2546,25 @@ Wire Wire Line
 	6075 6775 6475 6775
 Wire Wire Line
 	6075 6675 6475 6675
-Text Label 2900 3825 0    50   ~ 0
+Text Label 2200 3875 0    50   ~ 0
 LOAD_TX
-Text Label 2900 3725 0    50   ~ 0
+Text Label 2200 3775 0    50   ~ 0
 LOAD_RX
-Text Label 4675 6675 0    50   ~ 0
+Text Label 6475 6975 2    50   ~ 0
 LOAD_RX
-Text Label 6475 6775 2    50   ~ 0
+Text Label 4675 6875 0    50   ~ 0
 LOAD_TX
-Text Label 4450 2475 0    50   ~ 0
+Text Label 7425 2375 2    50   ~ 0
 PS_BOOST_PS
 Text Label 4450 2575 0    50   ~ 0
 PI_GPIO22
-Text Label 4425 3575 0    50   ~ 0
-PI_GPIO19
-Text Label 4425 3675 0    50   ~ 0
-PI_GPIO26
-Text Label 7300 3675 2    50   ~ 0
+Text Label 4425 3375 0    50   ~ 0
+PI_GPIO6
+Text Label 4425 3275 0    50   ~ 0
+PI_GPIO5
+Text Label 7275 3075 2    50   ~ 0
 MUX_SELA
-Text Label 7300 3775 2    50   ~ 0
+Text Label 7300 3375 2    50   ~ 0
 MUX_SELB
 $Comp
 L Connector:TestPoint TP133
@@ -2679,7 +2609,7 @@ $EndComp
 Wire Wire Line
 	2425 6200 2775 6200
 Text Label 2775 6200 2    50   ~ 0
-PI_GPIO19
+PI_GPIO6
 $Comp
 L Connector:TestPoint TP135
 U 1 1 633D67B3
@@ -2701,7 +2631,7 @@ $EndComp
 Wire Wire Line
 	2425 6775 2775 6775
 Text Label 2775 6775 2    50   ~ 0
-PI_GPIO26
+PI_GPIO5
 $Comp
 L Connector:TestPoint TP117
 U 1 1 633F8FA2
@@ -2809,14 +2739,14 @@ Wire Wire Line
 	3175 7250 3600 7250
 Wire Wire Line
 	3175 7450 3600 7450
-Text Label 3600 7250 2    50   ~ 0
+Text Label 3600 7450 2    50   ~ 0
 PI_GPIO13
 Text Label 3600 7350 2    50   ~ 0
-PI_GPIO19
-Text Label 3600 6650 2    50   ~ 0
+PI_GPIO6
+Text Label 3600 6850 2    50   ~ 0
 PI_GPIO22
-Text Label 3600 7450 2    50   ~ 0
-PI_GPIO26
+Text Label 3600 7250 2    50   ~ 0
+PI_GPIO5
 Wire Notes Line
 	2850 4850 2850 7725
 Wire Notes Line
@@ -3171,5 +3101,126 @@ F 9 "https://www.mouser.com/ProductDetail/Seeed-Studio/317990687?qs=hd1VzrDQEGhZ
 F 10 "713-317990687" H 9150 2600 50  0001 C CNN "S2PN"
 	1    9150 2600
 	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2425 6975 2775 6975
+$Comp
+L Connector:TestPoint TP138
+U 1 1 61FF0002
+P 2425 6975
+F 0 "TP138" V 2525 7050 50  0000 L CNN
+F 1 "TestPoint" V 2500 6950 50  0001 L CNN
+F 2 "Perch:HARWIN_S2751-46R" H 2625 6975 50  0001 C CNN
+F 3 "https://cdn.harwin.com/pdfs/Harwin_PC_PCB_Hardware.pdf" H 2625 6975 50  0001 C CNN
+F 4 "SMD Test Point" H 2425 6975 50  0001 C CNN "Description"
+F 5 "Harwin Inc." H 2425 6975 50  0001 C CNN "MFN"
+F 6 "S2751-46R" H 2425 6975 50  0001 C CNN "MFP"
+F 7 "https://www.digikey.com/en/products/detail/harwin-inc/S2751-46R/5250499?WT.z_cid=sp_952_buynow&lang=en&s=N4IgTCBcDaIMpgOwFYCMBaALANgEogF0BfIA&site=us&vendor=0" H 2425 6975 50  0001 C CNN "S1PL"
+F 8 "952-2664" H 2425 6975 50  0001 C CNN "S1PN"
+F 9 "https://www.mouser.com/ProductDetail/Harwin/S2751-46R?qs=DaxoyN%2FvrebM3VuuS3MPNA%3D%3D" H 2425 6975 50  0001 C CNN "S2PL"
+F 10 "855-S2751-46R" H 2425 6975 50  0001 C CNN "S2PN"
+	1    2425 6975
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0157
+U 1 1 61FF0008
+P 2775 6975
+F 0 "#PWR0157" H 2775 6725 50  0001 C CNN
+F 1 "GND" H 2625 6925 50  0000 C CNN
+F 2 "" H 2775 6975 50  0001 C CNN
+F 3 "" H 2775 6975 50  0001 C CNN
+	1    2775 6975
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2425 7175 2775 7175
+$Comp
+L Connector:TestPoint TP139
+U 1 1 62010F39
+P 2425 7175
+F 0 "TP139" V 2525 7250 50  0000 L CNN
+F 1 "TestPoint" V 2500 7150 50  0001 L CNN
+F 2 "Perch:HARWIN_S2751-46R" H 2625 7175 50  0001 C CNN
+F 3 "https://cdn.harwin.com/pdfs/Harwin_PC_PCB_Hardware.pdf" H 2625 7175 50  0001 C CNN
+F 4 "SMD Test Point" H 2425 7175 50  0001 C CNN "Description"
+F 5 "Harwin Inc." H 2425 7175 50  0001 C CNN "MFN"
+F 6 "S2751-46R" H 2425 7175 50  0001 C CNN "MFP"
+F 7 "https://www.digikey.com/en/products/detail/harwin-inc/S2751-46R/5250499?WT.z_cid=sp_952_buynow&lang=en&s=N4IgTCBcDaIMpgOwFYCMBaALANgEogF0BfIA&site=us&vendor=0" H 2425 7175 50  0001 C CNN "S1PL"
+F 8 "952-2664" H 2425 7175 50  0001 C CNN "S1PN"
+F 9 "https://www.mouser.com/ProductDetail/Harwin/S2751-46R?qs=DaxoyN%2FvrebM3VuuS3MPNA%3D%3D" H 2425 7175 50  0001 C CNN "S2PL"
+F 10 "855-S2751-46R" H 2425 7175 50  0001 C CNN "S2PN"
+	1    2425 7175
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0158
+U 1 1 62010F3F
+P 2775 7175
+F 0 "#PWR0158" H 2775 6925 50  0001 C CNN
+F 1 "GND" H 2625 7125 50  0000 C CNN
+F 2 "" H 2775 7175 50  0001 C CNN
+F 3 "" H 2775 7175 50  0001 C CNN
+	1    2775 7175
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2425 7375 2775 7375
+$Comp
+L Connector:TestPoint TP140
+U 1 1 620321C7
+P 2425 7375
+F 0 "TP140" V 2525 7450 50  0000 L CNN
+F 1 "TestPoint" V 2500 7350 50  0001 L CNN
+F 2 "Perch:HARWIN_S2751-46R" H 2625 7375 50  0001 C CNN
+F 3 "https://cdn.harwin.com/pdfs/Harwin_PC_PCB_Hardware.pdf" H 2625 7375 50  0001 C CNN
+F 4 "SMD Test Point" H 2425 7375 50  0001 C CNN "Description"
+F 5 "Harwin Inc." H 2425 7375 50  0001 C CNN "MFN"
+F 6 "S2751-46R" H 2425 7375 50  0001 C CNN "MFP"
+F 7 "https://www.digikey.com/en/products/detail/harwin-inc/S2751-46R/5250499?WT.z_cid=sp_952_buynow&lang=en&s=N4IgTCBcDaIMpgOwFYCMBaALANgEogF0BfIA&site=us&vendor=0" H 2425 7375 50  0001 C CNN "S1PL"
+F 8 "952-2664" H 2425 7375 50  0001 C CNN "S1PN"
+F 9 "https://www.mouser.com/ProductDetail/Harwin/S2751-46R?qs=DaxoyN%2FvrebM3VuuS3MPNA%3D%3D" H 2425 7375 50  0001 C CNN "S2PL"
+F 10 "855-S2751-46R" H 2425 7375 50  0001 C CNN "S2PN"
+	1    2425 7375
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0159
+U 1 1 620321CD
+P 2775 7375
+F 0 "#PWR0159" H 2775 7125 50  0001 C CNN
+F 1 "GND" H 2625 7325 50  0000 C CNN
+F 2 "" H 2775 7375 50  0001 C CNN
+F 3 "" H 2775 7375 50  0001 C CNN
+	1    2775 7375
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1825 3575 1825 3675
+Wire Wire Line
+	1375 3500 1375 3675
+Wire Wire Line
+	1375 3675 1725 3675
+Wire Wire Line
+	1725 3675 1725 3575
+NoConn ~ 1125 2525
+NoConn ~ 1450 2525
+NoConn ~ 2125 2525
+NoConn ~ 1800 2525
+$Comp
+L Connector:Conn_01x02_Male J111
+U 1 1 6206640D
+P 1825 3375
+F 0 "J111" V 1775 3100 50  0000 L CNN
+F 1 "Conn_01x02_Male" V 1700 3100 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical_SMD_Pin1Left" H 1825 3375 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/878980204_sd.pdf" H 1825 3375 50  0001 C CNN
+F 4 "Jumper Connector" H 1825 3375 50  0001 C CNN "Description"
+F 5 "Molex" H 1825 3375 50  0001 C CNN "MFN"
+F 6 "0878980204" H 1825 3375 50  0001 C CNN "MFP"
+F 7 "https://www.digikey.com/en/products/detail/molex/0878980204/3303535" H 1825 3375 50  0001 C CNN "S1PL"
+F 8 "WM9852-ND" H 1825 3375 50  0001 C CNN "S1PN"
+	1    1825 3375
+	0    1    1    0   
 $EndComp
 $EndSCHEMATC
