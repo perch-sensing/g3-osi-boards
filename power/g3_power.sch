@@ -20,7 +20,14 @@ P 7675 5925
 F 0 "J102" H 7875 5800 50  0000 C CNN
 F 1 "533980271_Molex" H 7425 6275 50  0000 C CNN
 F 2 "Perch:532610271_Molex" H 7675 5925 50  0001 C CNN
-F 3 "~" H 7675 5925 50  0001 C CNN
+F 3 "https://www.molex.com/webdocs/datasheets/pdf/en-us/0532610271_PCB_HEADERS.pdf" H 7675 5925 50  0001 C CNN
+F 4 "2 Pin Molex Header" H 7675 5925 50  0001 C CNN "Description"
+F 5 "Molex" H 7675 5925 50  0001 C CNN "MFN"
+F 6 "532610271" H 7675 5925 50  0001 C CNN "MFP"
+F 7 "Molex" H 7675 5925 50  0001 C CNN "Manufacturer_Name"
+F 8 "532610271" H 7675 5925 50  0001 C CNN "Manufacturer_Part_Number"
+F 9 "https://www.heilind.com/mol53261-0271-p.html" H 7675 5925 50  0001 C CNN "S1PL"
+F 10 "MOL53261-0271" H 7675 5925 50  0001 C CNN "S1PN"
 	1    7675 5925
 	-1   0    0    1   
 $EndComp
@@ -31,7 +38,14 @@ P 7675 5100
 F 0 "J101" H 7800 4975 50  0000 L CNN
 F 1 "533980271_Molex" H 7175 5425 50  0000 L CNN
 F 2 "Perch:532610271_Molex" H 7675 5100 50  0001 C CNN
-F 3 "~" H 7675 5100 50  0001 C CNN
+F 3 "https://www.molex.com/webdocs/datasheets/pdf/en-us/0532610271_PCB_HEADERS.pdf" H 7675 5100 50  0001 C CNN
+F 4 "2 Pin Molex Header" H 7675 5100 50  0001 C CNN "Description"
+F 5 "Molex" H 7675 5100 50  0001 C CNN "MFN"
+F 6 "532610271" H 7675 5100 50  0001 C CNN "MFP"
+F 7 "Molex" H 7675 5100 50  0001 C CNN "Manufacturer_Name"
+F 8 "532610271" H 7675 5100 50  0001 C CNN "Manufacturer_Part_Number"
+F 9 "https://www.heilind.com/mol53261-0271-p.html" H 7675 5100 50  0001 C CNN "S1PL"
+F 10 "MOL53261-0271" H 7675 5100 50  0001 C CNN "S1PN"
 	1    7675 5100
 	-1   0    0    1   
 $EndComp
@@ -96,7 +110,14 @@ P 9275 2750
 F 0 "L102" V 9460 2750 50  0000 C CNN
 F 1 "2.2uH" V 9369 2750 50  0000 C CNN
 F 2 "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9275 2750 50  0001 C CNN
-F 3 "~" H 9275 2750 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CIGT201610LH2R2MNE_Spec.pdf" H 9275 2750 50  0001 C CNN
+F 4 "2.2uH Inductor" H 9275 2750 50  0001 C CNN "Description"
+F 5 "Samsung" H 9275 2750 50  0001 C CNN "MFN"
+F 6 "CIGT201610LH2R2MNE" H 9275 2750 50  0001 C CNN "MFP"
+F 7 "Samsung" H 9275 2750 50  0001 C CNN "Manufacturer_Name"
+F 8 "CIGT201610LH2R2MNE" H 9275 2750 50  0001 C CNN "Manufacturer_Part_Number"
+F 9 "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CIGT201610LH2R2MNE/7041233" H 9275 2750 50  0001 C CNN "S1PL"
+F 10 "1276-6911" H 9275 2750 50  0001 C CNN "S1PN"
 	1    9275 2750
 	0    -1   -1   0   
 $EndComp
@@ -109,7 +130,14 @@ P 700 5025
 F 0 "R107" H 768 5071 50  0000 L CNN
 F 1 "10k" H 768 4980 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" H 700 5025 50  0001 C CNN
-F 3 "~" H 700 5025 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 700 5025 50  0001 C CNN
+F 4 "10k Resistor" H 700 5025 50  0001 C CNN "Description"
+F 5 "Yageo" H 700 5025 50  0001 C CNN "MFN"
+F 6 "RC0402JR-0710KL" H 700 5025 50  0001 C CNN "MFP"
+F 7 "Yageo" H 700 5025 50  0001 C CNN "Manufacturer_Name"
+F 8 "RC0402JR-0710KL" H 700 5025 50  0001 C CNN "Manufacturer_Part_Number"
+F 9 "digikey.com/en/products/detail/yageo/RC0402JR-0710KL/726418" H 700 5025 50  0001 C CNN "S1PL"
+F 10 "311-10KJRTR" H 700 5025 50  0001 C CNN "S1PN"
 	1    700  5025
 	1    0    0    -1  
 $EndComp
@@ -120,7 +148,14 @@ P 700 5325
 F 0 "R108" H 768 5371 50  0000 L CNN
 F 1 "10k" H 768 5280 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" H 700 5325 50  0001 C CNN
-F 3 "~" H 700 5325 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 700 5325 50  0001 C CNN
+F 4 "10k Resistor" H 700 5325 50  0001 C CNN "Description"
+F 5 "Yageo" H 700 5325 50  0001 C CNN "MFN"
+F 6 "RC0402JR-0710KL" H 700 5325 50  0001 C CNN "MFP"
+F 7 "Yageo" H 700 5325 50  0001 C CNN "Manufacturer_Name"
+F 8 "RC0402JR-0710KL" H 700 5325 50  0001 C CNN "Manufacturer_Part_Number"
+F 9 "digikey.com/en/products/detail/yageo/RC0402JR-0710KL/726418" H 700 5325 50  0001 C CNN "S1PL"
+F 10 "311-10KJRTR" H 700 5325 50  0001 C CNN "S1PN"
 	1    700  5325
 	1    0    0    -1  
 $EndComp
@@ -158,6 +193,13 @@ F 0 "U103" H 1500 5550 50  0000 C CNN
 F 1 "LM358" H 1500 5475 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 1400 5275 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 1400 5275 50  0001 C CNN
+F 4 "Dual operational amplifiers" H 1400 5275 50  0001 C CNN "Description"
+F 5 "STMicroelectronics" H 1400 5275 50  0001 C CNN "MFN"
+F 6 "LM358D" H 1400 5275 50  0001 C CNN "MFP"
+F 7 "STMicroelectronics" H 1400 5275 50  0001 C CNN "Manufacturer_Name"
+F 8 "LM358D" H 1400 5275 50  0001 C CNN "Manufacturer_Part_Number"
+F 9 "https://www.digikey.com/en/products/detail/stmicroelectronics/LM358D/1038721?utm_adgroup=Integrated%20Circuits%20%28ics%29&utm_source=google&utm_medium=cpc&utm_campaign=Shopping_Supplier_STMicroelectronics&utm_term=&utm_content=Integrated%20Circuits%20%28ics%29&gclid=Cj0KCQiAosmPBhCPARIsAHOen-NWS0pmUCO4unIwMJzojS75emoTmIjhcVR2hSIcMZ7Ibe9vfcFEKWwaAmAdEALw_wcB" H 1400 5275 50  0001 C CNN "S1PL"
+F 10 "497-18378" H 1400 5275 50  0001 C CNN "S1PN"
 	1    1400 5275
 	1    0    0    -1  
 $EndComp
@@ -169,6 +211,13 @@ F 0 "U103" H 3350 5525 50  0000 C CNN
 F 1 "LM358" H 3350 5450 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 3225 5275 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 3225 5275 50  0001 C CNN
+F 4 "Dual operational amplifiers" H 3225 5275 50  0001 C CNN "Description"
+F 5 "STMicroelectronics" H 3225 5275 50  0001 C CNN "MFN"
+F 6 "LM358D" H 3225 5275 50  0001 C CNN "MFP"
+F 7 "STMicroelectronics" H 3225 5275 50  0001 C CNN "Manufacturer_Name"
+F 8 "LM358D" H 3225 5275 50  0001 C CNN "Manufacturer_Part_Number"
+F 9 "https://www.digikey.com/en/products/detail/stmicroelectronics/LM358D/1038721?utm_adgroup=Integrated%20Circuits%20%28ics%29&utm_source=google&utm_medium=cpc&utm_campaign=Shopping_Supplier_STMicroelectronics&utm_term=&utm_content=Integrated%20Circuits%20%28ics%29&gclid=Cj0KCQiAosmPBhCPARIsAHOen-NWS0pmUCO4unIwMJzojS75emoTmIjhcVR2hSIcMZ7Ibe9vfcFEKWwaAmAdEALw_wcB" H 3225 5275 50  0001 C CNN "S1PL"
+F 10 "497-18378" H 3225 5275 50  0001 C CNN "S1PN"
 	2    3225 5275
 	1    0    0    -1  
 $EndComp
@@ -180,6 +229,13 @@ F 0 "U103" H 4383 5171 50  0000 L CNN
 F 1 "LM358" H 4383 5080 50  0000 L CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 4425 5125 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 4425 5125 50  0001 C CNN
+F 4 "Dual operational amplifiers" H 4425 5125 50  0001 C CNN "Description"
+F 5 "STMicroelectronics" H 4425 5125 50  0001 C CNN "MFN"
+F 6 "LM358D" H 4425 5125 50  0001 C CNN "MFP"
+F 7 "STMicroelectronics" H 4425 5125 50  0001 C CNN "Manufacturer_Name"
+F 8 "LM358D" H 4425 5125 50  0001 C CNN "Manufacturer_Part_Number"
+F 9 "https://www.digikey.com/en/products/detail/stmicroelectronics/LM358D/1038721?utm_adgroup=Integrated%20Circuits%20%28ics%29&utm_source=google&utm_medium=cpc&utm_campaign=Shopping_Supplier_STMicroelectronics&utm_term=&utm_content=Integrated%20Circuits%20%28ics%29&gclid=Cj0KCQiAosmPBhCPARIsAHOen-NWS0pmUCO4unIwMJzojS75emoTmIjhcVR2hSIcMZ7Ibe9vfcFEKWwaAmAdEALw_wcB" H 4425 5125 50  0001 C CNN "S1PL"
+F 10 "497-18378" H 4425 5125 50  0001 C CNN "S1PN"
 	3    4425 5125
 	1    0    0    -1  
 $EndComp
@@ -216,7 +272,14 @@ P 2600 5025
 F 0 "R109" H 2668 5071 50  0000 L CNN
 F 1 "10k" H 2668 4980 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" H 2600 5025 50  0001 C CNN
-F 3 "~" H 2600 5025 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 2600 5025 50  0001 C CNN
+F 4 "10k Resistor" H 2600 5025 50  0001 C CNN "Description"
+F 5 "Yageo" H 2600 5025 50  0001 C CNN "MFN"
+F 6 "RC0402JR-0710KL" H 2600 5025 50  0001 C CNN "MFP"
+F 7 "Yageo" H 2600 5025 50  0001 C CNN "Manufacturer_Name"
+F 8 "RC0402JR-0710KL" H 2600 5025 50  0001 C CNN "Manufacturer_Part_Number"
+F 9 "digikey.com/en/products/detail/yageo/RC0402JR-0710KL/726418" H 2600 5025 50  0001 C CNN "S1PL"
+F 10 "311-10KJRTR" H 2600 5025 50  0001 C CNN "S1PN"
 	1    2600 5025
 	1    0    0    -1  
 $EndComp
@@ -227,7 +290,14 @@ P 2600 5325
 F 0 "R110" H 2668 5371 50  0000 L CNN
 F 1 "10k" H 2668 5280 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" H 2600 5325 50  0001 C CNN
-F 3 "~" H 2600 5325 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 2600 5325 50  0001 C CNN
+F 4 "10k Resistor" H 2600 5325 50  0001 C CNN "Description"
+F 5 "Yageo" H 2600 5325 50  0001 C CNN "MFN"
+F 6 "RC0402JR-0710KL" H 2600 5325 50  0001 C CNN "MFP"
+F 7 "Yageo" H 2600 5325 50  0001 C CNN "Manufacturer_Name"
+F 8 "RC0402JR-0710KL" H 2600 5325 50  0001 C CNN "Manufacturer_Part_Number"
+F 9 "digikey.com/en/products/detail/yageo/RC0402JR-0710KL/726418" H 2600 5325 50  0001 C CNN "S1PL"
+F 10 "311-10KJRTR" H 2600 5325 50  0001 C CNN "S1PN"
 	1    2600 5325
 	1    0    0    -1  
 $EndComp
@@ -352,7 +422,14 @@ P 3925 3575
 F 0 "SW101" H 3925 3900 50  0000 C CNN
 F 1 "SW_Push" H 3925 3825 50  0000 C CNN
 F 2 "digikey-footprints:Switch_Tactile_SMD_6x6mm_PTS645" H 3925 3775 50  0001 C CNN
-F 3 "~" H 3925 3775 50  0001 C CNN
+F 3 "https://www.ckswitches.com/media/1471/pts645.pdf" H 3925 3775 50  0001 C CNN
+F 4 "Tactile switch" H 3925 3575 50  0001 C CNN "Description"
+F 5 "C&K" H 3925 3575 50  0001 C CNN "MFN"
+F 6 "PTS645SH43SMTR92 LFS" H 3925 3575 50  0001 C CNN "MFP"
+F 7 "C&K" H 3925 3575 50  0001 C CNN "Manufacturer_Name"
+F 8 "PTS645SH43SMTR92 LFS" H 3925 3575 50  0001 C CNN "Manufacturer_Part_Number"
+F 9 "https://www.digikey.com/en/products/detail/c-k/PTS645SH43SMTR92-LFS/1145472" H 3925 3575 50  0001 C CNN "S1PL"
+F 10 "CKN11907TR" H 3925 3575 50  0001 C CNN "S1PN"
 	1    3925 3575
 	1    0    0    -1  
 $EndComp
@@ -402,12 +479,15 @@ P 1200 2675
 F 0 "R100" H 1268 2721 50  0000 L CNN
 F 1 "2.2k" H 1268 2630 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" H 1200 2675 50  0001 C CNN
-F 3 "~" H 1200 2675 50  0001 C CNN
-F 4 "" H 1200 2675 50  0001 C CNN "MFN"
-F 5 "" H 1200 2675 50  0001 C CNN "MFP"
-F 6 "" H 1200 2675 50  0001 C CNN "S1PN"
-F 7 "" H 1200 2675 50  0001 C CNN "S1PL"
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 1200 2675 50  0001 C CNN
+F 4 "Yageo" H 1200 2675 50  0001 C CNN "MFN"
+F 5 "RC0402JR-072K2L" H 1200 2675 50  0001 C CNN "MFP"
+F 6 "311-2.2KJRTR" H 1200 2675 50  0001 C CNN "S1PN"
+F 7 "https://www.digikey.com/en/products/detail/yageo/RC0402JR-072K2L/726436" H 1200 2675 50  0001 C CNN "S1PL"
 F 8 "" H 1200 2675 50  0001 C CNN "Notes"
+F 9 "2.2k Resistor" H 1200 2675 50  0001 C CNN "Description"
+F 10 "Yageo" H 1200 2675 50  0001 C CNN "Manufacturer_Name"
+F 11 "RC0402JR-072K2L" H 1200 2675 50  0001 C CNN "Manufacturer_Part_Number"
 	1    1200 2675
 	1    0    0    -1  
 $EndComp
@@ -418,12 +498,15 @@ P 1200 2325
 F 0 "D102" V 1246 2255 50  0000 R CNN
 F 1 "LED_Green" V 1155 2255 50  0000 R CNN
 F 2 "LED_SMD:LED_0402_1005Metric_Pad0.77x0.64mm_HandSolder" V 1200 2325 50  0001 C CNN
-F 3 "~" V 1200 2325 50  0001 C CNN
-F 4 "" V 1200 2325 50  0001 C CNN "MFN"
-F 5 "" V 1200 2325 50  0001 C CNN "MFP"
-F 6 "" V 1200 2325 50  0001 C CNN "S1PN"
-F 7 "" V 1200 2325 50  0001 C CNN "S1PL"
+F 3 "https://www.lumex.com/spec/SML-LX0402SIC-TR.pdf" V 1200 2325 50  0001 C CNN
+F 4 "Lumex Opto/Components Inc." V 1200 2325 50  0001 C CNN "MFN"
+F 5 "SML-LX0402SUGC-TR" V 1200 2325 50  0001 C CNN "MFP"
+F 6 "67-1881" V 1200 2325 50  0001 C CNN "S1PN"
+F 7 "https://www.digikey.com/en/products/detail/lumex-opto-components-inc/SML-LX0402SUGC-TR/680018?s=N4IgTCBcDaIMoFkAyBaJANADAFk2OAqgOIDCKAKgEogC6AvkA" V 1200 2325 50  0001 C CNN "S1PL"
 F 8 "" V 1200 2325 50  0001 C CNN "Notes"
+F 9 "LED Green" H 1200 2325 50  0001 C CNN "Description"
+F 10 "Lumex Opto/Components Inc." H 1200 2325 50  0001 C CNN "Manufacturer_Name"
+F 11 "SML-LX0402SUGC-TR" H 1200 2325 50  0001 C CNN "Manufacturer_Part_Number"
 	1    1200 2325
 	0    -1   -1   0   
 $EndComp
@@ -475,7 +558,14 @@ P 1300 3800
 F 0 "R104" H 1368 3846 50  0000 L CNN
 F 1 "10k" H 1368 3755 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" H 1300 3800 50  0001 C CNN
-F 3 "~" H 1300 3800 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 1300 3800 50  0001 C CNN
+F 4 "10k Resistor" H 1300 3800 50  0001 C CNN "Description"
+F 5 "Yageo" H 1300 3800 50  0001 C CNN "MFN"
+F 6 "RC0402JR-0710KL" H 1300 3800 50  0001 C CNN "MFP"
+F 7 "Yageo" H 1300 3800 50  0001 C CNN "Manufacturer_Name"
+F 8 "RC0402JR-0710KL" H 1300 3800 50  0001 C CNN "Manufacturer_Part_Number"
+F 9 "digikey.com/en/products/detail/yageo/RC0402JR-0710KL/726418" H 1300 3800 50  0001 C CNN "S1PL"
+F 10 "311-10KJRTR" H 1300 3800 50  0001 C CNN "S1PN"
 	1    1300 3800
 	1    0    0    -1  
 $EndComp
@@ -488,7 +578,14 @@ P 1825 3800
 F 0 "R105" H 1893 3846 50  0000 L CNN
 F 1 "10k" H 1893 3755 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" H 1825 3800 50  0001 C CNN
-F 3 "~" H 1825 3800 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 1825 3800 50  0001 C CNN
+F 4 "10k Resistor" H 1825 3800 50  0001 C CNN "Description"
+F 5 "Yageo" H 1825 3800 50  0001 C CNN "MFN"
+F 6 "RC0402JR-0710KL" H 1825 3800 50  0001 C CNN "MFP"
+F 7 "Yageo" H 1825 3800 50  0001 C CNN "Manufacturer_Name"
+F 8 "RC0402JR-0710KL" H 1825 3800 50  0001 C CNN "Manufacturer_Part_Number"
+F 9 "digikey.com/en/products/detail/yageo/RC0402JR-0710KL/726418" H 1825 3800 50  0001 C CNN "S1PL"
+F 10 "311-10KJRTR" H 1825 3800 50  0001 C CNN "S1PN"
 	1    1825 3800
 	1    0    0    -1  
 $EndComp
@@ -544,12 +641,15 @@ P 1200 1600
 F 0 "R101" H 1268 1646 50  0000 L CNN
 F 1 "2.2k" H 1268 1555 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" H 1200 1600 50  0001 C CNN
-F 3 "~" H 1200 1600 50  0001 C CNN
-F 4 "" H 1200 1600 50  0001 C CNN "MFN"
-F 5 "" H 1200 1600 50  0001 C CNN "MFP"
-F 6 "" H 1200 1600 50  0001 C CNN "S1PN"
-F 7 "" H 1200 1600 50  0001 C CNN "S1PL"
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 1200 1600 50  0001 C CNN
+F 4 "Yageo" H 1200 1600 50  0001 C CNN "MFN"
+F 5 "RC0402JR-072K2L" H 1200 1600 50  0001 C CNN "MFP"
+F 6 "311-2.2KJRTR" H 1200 1600 50  0001 C CNN "S1PN"
+F 7 "https://www.digikey.com/en/products/detail/yageo/RC0402JR-072K2L/726436" H 1200 1600 50  0001 C CNN "S1PL"
 F 8 "" H 1200 1600 50  0001 C CNN "Notes"
+F 9 "2.2k Resistor" H 1200 1600 50  0001 C CNN "Description"
+F 10 "Yageo" H 1200 1600 50  0001 C CNN "Manufacturer_Name"
+F 11 "RC0402JR-072K2L" H 1200 1600 50  0001 C CNN "Manufacturer_Part_Number"
 	1    1200 1600
 	1    0    0    -1  
 $EndComp
@@ -564,12 +664,15 @@ P 1200 1250
 F 0 "D101" V 1246 1180 50  0000 R CNN
 F 1 "LED_Red" V 1155 1180 50  0000 R CNN
 F 2 "LED_SMD:LED_0402_1005Metric_Pad0.77x0.64mm_HandSolder" V 1200 1250 50  0001 C CNN
-F 3 "~" V 1200 1250 50  0001 C CNN
-F 4 "" V 1200 1250 50  0001 C CNN "MFN"
-F 5 "" V 1200 1250 50  0001 C CNN "MFP"
-F 6 "" V 1200 1250 50  0001 C CNN "S1PN"
-F 7 "" V 1200 1250 50  0001 C CNN "S1PL"
+F 3 "https://www.lumex.com/spec/SML-LX0402SIC-TR.pdf" V 1200 1250 50  0001 C CNN
+F 4 "Lumex Opto/Components Inc." V 1200 1250 50  0001 C CNN "MFN"
+F 5 "SML-LX0402SIC-TR" V 1200 1250 50  0001 C CNN "MFP"
+F 6 "67-1878" V 1200 1250 50  0001 C CNN "S1PN"
+F 7 "https://www.digikey.com/en/products/detail/lumex-opto-components-inc/SML-LX0402SIC-TR/469910" V 1200 1250 50  0001 C CNN "S1PL"
 F 8 "" V 1200 1250 50  0001 C CNN "Notes"
+F 9 "LED Red" H 1200 1250 50  0001 C CNN "Description"
+F 10 "Lumex Opto/Components Inc." H 1200 1250 50  0001 C CNN "Manufacturer_Name"
+F 11 "SML-LX0402SIC-TR" H 1200 1250 50  0001 C CNN "Manufacturer_Part_Number"
 	1    1200 1250
 	0    -1   -1   0   
 $EndComp
@@ -620,7 +723,14 @@ P 1250 6825
 F 0 "C107" H 1050 6750 50  0000 L CNN
 F 1 "10uF" H 1025 6675 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 1250 6825 50  0001 C CNN
-F 3 "~" H 1250 6825 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_20.pdf" H 1250 6825 50  0001 C CNN
+F 4 "10uF Capacitor" H 1250 6825 50  0001 C CNN "Description"
+F 5 "Yageo" H 1250 6825 50  0001 C CNN "MFN"
+F 6 "CAP CER 10000PF 16V X7R 0402" H 1250 6825 50  0001 C CNN "MFP"
+F 7 "Yageo" H 1250 6825 50  0001 C CNN "Manufacturer_Name"
+F 8 "CAP CER 10000PF 16V X7R 0402" H 1250 6825 50  0001 C CNN "Manufacturer_Part_Number"
+F 9 "https://www.digikey.com/en/products/detail/yageo/CC0402KPX7R7BB103/11489652" H 1250 6825 50  0001 C CNN "S1PL"
+F 10 "13-CC0402KPX7R7BB103" H 1250 6825 50  0001 C CNN "S1PN"
 	1    1250 6825
 	1    0    0    -1  
 $EndComp
@@ -631,7 +741,14 @@ P 950 6825
 F 0 "C106" H 750 6750 50  0000 L CNN
 F 1 "10uF" H 725 6675 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 950 6825 50  0001 C CNN
-F 3 "~" H 950 6825 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_20.pdf" H 950 6825 50  0001 C CNN
+F 4 "10uF Capacitor" H 950 6825 50  0001 C CNN "Description"
+F 5 "Yageo" H 950 6825 50  0001 C CNN "MFN"
+F 6 "CAP CER 10000PF 16V X7R 0402" H 950 6825 50  0001 C CNN "MFP"
+F 7 "Yageo" H 950 6825 50  0001 C CNN "Manufacturer_Name"
+F 8 "CAP CER 10000PF 16V X7R 0402" H 950 6825 50  0001 C CNN "Manufacturer_Part_Number"
+F 9 "https://www.digikey.com/en/products/detail/yageo/CC0402KPX7R7BB103/11489652" H 950 6825 50  0001 C CNN "S1PL"
+F 10 "13-CC0402KPX7R7BB103" H 950 6825 50  0001 C CNN "S1PN"
 	1    950  6825
 	1    0    0    -1  
 $EndComp
@@ -645,7 +762,14 @@ P 3475 1700
 F 0 "C104" V 3675 1650 50  0000 L CNN
 F 1 "47nF" V 3600 1650 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 3475 1700 50  0001 C CNN
-F 3 "~" H 3475 1700 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL21B473KCCWPNC.jsp" H 3475 1700 50  0001 C CNN
+F 4 "47nF Capacitor" H 3475 1700 50  0001 C CNN "Description"
+F 5 "Samsung" H 3475 1700 50  0001 C CNN "MFN"
+F 6 "CL21B473KCCWPNC" H 3475 1700 50  0001 C CNN "MFP"
+F 7 "Samsung" H 3475 1700 50  0001 C CNN "Manufacturer_Name"
+F 8 "CL21B473KCCWPNC" H 3475 1700 50  0001 C CNN "Manufacturer_Part_Number"
+F 9 "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL21B473KCCWPNC/5961299" H 3475 1700 50  0001 C CNN "S1PL"
+F 10 "1276-6815" H 3475 1700 50  0001 C CNN "S1PN"
 	1    3475 1700
 	0    -1   -1   0   
 $EndComp
@@ -658,7 +782,14 @@ P 3775 1825
 F 0 "L101" V 3960 1825 50  0000 C CNN
 F 1 "1uH" V 3869 1825 50  0000 C CNN
 F 2 "Inductor_SMD:L_1008_2520Metric_Pad1.43x2.20mm_HandSolder" H 3775 1825 50  0001 C CNN
-F 3 "~" H 3775 1825 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CIGT252010LM1R0MNE_Spec.pdf" H 3775 1825 50  0001 C CNN
+F 4 "1uH Inductor" H 3775 1825 50  0001 C CNN "Description"
+F 5 "Samsung" H 3775 1825 50  0001 C CNN "MFN"
+F 6 "CIGT252010LM1R0MNE" H 3775 1825 50  0001 C CNN "MFP"
+F 7 "Samsung" H 3775 1825 50  0001 C CNN "Manufacturer_Name"
+F 8 "CIGT252010LM1R0MNE" H 3775 1825 50  0001 C CNN "Manufacturer_Part_Number"
+F 9 "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CIGT252010LM1R0MNE/7041261" H 3775 1825 50  0001 C CNN "S1PL"
+F 10 "1276-6939" H 3775 1825 50  0001 C CNN "S1PN"
 	1    3775 1825
 	0    -1   -1   0   
 $EndComp
@@ -727,12 +858,15 @@ P 1725 6825
 F 0 "C101" H 1525 6750 50  0000 L CNN
 F 1 "1uF" H 1575 6675 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 1725 6825 50  0001 C CNN
-F 3 "~" H 1725 6825 50  0001 C CNN
-F 4 "" H 1725 6825 50  0001 C CNN "MFN"
-F 5 "" H 1725 6825 50  0001 C CNN "MFP"
-F 6 "" H 1725 6825 50  0001 C CNN "S1PN"
-F 7 "" H 1725 6825 50  0001 C CNN "S1PL"
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X5R_4V-to-50V_26.pdf" H 1725 6825 50  0001 C CNN
+F 4 "Yageo" H 1725 6825 50  0001 C CNN "MFN"
+F 5 "CC0402MRX5R6BB105" H 1725 6825 50  0001 C CNN "MFP"
+F 6 "311-1732" H 1725 6825 50  0001 C CNN "S1PN"
+F 7 "https://www.digikey.com/en/products/detail/yageo/CC0402MRX5R6BB105/5195141" H 1725 6825 50  0001 C CNN "S1PL"
 F 8 "" H 1725 6825 50  0001 C CNN "Notes"
+F 9 "1uF Capacitor" H 1725 6825 50  0001 C CNN "Description"
+F 10 "Yageo" H 1725 6825 50  0001 C CNN "Manufacturer_Name"
+F 11 "CC0402MRX5R6BB105" H 1725 6825 50  0001 C CNN "Manufacturer_Part_Number"
 	1    1725 6825
 	1    0    0    -1  
 $EndComp
@@ -743,12 +877,15 @@ P 2300 6825
 F 0 "C102" H 2100 6750 50  0000 L CNN
 F 1 "10uF" H 2100 6675 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 2300 6825 50  0001 C CNN
-F 3 "~" H 2300 6825 50  0001 C CNN
-F 4 "" H 2300 6825 50  0001 C CNN "MFN"
-F 5 "" H 2300 6825 50  0001 C CNN "MFP"
-F 6 "" H 2300 6825 50  0001 C CNN "S1PN"
-F 7 "" H 2300 6825 50  0001 C CNN "S1PL"
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_20.pdf" H 2300 6825 50  0001 C CNN
+F 4 "Yageo" H 2300 6825 50  0001 C CNN "MFN"
+F 5 "CAP CER 10000PF 16V X7R 0402" H 2300 6825 50  0001 C CNN "MFP"
+F 6 "13-CC0402KPX7R7BB103" H 2300 6825 50  0001 C CNN "S1PN"
+F 7 "https://www.digikey.com/en/products/detail/yageo/CC0402KPX7R7BB103/11489652" H 2300 6825 50  0001 C CNN "S1PL"
 F 8 "" H 2300 6825 50  0001 C CNN "Notes"
+F 9 "10uF Capacitor" H 2300 6825 50  0001 C CNN "Description"
+F 10 "Yageo" H 2300 6825 50  0001 C CNN "Manufacturer_Name"
+F 11 "CAP CER 10000PF 16V X7R 0402" H 2300 6825 50  0001 C CNN "Manufacturer_Part_Number"
 	1    2300 6825
 	1    0    0    -1  
 $EndComp
@@ -759,12 +896,15 @@ P 2875 6825
 F 0 "C103" H 2675 6750 50  0000 L CNN
 F 1 "4.7uF" H 2650 6675 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 2875 6825 50  0001 C CNN
-F 3 "~" H 2875 6825 50  0001 C CNN
-F 4 "" H 2875 6825 50  0001 C CNN "MFN"
-F 5 "" H 2875 6825 50  0001 C CNN "MFP"
-F 6 "" H 2875 6825 50  0001 C CNN "S1PN"
-F 7 "" H 2875 6825 50  0001 C CNN "S1PL"
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X5R_4V-to-50V_27.pdf" H 2875 6825 50  0001 C CNN
+F 4 "Yageo" H 2875 6825 50  0001 C CNN "MFN"
+F 5 "CC0402MRX5R6BB475" H 2875 6825 50  0001 C CNN "MFP"
+F 6 "311-1734" H 2875 6825 50  0001 C CNN "S1PN"
+F 7 "https://www.digikey.com/en/products/detail/yageo/CC0402MRX5R6BB475/5195143" H 2875 6825 50  0001 C CNN "S1PL"
 F 8 "" H 2875 6825 50  0001 C CNN "Notes"
+F 9 "4.7uF Capacitor" H 2875 6825 50  0001 C CNN "Description"
+F 10 "Yageo" H 2875 6825 50  0001 C CNN "Manufacturer_Name"
+F 11 "CC0402MRX5R6BB475" H 2875 6825 50  0001 C CNN "Manufacturer_Part_Number"
 	1    2875 6825
 	1    0    0    -1  
 $EndComp
@@ -788,6 +928,8 @@ F 8 "1028-RT9471GQW(2)" H 3225 2425 50  0001 C CNN "S1PN"
 F 9 "" H 3225 2425 50  0001 C CNN "S2PL"
 F 10 "" H 3225 2425 50  0001 C CNN "S2PN"
 F 11 "" H 3225 2425 50  0001 C CNN "Notes"
+F 12 "Richtek USA Inc." H 3225 2425 50  0001 C CNN "Manufacturer_Name"
+F 13 "RT9471GQW(2)" H 3225 2425 50  0001 C CNN "Manufacturer_Part_Number"
 	1    3225 2425
 	1    0    0    -1  
 $EndComp
@@ -885,12 +1027,15 @@ P 3450 6825
 F 0 "C108" H 3250 6750 50  0000 L CNN
 F 1 "10uF" H 3250 6675 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 3450 6825 50  0001 C CNN
-F 3 "~" H 3450 6825 50  0001 C CNN
-F 4 "" H 3450 6825 50  0001 C CNN "MFN"
-F 5 "" H 3450 6825 50  0001 C CNN "MFP"
-F 6 "" H 3450 6825 50  0001 C CNN "S1PN"
-F 7 "" H 3450 6825 50  0001 C CNN "S1PL"
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_20.pdf" H 3450 6825 50  0001 C CNN
+F 4 "Yageo" H 3450 6825 50  0001 C CNN "MFN"
+F 5 "CAP CER 10000PF 16V X7R 0402" H 3450 6825 50  0001 C CNN "MFP"
+F 6 "13-CC0402KPX7R7BB103" H 3450 6825 50  0001 C CNN "S1PN"
+F 7 "https://www.digikey.com/en/products/detail/yageo/CC0402KPX7R7BB103/11489652" H 3450 6825 50  0001 C CNN "S1PL"
 F 8 "" H 3450 6825 50  0001 C CNN "Notes"
+F 9 "10uF Capacitor" H 3450 6825 50  0001 C CNN "Description"
+F 10 "Yageo" H 3450 6825 50  0001 C CNN "Manufacturer_Name"
+F 11 "CAP CER 10000PF 16V X7R 0402" H 3450 6825 50  0001 C CNN "Manufacturer_Part_Number"
 	1    3450 6825
 	1    0    0    -1  
 $EndComp
@@ -903,12 +1048,15 @@ P 3800 6825
 F 0 "C110" H 3575 6750 50  0000 L CNN
 F 1 "0.1uF" H 3575 6675 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 3800 6825 50  0001 C CNN
-F 3 "~" H 3800 6825 50  0001 C CNN
-F 4 "" H 3800 6825 50  0001 C CNN "MFN"
-F 5 "" H 3800 6825 50  0001 C CNN "MFP"
-F 6 "" H 3800 6825 50  0001 C CNN "S1PN"
-F 7 "" H 3800 6825 50  0001 C CNN "S1PL"
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X5R_4V-to-50V_26.pdf" H 3800 6825 50  0001 C CNN
+F 4 "Yageo" H 3800 6825 50  0001 C CNN "MFN"
+F 5 "CC0402JRX7R7BB104" H 3800 6825 50  0001 C CNN "MFP"
+F 6 "311-1676" H 3800 6825 50  0001 C CNN "S1PN"
+F 7 "https://www.digikey.com/en/products/detail/yageo/CC0402JRX7R7BB104/5195085" H 3800 6825 50  0001 C CNN "S1PL"
 F 8 "" H 3800 6825 50  0001 C CNN "Notes"
+F 9 "0.1uF Capacitor" H 3800 6825 50  0001 C CNN "Description"
+F 10 "Yageo" H 3800 6825 50  0001 C CNN "Manufacturer_Name"
+F 11 "CC0402JRX7R7BB104" H 3800 6825 50  0001 C CNN "Manufacturer_Part_Number"
 	1    3800 6825
 	1    0    0    -1  
 $EndComp
@@ -991,6 +1139,13 @@ F 0 "U102" H 9275 3842 50  0000 C CNN
 F 1 "TPS61202DRC" H 9275 3751 50  0000 C CNN
 F 2 "digikey-footprints:VSON-10-1EP_3x3mm" H 9275 2925 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tps61200.pdf" H 9275 3375 50  0001 C CNN
+F 4 "Switching Regulator" H 9275 3375 50  0001 C CNN "Description"
+F 5 "Texas Instruments" H 9275 3375 50  0001 C CNN "MFN"
+F 6 "TPS61202DRCT" H 9275 3375 50  0001 C CNN "MFP"
+F 7 "Texas Instruments" H 9275 3375 50  0001 C CNN "Manufacturer_Name"
+F 8 "TPS61202DRCT" H 9275 3375 50  0001 C CNN "Manufacturer_Part_Number"
+F 9 "https://www.digikey.com/en/products/detail/texas-instruments/TPS61202DRCT/1536226" H 9275 3375 50  0001 C CNN "S1PL"
+F 10 "296-21685" H 9275 3375 50  0001 C CNN "S1PN"
 	1    9275 3375
 	1    0    0    -1  
 $EndComp
@@ -1023,12 +1178,15 @@ P 4450 6825
 F 0 "C109" H 4225 6750 50  0000 L CNN
 F 1 "0.1uF" H 4225 6675 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 4450 6825 50  0001 C CNN
-F 3 "~" H 4450 6825 50  0001 C CNN
-F 4 "" H 4450 6825 50  0001 C CNN "MFN"
-F 5 "" H 4450 6825 50  0001 C CNN "MFP"
-F 6 "" H 4450 6825 50  0001 C CNN "S1PN"
-F 7 "" H 4450 6825 50  0001 C CNN "S1PL"
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X5R_4V-to-50V_26.pdf" H 4450 6825 50  0001 C CNN
+F 4 "Yageo" H 4450 6825 50  0001 C CNN "MFN"
+F 5 "CC0402JRX7R7BB104" H 4450 6825 50  0001 C CNN "MFP"
+F 6 "311-1676" H 4450 6825 50  0001 C CNN "S1PN"
+F 7 "https://www.digikey.com/en/products/detail/yageo/CC0402JRX7R7BB104/5195085" H 4450 6825 50  0001 C CNN "S1PL"
 F 8 "" H 4450 6825 50  0001 C CNN "Notes"
+F 9 "0.1uF Capacitor" H 4450 6825 50  0001 C CNN "Description"
+F 10 "Yageo" H 4450 6825 50  0001 C CNN "Manufacturer_Name"
+F 11 "CC0402JRX7R7BB104" H 4450 6825 50  0001 C CNN "Manufacturer_Part_Number"
 	1    4450 6825
 	1    0    0    -1  
 $EndComp
@@ -1147,7 +1305,14 @@ P 5000 6825
 F 0 "C105" H 4800 6750 50  0000 L CNN
 F 1 "10uF" H 4775 6675 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 5000 6825 50  0001 C CNN
-F 3 "~" H 5000 6825 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_20.pdf" H 5000 6825 50  0001 C CNN
+F 4 "10uF Capacitor" H 5000 6825 50  0001 C CNN "Description"
+F 5 "Yageo" H 5000 6825 50  0001 C CNN "MFN"
+F 6 "CAP CER 10000PF 16V X7R 0402" H 5000 6825 50  0001 C CNN "MFP"
+F 7 "Yageo" H 5000 6825 50  0001 C CNN "Manufacturer_Name"
+F 8 "CAP CER 10000PF 16V X7R 0402" H 5000 6825 50  0001 C CNN "Manufacturer_Part_Number"
+F 9 "https://www.digikey.com/en/products/detail/yageo/CC0402KPX7R7BB103/11489652" H 5000 6825 50  0001 C CNN "S1PL"
+F 10 "13-CC0402KPX7R7BB103" H 5000 6825 50  0001 C CNN "S1PN"
 	1    5000 6825
 	1    0    0    -1  
 $EndComp
@@ -1171,6 +1336,13 @@ F 0 "U104" H 9175 1975 50  0000 C CNN
 F 1 "MCP3422" H 9300 1875 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 10500 1175 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/22088c.pdf" H 10500 1175 50  0001 C CNN
+F 4 "18 Bit Dual ADC" H 9600 1475 50  0001 C CNN "Description"
+F 5 "Microchip Technology" H 9600 1475 50  0001 C CNN "MFN"
+F 6 "MCP3422A1T-E/SN" H 9600 1475 50  0001 C CNN "MFP"
+F 7 "Microchip Technology" H 9600 1475 50  0001 C CNN "Manufacturer_Name"
+F 8 "MCP3422A1T-E/SN" H 9600 1475 50  0001 C CNN "Manufacturer_Part_Number"
+F 9 "https://www.digikey.com/en/products/detail/microchip-technology/MCP3422A1T-E-SN/3597563" H 9600 1475 50  0001 C CNN "S1PL"
+F 10 "MCP3422A1T-E" H 9600 1475 50  0001 C CNN "S1PN"
 	1    9600 1475
 	1    0    0    -1  
 $EndComp
@@ -1206,12 +1378,15 @@ P 4725 2850
 F 0 "R102" H 4793 2896 50  0000 L CNN
 F 1 "10k" H 4793 2805 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" H 4725 2850 50  0001 C CNN
-F 3 "~" H 4725 2850 50  0001 C CNN
-F 4 "" H 4725 2850 50  0001 C CNN "MFN"
-F 5 "" H 4725 2850 50  0001 C CNN "MFP"
-F 6 "" H 4725 2850 50  0001 C CNN "S1PN"
-F 7 "" H 4725 2850 50  0001 C CNN "S1PL"
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 4725 2850 50  0001 C CNN
+F 4 "Yageo" H 4725 2850 50  0001 C CNN "MFN"
+F 5 "RC0402JR-0710KL" H 4725 2850 50  0001 C CNN "MFP"
+F 6 "311-10KJRTR" H 4725 2850 50  0001 C CNN "S1PN"
+F 7 "digikey.com/en/products/detail/yageo/RC0402JR-0710KL/726418" H 4725 2850 50  0001 C CNN "S1PL"
 F 8 "" H 4725 2850 50  0001 C CNN "Notes"
+F 9 "10k Resistor" H 4725 2850 50  0001 C CNN "Description"
+F 10 "Yageo" H 4725 2850 50  0001 C CNN "Manufacturer_Name"
+F 11 "RC0402JR-0710KL" H 4725 2850 50  0001 C CNN "Manufacturer_Part_Number"
 	1    4725 2850
 	1    0    0    -1  
 $EndComp
@@ -1246,12 +1421,15 @@ P 4725 3225
 F 0 "R103" H 4793 3271 50  0000 L CNN
 F 1 "10k" H 4793 3180 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" H 4725 3225 50  0001 C CNN
-F 3 "~" H 4725 3225 50  0001 C CNN
-F 4 "" H 4725 3225 50  0001 C CNN "MFN"
-F 5 "" H 4725 3225 50  0001 C CNN "MFP"
-F 6 "" H 4725 3225 50  0001 C CNN "S1PN"
-F 7 "" H 4725 3225 50  0001 C CNN "S1PL"
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 4725 3225 50  0001 C CNN
+F 4 "Yageo" H 4725 3225 50  0001 C CNN "MFN"
+F 5 "RC0402JR-0710KL" H 4725 3225 50  0001 C CNN "MFP"
+F 6 "311-10KJRTR" H 4725 3225 50  0001 C CNN "S1PN"
+F 7 "digikey.com/en/products/detail/yageo/RC0402JR-0710KL/726418" H 4725 3225 50  0001 C CNN "S1PL"
 F 8 "" H 4725 3225 50  0001 C CNN "Notes"
+F 9 "10k Resistor" H 4725 3225 50  0001 C CNN "Description"
+F 10 "Yageo" H 4725 3225 50  0001 C CNN "Manufacturer_Name"
+F 11 "RC0402JR-0710KL" H 4725 3225 50  0001 C CNN "Manufacturer_Part_Number"
 	1    4725 3225
 	1    0    0    -1  
 $EndComp
@@ -1283,11 +1461,15 @@ F 0 "J103" H 9925 5615 50  0000 C CNN
 F 1 "53398-0871" H 9925 5524 50  0000 C CNN
 F 2 "Perch:53398-0871_Molex" H 10175 5450 50  0001 L CNN
 F 3 "http://www.molex.com/webdocs/datasheets/pdf/en-us/0533980871_PCB_HEADERS.pdf" H 10175 5350 50  0001 L CNN
-F 4 "8 way straight SMT header,1.25mm pitch Molex PICOBLADE Series, Series Number 53398, 1.25mm Pitch 8 Way 1 Row Shrouded Straight PCB Header, Surface Mount" H 10175 5250 50  0001 L CNN "Description"
+F 4 "8 Pin Molex Header" H 10175 5250 50  0001 L CNN "Description"
 F 5 "538-53398-0871" H 10175 5050 50  0001 L CNN "Mouser Part Number"
 F 6 "https://www.mouser.co.uk/ProductDetail/Molex/53398-0871?qs=yqtfsgZKt1RXEPdc98IXkw%3D%3D" H 10175 4950 50  0001 L CNN "Mouser Price/Stock"
 F 7 "Molex" H 10175 4850 50  0001 L CNN "Manufacturer_Name"
-F 8 "53398-0871" H 10175 4750 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "533980871" H 10175 4750 50  0001 L CNN "Manufacturer_Part_Number"
+F 9 "Molex" H 9525 5350 50  0001 C CNN "MFN"
+F 10 "533980871" H 9525 5350 50  0001 C CNN "MFP"
+F 11 "https://www.heilind.com/search/result?q=53398-0871&manufacturer=5031&utm_source=molex.com&utm_medium=referral&utm_campaign=molex-disty-stock-check" H 9525 5350 50  0001 C CNN "S1PL"
+F 12 "MOL53398-0871" H 9525 5350 50  0001 C CNN "S1PN"
 	1    9525 5350
 	1    0    0    -1  
 $EndComp
@@ -1310,12 +1492,15 @@ P 5600 6550
 F 0 "R106" H 5375 6600 50  0000 L CNN
 F 1 "10k" H 5375 6525 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" H 5600 6550 50  0001 C CNN
-F 3 "~" H 5600 6550 50  0001 C CNN
-F 4 "" H 5600 6550 50  0001 C CNN "MFN"
-F 5 "" H 5600 6550 50  0001 C CNN "MFP"
-F 6 "" H 5600 6550 50  0001 C CNN "S1PN"
-F 7 "" H 5600 6550 50  0001 C CNN "S1PL"
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 5600 6550 50  0001 C CNN
+F 4 "Yageo" H 5600 6550 50  0001 C CNN "MFN"
+F 5 "RC0402JR-0710KL" H 5600 6550 50  0001 C CNN "MFP"
+F 6 "311-10KJRTR" H 5600 6550 50  0001 C CNN "S1PN"
+F 7 "digikey.com/en/products/detail/yageo/RC0402JR-0710KL/726418" H 5600 6550 50  0001 C CNN "S1PL"
 F 8 "" H 5600 6550 50  0001 C CNN "Notes"
+F 9 "10k Resistor" H 5600 6550 50  0001 C CNN "Description"
+F 10 "Yageo" H 5600 6550 50  0001 C CNN "Manufacturer_Name"
+F 11 "RC0402JR-0710KL" H 5600 6550 50  0001 C CNN "Manufacturer_Part_Number"
 	1    5600 6550
 	1    0    0    -1  
 $EndComp
