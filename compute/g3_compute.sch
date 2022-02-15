@@ -446,25 +446,6 @@ NoConn ~ 10800 5425
 NoConn ~ 10800 5525
 NoConn ~ 10800 5625
 NoConn ~ 9600 5225
-$Comp
-L dk_Coaxial-Connectors-RF:CONSMA001-SMD-G J109
-U 1 1 6211521F
-P 10450 6125
-F 0 "J109" V 10350 6225 60  0000 R CNN
-F 1 "CONSMA001-SMD-G" H 10362 6100 60  0001 R CNN
-F 2 "digikey-footprints:RF_SMA_Receptical_Vertical_CONSMA001-SMD-G" H 10650 6325 60  0001 L CNN
-F 3 "https://linxtechnologies.com/wp/wp-content/uploads/consma001-smd-g.pdf" H 10650 6425 60  0001 L CNN
-F 4 "Linx Technologies Inc." H 10650 7225 60  0001 L CNN "MFN"
-F 5 "CONSMA001-SMD-G" H 10650 6625 60  0001 L CNN "MFP"
-F 6 "CONSMA001-SMD-G-ND" H 10650 6525 60  0001 L CNN "S1PN"
-F 7 "https://www.digikey.com/en/products/detail/linx-technologies-inc/CONSMA001-SMD-G-T/10524519?utm_adgroup=Connectors%20%26%20Interconnects&utm_source=google&utm_medium=cpc&utm_campaign=Dynamic%20Search_EN_Product&utm_term=&utm_content=Connectors%20%26%20Interconnects&gclid=CjwKCAiAz--OBhBIEiwAG1rIOlW3qGIonBS3c6k7mOONvB062Ackp0ZEu4u6ERbVQAQdKj4E2tq6ZBoCu7AQAvD_BwE" H 10650 7025 60  0001 L CNN "S1PL"
-F 8 "" H 10450 6125 50  0001 C CNN "Notes"
-F 9 "SMA Connector receptacle, Female Socket" H 10450 6125 50  0001 C CNN "Description"
-F 10 "https://www.mouser.com/ProductDetail/Linx-Technologies/CONSMA001-SMD-G-T?qs=BJlw7L4Cy7%252BEXFff93cLJw%3D%3D&gclid=CjwKCAiAz--OBhBIEiwAG1rIOnDdCpPVLGmaBJ-aBl3tMAjzN0CuYcmBO12GsRxUK0g8COkS3argYhoCh34QAvD_BwE" H 10450 6125 50  0001 C CNN "S2PL"
-F 11 "712-CONSMA001-SMD-GT" H 10450 6125 50  0001 C CNN "S2PN"
-	1    10450 6125
-	0    -1   -1   0   
-$EndComp
 Text Notes 7825 5050 0    50   ~ 0
 Note: BJT from prev.\nboard. There will be \none unused transistor.
 $Comp
@@ -554,25 +535,6 @@ Wire Wire Line
 	9450 1850 9450 1900
 Wire Wire Line
 	9450 3300 9450 3400
-$Comp
-L dk_Coaxial-Connectors-RF:CONSMA001-SMD-G J110
-U 1 1 619927C4
-P 10975 2125
-F 0 "J110" H 11075 2275 60  0000 R CNN
-F 1 "CONSMA001-SMD-G" H 10887 2100 60  0001 R CNN
-F 2 "digikey-footprints:RF_SMA_Receptical_Vertical_CONSMA001-SMD-G" H 11175 2325 60  0001 L CNN
-F 3 "https://linxtechnologies.com/wp/wp-content/uploads/consma001-smd-g.pdf" H 11175 2425 60  0001 L CNN
-F 4 "Linx Technologies Inc." H 11175 3225 60  0001 L CNN "MFN"
-F 5 "CONSMA001-SMD-G" H 11175 2625 60  0001 L CNN "MFP"
-F 6 "CONSMA001-SMD-G-ND" H 11175 2525 60  0001 L CNN "S1PN"
-F 7 "https://www.digikey.com/en/products/detail/linx-technologies-inc/CONSMA001-SMD-G-T/10524519?utm_adgroup=Connectors%20%26%20Interconnects&utm_source=google&utm_medium=cpc&utm_campaign=Dynamic%20Search_EN_Product&utm_term=&utm_content=Connectors%20%26%20Interconnects&gclid=CjwKCAiAz--OBhBIEiwAG1rIOlW3qGIonBS3c6k7mOONvB062Ackp0ZEu4u6ERbVQAQdKj4E2tq6ZBoCu7AQAvD_BwE" H 11175 3025 60  0001 L CNN "S1PL"
-F 8 "" H 10975 2125 50  0001 C CNN "Notes"
-F 9 "SMA Connector receptacle, Female Socket" H 10975 2125 50  0001 C CNN "Description"
-F 10 "https://www.mouser.com/ProductDetail/Linx-Technologies/CONSMA001-SMD-G-T?qs=BJlw7L4Cy7%252BEXFff93cLJw%3D%3D&gclid=CjwKCAiAz--OBhBIEiwAG1rIOnDdCpPVLGmaBJ-aBl3tMAjzN0CuYcmBO12GsRxUK0g8COkS3argYhoCh34QAvD_BwE" H 10975 2125 50  0001 C CNN "S2PL"
-F 11 "712-CONSMA001-SMD-GT" H 10975 2125 50  0001 C CNN "S2PN"
-	1    10975 2125
-	-1   0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR0149
 U 1 1 6199ADF3
@@ -786,25 +748,6 @@ F10 "DIO3" I R 9625 1175 50
 F11 "ANT" I R 9625 1425 50 
 F12 "DIO2" I R 9625 1075 50 
 $EndSheet
-$Comp
-L dk_Coaxial-Connectors-RF:CONSMA001-SMD-G J108
-U 1 1 624E09E8
-P 10325 1425
-F 0 "J108" H 10425 1575 60  0000 R CNN
-F 1 "CONSMA001-SMD-G" H 10237 1400 60  0001 R CNN
-F 2 "digikey-footprints:RF_SMA_Receptical_Vertical_CONSMA001-SMD-G" H 10525 1625 60  0001 L CNN
-F 3 "https://linxtechnologies.com/wp/wp-content/uploads/consma001-smd-g.pdf" H 10525 1725 60  0001 L CNN
-F 4 "Linx Technologies Inc." H 10525 2525 60  0001 L CNN "MFN"
-F 5 "CONSMA001-SMD-G" H 10525 1925 60  0001 L CNN "MFP"
-F 6 "CONSMA001-SMD-G-ND" H 10525 1825 60  0001 L CNN "S1PN"
-F 7 "https://www.digikey.com/en/products/detail/linx-technologies-inc/CONSMA001-SMD-G-T/10524519?utm_adgroup=Connectors%20%26%20Interconnects&utm_source=google&utm_medium=cpc&utm_campaign=Dynamic%20Search_EN_Product&utm_term=&utm_content=Connectors%20%26%20Interconnects&gclid=CjwKCAiAz--OBhBIEiwAG1rIOlW3qGIonBS3c6k7mOONvB062Ackp0ZEu4u6ERbVQAQdKj4E2tq6ZBoCu7AQAvD_BwE" H 10525 2325 60  0001 L CNN "S1PL"
-F 8 "" H 10325 1425 50  0001 C CNN "Notes"
-F 9 "SMA Connector receptacle, Female Socket" H 10325 1425 50  0001 C CNN "Description"
-F 10 "https://www.mouser.com/ProductDetail/Linx-Technologies/CONSMA001-SMD-G-T?qs=BJlw7L4Cy7%252BEXFff93cLJw%3D%3D&gclid=CjwKCAiAz--OBhBIEiwAG1rIOnDdCpPVLGmaBJ-aBl3tMAjzN0CuYcmBO12GsRxUK0g8COkS3argYhoCh34QAvD_BwE" H 10325 1425 50  0001 C CNN "S2PL"
-F 11 "712-CONSMA001-SMD-GT" H 10325 1425 50  0001 C CNN "S2PN"
-	1    10325 1425
-	-1   0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR0147
 U 1 1 624E12B9
@@ -1510,23 +1453,7 @@ F 10 "651-1702474" H 2875 2275 50  0001 C CNN "S2PN"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2900 1125 2900 1600
-$Comp
-L 533980671_Molex:53398-0671 J104
-U 1 1 6232A005
-P 2925 825
-F 0 "J104" H 3375 1090 50  0000 C CNN
-F 1 "53398-0671" H 3375 999 50  0000 C CNN
-F 2 "Perch:533980671_Molex" H 3675 925 50  0001 L CNN
-F 3 "https://www.mouser.co.uk/datasheet/2/276/0533980671_PCB_HEADERS-256970.pdf" H 3675 825 50  0001 L CNN
-F 4 "6 Pin Molex Header" H 3675 725 50  0001 L CNN "Description"
-F 5 "Molex" H 2925 825 50  0001 C CNN "MFN"
-F 6 "533980671" H 2925 825 50  0001 C CNN "MFP"
-F 7 "https://www.heilind.com/search/result?q=53398-0671&manufacturer=5031&utm_source=molex.com&utm_medium=referral&utm_campaign=molex-disty-stock-check" H 2925 825 50  0001 C CNN "S1PL"
-F 8 "MOL53398-0671" H 2925 825 50  0001 C CNN "S1PN"
-	1    2925 825 
-	1    0    0    -1  
-$EndComp
+	3350 1200 3350 1500
 Text Notes 3300 1850 0    50   ~ 0
 CPPC Connector\n
 Wire Notes Line
@@ -1538,75 +1465,55 @@ Wire Notes Line
 Wire Notes Line
 	2525 500  3950 500 
 Wire Wire Line
-	3875 925  3875 825 
-Connection ~ 3875 925 
+	3025 900  3375 900 
 Wire Wire Line
-	3875 925  3825 925 
+	3025 1000 3375 1000
 Wire Wire Line
-	3875 825  3825 825 
+	3025 1100 3375 1100
 Wire Wire Line
-	3875 1175 3875 925 
-$Comp
-L power:GND #PWR0117
-U 1 1 61ED6461
-P 3875 1175
-F 0 "#PWR0117" H 3875 925 50  0001 C CNN
-F 1 "GND" H 3850 1000 50  0000 C CNN
-F 2 "" H 3875 1175 50  0001 C CNN
-F 3 "" H 3875 1175 50  0001 C CNN
-	1    3875 1175
-	1    0    0    -1  
-$EndComp
+	3350 1200 3375 1200
 Wire Wire Line
-	2575 825  2925 825 
+	2900 1300 3375 1300
 Wire Wire Line
-	2575 925  2925 925 
-Wire Wire Line
-	2575 1025 2925 1025
-Wire Wire Line
-	2900 1125 2925 1125
-Wire Wire Line
-	2725 1225 2925 1225
-Wire Wire Line
-	2600 1325 2925 1325
+	2750 1400 3375 1400
 $Comp
 L power:GND #PWR0113
 U 1 1 61EE3A32
-P 2900 1600
-F 0 "#PWR0113" H 2900 1350 50  0001 C CNN
-F 1 "GND" H 2905 1427 50  0000 C CNN
-F 2 "" H 2900 1600 50  0001 C CNN
-F 3 "" H 2900 1600 50  0001 C CNN
-	1    2900 1600
+P 3350 1500
+F 0 "#PWR0113" H 3350 1250 50  0001 C CNN
+F 1 "GND" H 3355 1327 50  0000 C CNN
+F 2 "" H 3350 1500 50  0001 C CNN
+F 3 "" H 3350 1500 50  0001 C CNN
+	1    3350 1500
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+3.3V #PWR0112
 U 1 1 61DF7A7B
-P 2725 1225
-F 0 "#PWR0112" H 2725 1075 50  0001 C CNN
-F 1 "+3.3V" H 2725 1375 50  0000 C CNN
-F 2 "" H 2725 1225 50  0001 C CNN
-F 3 "" H 2725 1225 50  0001 C CNN
-	1    2725 1225
+P 2900 1300
+F 0 "#PWR0112" H 2900 1150 50  0001 C CNN
+F 1 "+3.3V" H 2900 1450 50  0000 C CNN
+F 2 "" H 2900 1300 50  0001 C CNN
+F 3 "" H 2900 1300 50  0001 C CNN
+	1    2900 1300
 	-1   0    0    -1  
 $EndComp
 $Comp
 L power:+5V #PWR0111
 U 1 1 61DF7584
-P 2600 1325
-F 0 "#PWR0111" H 2600 1175 50  0001 C CNN
-F 1 "+5V" H 2600 1475 50  0000 C CNN
-F 2 "" H 2600 1325 50  0001 C CNN
-F 3 "" H 2600 1325 50  0001 C CNN
-	1    2600 1325
+P 2750 1400
+F 0 "#PWR0111" H 2750 1250 50  0001 C CNN
+F 1 "+5V" H 2750 1550 50  0000 C CNN
+F 2 "" H 2750 1400 50  0001 C CNN
+F 3 "" H 2750 1400 50  0001 C CNN
+	1    2750 1400
 	-1   0    0    -1  
 $EndComp
-Text Label 2575 825  0    50   ~ 0
+Text Label 3025 900  0    50   ~ 0
 CPPC_INT
-Text Label 2575 925  0    50   ~ 0
+Text Label 3025 1000 0    50   ~ 0
 CPPC_TX
-Text Label 2575 1025 0    50   ~ 0
+Text Label 3025 1100 0    50   ~ 0
 CPPC_RX
 Wire Wire Line
 	6125 5175 6400 5175
@@ -3222,5 +3129,76 @@ F 7 "https://www.digikey.com/en/products/detail/molex/0878980204/3303535" H 1825
 F 8 "WM9852-ND" H 1825 3375 50  0001 C CNN "S1PN"
 	1    1825 3375
 	0    1    1    0   
+$EndComp
+$Comp
+L dk_Coaxial-Connectors-RF:U_FL-R-SMT_10_ J108
+U 1 1 620E804A
+P 10325 1425
+F 0 "J108" H 10375 1625 50  0000 R CNN
+F 1 "U_FL-R-SMT_10_" H 10375 1550 50  0000 R CNN
+F 2 "digikey-footprints:Coax_Conn_U.FL" H 10525 1625 60  0001 L CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Hirose%20PDFs/UFL%20Series.pdf" H 10525 1725 60  0001 L CNN
+F 4 "H9161CT-ND" H 10525 1825 60  0001 L CNN "Digi-Key_PN"
+F 5 "U.FL-R-SMT(10)" H 10525 1925 60  0001 L CNN "MPN"
+F 6 "Connectors, Interconnects" H 10525 2025 60  0001 L CNN "Category"
+F 7 "Coaxial Connectors (RF)" H 10525 2125 60  0001 L CNN "Family"
+F 8 "https://media.digikey.com/pdf/Data%20Sheets/Hirose%20PDFs/UFL%20Series.pdf" H 10525 2225 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/hirose-electric-co-ltd/U.FL-R-SMT(10)/H9161CT-ND/2135256" H 10525 2325 60  0001 L CNN "DK_Detail_Page"
+F 10 "CONN U.FL RCPT STR 50 OHM SMD" H 10525 2425 60  0001 L CNN "Description"
+F 11 "Hirose Electric Co Ltd" H 10525 2525 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 10525 2625 60  0001 L CNN "Status"
+	1    10325 1425
+	-1   0    0    -1  
+$EndComp
+$Comp
+L dk_Coaxial-Connectors-RF:U_FL-R-SMT_10_ J110
+U 1 1 621107F8
+P 10975 2125
+F 0 "J110" H 11025 2325 50  0000 R CNN
+F 1 "U_FL-R-SMT_10_" H 11475 2250 50  0000 R CNN
+F 2 "digikey-footprints:Coax_Conn_U.FL" H 11175 2325 60  0001 L CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Hirose%20PDFs/UFL%20Series.pdf" H 11175 2425 60  0001 L CNN
+F 4 "H9161CT-ND" H 11175 2525 60  0001 L CNN "Digi-Key_PN"
+F 5 "U.FL-R-SMT(10)" H 11175 2625 60  0001 L CNN "MPN"
+F 6 "Connectors, Interconnects" H 11175 2725 60  0001 L CNN "Category"
+F 7 "Coaxial Connectors (RF)" H 11175 2825 60  0001 L CNN "Family"
+F 8 "https://media.digikey.com/pdf/Data%20Sheets/Hirose%20PDFs/UFL%20Series.pdf" H 11175 2925 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/hirose-electric-co-ltd/U.FL-R-SMT(10)/H9161CT-ND/2135256" H 11175 3025 60  0001 L CNN "DK_Detail_Page"
+F 10 "CONN U.FL RCPT STR 50 OHM SMD" H 11175 3125 60  0001 L CNN "Description"
+F 11 "Hirose Electric Co Ltd" H 11175 3225 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 11175 3325 60  0001 L CNN "Status"
+	1    10975 2125
+	-1   0    0    -1  
+$EndComp
+$Comp
+L dk_Coaxial-Connectors-RF:U_FL-R-SMT_10_ J109
+U 1 1 621139EB
+P 10450 6125
+F 0 "J109" V 10475 6400 50  0000 R CNN
+F 1 "U_FL-R-SMT_10_" V 10400 6850 50  0000 R CNN
+F 2 "digikey-footprints:Coax_Conn_U.FL" H 10650 6325 60  0001 L CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Hirose%20PDFs/UFL%20Series.pdf" H 10650 6425 60  0001 L CNN
+F 4 "H9161CT-ND" H 10650 6525 60  0001 L CNN "Digi-Key_PN"
+F 5 "U.FL-R-SMT(10)" H 10650 6625 60  0001 L CNN "MPN"
+F 6 "Connectors, Interconnects" H 10650 6725 60  0001 L CNN "Category"
+F 7 "Coaxial Connectors (RF)" H 10650 6825 60  0001 L CNN "Family"
+F 8 "https://media.digikey.com/pdf/Data%20Sheets/Hirose%20PDFs/UFL%20Series.pdf" H 10650 6925 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/hirose-electric-co-ltd/U.FL-R-SMT(10)/H9161CT-ND/2135256" H 10650 7025 60  0001 L CNN "DK_Detail_Page"
+F 10 "CONN U.FL RCPT STR 50 OHM SMD" H 10650 7125 60  0001 L CNN "Description"
+F 11 "Hirose Electric Co Ltd" H 10650 7225 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 10650 7325 60  0001 L CNN "Status"
+	1    10450 6125
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x06_Male J104
+U 1 1 620E3FAA
+P 3575 1200
+F 0 "J104" H 4300 650 50  0000 R CNN
+F 1 "CPPC_Conn_01x06_Male" H 4300 750 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical_SMD_Pin1Left" H 3575 1200 50  0001 C CNN
+F 3 "~" H 3575 1200 50  0001 C CNN
+	1    3575 1200
+	-1   0    0    1   
 $EndComp
 $EndSCHEMATC
