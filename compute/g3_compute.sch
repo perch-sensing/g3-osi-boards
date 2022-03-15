@@ -474,26 +474,6 @@ Wire Wire Line
 	8175 6100 9375 6100
 Wire Wire Line
 	8175 5975 9300 5975
-$Comp
-L PBSS4140DPN:PBSS4140DPN Q?
-U 1 1 61DF9A42
-P 10325 4550
-AR Path="/61A64342/61DF9A42" Ref="Q?"  Part="1" 
-AR Path="/61DF9A42" Ref="Q101"  Part="1" 
-F 0 "Q101" H 12225 4250 50  0000 L CNN
-F 1 "PBSS4140DPN" H 12075 4750 50  0000 L CNN
-F 2 "Perch:PBSS4140DPN" H 10525 4650 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/PBSS4140DPN.pdf" H 10325 4550 50  0001 C CNN
-F 4 "BJT Transistor Array" H 10325 4550 50  0001 C CNN "Description"
-F 5 "Nexperia USA Inc." H 10325 4550 50  0001 C CNN "MFN"
-F 6 "PBSS4140DPN,115" H 10325 4550 50  0001 C CNN "MFP"
-F 7 "https://www.digikey.com/en/products/detail/nexperia-usa-inc/PBSS4140DPN-115/1156926?utm_adgroup=Semiconductor%20Modules&utm_source=google&utm_medium=cpc&utm_campaign=Dynamic%20Search_EN_Product&utm_term=&utm_content=Semiconductor%20Modules&gclid=CjwKCAiAz--OBhBIEiwAG1rIOnfNYCfMx2ITlSYg59RzW_gpFrWZweD7vvrD8bBxi6JVwMmspkeghBoC1dkQAvD_BwE" H 10325 4550 50  0001 C CNN "S1PL"
-F 8 "1727-3896" H 10325 4550 50  0001 C CNN "S1PN"
-F 9 "https://www.mouser.com/ProductDetail/Nexperia/PBSS4140DPN115?qs=LOCUfHb8d9uI%2F4H%2FLdNjCQ%3D%3D" H 10325 4550 50  0001 C CNN "S2PL"
-F 10 "771-PBSS4140DPN-T/R" H 10325 4550 50  0001 C CNN "S2PN"
-	1    10325 4550
-	-1   0    0    1   
-$EndComp
 NoConn ~ 8825 4400
 NoConn ~ 7825 4400
 NoConn ~ 7825 4500
@@ -3200,5 +3180,25 @@ F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical_SMD_Pin1Left" H 
 F 3 "~" H 3575 1200 50  0001 C CNN
 	1    3575 1200
 	-1   0    0    1   
+$EndComp
+$Comp
+L PBSS4140DPN:PBSS4140DPN Q?
+U 1 1 61DF9A42
+P 6325 4450
+AR Path="/61A64342/61DF9A42" Ref="Q?"  Part="1" 
+AR Path="/61DF9A42" Ref="Q101"  Part="1" 
+F 0 "Q101" H 8225 4150 50  0000 L CNN
+F 1 "PBSS4140DPN" H 8075 4650 50  0000 L CNN
+F 2 "Perch:PBSS4140DPN" H 6525 4550 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/PBSS4140DPN.pdf" H 6325 4450 50  0001 C CNN
+F 4 "BJT Transistor Array" H 6325 4450 50  0001 C CNN "Description"
+F 5 "Nexperia USA Inc." H 6325 4450 50  0001 C CNN "MFN"
+F 6 "PBSS4140DPN,115" H 6325 4450 50  0001 C CNN "MFP"
+F 7 "https://www.digikey.com/en/products/detail/nexperia-usa-inc/PBSS4140DPN-115/1156926?utm_adgroup=Semiconductor%20Modules&utm_source=google&utm_medium=cpc&utm_campaign=Dynamic%20Search_EN_Product&utm_term=&utm_content=Semiconductor%20Modules&gclid=CjwKCAiAz--OBhBIEiwAG1rIOnfNYCfMx2ITlSYg59RzW_gpFrWZweD7vvrD8bBxi6JVwMmspkeghBoC1dkQAvD_BwE" H 6325 4450 50  0001 C CNN "S1PL"
+F 8 "1727-3896" H 6325 4450 50  0001 C CNN "S1PN"
+F 9 "https://www.mouser.com/ProductDetail/Nexperia/PBSS4140DPN115?qs=LOCUfHb8d9uI%2F4H%2FLdNjCQ%3D%3D" H 6325 4450 50  0001 C CNN "S2PL"
+F 10 "771-PBSS4140DPN-T/R" H 6325 4450 50  0001 C CNN "S2PN"
+	1    6325 4450
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
