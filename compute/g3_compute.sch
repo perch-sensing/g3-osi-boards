@@ -2374,19 +2374,19 @@ L CD74AC153M96_MUX:CD74AC153M96 IC101
 U 1 1 62F9989A
 P 5075 6375
 F 0 "IC101" H 5575 6640 50  0000 C CNN
-F 1 "CD74AC153M96" H 5575 6549 50  0000 C CNN
+F 1 "QS3253S1G8" H 5575 6549 50  0000 C CNN
 F 2 "Perch:SOIC127P600X175-16N_MUX" H 5925 6475 50  0001 L CNN
-F 3 "https://www.ti.com/lit/ds/symlink/cd74ac153.pdf?ts=1617785711495&ref_url=https%253A%252F%252Fwww.ti.com%252Fstore%252Fti%252Fen%252Fp%252Fproduct%252F%253Fp%253DCD74AC153M96" H 5925 6375 50  0001 L CNN
-F 4 "Texas Instruments CD74AC153M96, Multiplexer Dual 4:1, 16-Pin SOIC" H 5925 6275 50  0001 L CNN "Description"
+F 3 "https://www.mouser.com/datasheet/2/698/REN_QS3253_DST_20110214-1999096.pdf" H 5925 6375 50  0001 L CNN
+F 4 "Encoders, Decoders, Multiplexers & Demultiplexers 2X4:1 MUX-DEMUX, QSW" H 5925 6275 50  0001 L CNN "Description"
 F 5 "1.75" H 5925 6175 50  0001 L CNN "Height"
-F 6 "595-CD74AC153M96" H 5925 6075 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/CD74AC153M96?qs=bkMXpVdiF41Yiv9m4vuwDg%3D%3D" H 5925 5975 50  0001 L CNN "Mouser Price/Stock"
-F 8 "Texas Instruments" H 5925 5875 50  0001 L CNN "Manufacturer_Name"
-F 9 "CD74AC153M96" H 5925 5775 50  0001 L CNN "Manufacturer_Part_Number"
-F 10 "Texas Instruments" H 5075 6375 50  0001 C CNN "MFN"
-F 11 "CD74AC153M96" H 5075 6375 50  0001 C CNN "MFP"
-F 12 "https://www.digikey.com/en/products/detail/texas-instruments/CD74AC153M96/376207" H 5075 6375 50  0001 C CNN "S1PL"
-F 13 "296-4229" H 5075 6375 50  0001 C CNN "S1PN"
+F 6 "972-QS3253S1G8" H 5925 6075 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.com/ProductDetail/Renesas-IDT/QS3253S1G8?qs=JcGQCygHkIYVqLWSJdHVlw%3D%3D" H 5925 5975 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Renesas / IDT" H 5925 5875 50  0001 L CNN "Manufacturer_Name"
+F 9 "QS3253S1G8" H 5925 5775 50  0001 L CNN "Manufacturer_Part_Number"
+F 10 "Renesas / IDT" H 5075 6375 50  0001 C CNN "MFN"
+F 11 "QS3253S1G8" H 5075 6375 50  0001 C CNN "MFP"
+F 12 "https://www.mouser.com/ProductDetail/Renesas-IDT/QS3253S1G8?qs=JcGQCygHkIYVqLWSJdHVlw%3D%3D" H 5075 6375 50  0001 C CNN "S1PL"
+F 13 "https://www.mouser.com/ProductDetail/Renesas-IDT/QS3253S1G8?qs=JcGQCygHkIYVqLWSJdHVlw%3D%3D" H 5075 6375 50  0001 C CNN "S1PN"
 	1    5075 6375
 	1    0    0    -1  
 $EndComp
